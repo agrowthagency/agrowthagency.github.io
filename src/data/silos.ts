@@ -15,7 +15,7 @@ export const siloInfo: Record<SiloSlug, {
   },
   'google-ads': {
     name: 'Google Ads',
-    description: 'Suspensions, billing enforcement, manager accounts, appeals, and responsible account operations in Google Ads.',
+    description: 'Policy enforcement, suspensions, verification, billing, destinations, security, restricted businesses, and agency governance in Google Ads.',
     sources: [
       { label: 'Google Ads policy enforcement', href: 'https://support.google.com/adspolicy/answer/10922738?hl=en' },
       { label: 'Circumventing systems policy', href: 'https://support.google.com/adspolicy/answer/15938075?hl=en' }

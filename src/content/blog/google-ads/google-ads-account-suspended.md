@@ -2,7 +2,7 @@
 silo: "google-ads"
 topic: "Google Ads account suspended"
 title: "Google Ads Account Suspended: Diagnose the Risk System, Not Just the Last Ad"
-description: "A senior operator’s framework for diagnosing Google Ads suspension signals, mapping related entities, correcting root causes, and preparing an appeal."
+description: "A senior framework for Google Ads account suspension diagnosis across policy enforcement, billing, verification, security, destinations, and related entities."
 overview: "A Google Ads suspension is rarely best understood as a verdict on one ad. It is an account-level risk decision built from the advertiser, destination, payments, verification, behavior, and related entities."
 publishedDate: 2026-07-10
 updatedDate: 2026-07-10
@@ -30,6 +30,18 @@ The notification is the starting point, not the full diagnosis. Record its exact
 - **Relationship risk:** linked or previously linked accounts, manager accounts, payment methods, domains, or verified identities have enforcement history.
 
 Classification prevents the team from solving the wrong problem.
+
+## Route the incident to the right operating system
+
+“Google Ads account suspended” is the incident state, not a complete root cause. Use the suspension notice to route the investigation into the appropriate operating system:
+
+- Review the [Google Ads policy enforcement framework](/google-ads/google-ads-policy-enforcement/) when the notice names a policy, repeat violation, warning, or strike.
+- Review [Google Ads billing and payments](/google-ads/google-ads-billing-and-payments/) when payer identity, transactions, payment methods, or invoicing are involved.
+- Review [Google Ads advertiser verification](/google-ads/google-ads-advertiser-verification/) when the advertiser, business operation, disclosure, or required documents cannot be reconciled.
+- Review [Google Ads destination requirements](/google-ads/google-ads-destination-requirements/) when URLs, redirects, access, page behavior, or website security are implicated.
+- Review [Google Ads account security](/google-ads/google-ads-account-security/) when activity, users, managers, or spend may be unauthorized.
+
+These workstreams can intersect, but they should not be flattened. A compromised account may generate a billing dispute and malicious destination. A verification mismatch may expose an unclear agency or payer relationship. Keep one incident record while assigning each factual question to the team capable of answering it.
 
 ## Google reviews a wider surface than the ad account
 

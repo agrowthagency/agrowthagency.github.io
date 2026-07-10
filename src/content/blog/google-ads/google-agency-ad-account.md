@@ -2,7 +2,7 @@
 silo: "google-ads"
 topic: "Google agency ad account"
 title: "Google Agency Ad Accounts: The Product Is Governance, Not Access"
-description: "A strategic framework for Google Ads agency accounts covering client ownership, manager access, billing, verification, data portability, and offboarding."
+description: "A strategic framework for Google Ads agency accounts across MCC ownership, client access, billing, verification, policy responsibility, and offboarding."
 overview: "A credible Google Ads agency account model does not sell immunity from enforcement. It creates accountable access, transparent billing, portable data, and a clear relationship between the real advertiser and its operators."
 publishedDate: 2026-07-10
 updatedDate: 2026-07-10
@@ -13,6 +13,8 @@ The phrase “Google agency ad account” is frequently used as if it described 
 Google Ads policies apply to the advertiser and its activity regardless of who manages campaigns. A manager account can improve access, billing, reporting, and support workflows. It does not make an ineligible offer eligible, transfer another company’s verification, or erase the advertiser’s enforcement history.
 
 The real agency product is governance. Access is only one component.
+
+This article owns the broad Google Ads agency account question: how a legitimate agency relationship should be structured. It does not treat every manager-account incident as the same problem. A suspended manager requires an account-graph investigation; a third-party policy issue concerns agency conduct; billing, verification, and security each have their own control systems.
 
 ## Define the model before evaluating the account
 
@@ -137,6 +139,18 @@ That standard also protects the agency. Clear boundaries reduce disputes over un
 The market will continue to sell agency accounts as scarce containers. The stronger view is less dramatic: a Google agency account is valuable when it creates a clear, auditable operating relationship around the real advertiser.
 
 If the provider’s value disappears as soon as the client asks who owns the account, then access was never the product. Dependency was.
+
+## Connect agency governance to the specialist controls
+
+An agency model becomes auditable when its broad responsibilities connect to named operating systems:
+
+- [Google Ads advertiser verification](/google-ads/google-ads-advertiser-verification/) defines how the real advertiser, agency, payer, supplier, and disclosure remain coherent.
+- [Google Ads billing and payments](/google-ads/google-ads-billing-and-payments/) defines legal payer responsibility, reconciliation, and invoicing control.
+- [Google Ads account security](/google-ads/google-ads-account-security/) defines direct users, manager hierarchy, ownership, authentication, and incident recovery.
+- [Google Ads policy enforcement](/google-ads/google-ads-policy-enforcement/) defines how disapprovals, warnings, strikes, pauses, and suspensions should be routed.
+- [Google Ads MCC suspension](/google-ads/mcc-suspension/) examines portfolio and related-account risk after a manager-level incident.
+
+The agency account is the governance layer across these systems. It should not duplicate their procedures, and it cannot substitute for them.
 
 ## Official references
 
