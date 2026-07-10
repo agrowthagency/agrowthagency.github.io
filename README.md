@@ -113,3 +113,5 @@ The generated static website is written to `dist/`. The production build also cr
 ## Deployment
 
 Pushes to `main` run `.github/workflows/deploy.yml`. In the repository settings, select **GitHub Actions** as the source under **Settings → Pages**.
+
+If an Actions run is named **Build with Jekyll**, GitHub Pages is still configured to deploy from a branch. Change **Settings → Pages → Build and deployment → Source** from **Deploy from a branch** to **GitHub Actions**, then run the **Deploy Astro site to GitHub Pages** workflow. Jekyll must not build the Astro source files.
