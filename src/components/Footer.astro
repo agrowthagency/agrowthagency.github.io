@@ -1,0 +1,40 @@
+---
+import { platformSections } from '../data/site';
+const year = new Date().getFullYear();
+---
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <a class="brand" href="/">
+          <span class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M4 19 10.5 5h3L20 19h-4.2l-1-2.7H9.2L8.1 19H4Zm6.3-6h3.4L12 8.5 10.3 13Z" fill="currentColor"/></svg>
+          </span>
+          <span>Ad Account Desk <small>by AGrowth</small></span>
+        </a>
+        <p class="footer-intro">Practical, independent guidance on advertising account restrictions, appeals, compliance, and account operations.</p>
+      </div>
+      <div>
+        <p class="footer-title">Platforms</p>
+        <div class="footer-links">
+          {platformSections.map((item) => <a href={`/${item.slug}/`}>{item.eyebrow}</a>)}
+          <a href="/appeals-compliance/">Appeals & Compliance</a>
+        </div>
+      </div>
+      <div>
+        <p class="footer-title">AGrowth</p>
+        <div class="footer-links">
+          <a href="/about/">About</a>
+          <a href="/contact/">Contact</a>
+          <a href="/search/">Search</a>
+          <a href="/sitemap-index.xml">Sitemap</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© {year} AGrowth. All rights reserved.</span>
+      <span>Independent guidance. Not affiliated with Meta, Google, or TikTok.</span>
+    </div>
+  </div>
+</footer>

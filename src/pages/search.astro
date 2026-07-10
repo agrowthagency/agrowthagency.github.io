@@ -1,0 +1,60 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="Search" description="Search Ad Account Desk guides across Meta, Google Ads, TikTok Ads, appeals, compliance and account operations." noindex={true}>
+  <section class="search-shell">
+    <div class="container">
+      <p class="eyebrow">Search the desk</p>
+      <h1 style="font-size: clamp(3rem, 7vw, 5.4rem)">Find the right focus area.</h1>
+      <label class="search-box">
+        <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="11" cy="11" r="6.5" stroke="currentColor" stroke-width="1.8"/><path d="m16 16 4 4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+        <span class="sr-only">Search guides</span>
+        <input id="search-input" type="search" placeholder="Try “billing suspension” or “agency account”…" autocomplete="off" />
+      </label>
+      <p class="search-status" id="search-status" aria-live="polite">Type a topic to search the published guides.</p>
+      <div class="search-results" id="search-results"></div>
+    </div>
+  </section>
+
+  <script>
+    const input = document.querySelector<HTMLInputElement>('#search-input');
+    const status = document.querySelector<HTMLElement>('#search-status');
+    const results = document.querySelector<HTMLElement>('#search-results');
+    let pagefind: { search: (term: string) => Promise<{ results: Array<{ data: () => Promise<{ url: string; meta: { title?: string }; excerpt: string }> }> }> } | null = null;
+
+    async function loadSearch() {
+      if (pagefind) return pagefind;
+      try {
+        const pagefindPath = '/pagefind/pagefind.js';
+        pagefind = await import(/* @vite-ignore */ pagefindPath);
+        return pagefind;
+      } catch {
+        if (status) status.textContent = 'Search becomes available after the production build.';
+        return null;
+      }
+    }
+
+    input?.addEventListener('input', async () => {
+      const term = input.value.trim();
+      if (!results || !status) return;
+      if (term.length < 2) {
+        results.innerHTML = '';
+        status.textContent = 'Enter at least two characters.';
+        return;
+      }
+      const search = await loadSearch();
+      if (!search) return;
+      status.textContent = 'Searching…';
+      const response = await search.search(term);
+      const items = await Promise.all(response.results.slice(0, 10).map((result) => result.data()));
+      status.textContent = `${items.length} result${items.length === 1 ? '' : 's'} found.`;
+      results.innerHTML = items.map((item) => `
+        <a class="search-result" href="${item.url}">
+          <h2>${item.meta.title ?? 'Ad Account Desk'}</h2>
+          <p>${item.excerpt}</p>
+        </a>
+      `).join('');
+    });
+  </script>
+</BaseLayout>

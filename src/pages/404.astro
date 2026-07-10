@@ -1,0 +1,17 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="Page not found" description="The requested Ad Account Desk page could not be found." noindex={true}>
+  <section class="page-hero" style="min-height: 65vh; display: grid; align-items: center;">
+    <div class="container page-hero-inner">
+      <p class="eyebrow">404 · Page not found</p>
+      <h1>This path needs a new signal.</h1>
+      <p class="lede">The page may have moved, or the address may be incomplete. Return to the desk to explore the published guides.</p>
+      <div class="hero-actions" style="margin-top: 30px;">
+        <a class="button button--dark" href="/">Back to homepage</a>
+        <a class="button button--ghost" href="/search/">Search guides</a>
+      </div>
+    </div>
+  </section>
+</BaseLayout>

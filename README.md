@@ -71,3 +71,45 @@ Practical guides on advertising account restrictions, suspensions, appeals, comp
 **Ad Account Desk by AGrowth**
 
 Website: https://agrowthagency.github.io/
+
+## Technology
+
+- Astro and TypeScript
+- Tailwind CSS through the Vite integration
+- Static HTML output for GitHub Pages
+- Pagefind for client-side search
+- Astro Sitemap for XML sitemap generation
+- GitHub Actions for automated checks, builds, and deployment
+
+## Local Development
+
+Requires Node.js 24 or later.
+
+```bash
+npm install
+npm run dev
+```
+
+The local development server runs at `http://localhost:4321` by default.
+
+## Production Build
+
+```bash
+npm run build
+npm run preview
+```
+
+The generated static website is written to `dist/`. The production build also creates the Pagefind search index.
+
+## Content Structure
+
+- `src/data/site.ts` — navigation, platforms, and the topic lists above
+- `src/pages/index.astro` — homepage
+- `src/pages/[slug].astro` — platform and guide landing pages
+- `src/pages/about.astro` — About AGrowth
+- `src/pages/contact.astro` — contact page
+- `src/styles/global.css` — design system and responsive styles
+
+## Deployment
+
+Pushes to `main` run `.github/workflows/deploy.yml`. In the repository settings, select **GitHub Actions** as the source under **Settings → Pages**.

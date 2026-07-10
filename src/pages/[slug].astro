@@ -1,0 +1,69 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { allSections, type TopicSection } from '../data/site';
+
+export function getStaticPaths() {
+  return allSections.map((section) => ({
+    params: { slug: section.slug },
+    props: { section }
+  }));
+}
+
+interface Props { section: TopicSection; }
+const { section } = Astro.props;
+const topicDescription = (topic: string) => `Understand the key signals, operational considerations, and documentation connected to ${topic.toLowerCase()}.`;
+---
+
+<BaseLayout title={section.eyebrow} description={section.description}>
+  <section class="page-hero">
+    <div class="container page-hero-inner">
+      <p class="eyebrow">{section.eyebrow} desk</p>
+      <h1>{section.title}</h1>
+      <p class="lede">{section.description}</p>
+      <div class="page-hero-note">
+        <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.8"/><path d="M12 11v5m0-8v.1" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        <p>{section.intro}</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--white">
+    <div class="container">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Core topics</p>
+          <h2>What this desk covers.</h2>
+        </div>
+        <p>Use these focus areas to organize your research and identify which part of the account lifecycle requires attention.</p>
+      </div>
+      <div class="topic-list">
+        {section.topics.map((topic) => (
+          <article class="topic-list-item">
+            <div>
+              <h2>{topic}</h2>
+              <p>{topicDescription(topic)}</p>
+            </div>
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container info-layout">
+      <div class="info-aside">
+        <p class="eyebrow">Working principle</p>
+        <p>Account enforcement decisions belong to each advertising platform. No independent provider can guarantee reinstatement or immunity from policy enforcement.</p>
+      </div>
+      <div class="prose">
+        <h2>Use evidence, not assumptions.</h2>
+        <p>Begin with the exact platform notice and the assets it names. Compare that notice against recent account changes, access events, billing activity, business verification, landing pages, and campaign history.</p>
+        <h3>Keep the account record consistent</h3>
+        <p>Business details, payment ownership, domain information, identity documents, and support explanations should describe the same legitimate operation. Inconsistency can make review more difficult.</p>
+        <h3>Prioritize prevention</h3>
+        <p>Document account ownership, use role-based access, protect administrator identities, review payment methods, and track material changes. These controls support both daily operations and future reviews.</p>
+        <a class="button button--dark" href="/contact/">Discuss account operations</a>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
