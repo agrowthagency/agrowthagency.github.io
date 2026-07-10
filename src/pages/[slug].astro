@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { allSections, type TopicSection } from '../data/site';
+import { getArticlesBySilo, getArticleUrl } from '../data/articles';
 
 export function getStaticPaths() {
   return allSections.map((section) => ({
@@ -11,7 +12,7 @@ export function getStaticPaths() {
 
 interface Props { section: TopicSection; }
 const { section } = Astro.props;
-const topicDescription = (topic: string) => `Understand the key signals, operational considerations, and documentation connected to ${topic.toLowerCase()}.`;
+const articles = getArticlesBySilo(section.slug);
 ---
 
 <BaseLayout title={section.eyebrow} description={section.description}>
@@ -37,13 +38,14 @@ const topicDescription = (topic: string) => `Understand the key signals, operati
         <p>Use these focus areas to organize your research and identify which part of the account lifecycle requires attention.</p>
       </div>
       <div class="topic-list">
-        {section.topics.map((topic) => (
-          <article class="topic-list-item">
+        {articles.map((article) => (
+          <a class="topic-list-item" href={getArticleUrl(article)}>
             <div>
-              <h2>{topic}</h2>
-              <p>{topicDescription(topic)}</p>
+              <h2>{article.topic}</h2>
+              <p>{article.description}</p>
+              <span class="topic-read">Read guide <span aria-hidden="true">→</span></span>
             </div>
-          </article>
+          </a>
         ))}
       </div>
     </div>

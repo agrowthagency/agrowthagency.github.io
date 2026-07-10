@@ -1,0 +1,45 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { allArticles, getArticleUrl, siloInfo, type SiloSlug } from '../../data/articles';
+
+const siloOrder: SiloSlug[] = ['meta-ads', 'google-ads', 'tiktok-ads', 'appeals-compliance', 'account-operations', 'agency-ad-accounts'];
+---
+
+<BaseLayout title="Advertising Account Guides" description="Browse 40 practical guides about Meta, Google Ads, TikTok Ads, appeals, compliance, account operations, and agency ad accounts.">
+  <section class="page-hero blog-hero">
+    <div class="container page-hero-inner">
+      <p class="eyebrow">Knowledge center · {allArticles.length} guides</p>
+      <h1>Advertising account operations, organized.</h1>
+      <p class="lede">Browse practical, policy-led articles by platform and operating concern. Each guide is part of a focused content silo so the next relevant step is always close.</p>
+      <div class="silo-jump" aria-label="Jump to guide category">
+        {siloOrder.map((silo) => <a href={`#${silo}`}>{siloInfo[silo].name}</a>)}
+      </div>
+    </div>
+  </section>
+
+  <div class="blog-directory">
+    {siloOrder.map((silo, siloIndex) => {
+      const articles = allArticles.filter((article) => article.silo === silo);
+      return (
+        <section class={`section ${siloIndex % 2 ? 'section--white' : ''}`} id={silo}>
+          <div class="container">
+            <div class="directory-heading">
+              <div><span>0{siloIndex + 1}</span><h2>{siloInfo[silo].name}</h2></div>
+              <p>{siloInfo[silo].description}</p>
+            </div>
+            <div class="article-card-grid">
+              {articles.map((article) => (
+                <a class="article-card" href={getArticleUrl(article)}>
+                  <span class="article-card-tag">{article.topic}</span>
+                  <h3>{article.title}</h3>
+                  <p>{article.description}</p>
+                  <span class="article-card-link">Read guide <span aria-hidden="true">→</span></span>
+                </a>
+              ))}
+            </div>
+          </div>
+        </section>
+      );
+    })}
+  </div>
+</BaseLayout>

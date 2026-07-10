@@ -1,0 +1,214 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { allArticles, getArticleUrl, siloInfo, type Article } from '../../data/articles';
+
+export function getStaticPaths() {
+  return allArticles.map((article) => ({
+    params: { silo: article.silo, article: article.slug },
+    props: { article }
+  }));
+}
+
+interface Props { article: Article; }
+const { article } = Astro.props;
+const silo = siloInfo[article.silo];
+const url = getArticleUrl(article);
+const related = allArticles.filter((item) => item.silo === article.silo && item.slug !== article.slug).slice(0, 3);
+const published = '2026-07-10';
+const displayDate = 'July 10, 2026';
+
+const faq = [
+  {
+    question: `What should I check first for ${article.topic.toLowerCase()}?`,
+    answer: article.actions[0]
+  },
+  {
+    question: `Can a provider guarantee a successful outcome?`,
+    answer: 'No. Enforcement and review decisions belong to the advertising platform. A responsible provider can help organize evidence and operations, but cannot guarantee reinstatement, approval, spend, or immunity from future policy action.'
+  },
+  {
+    question: `Should I create another account while this issue is unresolved?`,
+    answer: 'Do not create or source accounts to bypass enforcement. Preserve the original record, understand the platform notice, correct confirmed issues, and use the official review or support channel.'
+  }
+];
+
+const structuredData = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': 'Article',
+      headline: article.title,
+      description: article.description,
+      datePublished: published,
+      dateModified: published,
+      mainEntityOfPage: new URL(url, Astro.site).href,
+      author: { '@type': 'Organization', name: 'AGrowth', url: new URL('/about/', Astro.site).href },
+      publisher: { '@type': 'Organization', name: 'AGrowth' },
+      articleSection: silo.name,
+      keywords: [article.topic, silo.name, 'ad account operations']
+    },
+    {
+      '@type': 'BreadcrumbList',
+      itemListElement: [
+        { '@type': 'ListItem', position: 1, name: 'Home', item: new URL('/', Astro.site).href },
+        { '@type': 'ListItem', position: 2, name: silo.name, item: new URL(`/${article.silo}/`, Astro.site).href },
+        { '@type': 'ListItem', position: 3, name: article.title, item: new URL(url, Astro.site).href }
+      ]
+    },
+    {
+      '@type': 'FAQPage',
+      mainEntity: faq.map((item) => ({
+        '@type': 'Question',
+        name: item.question,
+        acceptedAnswer: { '@type': 'Answer', text: item.answer }
+      }))
+    }
+  ]
+};
+---
+
+<BaseLayout
+  title={article.title}
+  seoTitle={`${article.topic} Guide | AGrowth`}
+  description={article.description}
+  structuredData={structuredData}
+  ogType="article"
+  publishedTime={published}
+>
+  <article class="article-page">
+    <header class="article-hero">
+      <div class="container">
+        <nav class="breadcrumbs" aria-label="Breadcrumb">
+          <a href="/">Home</a><span aria-hidden="true">/</span>
+          <a href={`/${article.silo}/`}>{silo.name}</a><span aria-hidden="true">/</span>
+          <span aria-current="page">{article.topic}</span>
+        </nav>
+        <div class="article-hero-grid">
+          <div>
+            <p class="eyebrow">{silo.name} guide</p>
+            <h1>{article.title}</h1>
+            <p class="article-deck">{article.description}</p>
+          </div>
+          <div class="article-meta-card">
+            <span>Published</span><strong>{displayDate}</strong>
+            <span>Reviewed by</span><strong>AGrowth Editorial</strong>
+            <span>Reading time</span><strong>6 minutes</strong>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="container article-layout">
+      <aside class="article-sidebar">
+        <p>On this page</p>
+        <nav aria-label="Table of contents">
+          <a href="#quick-answer">Quick answer</a>
+          <a href="#what-it-means">What it means</a>
+          <a href="#signals">Signals to check</a>
+          <a href="#response-plan">Response plan</a>
+          <a href="#mistakes">Mistakes to avoid</a>
+          <a href="#prevention">Prevention</a>
+          <a href="#faq">FAQ</a>
+          <a href="#sources">Official sources</a>
+        </nav>
+      </aside>
+
+      <div class="article-content">
+        <section class="quick-answer" id="quick-answer">
+          <span>Quick answer</span>
+          <p>{article.overview}</p>
+        </section>
+
+        <section id="what-it-means">
+          <p class="section-kicker">Context</p>
+          <h2>What {article.topic.toLowerCase()} usually means</h2>
+          <p>{article.overview}</p>
+          <p>The exact in-product notice should lead the diagnosis. Account labels used by teams, communities, or providers can be imprecise, while the platform notice identifies the affected asset, available review path, and policy area. Preserve that evidence before changing campaigns, users, billing, or connected assets.</p>
+        </section>
+
+        <section id="signals">
+          <p class="section-kicker">Diagnosis</p>
+          <h2>Signals to check first</h2>
+          <p>Use these signals to establish scope. They are prompts for investigation, not proof that a particular policy was violated.</p>
+          <ul class="check-list">
+            {article.signals.map((item) => <li>{item}</li>)}
+          </ul>
+        </section>
+
+        <section id="response-plan">
+          <p class="section-kicker">Action plan</p>
+          <h2>A responsible response process</h2>
+          <ol class="step-list">
+            {article.actions.map((item, index) => (
+              <li><span>0{index + 1}</span><p>{item}</p></li>
+            ))}
+          </ol>
+          <p>Keep one incident owner, one evidence folder, and one timeline. Consistency matters when support asks follow-up questions or several teams have access to the same business assets.</p>
+        </section>
+
+        <section id="mistakes">
+          <p class="section-kicker">Risk controls</p>
+          <h2>Mistakes that can make the issue worse</h2>
+          <div class="warning-list">
+            {article.avoid.map((item) => <p>{item}</p>)}
+          </div>
+          <p>Never submit false documents, conceal account relationships, or use another account to evade an unresolved enforcement decision. Those actions can create additional integrity concerns across connected assets.</p>
+        </section>
+
+        <section id="prevention">
+          <p class="section-kicker">Operations</p>
+          <h2>Controls to reduce recurrence</h2>
+          <ul class="check-list check-list--mint">
+            {article.prevention.map((item) => <li>{item}</li>)}
+          </ul>
+          <p>Preventive controls should be owned, scheduled, and auditable. A checklist has little value if no one is responsible for reviewing the result or escalating a problem.</p>
+        </section>
+
+        <section id="faq">
+          <p class="section-kicker">Frequently asked questions</p>
+          <h2>{article.topic}: FAQ</h2>
+          <div class="faq-list">
+            {faq.map((item) => (
+              <details>
+                <summary>{item.question}</summary>
+                <p>{item.answer}</p>
+              </details>
+            ))}
+          </div>
+        </section>
+
+        <section id="sources" class="source-section">
+          <p class="section-kicker">Primary references</p>
+          <h2>Official platform resources</h2>
+          <p>Platform interfaces and policies change. Confirm current requirements in the official resources before taking action.</p>
+          <div class="source-links">
+            {silo.sources.map((source) => <a href={source.href} rel="external">{source.label}<span aria-hidden="true">↗</span></a>)}
+          </div>
+        </section>
+
+        <aside class="editorial-note">
+          <strong>Editorial note</strong>
+          <p>This guide provides general operational information, not legal advice or a guarantee of account approval, reinstatement, or performance. Platform decisions remain with Meta, Google, TikTok, and other applicable providers.</p>
+        </aside>
+      </div>
+    </div>
+  </article>
+
+  <section class="section section--ink related-section">
+    <div class="container">
+      <div class="section-heading">
+        <div><p class="eyebrow">Continue this silo</p><h2>Related {silo.name} guides.</h2></div>
+        <a class="button button--light" href={`/${article.silo}/`}>View the complete silo</a>
+      </div>
+      <div class="related-grid">
+        {related.map((item) => (
+          <a href={getArticleUrl(item)}>
+            <span>{item.topic}</span>
+            <h3>{item.title}</h3>
+            <p>{item.description}</p>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+</BaseLayout>

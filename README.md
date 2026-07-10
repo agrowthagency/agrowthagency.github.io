@@ -103,9 +103,12 @@ The generated static website is written to `dist/`. The production build also cr
 
 ## Content Structure
 
-- `src/data/site.ts` — navigation, platforms, and the topic lists above
+- `src/data/site.ts` — navigation and silo landing-page data
+- `src/data/articles.ts` — all 40 article records and official source groups
 - `src/pages/index.astro` — homepage
-- `src/pages/[slug].astro` — platform and guide landing pages
+- `src/pages/blog/index.astro` — complete article directory
+- `src/pages/[slug].astro` — platform and topic silo landing pages
+- `src/pages/[silo]/[article].astro` — statically generated SEO article pages
 - `src/pages/about.astro` — About AGrowth
 - `src/pages/contact.astro` — contact page
 - `src/styles/global.css` — design system and responsive styles

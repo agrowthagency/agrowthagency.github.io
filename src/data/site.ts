@@ -80,9 +80,7 @@ export const guideSections: TopicSection[] = [
     topics: [
       'Why ad accounts get restricted',
       'Policy compliance',
-      'Appeal documents',
-      'Account verification',
-      'Billing and payment issues'
+      'Appeal documents'
     ]
   },
   {
@@ -113,12 +111,12 @@ export const guideSections: TopicSection[] = [
     intro: 'Reliable operations reduce preventable account issues. Document access, protect identity and payment assets, monitor changes, and assign clear responsibility.',
     accent: 'operations',
     topics: [
+      'Account verification',
+      'Billing and payment issues',
       'Account security',
       'Spending limits',
       'Account warming',
-      'Personal vs agency ad accounts',
-      'Billing and payment issues',
-      'Account verification'
+      'Personal vs agency ad accounts'
     ]
   }
 ];
@@ -127,6 +125,7 @@ export const allSections = [...platformSections, ...guideSections];
 
 export const navItems = [
   { href: '/', label: 'Home' },
+  { href: '/blog/', label: 'Blog' },
   ...platformSections.map(({ slug, shortLabel }) => ({ href: `/${slug}/`, label: shortLabel })),
   { href: '/appeals-compliance/', label: 'Appeals' },
   { href: '/agency-ad-accounts/', label: 'Agency Accounts' },
