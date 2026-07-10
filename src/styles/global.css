@@ -353,6 +353,16 @@ p { margin: 0; }
 .quick-answer { margin-bottom: 58px; padding: 27px !important; background: #f0f8f5; border: 1px solid #cfe8df; border-radius: 18px; }
 .quick-answer span { display: block; margin-bottom: 9px; color: #176651; font-size: .68rem; font-weight: 850; letter-spacing: .1em; text-transform: uppercase; }
 .quick-answer p { margin: 0 !important; color: #274b42 !important; font-weight: 650; }
+.markdown-content { padding-bottom: 64px; }
+.markdown-content h2 { padding-top: 62px; margin: 0 0 24px; border-top: 1px solid var(--line); scroll-margin-top: 110px; }
+.markdown-content p { margin-bottom: 18px; color: #475467; font-size: 1.02rem; line-height: 1.85; }
+.markdown-content ul { display: grid; gap: 11px; margin: 28px 0 34px; padding: 0; list-style: none; }
+.markdown-content ul li { position: relative; padding: 17px 18px 17px 50px; color: #344054; background: #f7f7f5; border-radius: 12px; }
+.markdown-content ul li::before { position: absolute; display: grid; width: 22px; height: 22px; left: 17px; top: 18px; color: white; background: var(--accent); border-radius: 50%; font-size: .7rem; font-weight: 900; content: "✓"; place-items: center; }
+.markdown-content ol { display: grid; margin: 30px 0 34px; padding: 0; list-style: none; counter-reset: markdown-step; }
+.markdown-content ol li { display: grid; grid-template-columns: 46px 1fr; gap: 16px; padding: 22px 0; border-top: 1px solid var(--line); counter-increment: markdown-step; }
+.markdown-content ol li:last-child { border-bottom: 1px solid var(--line); }
+.markdown-content ol li::before { color: var(--accent); font-size: .72rem; font-weight: 850; letter-spacing: .08em; content: "0" counter(markdown-step); }
 .check-list { display: grid; gap: 11px; margin: 28px 0 0; padding: 0; list-style: none; }
 .check-list li { position: relative; padding: 17px 18px 17px 50px; color: #344054; background: #f7f7f5; border-radius: 12px; }
 .check-list li::before { position: absolute; display: grid; width: 22px; height: 22px; left: 17px; top: 18px; color: white; background: var(--accent); border-radius: 50%; font-size: .7rem; font-weight: 900; content: "✓"; place-items: center; }
@@ -467,6 +477,8 @@ p { margin: 0; }
   .article-sidebar nav { grid-template-columns: 1fr 1fr; gap: 0 12px; }
   .article-content > section { padding-bottom: 50px; }
   .article-content > section + section { padding-top: 50px; }
+  .markdown-content { padding-bottom: 50px; }
+  .markdown-content h2 { padding-top: 50px; }
   .related-section .section-heading { align-items: start; }
   .related-grid { grid-template-columns: 1fr; }
   .footer-grid { grid-template-columns: 1fr 1fr; gap: 42px 28px; }

@@ -104,7 +104,9 @@ The generated static website is written to `dist/`. The production build also cr
 ## Content Structure
 
 - `src/data/site.ts` — navigation and silo landing-page data
-- `src/data/articles.ts` — all 40 article records and official source groups
+- `src/content/blog/` — one Markdown file for each article, grouped by silo
+- `src/content.config.ts` — article frontmatter validation schema
+- `src/data/silos.ts` — silo labels, descriptions, and official source groups
 - `src/pages/index.astro` — homepage
 - `src/pages/blog/index.astro` — complete article directory
 - `src/pages/[slug].astro` — platform and topic silo landing pages
@@ -112,6 +114,31 @@ The generated static website is written to `dist/`. The production build also cr
 - `src/pages/about.astro` — About AGrowth
 - `src/pages/contact.astro` — contact page
 - `src/styles/global.css` — design system and responsive styles
+
+## Adding or Editing an Article
+
+Each article is a Markdown file inside its silo directory. The file path determines the public URL:
+
+```text
+src/content/blog/meta-ads/facebook-ad-account-restricted.md
+→ /meta-ads/facebook-ad-account-restricted/
+```
+
+Required frontmatter:
+
+```yaml
+---
+silo: "meta-ads"
+topic: "Facebook ad account restricted"
+title: "Facebook Ad Account Restricted: Diagnosis and Review Checklist"
+description: "A search-focused description between 100 and 165 characters."
+overview: "A concise answer used in the article summary box."
+publishedDate: 2026-07-10
+updatedDate: 2026-07-10
+---
+```
+
+Write the article body below the frontmatter with standard Markdown headings, paragraphs, ordered lists, and unordered lists. Level-two headings automatically appear in the table of contents.
 
 ## Deployment
 

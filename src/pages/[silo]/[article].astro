@@ -1,26 +1,42 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import { allArticles, getArticleUrl, siloInfo, type Article } from '../../data/articles';
+import { getCollection, render, type CollectionEntry } from 'astro:content';
+import { articleUrl, siloInfo } from '../../data/silos';
 
-export function getStaticPaths() {
-  return allArticles.map((article) => ({
-    params: { silo: article.silo, article: article.slug },
-    props: { article }
-  }));
+export async function getStaticPaths() {
+  const articles = await getCollection('articles');
+  return articles.map((article) => {
+    const [silo, articleSlug] = article.id.split('/');
+    return {
+      params: { silo, article: articleSlug },
+      props: {
+        article,
+        related: articles
+          .filter((item) => item.data.silo === article.data.silo && item.id !== article.id)
+          .slice(0, 3)
+      }
+    };
+  });
 }
 
-interface Props { article: Article; }
-const { article } = Astro.props;
-const silo = siloInfo[article.silo];
-const url = getArticleUrl(article);
-const related = allArticles.filter((item) => item.silo === article.silo && item.slug !== article.slug).slice(0, 3);
-const published = '2026-07-10';
-const displayDate = 'July 10, 2026';
+interface Props {
+  article: CollectionEntry<'articles'>;
+  related: CollectionEntry<'articles'>[];
+}
+const { article, related } = Astro.props;
+const { data } = article;
+const silo = siloInfo[data.silo];
+const url = articleUrl(article.id);
+const published = data.publishedDate.toISOString().slice(0, 10);
+const modified = data.updatedDate.toISOString().slice(0, 10);
+const displayDate = new Intl.DateTimeFormat('en-US', { dateStyle: 'long', timeZone: 'UTC' }).format(data.publishedDate);
+const { Content, headings } = await render(article);
+const tableOfContents = headings.filter((heading) => heading.depth === 2);
 
 const faq = [
   {
-    question: `What should I check first for ${article.topic.toLowerCase()}?`,
-    answer: article.actions[0]
+    question: `What should I check first for ${data.topic.toLowerCase()}?`,
+    answer: 'Start with the exact in-product notice, the affected asset, the decision date, and recent changes. Preserve this evidence before changing campaigns, billing, users, or connected assets.'
   },
   {
     question: `Can a provider guarantee a successful outcome?`,
@@ -37,22 +53,22 @@ const structuredData = {
   '@graph': [
     {
       '@type': 'Article',
-      headline: article.title,
-      description: article.description,
+      headline: data.title,
+      description: data.description,
       datePublished: published,
-      dateModified: published,
+      dateModified: modified,
       mainEntityOfPage: new URL(url, Astro.site).href,
       author: { '@type': 'Organization', name: 'AGrowth', url: new URL('/about/', Astro.site).href },
       publisher: { '@type': 'Organization', name: 'AGrowth' },
       articleSection: silo.name,
-      keywords: [article.topic, silo.name, 'ad account operations']
+      keywords: [data.topic, silo.name, 'ad account operations']
     },
     {
       '@type': 'BreadcrumbList',
       itemListElement: [
         { '@type': 'ListItem', position: 1, name: 'Home', item: new URL('/', Astro.site).href },
-        { '@type': 'ListItem', position: 2, name: silo.name, item: new URL(`/${article.silo}/`, Astro.site).href },
-        { '@type': 'ListItem', position: 3, name: article.title, item: new URL(url, Astro.site).href }
+        { '@type': 'ListItem', position: 2, name: silo.name, item: new URL(`/${data.silo}/`, Astro.site).href },
+        { '@type': 'ListItem', position: 3, name: data.title, item: new URL(url, Astro.site).href }
       ]
     },
     {
@@ -68,9 +84,9 @@ const structuredData = {
 ---
 
 <BaseLayout
-  title={article.title}
-  seoTitle={`${article.topic} Guide | AGrowth`}
-  description={article.description}
+  title={data.title}
+  seoTitle={`${data.topic} Guide | AGrowth`}
+  description={data.description}
   structuredData={structuredData}
   ogType="article"
   publishedTime={published}
@@ -80,14 +96,14 @@ const structuredData = {
       <div class="container">
         <nav class="breadcrumbs" aria-label="Breadcrumb">
           <a href="/">Home</a><span aria-hidden="true">/</span>
-          <a href={`/${article.silo}/`}>{silo.name}</a><span aria-hidden="true">/</span>
-          <span aria-current="page">{article.topic}</span>
+          <a href={`/${data.silo}/`}>{silo.name}</a><span aria-hidden="true">/</span>
+          <span aria-current="page">{data.topic}</span>
         </nav>
         <div class="article-hero-grid">
           <div>
             <p class="eyebrow">{silo.name} guide</p>
-            <h1>{article.title}</h1>
-            <p class="article-deck">{article.description}</p>
+            <h1>{data.title}</h1>
+            <p class="article-deck">{data.description}</p>
           </div>
           <div class="article-meta-card">
             <span>Published</span><strong>{displayDate}</strong>
@@ -103,11 +119,7 @@ const structuredData = {
         <p>On this page</p>
         <nav aria-label="Table of contents">
           <a href="#quick-answer">Quick answer</a>
-          <a href="#what-it-means">What it means</a>
-          <a href="#signals">Signals to check</a>
-          <a href="#response-plan">Response plan</a>
-          <a href="#mistakes">Mistakes to avoid</a>
-          <a href="#prevention">Prevention</a>
+          {tableOfContents.map((heading) => <a href={`#${heading.slug}`}>{heading.text}</a>)}
           <a href="#faq">FAQ</a>
           <a href="#sources">Official sources</a>
         </nav>
@@ -116,57 +128,16 @@ const structuredData = {
       <div class="article-content">
         <section class="quick-answer" id="quick-answer">
           <span>Quick answer</span>
-          <p>{article.overview}</p>
+          <p>{data.overview}</p>
         </section>
 
-        <section id="what-it-means">
-          <p class="section-kicker">Context</p>
-          <h2>What {article.topic.toLowerCase()} usually means</h2>
-          <p>{article.overview}</p>
-          <p>The exact in-product notice should lead the diagnosis. Account labels used by teams, communities, or providers can be imprecise, while the platform notice identifies the affected asset, available review path, and policy area. Preserve that evidence before changing campaigns, users, billing, or connected assets.</p>
-        </section>
-
-        <section id="signals">
-          <p class="section-kicker">Diagnosis</p>
-          <h2>Signals to check first</h2>
-          <p>Use these signals to establish scope. They are prompts for investigation, not proof that a particular policy was violated.</p>
-          <ul class="check-list">
-            {article.signals.map((item) => <li>{item}</li>)}
-          </ul>
-        </section>
-
-        <section id="response-plan">
-          <p class="section-kicker">Action plan</p>
-          <h2>A responsible response process</h2>
-          <ol class="step-list">
-            {article.actions.map((item, index) => (
-              <li><span>0{index + 1}</span><p>{item}</p></li>
-            ))}
-          </ol>
-          <p>Keep one incident owner, one evidence folder, and one timeline. Consistency matters when support asks follow-up questions or several teams have access to the same business assets.</p>
-        </section>
-
-        <section id="mistakes">
-          <p class="section-kicker">Risk controls</p>
-          <h2>Mistakes that can make the issue worse</h2>
-          <div class="warning-list">
-            {article.avoid.map((item) => <p>{item}</p>)}
-          </div>
-          <p>Never submit false documents, conceal account relationships, or use another account to evade an unresolved enforcement decision. Those actions can create additional integrity concerns across connected assets.</p>
-        </section>
-
-        <section id="prevention">
-          <p class="section-kicker">Operations</p>
-          <h2>Controls to reduce recurrence</h2>
-          <ul class="check-list check-list--mint">
-            {article.prevention.map((item) => <li>{item}</li>)}
-          </ul>
-          <p>Preventive controls should be owned, scheduled, and auditable. A checklist has little value if no one is responsible for reviewing the result or escalating a problem.</p>
-        </section>
+        <div class="markdown-content">
+          <Content />
+        </div>
 
         <section id="faq">
           <p class="section-kicker">Frequently asked questions</p>
-          <h2>{article.topic}: FAQ</h2>
+          <h2>{data.topic}: FAQ</h2>
           <div class="faq-list">
             {faq.map((item) => (
               <details>
@@ -198,14 +169,14 @@ const structuredData = {
     <div class="container">
       <div class="section-heading">
         <div><p class="eyebrow">Continue this silo</p><h2>Related {silo.name} guides.</h2></div>
-        <a class="button button--light" href={`/${article.silo}/`}>View the complete silo</a>
+        <a class="button button--light" href={`/${data.silo}/`}>View the complete silo</a>
       </div>
       <div class="related-grid">
         {related.map((item) => (
-          <a href={getArticleUrl(item)}>
-            <span>{item.topic}</span>
-            <h3>{item.title}</h3>
-            <p>{item.description}</p>
+          <a href={articleUrl(item.id)}>
+            <span>{item.data.topic}</span>
+            <h3>{item.data.title}</h3>
+            <p>{item.data.description}</p>
           </a>
         ))}
       </div>

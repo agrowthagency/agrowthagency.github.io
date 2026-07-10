@@ -1,18 +1,25 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { allSections, type TopicSection } from '../data/site';
-import { getArticlesBySilo, getArticleUrl } from '../data/articles';
+import { getCollection, type CollectionEntry } from 'astro:content';
+import { articleUrl } from '../data/silos';
 
-export function getStaticPaths() {
+export async function getStaticPaths() {
+  const articles = await getCollection('articles');
   return allSections.map((section) => ({
     params: { slug: section.slug },
-    props: { section }
+    props: {
+      section,
+      articles: articles.filter((article) => article.data.silo === section.slug)
+    }
   }));
 }
 
-interface Props { section: TopicSection; }
-const { section } = Astro.props;
-const articles = getArticlesBySilo(section.slug);
+interface Props {
+  section: TopicSection;
+  articles: CollectionEntry<'articles'>[];
+}
+const { section, articles } = Astro.props;
 ---
 
 <BaseLayout title={section.eyebrow} description={section.description}>
@@ -39,10 +46,10 @@ const articles = getArticlesBySilo(section.slug);
       </div>
       <div class="topic-list">
         {articles.map((article) => (
-          <a class="topic-list-item" href={getArticleUrl(article)}>
+          <a class="topic-list-item" href={articleUrl(article.id)}>
             <div>
-              <h2>{article.topic}</h2>
-              <p>{article.description}</p>
+              <h2>{article.data.topic}</h2>
+              <p>{article.data.description}</p>
               <span class="topic-read">Read guide <span aria-hidden="true">→</span></span>
             </div>
           </a>

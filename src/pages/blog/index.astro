@@ -1,8 +1,10 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import { allArticles, getArticleUrl, siloInfo, type SiloSlug } from '../../data/articles';
+import { getCollection } from 'astro:content';
+import { articleUrl, siloInfo, type SiloSlug } from '../../data/silos';
 
 const siloOrder: SiloSlug[] = ['meta-ads', 'google-ads', 'tiktok-ads', 'appeals-compliance', 'account-operations', 'agency-ad-accounts'];
+const allArticles = await getCollection('articles');
 ---
 
 <BaseLayout title="Advertising Account Guides" description="Browse 40 practical guides about Meta, Google Ads, TikTok Ads, appeals, compliance, account operations, and agency ad accounts.">
@@ -19,7 +21,7 @@ const siloOrder: SiloSlug[] = ['meta-ads', 'google-ads', 'tiktok-ads', 'appeals-
 
   <div class="blog-directory">
     {siloOrder.map((silo, siloIndex) => {
-      const articles = allArticles.filter((article) => article.silo === silo);
+      const articles = allArticles.filter((article) => article.data.silo === silo);
       return (
         <section class={`section ${siloIndex % 2 ? 'section--white' : ''}`} id={silo}>
           <div class="container">
@@ -29,10 +31,10 @@ const siloOrder: SiloSlug[] = ['meta-ads', 'google-ads', 'tiktok-ads', 'appeals-
             </div>
             <div class="article-card-grid">
               {articles.map((article) => (
-                <a class="article-card" href={getArticleUrl(article)}>
-                  <span class="article-card-tag">{article.topic}</span>
-                  <h3>{article.title}</h3>
-                  <p>{article.description}</p>
+                <a class="article-card" href={articleUrl(article.id)}>
+                  <span class="article-card-tag">{article.data.topic}</span>
+                  <h3>{article.data.title}</h3>
+                  <p>{article.data.description}</p>
                   <span class="article-card-link">Read guide <span aria-hidden="true">→</span></span>
                 </a>
               ))}
