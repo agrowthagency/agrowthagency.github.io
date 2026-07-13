@@ -107,7 +107,7 @@ This matters in markets for “pre-verified” or high-spend accounts. Replacing
 
 The durable asset is not a verified customer ID. It is a business whose legal, public, commercial, financial, and operational identities can be explained as they change.
 
-The [verified and high-spend account analysis](/google-ads/verified-high-spend-accounts/) examines why verification is not transferable trust. The [Google agency account framework](/google-ads/google-agency-ad-account/) covers client ownership and agency authority, while [Circumventing systems](/google-ads/circumventing-systems/) addresses the risk created by false verification information or attempts to evade review.
+The specialist [Business Operations Verification framework](/google-ads/google-ads-business-operations-verification/) examines business models, suppliers, domains, payers, and relationship evidence. The [verified and high-spend account analysis](/google-ads/verified-high-spend-accounts/) explains why verification is not transferable trust. The [Google agency account framework](/google-ads/google-agency-ad-account/) covers client ownership and agency authority, while [Circumventing systems](/google-ads/circumventing-systems/) addresses false verification information or attempts to evade review.
 
 ## Official references
 

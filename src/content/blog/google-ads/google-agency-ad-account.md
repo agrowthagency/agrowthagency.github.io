@@ -148,6 +148,7 @@ An agency model becomes auditable when its broad responsibilities connect to nam
 - [Google Ads billing and payments](/google-ads/google-ads-billing-and-payments/) defines legal payer responsibility, reconciliation, and invoicing control.
 - [Google Ads account security](/google-ads/google-ads-account-security/) defines direct users, manager hierarchy, ownership, authentication, and incident recovery.
 - [Google Ads policy enforcement](/google-ads/google-ads-policy-enforcement/) defines how disapprovals, warnings, strikes, pauses, and suspensions should be routed.
+- [Google Ads Third-Party Policy](/google-ads/google-ads-third-party-policy/) defines agency sales, fee, reporting, access, customer-protection, and compliance-review obligations.
 - [Google Ads MCC suspension](/google-ads/mcc-suspension/) examines portfolio and related-account risk after a manager-level incident.
 
 The agency account is the governance layer across these systems. It should not duplicate their procedures, and it cannot substitute for them.
