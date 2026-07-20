@@ -363,6 +363,13 @@ p { margin: 0; }
 .markdown-content ol li { position: relative; display: block; min-width: 0; padding: 22px 0 22px 62px; border-top: 1px solid var(--line); counter-increment: markdown-step; }
 .markdown-content ol li:last-child { border-bottom: 1px solid var(--line); }
 .markdown-content ol li::before { position: absolute; left: 0; top: 25px; color: var(--accent); font-size: .72rem; font-weight: 850; letter-spacing: .08em; content: "0" counter(markdown-step); }
+.markdown-content table { width: 100%; margin: 30px 0 38px; border: 1px solid var(--line); border-collapse: separate; border-spacing: 0; border-radius: 14px; table-layout: fixed; overflow: hidden; }
+.markdown-content th,
+.markdown-content td { padding: 15px 17px; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); vertical-align: top; text-align: left; overflow-wrap: anywhere; word-break: normal; }
+.markdown-content th { color: var(--ink); background: var(--paper); font-size: .78rem; font-weight: 850; letter-spacing: .02em; }
+.markdown-content td { color: #475467; font-size: .9rem; line-height: 1.6; }
+.markdown-content tr > :last-child { border-right: 0; }
+.markdown-content tbody tr:last-child td { border-bottom: 0; }
 .check-list { display: grid; gap: 11px; margin: 28px 0 0; padding: 0; list-style: none; }
 .check-list li { position: relative; padding: 17px 18px 17px 50px; color: #344054; background: #f7f7f5; border-radius: 12px; }
 .check-list li::before { position: absolute; display: grid; width: 22px; height: 22px; left: 17px; top: 18px; color: white; background: var(--accent); border-radius: 50%; font-size: .7rem; font-weight: 900; content: "✓"; place-items: center; }
@@ -479,6 +486,8 @@ p { margin: 0; }
   .article-content > section + section { padding-top: 50px; }
   .markdown-content { padding-bottom: 50px; }
   .markdown-content h2 { padding-top: 50px; }
+  .markdown-content th, .markdown-content td { padding: 12px 11px; }
+  .markdown-content td { font-size: .82rem; line-height: 1.5; }
   .related-section .section-heading { align-items: start; }
   .related-grid { grid-template-columns: 1fr; }
   .footer-grid { grid-template-columns: 1fr 1fr; gap: 42px 28px; }
