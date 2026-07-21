@@ -23,7 +23,7 @@ export const siloInfo: Record<SiloSlug, {
   },
   'tiktok-ads': {
     name: 'TikTok Ads',
-    description: 'Account health, suspensions, ad disapprovals, Business Center access, and appeal preparation for TikTok Ads.',
+    description: 'Policy enforcement, Account Health, suspensions, verification, billing, security, industry eligibility, catalogs, and Business Center governance for TikTok Ads.',
     sources: [
       { label: 'TikTok suspended ad accounts', href: 'https://ads.tiktok.com/help/article/account-suspensions?lang=en' },
       { label: 'TikTok suspension appeals', href: 'https://ads.tiktok.com/help/article/how-to-troubleshoot-a-suspended-ad-account-on-tiktok?lang=en' }

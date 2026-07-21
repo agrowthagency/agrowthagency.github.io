@@ -77,8 +77,8 @@ export const platformSections: TopicSection[] = [
     shortLabel: 'TikTok Ads',
     eyebrow: 'TikTok Ads',
     title: 'Resolve TikTok Ads and Business Center issues',
-    description: 'Operational guidance for ad disapprovals, account suspensions, Business Center restrictions, and review preparation.',
-    intro: 'TikTok enforcement may affect a single creative, an advertiser account, or the wider Business Center. Identifying that scope is the first step toward a useful response.',
+    description: 'A structured view of policy enforcement, Account Health, suspensions, security, verification, billing, industry entry, catalogs, and Business Center governance.',
+    intro: 'Start with the decision object—ad, ad group, advertiser account, Business Center, payment function, identity, or catalog product—then preserve the evidence before changing the system.',
     accent: 'tiktok',
     topics: [
       'TikTok Ads account suspended',
@@ -87,7 +87,20 @@ export const platformSections: TopicSection[] = [
       'Ad disapproval',
       'Appeal process',
       'TikTok agency ads account',
-      'Verified Business Center and account providers'
+      'Verified Business Center and account providers',
+      'TikTok Ads policy enforcement',
+      'TikTok Ads Account Health',
+      'TikTok ad review process',
+      'TikTok Ads account security',
+      'TikTok business verification',
+      'TikTok Ads billing and payments',
+      'TikTok Ads payment issues',
+      'TikTok Ads landing page requirements',
+      'TikTok Ads industry eligibility',
+      'TikTok Ads misleading and false content',
+      'TikTok Business Center asset governance',
+      'TikTok Business Center roles and permissions',
+      'TikTok catalog ads compliance'
     ]
   }
 ];
