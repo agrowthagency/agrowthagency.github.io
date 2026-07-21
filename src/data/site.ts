@@ -15,8 +15,8 @@ export const platformSections: TopicSection[] = [
     shortLabel: 'Meta Ads',
     eyebrow: 'Meta / Facebook Ads',
     title: 'Navigate Meta account restrictions with clarity',
-    description: 'Practical guidance for diagnosing restrictions, preparing reviews, and operating Meta advertising accounts responsibly.',
-    intro: 'Start with the restriction surface—ad account, Business Manager, payment profile, or identity review—then document the signals before making changes.',
+    description: 'A structured view of enforcement, account restrictions, security, verification, billing, commerce, and business asset governance across Meta Ads.',
+    intro: 'Start with the decision surface—ad, person, Page, ad account, Business Portfolio, payment function, or commerce asset—then document the evidence before making changes.',
     accent: 'meta',
     topics: [
       'Facebook ad account restricted',
@@ -26,7 +26,19 @@ export const platformSections: TopicSection[] = [
       'Account review',
       'Appeal and recovery',
       'Meta agency ad account',
-      'Verified and high-limit accounts'
+      'Verified and high-limit accounts',
+      'Meta Advertising Standards enforcement',
+      'Meta ads rejected',
+      'Meta ad review process',
+      'Meta ad account security',
+      'Meta business verification',
+      'Meta Ads billing and payments',
+      'Meta Ads landing page requirements',
+      'Meta Ads restricted businesses',
+      'Personal advertising access restricted',
+      'Facebook Page restricted from advertising',
+      'Meta business asset governance',
+      'Meta commerce account restricted'
     ]
   },
   {
@@ -45,7 +57,19 @@ export const platformSections: TopicSection[] = [
       'MCC suspension',
       'Appeal and reinstatement',
       'Google agency ad account',
-      'Verified and high-spend accounts'
+      'Verified and high-spend accounts',
+      'Google Ads account security',
+      'Google Ads advertiser verification',
+      'Google Ads billing and payments',
+      'Google Ads business operations verification',
+      'Google Ads destination requirements',
+      'Google Ads disapproved ads',
+      'Google Ads misrepresentation',
+      'Google Ads policy enforcement',
+      'Google Ads policy strikes',
+      'Google Ads restricted businesses',
+      'Google Ads third-party policy',
+      'Google Ads unacceptable business practices'
     ]
   },
   {

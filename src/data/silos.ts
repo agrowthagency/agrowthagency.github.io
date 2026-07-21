@@ -7,7 +7,7 @@ export const siloInfo: Record<SiloSlug, {
 }> = {
   'meta-ads': {
     name: 'Meta Ads',
-    description: 'Restrictions, reviews, billing, Business Portfolio operations, and agency access across Meta advertising products.',
+    description: 'Advertising Standards, restrictions, reviews, security, verification, billing, commerce, Business Portfolio governance, and agency access across Meta.',
     sources: [
       { label: 'Meta Ads Review Policy', href: 'https://www.facebook.com/business/ads/review-policy-guidelines' },
       { label: 'Meta Advertising Standards', href: 'https://transparency.meta.com/policies/ad-standards/' }
