@@ -93,6 +93,8 @@ Leadership reporting should show open warnings, confirmed versus reversed decisi
 
 Account Health is useful when it changes organizational behavior. A clean-looking dashboard with an unchanged production system is only delayed risk.
 
+If internal reporting collapses warnings and suspensions into “banned,” use the [TikTok account-state comparison](/tiktok-ads/tiktok-ads-account-banned/) before assigning severity or remediation ownership.
+
 ## Official resources
 
 - [About suspended TikTok ad accounts](https://ads.tiktok.com/help/article/account-suspensions?lang=en)

@@ -96,6 +96,8 @@ If a third party controls the variation, preserve logs and escalate contractuall
 
 A release is ready for ads only when it is accessible in targeted conditions, accurately represents the offer and business, includes necessary terms, uses approved claims, handles errors honestly, protects users, and has a rollback owner. Store the evidence with the campaign preflight packet.
 
+For shop and catalog traffic, reconcile these destination controls with the product and fulfillment evidence behind a [restricted Meta commerce account](/meta-ads/meta-commerce-account-restricted/).
+
 ## Official resources
 
 - [Meta ad review, policy, and support](https://www.facebook.com/business/ads/review-policy-guidelines)

@@ -86,6 +86,8 @@ Agencies and account providers should stop using “ban-proof,” “permanent a
 
 Precise state language is not pedantry. It is the first control that keeps operations aligned with reality.
 
+Once the actual state is identified, use the [policy-enforcement taxonomy](/tiktok-ads/tiktok-ads-policy-enforcement/) to locate the affected object and the [appeal workflow](/tiktok-ads/appeal-process/) to assemble the correction evidence. A provider relationship should be assessed separately through the controls for [verified Business Center account providers](/tiktok-ads/verified-business-center-account-providers/).
+
 ## Official resources
 
 - [About suspended TikTok ad accounts](https://ads.tiktok.com/help/article/account-suspensions?lang=en)

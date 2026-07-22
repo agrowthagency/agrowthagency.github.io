@@ -92,6 +92,8 @@ Verify that a second client-controlled admin can log in securely, view critical 
 
 Emergency access should be monitored and reviewed after use. It is not a shared daily credential.
 
+When the relationship includes an external operator, compare the requested role with the responsibilities described in the [TikTok agency account model](/tiktok-ads/tiktok-agency-ads-account/) before granting portfolio-wide access.
+
 ## Official resources
 
 - [Business Center roles and permissions](https://ads.tiktok.com/help/article/about-business-center-roles-and-permissions?lang=en)

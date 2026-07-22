@@ -123,6 +123,8 @@ The companies least likely to create circumvention risk will not be those with t
 
 The decisive question is not “Can this variation pass review?” It is “Would we be comfortable showing Google, a user, and a regulator the same operating map?” If the answer depends on who is looking, the architecture—not just the ad—is already warning you.
 
+The operating map should connect the [full destination chain](/google-ads/google-ads-destination-requirements/) with the advertiser’s [claims and representation controls](/google-ads/google-ads-misrepresentation/). When Google has already suspended the account, use those same facts in the [suspension diagnosis](/google-ads/google-ads-account-suspended/) instead of creating replacement routes or identities.
+
 ## Official references
 
 - [Circumventing systems policy](https://support.google.com/adspolicy/answer/15938075?hl=en)

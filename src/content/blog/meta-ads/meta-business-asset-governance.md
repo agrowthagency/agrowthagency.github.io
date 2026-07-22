@@ -100,6 +100,8 @@ Compare the live Meta environment with contracts, HR records, vendor lists, doma
 
 The result should be a signed exception list, not a silent spreadsheet update.
 
+Include public identities in the reconciliation: a healthy portfolio can still contain a [Page restricted from advertising](/meta-ads/page-restricted-from-advertising/) whose state and administrators require a separate investigation.
+
 ## Official resources
 
 - [Assign people to a Meta ad account](https://www.facebook.com/help/messenger-app/195296697183682/)

@@ -94,6 +94,8 @@ During compromise, save screenshots and exports in a restricted incident folder.
 
 Security recovery and privacy obligations may run in parallel. The advertising team should escalate potential personal-data exposure to the organization’s privacy and legal owners rather than treating it solely as lost media spend.
 
+Containment should distinguish a compromised account from a [disabled ad account](/meta-ads/meta-ad-account-disabled/) and from a restriction on the operator’s [personal advertising access](/meta-ads/personal-advertising-access-restricted/). Those states can coexist, but they require different evidence and recovery owners.
+
 ## Official resources
 
 - [Protect accounts from credential-stealing malware](https://www.facebook.com/help/773912954219636)

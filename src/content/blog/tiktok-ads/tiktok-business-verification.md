@@ -89,6 +89,8 @@ After approval, store verified object, entity, representative, documents, submis
 
 Verification is strongest when it reflects a business already governed coherently; it is weakest when used to compensate for unclear ownership.
 
+Where verification is bundled into a commercial account service, confirm what remains the advertiser’s responsibility through the [provider due-diligence framework](/tiktok-ads/verified-business-center-account-providers/).
+
 ## Official resources
 
 - [How to verify your business on TikTok](https://ads.tiktok.com/help/article/about-business-verification/)

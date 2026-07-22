@@ -89,6 +89,8 @@ Before delivery resumes, confirm source freshness, diagnostics, representative p
 
 Catalog compliance is a data-quality discipline with policy consequences. The source system, not the last interface edit, determines whether the correction survives.
 
+If a product record remains technically valid but presents price, availability, or outcomes inaccurately, move the issue into the [misleading-content controls](/tiktok-ads/tiktok-ads-misleading-content/) rather than treating it only as feed hygiene.
+
 ## Official resources
 
 - [Catalog issues and suggested actions](https://ads.tiktok.com/help/article/list-of-catalog-product-issues-and-suggested-actions)

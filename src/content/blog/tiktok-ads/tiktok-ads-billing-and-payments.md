@@ -79,6 +79,8 @@ An agency sees a bank charge larger than one client’s reported spend. The meth
 
 Transaction-level account allocation, currency, tax, and billing-cycle evidence resolves the event. If an unknown campaign remains, it becomes a security workstream rather than a generic billing discrepancy.
 
+If the billing arrangement is supplied through a partner, compare the payer, balance, and support path with the evidence expected from a [verified Business Center account provider](/tiktok-ads/verified-business-center-account-providers/).
+
 ## Official resources
 
 - [Add or update a payment method](https://ads.tiktok.com/help/article/add-a-payment-method-for-automatic-payment-in-tiktok-ads-manager?lang=en)

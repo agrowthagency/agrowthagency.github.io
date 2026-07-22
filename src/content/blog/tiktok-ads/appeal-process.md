@@ -107,6 +107,8 @@ Archive the final decision, timeline, evidence, remediation, and control changes
 
 An appeal has value beyond one outcome when it leaves the organization with a more accurate model of how its advertising system creates risk.
 
+If stakeholders call the outcome a “ban,” first translate that label through the [banned-versus-suspended account states](/tiktok-ads/tiktok-ads-account-banned/) so the appeal addresses the decision TikTok actually made.
+
 ## Official resources
 
 - [Troubleshoot a suspended ad account](https://ads.tiktok.com/help/article/how-to-troubleshoot-a-suspended-ad-account-on-tiktok?lang=en)

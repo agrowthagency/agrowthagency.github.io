@@ -120,6 +120,8 @@ An incident caused by a shared template, vendor, administrator, payment method, 
 
 Document which controls changed, how their operation will be tested, and when leadership will review effectiveness. Recovery creates value only when the organization becomes less likely to repeat the failure.
 
+If the interface describes the account as disabled rather than merely restricted, use the [disabled-account diagnosis](/meta-ads/meta-ad-account-disabled/) to identify the affected object and evidence before selecting the recovery route.
+
 ## Official resources
 
 - [Meta ad review, policy, and support](https://www.facebook.com/business/ads/review-policy-guidelines)

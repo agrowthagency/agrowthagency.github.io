@@ -137,6 +137,8 @@ The strategic error is treating an account as a reputation container whose histo
 
 The question worth asking is not “How much has this account spent?” It is “Whose operating history am I looking at, and will every part of the account still tell the truth after my business starts using it?”
 
+Evaluate the identity claim through [advertiser verification](/google-ads/google-ads-advertiser-verification/), the capacity claim through the real [billing and payments structure](/google-ads/google-ads-billing-and-payments/), and the control claim through the documented [agency account model](/google-ads/google-agency-ad-account/). None of these signals can be assumed to transfer merely because access to the account changes.
+
 ## Official references
 
 - [Advertiser verification](https://support.google.com/adspolicy/answer/9703665?hl=en)

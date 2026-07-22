@@ -91,6 +91,8 @@ At client or agency offboarding, confirm final campaign stop time, outstanding b
 
 An advertising relationship is not closed when campaigns are paused. It is closed when access, assets, and money all reconcile.
 
+When billing capacity is marketed as a feature of a provider or mature account, compare the actual payer and limit mechanics with the evidence expected for [verified or high-limit Meta accounts](/meta-ads/verified-high-limit-accounts/).
+
 ## Official resources
 
 - [Accepted payment options for Meta ads](https://www.facebook.com/help/messenger-app/212763688755026)

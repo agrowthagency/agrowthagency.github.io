@@ -130,7 +130,7 @@ Billing health means the advertiser can identify the state, trace the transactio
 
 That is why billing belongs beside compliance and security in account governance. Money keeps campaigns running, but explainable financial responsibility keeps the billing relationship credible.
 
-When the state is an explicit enforcement action rather than a routine billing issue, use the specialist [Google Ads billing suspension framework](/google-ads/billing-suspension/). Claims about transferable spend history, credit, or “high-limit” accounts are examined separately in [verified and high-spend Google Ads accounts](/google-ads/verified-high-spend-accounts/).
+When the state is an explicit enforcement action rather than a routine billing issue, use the specialist [Google Ads billing suspension framework](/google-ads/billing-suspension/). Claims about transferable spend history, credit, or “high-limit” accounts are examined separately in [verified and high-spend Google Ads accounts](/google-ads/verified-high-spend-accounts/). When an agency invoices or pays on the client’s behalf, the financial record should also satisfy [Google’s third-party transparency requirements](/google-ads/google-ads-third-party-policy/).
 
 ## Official references
 

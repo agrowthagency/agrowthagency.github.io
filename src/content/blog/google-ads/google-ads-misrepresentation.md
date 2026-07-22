@@ -140,7 +140,7 @@ Repeat the check when suppliers, prices, licenses, domains, product terms, or ta
 
 The strongest Misrepresentation control is not cautious wording. It is an organization that can show how every material promise remains true from ad impression through customer delivery.
 
-For egregious advertiser-level conduct, continue with [Google Ads Unacceptable Business Practices](/google-ads/google-ads-unacceptable-business-practices/). For identity and relationship alignment, use [Google Ads advertiser verification](/google-ads/google-ads-advertiser-verification/).
+For egregious advertiser-level conduct, continue with [Google Ads Unacceptable Business Practices](/google-ads/google-ads-unacceptable-business-practices/). For identity and relationship alignment, use [Google Ads advertiser verification](/google-ads/google-ads-advertiser-verification/). If the offer is permitted only under specific certificates or markets, review the claim against [restricted-business eligibility](/google-ads/google-ads-restricted-businesses/) as a separate control.
 
 ## Official references
 

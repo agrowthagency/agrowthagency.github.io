@@ -90,6 +90,8 @@ Use clear dispositions: prohibited by TikTok, not lawful in market, certificate 
 
 Assign owners to review Industry Entry and market-specific requirements before launches and on a schedule. Date the internal matrix. When policy changes, find every affected account, campaign, creative, certificate, and destination.
 
+For product-feed campaigns, carry the eligibility decision into the SKU-level controls used for [TikTok catalog ads](/tiktok-ads/tiktok-catalog-ads-compliance/) so an approved industry does not conceal an ineligible product.
+
 ## Official resources
 
 - [TikTok Advertising Policies: Industry Entry](https://ads.tiktok.com/help/article/tiktok-advertising-policies-industry-entry)

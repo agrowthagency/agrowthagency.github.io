@@ -124,7 +124,7 @@ That makes destination integrity part of identity and representation. The domain
 
 The strongest destination control is not a pre-appeal scan. It is ownership of the whole click path—from displayed URL to fulfilled promise.
 
-If route variation is designed to hide material content or bypass review, the issue moves beyond destination functionality into [Google Ads Circumventing systems](/google-ads/circumventing-systems/). If destination activity appears unauthorized, treat it through the [Google Ads account security framework](/google-ads/google-ads-account-security/) as well as the website investigation.
+If route variation is designed to hide material content or bypass review, the issue moves beyond destination functionality into [Google Ads Circumventing systems](/google-ads/circumventing-systems/). If destination activity appears unauthorized, treat it through the [Google Ads account security framework](/google-ads/google-ads-account-security/) as well as the website investigation. A destination defect attached to an individual asset should feed the narrower [disapproved-ad workflow](/google-ads/google-ads-disapproved-ads/) before the team assumes account-wide enforcement.
 
 ## Official references
 

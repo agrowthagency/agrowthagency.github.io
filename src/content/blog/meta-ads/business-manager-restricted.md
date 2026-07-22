@@ -113,6 +113,8 @@ After remediation or restoration, review every privileged person and partner, co
 
 A portfolio is not recovered merely because Ads Manager loads. Recovery means its relationships can be explained, its privileged paths are controlled, and its critical assets can survive ordinary staff and vendor changes.
 
+The portfolio review should also identify people whose [personal advertising access is restricted](/meta-ads/personal-advertising-access-restricted/); restoring the business container does not automatically resolve a person-level decision.
+
 ## Official resources
 
 - [Meta ad review, policy, and support](https://www.facebook.com/business/ads/review-policy-guidelines)

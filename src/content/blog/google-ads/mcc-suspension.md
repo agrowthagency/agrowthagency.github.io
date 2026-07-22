@@ -134,6 +134,8 @@ The strategic value of an MCC is not that it lets an agency open more accounts. 
 
 If the hierarchy only increases speed, it will eventually increase the speed at which one weak process reaches every client. The real test of a manager account is whether it can explain the portfolio under pressure.
 
+The manager-level investigation should compare the [third-party obligations owed to each client](/google-ads/google-ads-third-party-policy/) with the ownership and access model described in [Google agency account governance](/google-ads/google-agency-ad-account/). If the shared path may be compromised, run the [account-security controls](/google-ads/google-ads-account-security/) across the hierarchy before restoring access.
+
 ## Official references
 
 - [About ownership of client accounts](https://support.google.com/google-ads/answer/7456532?hl=en)

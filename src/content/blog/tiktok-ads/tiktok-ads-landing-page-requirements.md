@@ -85,6 +85,8 @@ Maintain owner, contract, host, purpose, data access, release notifications, mon
 
 During suspension or repeated disapproval, export every live and recently used final URL. Group by template, host, redirect, market, product, and release. Sample each group and inspect all affected URLs when a shared defect is found.
 
+Link every sampled URL back to the creative and object state recorded in the [TikTok ad review process](/tiktok-ads/tiktok-ad-review-process/) rather than investigating the destination as an isolated website defect.
+
 ## Official resources
 
 - [Landing-page best practices](https://ads.tiktok.com/help/article/ad-review-checklist-landing-page?lang=en)

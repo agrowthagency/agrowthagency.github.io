@@ -107,6 +107,8 @@ On a schedule, sample approved live ads and compare them with the saved prefligh
 
 This control catches drift before a later review or customer complaint turns it into an enforcement incident.
 
+For catalog and shop campaigns, extend the same review packet to the product source and the controls used when a [Meta commerce account becomes restricted](/meta-ads/meta-commerce-account-restricted/). An approved creative cannot compensate for inaccurate or ineligible catalog data.
+
 ## Official resources
 
 - [Meta ad review, policy, and support](https://www.facebook.com/business/ads/review-policy-guidelines)

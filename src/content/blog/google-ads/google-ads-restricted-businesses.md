@@ -139,7 +139,7 @@ The deeper principle is simple: restricted-business advertising is an authorizat
 
 When that boundary is explicit, compliance becomes part of market design. When it is assumed, every campaign change can unknowingly redefine the business Google is being asked to approve.
 
-Restricted-business eligibility depends on a coherent advertiser. Use the [Google Ads advertiser verification framework](/google-ads/google-ads-advertiser-verification/) for identity and relationship controls, and the [Google agency account framework](/google-ads/google-agency-ad-account/) when an agency or manager participates in applications, billing, or account ownership.
+Restricted-business eligibility depends on a coherent advertiser. Use the [Google Ads advertiser verification framework](/google-ads/google-ads-advertiser-verification/) for identity and relationship controls, and the [Google agency account framework](/google-ads/google-agency-ad-account/) when an agency or manager participates in applications, billing, or account ownership. Where Google asks how the parties actually deliver the service, keep those facts aligned with the [business-operations verification record](/google-ads/google-ads-business-operations-verification/).
 
 ## Official references
 

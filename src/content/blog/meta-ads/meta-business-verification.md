@@ -105,6 +105,8 @@ Corporate and identity documents are sensitive. Store them in an access-controll
 
 Verification governance includes data governance: who may collect, review, submit, retain, and delete the supporting evidence.
 
+Verification confirms business facts within a defined process; it does not replace the product- and market-level checks in [Meta’s restricted-business framework](/meta-ads/meta-restricted-businesses/).
+
 ## Official resources
 
 - [Meta Business Help Center](https://www.facebook.com/business/help)

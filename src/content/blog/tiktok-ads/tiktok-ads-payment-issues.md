@@ -89,6 +89,8 @@ Classify expiry, issuer configuration, insufficient balance, missing finance per
 
 The incident ends when the money, access, account state, and operating process all agree.
 
+When the discrepancy may involve an unauthorized user or campaign, run the [account-security investigation](/tiktok-ads/tiktok-ads-account-security/) alongside payment reconciliation instead of repeatedly changing the payment method.
+
 ## Official resources
 
 - [Check for failed payments](https://ads.tiktok.com/help/article/check-for-failed-payments)

@@ -138,7 +138,7 @@ An account is not secure because no suspicious campaign is visible today. It is 
 
 As advertising stacks become more connected, account security and policy compliance converge. A compromised identity can produce malicious destinations, false representation, billing disputes, and account enforcement. The security program must therefore protect the advertiser’s ability to prove which activity was authorized.
 
-Use the [Google Ads billing suspension framework](/google-ads/billing-suspension/) when unauthorized activity creates a payment enforcement issue. For manager-level blast radius and client relationships, continue with the [Google Ads MCC suspension analysis](/google-ads/mcc-suspension/).
+Use the [Google Ads billing suspension framework](/google-ads/billing-suspension/) when unauthorized activity creates a payment enforcement issue. For manager-level blast radius and client relationships, continue with the [Google Ads MCC suspension analysis](/google-ads/mcc-suspension/). If stakeholders describe the outcome only as a “ban,” first use the [banned-versus-suspended distinction](/google-ads/google-ads-account-banned/) to identify the actual security and enforcement state.
 
 ## Official references
 

@@ -86,6 +86,8 @@ If appeal reverses a decision, capture the result and relevant facts. Do not gen
 
 Review data should improve process confidence without turning individual outcomes into precedent they cannot support.
 
+For catalog campaigns, extend the packet beyond the creative and destination to the feed evidence required for [TikTok catalog ads compliance](/tiktok-ads/tiktok-catalog-ads-compliance/).
+
 ## Official resources
 
 - [What to do when an ad or ad group is rejected](https://ads.tiktok.com/help/article/what-to-do-if-your-ad-or-ad-group-was-rejected-on-tiktok)

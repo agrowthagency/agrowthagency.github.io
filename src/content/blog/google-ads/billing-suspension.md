@@ -142,6 +142,8 @@ This article describes operational controls, not legal advice about payment disp
 
 The deeper question after a billing suspension is not “Which card should we try next?” It is “Can we prove that every financial action in this account belongs to one authorized commercial relationship?” Until the answer is yes, a successful charge would only hide the real weakness.
 
+Before changing payment instruments, reconcile the account through the broader [billing and payments operating model](/google-ads/google-ads-billing-and-payments/) and investigate any unauthorized activity through the [account-security workflow](/google-ads/google-ads-account-security/). If the notice affects account eligibility rather than only transaction processing, move the evidence into the [account-suspension case](/google-ads/google-ads-account-suspended/).
+
 ## Official references
 
 - [Billing and payment suspensions](https://support.google.com/google-ads/answer/13704200?hl=en)

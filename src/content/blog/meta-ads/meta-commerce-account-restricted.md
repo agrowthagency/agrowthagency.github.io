@@ -95,6 +95,8 @@ When an item is corrected in Meta, update the source and verify the next schedul
 
 After restoration, validate business identity, catalog connection, representative products, domain, checkout, shipping and return terms, customer support, Page access, and ads. Start with reviewed product sets and monitor feed errors, rejection, price drift, and complaints before scaling.
 
+If the commerce restriction also affects the public identity used for promotion, investigate the [Page-level advertising restriction](/meta-ads/page-restricted-from-advertising/) independently rather than assuming catalog restoration will resolve it.
+
 ## Official resources
 
 - [Meta ad review, policy, and support](https://www.facebook.com/business/ads/review-policy-guidelines)

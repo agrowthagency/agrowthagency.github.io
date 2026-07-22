@@ -136,6 +136,8 @@ The best appeal process does more than recover an account. It teaches the compan
 
 That is the final standard: not whether the appeal sounds convincing, but whether an independent reviewer can follow the evidence from signal to cause to correction without having to guess what the advertiser means.
 
+Start the case by confirming the state through the [Google Ads suspension diagnosis](/google-ads/google-ads-account-suspended/), then trace the governing rule through the [policy-enforcement framework](/google-ads/google-ads-policy-enforcement/). If identity or business relationships are part of the decision, keep the appeal consistent with the advertiser’s [verification record](/google-ads/google-ads-advertiser-verification/) rather than submitting a disconnected narrative.
+
 ## Official references
 
 - [Google Ads account suspensions overview](https://support.google.com/adspolicy/answer/9841640?hl=en)

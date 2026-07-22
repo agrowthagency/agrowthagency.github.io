@@ -82,6 +82,8 @@ Close with an exception register containing owner and due date. Quietly editing 
 
 Assess impact if a Business Center, admin, partner, payment portfolio, TikTok identity, or shared data asset becomes unavailable. Build backups and ownership clarity. Do not fragment assets or create unrelated structures merely to obscure genuine relationships.
 
+Test that resilience through a live [roles and permissions review](/tiktok-ads/tiktok-business-center-roles-permissions/), including direct grants and asset-level assignments that may not be obvious from the Business Center overview.
+
 ## Official resources
 
 - [About ad accounts in Business Center](https://ads.tiktok.com/help/article/manage-ad-accounts-business-center?lang=en)

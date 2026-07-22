@@ -99,6 +99,8 @@ The library does not replace reading the current Advertising Standards. It conne
 
 If another review approves an ad, preserve the decision but do not generalize it into permission for all similar ads. The reviewed object had specific creative, targeting, identity, and destination facts at a specific time. A different market, claim, Page, or post-click flow may produce a different policy analysis.
 
+If repeated rejection progresses beyond the individual ad, use the [account-review workflow](/meta-ads/account-review/) to separate creative evidence from account-, business-, Page-, or person-level enforcement.
+
 ## Official resources
 
 - [Meta ad review, policy, and support](https://www.facebook.com/business/ads/review-policy-guidelines)

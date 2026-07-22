@@ -139,7 +139,7 @@ Assign accountable owners for:
 
 Review material changes before campaigns launch. The compliance question is not simply whether the new page contains required sections. It is whether the real business behind the page remains the business users are led to trust.
 
-For the broader taxonomy of pricing, claims, availability, and misleading design, use [Google Ads Misrepresentation](/google-ads/google-ads-misrepresentation/). For the suspension record and submission design, continue with [Google Ads appeal and reinstatement](/google-ads/appeal-and-reinstatement/).
+For the broader taxonomy of pricing, claims, availability, and misleading design, use [Google Ads Misrepresentation](/google-ads/google-ads-misrepresentation/). Where the underlying product requires additional approval, assess [restricted-business eligibility](/google-ads/google-ads-restricted-businesses/) independently. For the suspension record and submission design, continue with [Google Ads appeal and reinstatement](/google-ads/appeal-and-reinstatement/).
 
 ## Official references
 

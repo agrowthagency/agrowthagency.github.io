@@ -122,6 +122,8 @@ The phrase “Google Ads account banned” is still useful as a search query bec
 
 The more consequential the enforcement decision, the more precise the operator must become. The first step toward recovery is not optimism or urgency. It is naming the state correctly enough that the organization can finally see what happened.
 
+Translate the informal “banned” label into the states described in the [Google Ads suspension framework](/google-ads/google-ads-account-suspended/) and check whether [repeat-violation strikes](/google-ads/google-ads-policy-strikes/) are part of the history. Once the decision object is clear, structure the evidence through the [appeal and reinstatement process](/google-ads/appeal-and-reinstatement/) rather than treating every restriction as the same event.
+
 ## Official references
 
 - [Google Ads account suspensions overview](https://support.google.com/adspolicy/answer/9841640?hl=en)

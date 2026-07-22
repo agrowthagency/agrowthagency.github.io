@@ -143,7 +143,7 @@ Maintain a subcontractor register covering scope, account access, customer conta
 
 The strongest agency is not the one that claims privileged access to Google Ads. It is the one whose clients can understand what they bought, what Google charged, who controls the account, and how the relationship can end without destroying business continuity.
 
-Use the broader [Google agency account framework](/google-ads/google-agency-ad-account/) for ownership, billing, verification, and offboarding design. If enforcement reaches the manager hierarchy, continue with [Google Ads MCC suspension](/google-ads/mcc-suspension/).
+Use the broader [Google agency account framework](/google-ads/google-agency-ad-account/) for ownership, billing, verification, and offboarding design. If enforcement reaches the manager hierarchy, continue with [Google Ads MCC suspension](/google-ads/mcc-suspension/). The client description and agency role should also remain consistent with any [business-operations verification submission](/google-ads/google-ads-business-operations-verification/).
 
 ## Official references
 

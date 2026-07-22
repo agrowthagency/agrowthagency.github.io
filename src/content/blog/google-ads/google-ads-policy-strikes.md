@@ -127,7 +127,7 @@ That is why strike management belongs in governance, not only media buying.
 
 The record should remain usable after employees, agencies, campaigns, and account structures change.
 
-Continue with the broader [Google Ads policy enforcement framework](/google-ads/google-ads-policy-enforcement/) or the [account suspension diagnosis](/google-ads/google-ads-account-suspended/) if the strike path has progressed to suspension.
+Continue with the broader [Google Ads policy enforcement framework](/google-ads/google-ads-policy-enforcement/) or the [account suspension diagnosis](/google-ads/google-ads-account-suspended/) if the strike path has progressed to suspension. When internal reports use “banned” as a catch-all, the [incident-state comparison](/google-ads/google-ads-account-banned/) helps prevent a strike from being recorded as the wrong enforcement object.
 
 ## Official references
 

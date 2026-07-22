@@ -127,6 +127,8 @@ One case owner should reconcile these contributions before anything reaches supp
 
 Track time to scope classification, time to containment, completeness of the first evidence packet, contradictory contacts, repeated submissions, decision result, and recurrence. Do not judge the team solely by reinstatement rate; correct denials and incorrect approvals both exist. Judge whether the organization presented an accurate, timely, controlled record and learned from the incident.
 
+When the event begins with an individual ad or creative, reconstruct [how Meta’s ad review process reached the decision](/meta-ads/meta-ad-review-process/) before escalating it into an account-level case. That distinction keeps the evidence packet aligned with the object actually under review.
+
 ## Official resources
 
 - [Meta ad review, policy, and support](https://www.facebook.com/business/ads/review-policy-guidelines)

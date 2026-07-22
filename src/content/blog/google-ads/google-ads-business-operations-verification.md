@@ -147,7 +147,7 @@ Before submission, confirm that the organization can answer three sentences with
 
 Complexity is not automatically suspicious. Unexplained complexity is fragile.
 
-Use the parent [Google Ads advertiser verification framework](/google-ads/google-ads-advertiser-verification/) for deadlines, identity tasks, disclosures, and reverification. Agency structures should also be checked against [Google agency account governance](/google-ads/google-agency-ad-account/).
+Use the parent [Google Ads advertiser verification framework](/google-ads/google-ads-advertiser-verification/) for deadlines, identity tasks, disclosures, and reverification. Agency structures should also be checked against [Google agency account governance](/google-ads/google-agency-ad-account/). If the business needs product- or market-specific approval, connect the operating explanation to the relevant [restricted-business eligibility](/google-ads/google-ads-restricted-businesses/) rather than treating identity verification as permission to advertise everything.
 
 ## Official references
 

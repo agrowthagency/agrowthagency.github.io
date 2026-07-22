@@ -120,7 +120,7 @@ A reliable workflow also records unaffected objects. Knowing why some ads remain
 
 The best response to a disapproved Google ad is not the fastest edit. It is the smallest complete correction at the level where the defect actually lives.
 
-For URL and crawl failures, continue with [Google Ads destination requirements](/google-ads/google-ads-destination-requirements/). For repeat enforcement, use the [Google Ads policy strikes framework](/google-ads/google-ads-policy-strikes/).
+For URL and crawl failures, continue with [Google Ads destination requirements](/google-ads/google-ads-destination-requirements/). For repeat enforcement, use the [Google Ads policy strikes framework](/google-ads/google-ads-policy-strikes/). When the affected object or escalation path remains unclear, place the event inside the broader [policy-enforcement taxonomy](/google-ads/google-ads-policy-enforcement/) before choosing a remedy.
 
 ## Official references
 

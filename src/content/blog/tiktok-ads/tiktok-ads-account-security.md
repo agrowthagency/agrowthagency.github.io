@@ -88,6 +88,8 @@ The exercise should expose missing backup authority without creating extra stand
 
 Compare the live environment to the trusted inventory. Confirm users, partners, roles, advertiser accounts, identities, pixels, catalogs, payment methods, campaigns, URLs, and support contacts. Monitor change and spend closely through the next billing and campaign cycle.
 
+Validate every administrator and finance path against the documented [Business Center roles and permissions model](/tiktok-ads/tiktok-business-center-roles-permissions/) rather than relying only on the top-level member list.
+
 ## Official resources
 
 - [Best practices for securing Business Center](https://ads.tiktok.com/help/article/best-practices-for-securing-your-business-center?lang=en)
