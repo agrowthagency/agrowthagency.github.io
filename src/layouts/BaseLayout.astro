@@ -30,17 +30,25 @@ const {
 const canonical = new URL(Astro.url.pathname, Astro.site);
 const fullTitle = seoTitle ?? (title.includes('Ad Account Desk') ? title : `${title} | Ad Account Desk by AGrowth`);
 const socialImage = new URL(image, Astro.site);
-const schema = {
+const siteSchema = {
   '@context': 'https://schema.org',
-  '@type': 'WebSite',
-  name: 'Ad Account Desk by AGrowth',
-  url: Astro.site,
-  description,
-  publisher: {
-    '@type': 'Organization',
-    name: 'AGrowth',
-    logo: new URL('/brand/agrowth-mark.png', Astro.site).href
-  }
+  '@graph': [
+    {
+      '@type': 'WebSite',
+      '@id': new URL('/#website', Astro.site).href,
+      name: 'Ad Account Desk by AGrowth',
+      url: Astro.site,
+      description,
+      publisher: { '@id': new URL('/#organization', Astro.site).href }
+    },
+    {
+      '@type': 'Organization',
+      '@id': new URL('/#organization', Astro.site).href,
+      name: 'AGrowth',
+      url: 'https://agrowth.io/',
+      logo: new URL('/brand/agrowth-mark.png', Astro.site).href
+    }
+  ]
 };
 ---
 
@@ -67,7 +75,8 @@ const schema = {
     <meta name="twitter:title" content={fullTitle} />
     <meta name="twitter:description" content={description} />
     <meta name="twitter:image" content={socialImage} />
-    <script is:inline type="application/ld+json" set:html={JSON.stringify(structuredData ?? schema)} />
+    <script is:inline type="application/ld+json" set:html={JSON.stringify(siteSchema)} />
+    {structuredData && <script is:inline type="application/ld+json" set:html={JSON.stringify(structuredData)} />}
   </head>
   <body>
     <a class="skip-link" href="#main-content">Skip to content</a>
