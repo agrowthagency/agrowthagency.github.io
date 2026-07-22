@@ -14,6 +14,7 @@ interface Props {
   ogType?: 'website' | 'article';
   publishedTime?: string;
   modifiedTime?: string;
+  bodyClass?: string;
 }
 
 const {
@@ -25,7 +26,8 @@ const {
   structuredData,
   ogType = 'website',
   publishedTime,
-  modifiedTime
+  modifiedTime,
+  bodyClass
 } = Astro.props;
 const canonical = new URL(Astro.url.pathname, Astro.site);
 const fullTitle = seoTitle ?? (title.includes('Ad Account Desk') ? title : `${title} | Ad Account Desk by AGrowth`);
@@ -78,7 +80,7 @@ const siteSchema = {
     <script is:inline type="application/ld+json" set:html={JSON.stringify(siteSchema)} />
     {structuredData && <script is:inline type="application/ld+json" set:html={JSON.stringify(structuredData)} />}
   </head>
-  <body>
+  <body class={bodyClass}>
     <a class="skip-link" href="#main-content">Skip to content</a>
     <Header />
     <main id="main-content" data-pagefind-body={noindex ? undefined : ''}>
