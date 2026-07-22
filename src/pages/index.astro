@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { platformSections, guideSections } from '../data/site';
+import { companyMetrics, companyProfileUrl } from '../data/authority';
 
 const description = 'Practical guides on Meta, Google Ads and TikTok Ads account restrictions, suspensions, appeals, compliance and agency account operations.';
 ---
@@ -30,6 +31,21 @@ const description = 'Practical guides on Meta, Google Ads and TikTok Ads account
         <div class="hero-float hero-float--top"><span>01</span><p>Policy first</p></div>
         <div class="hero-float hero-float--bottom"><span>Always on</span><p>Account clarity</p></div>
       </div>
+    </div>
+  </section>
+
+  <section class="trust-strip" aria-labelledby="trust-heading">
+    <div class="container">
+      <div class="trust-heading">
+        <div><p class="eyebrow">AGrowth in numbers</p><h2 id="trust-heading">Experience behind the guidance.</h2></div>
+        <p>Company-reported figures from AGrowth’s primary website. Results vary by advertiser, account history, market, and platform review.</p>
+      </div>
+      <div class="trust-metrics">
+        {companyMetrics.map((metric) => (
+          <div class="trust-metric"><strong>{metric.value}</strong><span>{metric.label}</span></div>
+        ))}
+      </div>
+      <a class="trust-source" href={companyProfileUrl} rel="external">Verify these figures on agrowth.io <span aria-hidden="true">↗</span></a>
     </div>
   </section>
 

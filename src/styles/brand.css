@@ -136,6 +136,8 @@ h3 { font-size: 1.35rem; }
 .hero-meta div { color: #876b62; font-size: .74rem; }
 .hero-meta svg { color: var(--accent); }
 
+.trust-metric { background: rgba(255,250,245,.72); }
+
 .hero-visual {
   position: relative;
   min-height: 580px;
@@ -293,6 +295,10 @@ h3 { font-size: 1.35rem; }
 .topic-list-item { padding: 30px; }
 .topic-list-item::before, .topic-read, .article-card-tag, .contact-card a { color: var(--accent-dark); }
 .topic-list-item:hover, .article-card:hover, .contact-card:hover, .search-result:hover { border-color: rgba(216,47,39,.5); box-shadow: 0 20px 54px rgba(99,42,25,.1); }
+
+.platform-proof { background: #2b1511; }
+.platform-proof .eyebrow { color: var(--orange); }
+.platform-proof-copy > a { color: var(--orange); }
 
 .silo-jump a { background: rgba(255,250,245,.8); border-color: var(--line); }
 .silo-jump a:hover { background: var(--gradient); border-color: transparent; }
