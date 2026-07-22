@@ -32,6 +32,7 @@ const {
 const canonical = new URL(Astro.url.pathname, Astro.site);
 const fullTitle = seoTitle ?? (title.includes('Ad Account Desk') ? title : `${title} | Ad Account Desk by AGrowth`);
 const socialImage = new URL(image, Astro.site);
+const resolvedBodyClass = [bodyClass, bodyClass === 'home-page' ? '' : 'inner-page'].filter(Boolean).join(' ');
 const siteSchema = {
   '@context': 'https://schema.org',
   '@graph': [
@@ -80,12 +81,126 @@ const siteSchema = {
     <script is:inline type="application/ld+json" set:html={JSON.stringify(siteSchema)} />
     {structuredData && <script is:inline type="application/ld+json" set:html={JSON.stringify(structuredData)} />}
   </head>
-  <body class={bodyClass}>
+  <body class={resolvedBodyClass}>
     <a class="skip-link" href="#main-content">Skip to content</a>
+    {bodyClass !== 'home-page' && <div class="inner-scroll-progress" aria-hidden="true"></div>}
     <Header />
     <main id="main-content" data-pagefind-body={noindex ? undefined : ''}>
       <slot />
     </main>
     <Footer />
+    <script>
+      const page = document.body;
+      if (page.classList.contains('inner-page')) {
+        const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+        const progress = document.querySelector<HTMLElement>('.inner-scroll-progress');
+        const header = document.querySelector<HTMLElement>('.site-header');
+        const articleHero = document.querySelector<HTMLElement>('.article-hero');
+        const pageHero = document.querySelector<HTMLElement>('.page-hero, .search-shell');
+        const tocLinks = Array.from(document.querySelectorAll<HTMLAnchorElement>('.article-sidebar nav a[href^="#"]'));
+        const tocTargets = tocLinks
+          .map((link) => document.querySelector<HTMLElement>(link.hash))
+          .filter((target): target is HTMLElement => Boolean(target));
+        let ticking = false;
+
+        const updatePageMotion = () => {
+          const maxScroll = document.documentElement.scrollHeight - window.innerHeight;
+          const scrollRatio = maxScroll > 0 ? Math.min(window.scrollY / maxScroll, 1) : 0;
+          progress?.style.setProperty('transform', `scaleX(${scrollRatio})`);
+          header?.classList.toggle('is-scrolled', window.scrollY > 24);
+
+          if (!reduceMotion) {
+            const hero = articleHero ?? pageHero;
+            if (hero) {
+              const heroOffset = Math.max(-90, Math.min(90, window.scrollY * .065));
+              hero.style.setProperty('--inner-hero-shift', `${heroOffset}px`);
+            }
+          }
+
+          if (tocLinks.length && tocTargets.length) {
+            let activeIndex = 0;
+            const trigger = window.innerHeight * .34;
+            tocTargets.forEach((target, index) => {
+              if (target.getBoundingClientRect().top <= trigger) activeIndex = index;
+            });
+            tocLinks.forEach((link, index) => {
+              if (index === activeIndex) link.setAttribute('aria-current', 'location');
+              else link.removeAttribute('aria-current');
+            });
+          }
+          ticking = false;
+        };
+
+        const requestPageMotion = () => {
+          if (ticking) return;
+          window.requestAnimationFrame(updatePageMotion);
+          ticking = true;
+        };
+
+        window.addEventListener('scroll', requestPageMotion, { passive: true });
+        window.addEventListener('resize', requestPageMotion, { passive: true });
+        updatePageMotion();
+
+        if (!reduceMotion && 'IntersectionObserver' in window) {
+          const observer = new IntersectionObserver((entries) => {
+            entries.forEach((entry) => {
+              if (!entry.isIntersecting) return;
+              entry.target.classList.add('is-motion-visible');
+              observer.unobserve(entry.target);
+            });
+          }, { threshold: .09, rootMargin: '0px 0px -6% 0px' });
+
+          const prepare = (element: HTMLElement, index: number, immediate = false) => {
+            if (element.classList.contains('motion-item')) return;
+            element.classList.add('motion-item');
+            element.style.setProperty('--motion-delay', `${Math.min(index * 75, 300)}ms`);
+            if (immediate) window.requestAnimationFrame(() => element.classList.add('is-motion-visible'));
+            else observer.observe(element);
+          };
+
+          const heroItems = Array.from(document.querySelectorAll<HTMLElement>(
+            '.page-hero-inner > *, .article-hero .breadcrumbs, .article-hero-grid > *, .search-shell > .container > *'
+          ));
+          heroItems.forEach((element, index) => prepare(element, index, true));
+
+          const revealSelectors = [
+            '.section-heading', '.directory-heading', '.platform-proof', '.info-aside', '.prose',
+            '.topic-list-item', '.article-card', '.contact-card', '.trust-metric',
+            '.editorial-profile > *', '.desk-faq-layout > *', '.quick-answer',
+            '.markdown-content > h2', '.markdown-content > ul', '.markdown-content > ol',
+            '.markdown-content > table', '.markdown-content .article-cta',
+            '.article-content > section:not(.quick-answer)', '.editorial-note',
+            '.related-grid > a', '.source-links > a', '.footer-grid > *', '.footer-bottom'
+          ];
+          const revealItems = revealSelectors.flatMap((selector) =>
+            Array.from(document.querySelectorAll<HTMLElement>(selector))
+          );
+          revealItems.forEach((element) => {
+            const siblings = element.parentElement ? Array.from(element.parentElement.children) : [];
+            prepare(element, Math.max(0, siblings.indexOf(element)));
+          });
+
+          const searchResults = document.querySelector<HTMLElement>('#search-results');
+          if (searchResults) {
+            new MutationObserver(() => {
+              Array.from(searchResults.querySelectorAll<HTMLElement>('.search-result'))
+                .forEach((element, index) => prepare(element, index));
+            }).observe(searchResults, { childList: true });
+          }
+        }
+
+        if (!reduceMotion && window.matchMedia('(pointer: fine)').matches) {
+          document.addEventListener('pointermove', (event) => {
+            const card = (event.target as HTMLElement).closest<HTMLElement>(
+              '.topic-list-item, .article-card, .contact-card, .related-grid > a, .trust-metric, .search-result'
+            );
+            if (!card) return;
+            const rect = card.getBoundingClientRect();
+            card.style.setProperty('--motion-x', `${((event.clientX - rect.left) / rect.width) * 100}%`);
+            card.style.setProperty('--motion-y', `${((event.clientY - rect.top) / rect.height) * 100}%`);
+          }, { passive: true });
+        }
+      }
+    </script>
   </body>
 </html>
