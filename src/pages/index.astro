@@ -87,7 +87,8 @@ const platformSignals: Record<string, string[]> = {
     </div>
   </div>
 
-  <section class="platform-desk" id="platforms">
+  <section class="platform-desk" id="platforms" data-platform-story>
+    <div class="platform-desk__sticky">
     <div class="container">
       <header class="home-section-head">
         <div>
@@ -100,9 +101,20 @@ const platformSignals: Record<string, string[]> = {
         </div>
       </header>
 
-      <div class="platform-showcase">
+      <div class="platform-progress" aria-hidden="true">
+        <div class="platform-progress__labels">
+          {platformSections.map((section, index) => (
+            <span data-platform-label><b>0{index + 1}</b>{section.accent} Ads</span>
+          ))}
+        </div>
+        <div class="platform-progress__rail"><i data-platform-meter></i></div>
+        <small>Scroll to compare</small>
+      </div>
+
+      <div class="platform-viewport">
+      <div class="platform-showcase" data-platform-track>
         {platformSections.map((section, index) => (
-          <a class="platform-panel" data-platform={section.accent} href={`/${section.slug}/`}>
+          <a class="platform-panel" data-platform={section.accent} data-platform-card href={`/${section.slug}/`}>
             <div class="platform-panel__top">
               <span class="platform-glyph" aria-hidden="true">{platformCodes[section.accent]}</span>
               <span class="platform-index">0{index + 1} / 03</span>
@@ -121,10 +133,12 @@ const platformSignals: Record<string, string[]> = {
           </a>
         ))}
       </div>
+      </div>
+    </div>
     </div>
   </section>
 
-  <section class="response-system">
+  <section class="response-system" data-response-system>
     <div class="container response-system__grid">
       <div class="response-intro">
         <p class="home-kicker"><span></span> The AGrowth response system</p>
@@ -134,15 +148,15 @@ const platformSignals: Record<string, string[]> = {
       </div>
 
       <div class="response-steps">
-        <article>
+        <article data-response-step>
           <div class="step-orbit"><span>01</span><i></i></div>
           <div><p>Observe</p><h3>Map the restriction</h3><span>Identify the affected ad, account, payment profile, business entity or connected asset.</span></div>
         </article>
-        <article>
+        <article data-response-step>
           <div class="step-orbit"><span>02</span><i></i></div>
           <div><p>Resolve</p><h3>Correct the cause</h3><span>Review policy, security, identity and billing signals before making account changes.</span></div>
         </article>
-        <article>
+        <article data-response-step>
           <div class="step-orbit"><span>03</span><i></i></div>
           <div><p>Respond</p><h3>Prepare the review</h3><span>Submit a clear record of the issue, remediation, evidence and preventive controls.</span></div>
         </article>
@@ -162,7 +176,7 @@ const platformSignals: Record<string, string[]> = {
 
       <div class="knowledge-grid">
         {guideSections.map((section, index) => (
-          <a class="knowledge-card" href={`/${section.slug}/`}>
+          <a class="knowledge-card" data-depth-card href={`/${section.slug}/`}>
             <span class="knowledge-card__index">0{index + 1}</span>
             <div class="knowledge-card__icon" aria-hidden="true">
               {index === 0 && <svg viewBox="0 0 40 40" fill="none"><circle cx="20" cy="20" r="15"/><path d="m13 20 5 5 10-11"/></svg>}
@@ -202,6 +216,15 @@ const platformSignals: Record<string, string[]> = {
     const story = document.querySelector<HTMLElement>('[data-story]');
     const storyStage = story?.querySelector<HTMLElement>('.story-stage');
     const storyCards = Array.from(story?.querySelectorAll<HTMLElement>('[data-story-card]') ?? []);
+    const platformStory = document.querySelector<HTMLElement>('[data-platform-story]');
+    const platformSticky = platformStory?.querySelector<HTMLElement>('.platform-desk__sticky');
+    const platformViewport = platformStory?.querySelector<HTMLElement>('.platform-viewport');
+    const platformTrack = platformStory?.querySelector<HTMLElement>('[data-platform-track]');
+    const platformCards = Array.from(platformStory?.querySelectorAll<HTMLElement>('[data-platform-card]') ?? []);
+    const platformLabels = Array.from(platformStory?.querySelectorAll<HTMLElement>('[data-platform-label]') ?? []);
+    const platformMeter = platformStory?.querySelector<HTMLElement>('[data-platform-meter]');
+    const responseSystem = document.querySelector<HTMLElement>('[data-response-system]');
+    const responseSteps = Array.from(responseSystem?.querySelectorAll<HTMLElement>('[data-response-step]') ?? []);
     let ticking = false;
 
     const clamp = (value: number, min = 0, max = 1) => Math.min(Math.max(value, min), max);
@@ -265,11 +288,51 @@ const platformSignals: Record<string, string[]> = {
           });
         }
 
-        const response = document.querySelector<HTMLElement>('.response-system');
-        if (response) {
-          const rect = response.getBoundingClientRect();
+        if (platformStory && platformSticky && platformViewport && platformTrack) {
+          const desktopStory = window.innerWidth > 980;
+          if (desktopStory) {
+            const rect = platformStory.getBoundingClientRect();
+            const distance = Math.max(1, platformStory.offsetHeight - platformSticky.offsetHeight);
+            const platformProgress = clamp(-rect.top / distance);
+            const maxShift = Math.max(0, platformTrack.scrollWidth - platformViewport.clientWidth);
+            platformTrack.style.transform = `translate3d(${-maxShift * ease(platformProgress)}px, 0, 0)`;
+            platformMeter?.style.setProperty('transform', `scaleX(${platformProgress})`);
+
+            const activeIndex = Math.min(
+              platformCards.length - 1,
+              Math.max(0, Math.round(platformProgress * (platformCards.length - 1)))
+            );
+            platformCards.forEach((card, index) => card.classList.toggle('is-active', index === activeIndex));
+            platformLabels.forEach((label, index) => label.classList.toggle('is-active', index === activeIndex));
+          } else {
+            platformTrack.style.transform = '';
+            platformMeter?.style.setProperty('transform', 'scaleX(1)');
+            platformCards.forEach((card) => card.classList.remove('is-active'));
+            platformLabels.forEach((label) => label.classList.remove('is-active'));
+          }
+        }
+
+        if (responseSystem) {
+          const rect = responseSystem.getBoundingClientRect();
           const offset = Math.max(-90, Math.min(90, (rect.top - window.innerHeight) * -.035));
           document.documentElement.style.setProperty('--response-parallax', `${offset}px`);
+
+          let activeStep = 0;
+          let nearestDistance = Number.POSITIVE_INFINITY;
+          responseSteps.forEach((step, index) => {
+            const stepRect = step.getBoundingClientRect();
+            const distance = Math.abs(stepRect.top + stepRect.height * .5 - window.innerHeight * .3);
+            if (distance < nearestDistance) {
+              nearestDistance = distance;
+              activeStep = index;
+            }
+          });
+          responseSteps.forEach((step, index) => {
+            step.classList.toggle('is-active', index === activeStep);
+            step.classList.toggle('is-past', index < activeStep);
+          });
+          const stepProgress = responseSteps.length > 1 ? activeStep / (responseSteps.length - 1) : 1;
+          responseSystem.style.setProperty('--response-step-progress', String(stepProgress));
         }
       }
       ticking = false;
@@ -286,10 +349,27 @@ const platformSignals: Record<string, string[]> = {
     window.addEventListener('resize', requestScrollUpdate, { passive: true });
     updateScrollEffects();
 
+    if (!reduceMotion && window.matchMedia('(pointer: fine)').matches) {
+      document.querySelectorAll<HTMLElement>('[data-depth-card]').forEach((card) => {
+        card.addEventListener('pointermove', (event) => {
+          const rect = card.getBoundingClientRect();
+          const x = clamp((event.clientX - rect.left) / rect.width);
+          const y = clamp((event.clientY - rect.top) / rect.height);
+          card.style.setProperty('--spot-x', `${x * 100}%`);
+          card.style.setProperty('--spot-y', `${y * 100}%`);
+          card.style.setProperty('--card-shift-x', `${(x - .5) * 12}px`);
+          card.style.setProperty('--card-shift-y', `${(y - .5) * 12}px`);
+        });
+        card.addEventListener('pointerleave', () => {
+          card.style.removeProperty('--card-shift-x');
+          card.style.removeProperty('--card-shift-y');
+        });
+      });
+    }
+
     if (!reduceMotion && 'IntersectionObserver' in window) {
       const groups = [
         '.platform-desk .home-section-head',
-        '.platform-panel',
         '.response-intro',
         '.response-steps article',
         '.knowledge-section .home-section-head',
