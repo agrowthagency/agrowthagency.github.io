@@ -8,122 +8,112 @@ publishedDate: 2026-07-10
 updatedDate: 2026-07-10
 ---
 
-Most advertisers look for the single technical act that triggered a Circumventing systems suspension: a redirect, a second account, a tracking template, a domain variation. That search can miss the deeper issue.
+Advertisers often search for the single technical action that caused a Circumventing systems suspension: a redirect, second account, tracking template, domain change, or verification mismatch. That search may miss the wider problem.
 
-Google is not only asking whether one implementation is technically allowed. It is asking whether the advertising system can reliably determine who the advertiser is, what it offers, where users will land, and whether enforcement decisions remain effective.
+Google needs to identify who is advertising, what is being offered, where people will land, and whether earlier policy decisions are still being respected. When different parts of the business tell different stories, even ordinary tools can produce behavior that looks designed to avoid review.
 
-Circumvention is therefore best understood as a coherence failure. Different parts of the advertiser’s operation tell materially different stories—or the organization behaves as if a previous policy decision should not apply to its next account, domain, or identity.
+The right response is not to guess which signal Google detected. It is to make the whole advertising operation consistent, traceable, and truthful.
 
-## The policy protects the review process itself
+## Understand what the policy is protecting
 
-Google classifies [Circumventing systems](https://support.google.com/adspolicy/answer/15938075?hl=en) as an egregious policy area. The examples include attempting to bypass enforcement, cloaking, multiple-account abuse, hiding non-compliant content through variations, abusing product features, and supplying false information during verification.
+Google's current [Circumventing systems policy](https://support.google.com/adspolicy/answer/15938075?hl=en) prohibits attempts to interfere with its advertising systems and review processes. Examples include cloaking, creating variations to hide disapproved content, opening new accounts after a suspension to re-enter the system, spreading violations across accounts, abusing product features, and providing false verification information.
 
-These examples look different technically, but they share one operating principle: the advertiser interferes with the platform’s ability to apply a consistent decision.
+Google classifies this as an egregious policy area, which means an account may be suspended without prior warning. A single creative audit is therefore too narrow. The review may consider ads, websites, accounts, business identities, payment relationships, third-party information, and earlier enforcement.
 
-That explains why a creative-only audit is usually inadequate. The investigation must include:
+This does not mean that every redirect, experiment, or multi-account structure is prohibited. The key question is whether the setup preserves the same important facts and allows Google to apply a consistent decision.
 
-- The identity and business represented in the account.
-- The full destination chain, including trackers and redirects.
-- Differences by device, location, audience, referrer, crawler, and login state.
-- Other accounts, domains, apps, Merchant Center profiles, and manager relationships.
-- Previous disapprovals, suspensions, verification attempts, and account creation.
-- Who changed each surface and why.
+For an internal review, stop asking “How was this detected?” Ask instead:
 
-The objective is not to reverse-engineer detection. It is to demonstrate that the advertiser’s system has one legitimate explanation.
+- Does every user and reviewer reach the same material offer?
+- Can the business explain every account, domain, identity, and payment relationship?
+- Did any new account or variation continue activity that was already disapproved or suspended?
+- Is all verification information accurate and supported?
 
-## Legitimate variation and cloaking are separated by intent and important facts
+These questions focus the team on correction rather than evasion.
 
-Modern websites vary content constantly. They localize language, adapt prices, run experiments, route users through tracking, and personalize experiences. Variation alone is not evidence of cloaking.
+## Check the full advertising system
 
-The practical question is whether those variations preserve the same material offer and policy posture. A French-language page and an English-language page can differ in presentation while selling the same service. A mobile checkout and desktop checkout can use different layouts. A click tracker can record attribution before reaching the declared destination.
+Circumventing risk often appears where several legitimate tools or teams connect. Review the destination, account structure, and business identity together.
 
-Risk rises when variation changes the facts that matter to review or user choice: the product, eligibility, claims, pricing, identity, prohibited content, or final destination. It rises further when those differences depend on whether the visitor appears to be a reviewer or crawler.
+### Destination changes and cloaking
 
-The correct control is not “remove all redirects.” It is a destination observability process. The advertiser should be able to trace representative clicks from ad to final page across target markets and devices, record every hop, and explain each difference.
+Websites routinely change language, prices, layouts, tracking, and content by device or location. Variation alone is not cloaking. Risk increases when the product, eligibility, claims, pricing, business identity, prohibited content, or final destination changes depending on who appears to be visiting.
 
-## Multiple accounts are not automatically abuse—but they require a real business model
+Trace representative ad clicks across target countries, devices, logged-in states, and tracking paths. Record each redirect and final page. Compare what a normal user sees with what Google AdsBot can access. The goal is not to remove every redirect; it is to explain why each route exists and confirm that important facts remain consistent.
 
-Enterprises and agencies legitimately operate many Google Ads accounts. Brands separate countries, legal entities, product lines, and clients. Manager accounts exist to support this complexity.
+### Multiple accounts and earlier enforcement
 
-The risk is not the number of accounts by itself. It is the purpose and behavior of the structure.
+Agencies and larger businesses may legitimately use many accounts for separate clients, countries, legal entities, or product lines. The number of accounts is not the main issue. The business must be able to explain why each account exists and show that the structure is not being used to continue unresolved activity.
 
-Ask four questions:
+Creating another account after suspension to advertise the same unresolved offer is specifically identified by Google as prohibited. Resolve related suspensions through the appeal process rather than increasing the number of accounts.
 
-1. Does each account represent a real, explainable advertiser or operating boundary?
-2. Are ownership, billing, verification, domains, and manager relationships documented?
-3. Do the accounts distribute substantially similar non-compliant activity?
-4. Were new accounts created after enforcement to continue the same unresolved advertising?
+### Verification and business relationships
 
-When the honest answer to the fourth question is yes, a sophisticated hierarchy does not make the activity less risky. It only makes the full set of evidence larger.
+Verification may involve the advertiser, payer, supplier, agency, domain owner, and public business name. These parties do not have to be identical, but their relationships must be accurate and documented. Google's [advertiser verification guidance](https://support.google.com/adspolicy/answer/9703665?hl=en) warns that false information can lead to suspension under Circumventing systems.
 
-Google explicitly identifies creating new accounts after suspension to re-enter the system as prohibited. The practical response to a suspension is to resolve and appeal the original decision, not to increase account inventory.
+Keep a simple relationship record showing who sells the product, owns the domain, pays Google, fulfills the service, controls customer data, and manages campaigns. Do not submit whichever company has the easiest documents if it is not the actual advertiser.
 
-## Verification turns corporate ambiguity into policy risk
+## Investigate in four connected layers
 
-Advertiser verification asks who the advertiser is, who pays, what the business does, and how relevant parties are related. Google’s current [verification guidance](https://support.google.com/adspolicy/answer/9703665?hl=en) warns that false information can lead to loss of verification and suspension under Circumventing systems.
+Freeze non-essential changes before investigating. If routes, accounts, and identities continue changing, the team cannot recreate what Google or users saw.
 
-Many verification failures are not elaborate fraud. They are the product of unmanaged corporate complexity: a parent company pays, a subsidiary operates the website, an agency owns the account, a trading name appears in ads, and the documents show a different registered name.
+### 1. Business representation
 
-That does not make the structure illegitimate. It makes explanation necessary.
+Compare the advertiser name, verification record, payments profile, website identity, disclosures, contact details, supplier, and agency role. Record every mismatch and the legitimate explanation or required correction.
 
-The advertiser should maintain a relationship file showing:
+### 2. Destination path
 
-- Legal entity and trading names.
-- Parent, subsidiary, franchise, or licensed-brand relationships.
-- Who supplies the advertised product or service.
-- Who owns the domain and customer relationship.
-- Who pays Google and under what authorization.
-- Which agency manages campaigns and what access it has.
+Resolve tracking templates, redirects, scripts, and location rules from the ad click to the final conversion. Test representative devices and markets. Check claims, prices, products, forms, downloads, and authentication requirements at each step.
 
-Submitting a convenient entity because its documents are easier to obtain can turn an administrative problem into an integrity problem.
+### 3. Account relationships
 
-## Example: a landing page with no clear owner
+List current and former customer IDs, manager accounts, administrators, verified identities, payments profiles, domains, apps, feeds, Merchant Center accounts, and prior suspensions. Do not unlink assets to hide the relationships. Separate legitimate boundaries from duplicated activity.
 
-Consider a composite affiliate operation. The media team controls ads and tracking. A funnel team manages pre-landers. The merchant controls the final checkout. A third-party tool routes traffic by country and device. No one owns the complete path.
+### 4. Change ownership
 
-After a policy disapproval, the media team pauses one campaign but continues similar traffic from another account. The funnel team changes copy on the default page, but one geolocation rule still sends certain users to the previous claim. The merchant replaces the offer without telling the agency.
+Identify who can create accounts, launch campaigns, edit routes, publish pages, change verification data, and onboard offers. Compare those permissions with the business's ability to review changes. A repeated integrity problem often means too many people can publish without one person seeing the full result.
 
-No single employee decides to cloak. Yet the system produces reviewer-user inconsistency, repeats a disapproved pattern across accounts, and lacks a credible owner who can explain the destination.
+This four-layer review should produce one record of what happened, where it appeared, who owned it, and what was changed.
 
-The fix is architectural, not rhetorical. The company pauses the offer across accounts, inventories every route, removes uncontrolled variations, assigns a destination owner, documents the merchant relationship, and implements change approval. Only after the system is consistent does an appeal become meaningful.
+## Learn from a fragmented destination example
 
-This is why intent alone is not a sufficient control. An organization can create circumvention-like behavior through fragmentation and negligence.
+Consider a hypothetical affiliate operation. The media team controls ads and tracking, a funnel team manages pre-landing pages, the merchant controls checkout, and a third-party tool routes visitors by country and device. No one owns the entire path.
 
-## Investigate the system in four layers
+After a disapproval, the media team pauses one campaign but continues similar traffic from another account. The funnel team updates the default page, but one location rule still shows the old claim. The merchant changes the offer without telling the agency.
 
-### 1. Representation
+No single employee may have intended to cloak content. The result is still a system that shows different important facts to different visitors, repeats a disapproved pattern across accounts, and has no owner who can explain the destination.
 
-Compare the advertiser name, verification data, payment profile, website identity, disclosures, contact details, and product supplier. Record every mismatch and the legitimate relationship, if one exists.
+The business should pause the offer across affected accounts, preserve the routes, remove uncontrolled variations, assign one destination owner, document the merchant relationship, and require approval for future changes. Only after the full path is consistent does an appeal have a stable factual basis.
 
-### 2. Destination
+This example shows why intent alone is not a sufficient safeguard. Poor coordination can create the same external pattern as deliberate evasion.
 
-Resolve tracking templates and redirects from multiple target conditions. Compare page content, claims, products, and user actions. Check what Google AdsBot can access and whether authentication or geolocation creates material differences.
+## Fix the system before submitting an appeal
 
-### 3. Account graph
+A weak appeal says, “We did not intend to violate policy.” A useful appeal explains what Google may have observed, why it happened, how far it spread, what was corrected, and how the business will stop it from returning.
 
-Map current and former customer IDs, managers, administrators, verified identities, payments profiles, domains, apps, feeds, and prior suspensions. Do not unlink entities to hide the graph; document and correct them.
+If the decision appears incorrect, provide test results showing consistent destination behavior and evidence explaining the account and business relationships. If a real problem existed, take responsibility for the whole operation. An agency, vendor, developer, or merchant may have caused the change, but the advertiser still needs to show how that dependency is now controlled.
 
-### 4. Change process
+Before submitting:
 
-Identify who can launch accounts, modify routes, publish landing pages, change verification information, and onboard offers. A recurring integrity incident often indicates that these permissions are wider than the organization’s review capacity.
+1. Preserve the suspension notice and relevant before-and-after evidence.
+2. Pause affected activity across related accounts and routes.
+3. Complete the four-layer investigation.
+4. Correct every material variation or explain its legitimate purpose.
+5. Resolve related suspensions and verification issues.
+6. Assign owners for destinations, accounts, and business information.
+7. Submit one consistent appeal through the account notification.
 
-## An appeal must explain why the system is now trustworthy
+Avoid repeated appeals while accounts and destinations continue changing. A reviewer cannot verify a moving system, and competing explanations make the advertiser harder to understand.
 
-A weak appeal says, “We did not intend to violate policy.” A stronger appeal explains the behavior Google may have observed, why it occurred, which surfaces were affected, what was removed or corrected, and how the organization now controls repeat issue.
+## Prevent the same pattern in daily operations
 
-If the decision appears mistaken, show the consistent destination behavior and the business relationships that may have been misunderstood. If a real issue existed, do not hide behind agency, vendor, or developer error. Google evaluates the advertiser’s system; responsibility cannot be outsourced after the fact.
+Circumventing systems cannot be managed only with a creative checklist. Tracking tools, experiments, feeds, agencies, payment owners, verification records, and website releases all affect what Google and users see.
 
-Avoid submitting repeated appeals while continuing to change accounts and destinations. That creates a moving target. Freeze material changes, complete the audit, then submit one consistent record through the suspension notification.
+Build routine safeguards around those connections. Keep an inventory of accounts and domains. Test destination routes before launch and after major releases. Require approval for material claim, price, identity, and routing changes. Review who can create accounts or edit verification information. Record merchant, supplier, and agency relationships. Escalate any attempt to continue a rejected offer through another account or domain.
 
-## Good compliance depends on how the business works every day
+Complexity is not automatically a violation. Unexplained complexity is the risk. A well-run advertiser should be comfortable showing Google, a customer, and an internal reviewer the same business, offer, and destination path.
 
-As advertising stacks become more composable, policy compliance cannot live only in a creative checklist. Redirect services, experimentation platforms, feed tools, agencies, payment owners, and business-verification workflows all influence what the platform sees.
-
-The companies least likely to create circumvention risk will not be those with the simplest websites. They will be those that can observe and explain their complexity.
-
-The decisive question is not “Can this variation pass review?” It is “Would we be comfortable showing Google, a user, and a regulator the same operating map?” If the answer depends on who is looking, the setup—not just the ad—is already warning you.
-
-The operating map should connect the [full destination chain](/google-ads/google-ads-destination-requirements/) with the advertiser’s [claims and representation controls](/google-ads/google-ads-misrepresentation/). When Google has already suspended the account, use those same facts in the [suspension diagnosis](/google-ads/google-ads-account-suspended/) instead of creating replacement routes or identities.
+Connect this review to the [destination requirements guide](/google-ads/google-ads-destination-requirements/) and the advertiser's [claims and representation controls](/google-ads/google-ads-misrepresentation/). If Google has already suspended the account, use the same facts in the [suspension diagnosis](/google-ads/google-ads-account-suspended/) instead of creating replacement routes or identities.
 
 ## Official references
 
