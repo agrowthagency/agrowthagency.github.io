@@ -426,7 +426,7 @@
   height: min(620px, 68vh);
   min-height: 480px;
   left: 50%;
-  top: 51%;
+  top: calc(51% + var(--story-world-y, 0px));
   opacity: var(--story-world-opacity, .12);
   transform: translate(-50%, -50%) scale(var(--story-world-scale, .62)) rotate(var(--story-world-rotate, -4deg));
   transform-origin: center;
@@ -510,6 +510,18 @@
   transform: translate3d(-50%, var(--story-resolution-y, 45px), 0);
   pointer-events: var(--story-resolution-events, none);
   will-change: transform, opacity;
+}
+.story-resolution::before {
+  position: absolute;
+  z-index: -1;
+  width: min(920px, 100%);
+  height: 220px;
+  left: 50%;
+  bottom: -34px;
+  background: radial-gradient(ellipse, rgba(21,19,17,.96) 0%, rgba(21,19,17,.72) 52%, rgba(21,19,17,0) 78%);
+  content: "";
+  transform: translateX(-50%);
+  pointer-events: none;
 }
 .story-resolution > p { color: var(--home-orange); font-size: .61rem; font-weight: 850; letter-spacing: .18em; text-transform: uppercase; }
 .story-resolution h2 { margin-top: 10px; color: #f5f2eb; font-size: clamp(2.5rem, 5vw, 5rem); line-height: .95; letter-spacing: -.065em; }

@@ -231,8 +231,9 @@ const platformSignals: Record<string, string[]> = {
           storyStage.style.setProperty('--story-title-y', `${storyProgress * -110}px`);
           storyStage.style.setProperty('--story-title-scale', String(1 - storyProgress * .035));
           storyStage.style.setProperty('--story-world-opacity', String(.12 + worldIn * .88));
-          storyStage.style.setProperty('--story-world-scale', String(.62 + worldIn * .38));
+          storyStage.style.setProperty('--story-world-scale', String((.62 + worldIn * .38) * (1 - resolutionIn * .14)));
           storyStage.style.setProperty('--story-world-rotate', `${-4 + storyProgress * 7}deg`);
+          storyStage.style.setProperty('--story-world-y', `${resolutionIn * -125}px`);
           storyStage.style.setProperty('--story-core-scale', String(.86 + worldIn * .18));
           storyStage.style.setProperty('--story-aurora-scale', String(.72 + worldIn * .4));
           storyStage.style.setProperty('--story-resolution-opacity', String(resolutionIn));
@@ -257,7 +258,9 @@ const platformSignals: Record<string, string[]> = {
               x *= .7;
               y *= .72;
             }
-            card.style.opacity = String(cardOpacity);
+            const lowerCard = card.classList.contains('story-float-card--tiktok') || card.classList.contains('story-float-card--review');
+            const sceneFade = lowerCard ? 1 - resolutionIn * .92 : 1 - resolutionIn * .58;
+            card.style.opacity = String(cardOpacity * sceneFade);
             card.style.transform = `translate3d(${x * spread}px, ${y * spread}px, 0) rotate(${rotation * spread}deg) scale(${.82 + spread * .18})`;
           });
         }
