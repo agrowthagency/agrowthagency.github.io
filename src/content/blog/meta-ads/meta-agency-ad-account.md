@@ -14,14 +14,14 @@ It can describe a client-owned ad account accessed by an agency partner, an acco
 
 The label is less important than the control design.
 
-## Identify the actual operating model
+## Identify the actual way the account is managed
 
 Before funding campaigns, document:
 
 - Which legal entity controls the Business Portfolio and ad account.
 - Who owns the Page, Instagram account, pixel/dataset, domain, catalog, app, and audiences.
 - Whether the client has direct, durable administrative visibility.
-- How the agency receives access: named person, partner assignment, or shared credentials.
+- How the agency receives access: named person, partner assignment, or shared login details.
 - Which entity pays Meta and which entity invoices the advertiser.
 - Whose business identity and documents support verification.
 - Who owns support cases and can communicate with Meta.
@@ -40,7 +40,7 @@ Use an ownership matrix:
 | Business Portfolio | Named organization | Named party | Admin team | Maintain/transfer where possible |
 | Ad account | Portfolio/account controller | Named party | Agency media team | Remove partner or preserve access |
 | Page/Instagram | Brand owner | Client/brand | Content and ads teams | Retain with brand |
-| Pixel/dataset | Portfolio controller | Named party | Analytics team | Preserve continuity and lawful access |
+| Pixel/dataset | Portfolio controller | Named party | Analytics team | Preserve ability to keep operating and lawful access |
 | Catalog/domain/app | Relevant controller | Named party | Commerce/web team | Remove agency dependency |
 
 Business-critical identity and data assets should ordinarily remain under the real advertiser’s durable control when the platform model allows it.
@@ -57,36 +57,36 @@ The contract should define who approves products, markets, targeting, claims, cr
 
 The client remains responsible for truthful business facts and lawful products. The agency remains responsible for its representations, access practices, and campaign work. A clause cannot turn false information into compliant advertising.
 
-## Perform provider due diligence
+## Perform provider careful checks
 
 Ask for a live, permission-appropriate walkthrough rather than screenshots detached from the account. Verify the contracting entity, business address, payment flow, access model, sample invoice, security requirements, support process, incident history disclosure, subcontractors, and offboarding mechanics.
 
-Warning signs include guaranteed reinstatement, permanent limits, permission to run prohibited offers, instructions to conceal the real advertiser, payment to unrelated individuals, refusal to name the account owner, and dependence on credential sharing.
+Warning signs include guaranteed reinstatement, permanent limits, permission to run prohibited offers, instructions to conceal the real advertiser, payment to unrelated individuals, refusal to name the account owner, and dependence on login detail sharing.
 
 ## Design offboarding before launch
 
 Specify notice, final billing, open balance, campaign exports, creative, reporting, pixels and audiences, Pages, catalogs, leads, support cases, user removal, partner removal, and data retention. Test whether the client has its own authenticated administrators and can see its critical assets before the relationship becomes urgent.
 
-Use [Meta business asset governance](/meta-ads/meta-business-asset-governance/) for ownership and permissions, [Meta Ads billing and payments](/meta-ads/meta-billing-and-payments/) for financial design, and [Verified and high-limit Meta accounts](/meta-ads/verified-high-limit-accounts/) to evaluate commercial claims.
+Use [Meta business asset management](/meta-ads/meta-business-asset-governance/) for ownership and permissions, [Meta Ads billing and payments](/meta-ads/meta-billing-and-payments/) for financial design, and [Verified and high-limit Meta accounts](/meta-ads/verified-high-limit-accounts/) to evaluate commercial claims.
 
 ## Compare common account structures
 
 | Structure | Main advantage | Main dependency |
 | --- | --- | --- |
-| Client-owned account with agency partner access | Client continuity and direct visibility | Client must maintain competent ownership and billing |
+| Client-owned account with agency partner access | Client ability to keep operating and direct visibility | Client must maintain competent ownership and billing |
 | Agency-created account intended for one client | Fast managed setup in some models | Technical control and transfer terms may favor agency |
-| Agency-managed account without client access | Operational simplicity for client | Low transparency and high provider dependency |
+| Agency-managed account without client access | Practical simplicity for client | Low transparency and high provider dependency |
 | Sub-provider or reseller chain | May extend capacity or service coverage | Additional hidden control, billing, and support layers |
 
-No structure is automatically safe or unsafe. Evaluate whether its control and disclosure match the advertiser’s risk, scale, and need for continuity.
+No structure is automatically safe or unsafe. Evaluate whether its control and disclosure match the advertiser’s risk, scale, and need for ability to keep operating.
 
 ## Require an incident responsibility matrix
 
-Define who detects, contains, investigates, approves remediation, submits review, communicates with Meta, informs the client, and reconciles financial impact. Set notification deadlines for rejected ads, unusual spend, security warnings, account restrictions, and provider-side business incidents.
+Define who detects, contains, investigates, approves fixes, submits review, communicates with Meta, informs the client, and reconciles financial impact. Set notification deadlines for rejected ads, unusual spend, security warnings, account restrictions, and provider-side business incidents.
 
 The agency should preserve evidence and disclose facts within its control. The client should not learn about a restriction only after asking why reports stopped.
 
-## Govern subcontractors and account supply chains
+## Manage subcontractors and account supply chains
 
 If the contracted agency obtains accounts, support, billing, or labor from another provider, identify that provider and its role. Determine whether it can access client data, campaigns, Pages, payment information, or support cases. Make confidentiality, security, data processing, incident reporting, and termination obligations flow through the chain.
 

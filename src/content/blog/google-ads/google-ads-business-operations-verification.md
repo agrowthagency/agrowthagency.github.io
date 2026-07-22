@@ -12,7 +12,7 @@ Business Operations Verification often fails even when every submitted company i
 
 The parent is registered. The agency exists. The supplier has a contract. The website is live. The payer is solvent. But the submission never explains why the parent pays, the subsidiary advertises, the agency owns the account, the supplier fulfills the order, and a founder owns the domain.
 
-Google Ads Business Operations Verification is not a search for the strongest document. It is a test of whether those documents describe one comprehensible operating model.
+Google Ads Business Operations Verification is not a search for the strongest document. It is a test of whether those documents describe one comprehensible way the account is managed.
 
 ## BOV is a task within Advertiser Verification
 
@@ -27,7 +27,7 @@ Keep the distinction clear:
 
 These processes can interact, but passing one does not answer all the others.
 
-## Build the operating model before opening the form
+## Build the way the account is managed before opening the form
 
 Create a one-page entity map covering:
 
@@ -67,11 +67,11 @@ Redact proprietary information only to the extent that the material relationship
 
 ## Document quality is part of the answer
 
-Even the correct evidence can fail operationally when it is incomplete, illegible, expired, or detached from the answer it supports. Build a submission index that names each file, issuing entity, relevant fields, relationship proved, date, and any redaction.
+Even the correct evidence can fail in practice when it is incomplete, illegible, expired, or detached from the answer it supports. Build a submission index that names each file, issuing entity, relevant fields, relationship proved, date, and any redaction.
 
 Check that legal names include the correct suffixes, addresses match the intended entity, all material pages and signatures are present, and licenses remain current. Avoid unexplained file collections when the task requests formal evidence. If translated evidence is necessary, retain the original and make the relationship between versions clear.
 
-The reviewer should not have to infer why a document was uploaded. Evidence architecture is part of business-model clarity.
+The reviewer should not have to infer why a document was uploaded. Evidence setup is part of business-model clarity.
 
 ## The website is evidence, not decoration
 
@@ -111,7 +111,7 @@ The team uploads more incorporation records when Google needs evidence of author
 
 The remedy is not document volume. It is correspondence between question, answer, and proof.
 
-## A composite scenario: the agency that became the advertiser
+## Example: when the agency appears to be the advertiser
 
 Consider a composite agency that creates the client’s Google Ads account, pays media through a central arrangement, controls the landing page, and submits its own company documents for verification. The client supplies the regulated service and holds the license.
 
@@ -121,7 +121,7 @@ The stronger submission identifies the client as the regulated provider, documen
 
 The objective is not to remove the agency from view. It is to represent the agency accurately.
 
-## Treat failed verification as a versioned incident
+## Treat failed verification as a incident with a clear change history
 
 Preserve:
 
@@ -147,7 +147,7 @@ Before submission, confirm that the organization can answer three sentences with
 
 Complexity is not automatically suspicious. Unexplained complexity is fragile.
 
-Use the parent [Google Ads advertiser verification framework](/google-ads/google-ads-advertiser-verification/) for deadlines, identity tasks, disclosures, and reverification. Agency structures should also be checked against [Google agency account governance](/google-ads/google-agency-ad-account/). If the business needs product- or market-specific approval, connect the operating explanation to the relevant [restricted-business eligibility](/google-ads/google-ads-restricted-businesses/) rather than treating identity verification as permission to advertise everything.
+Use the parent [Google Ads advertiser verification guide](/google-ads/google-ads-advertiser-verification/) for deadlines, identity tasks, disclosures, and reverification. Agency structures should also be checked against [Google agency account management](/google-ads/google-agency-ad-account/). If the business needs product- or market-specific approval, connect the operating explanation to the relevant [restricted-business eligibility](/google-ads/google-ads-restricted-businesses/) rather than treating identity verification as permission to advertise everything.
 
 ## Official references
 

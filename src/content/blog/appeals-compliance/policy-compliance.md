@@ -8,13 +8,13 @@ publishedDate: 2026-07-10
 updatedDate: 2026-07-10
 ---
 
-## What policy compliance usually means
+## What policy compliance means
 
 Compliance is not a one-time creative check. Platforms review the whole experience, including advertiser identity, product eligibility, claims, targeting, destination content, payments, and behavior over time. A repeatable system makes ownership and evidence explicit.
 
 The exact in-product notice should lead the diagnosis. Account labels used by teams, communities, or providers can be imprecise, while the platform notice identifies the affected asset, available review path, and policy area. Preserve that evidence before changing campaigns, users, billing, or connected assets.
 
-## Signals to check first
+## What to check first
 
 Use these signals to establish scope. They are prompts for investigation, not proof that a particular policy was violated.
 
@@ -22,7 +22,7 @@ Use these signals to establish scope. They are prompts for investigation, not pr
 - Landing-page or offer changes bypass the original approval process.
 - Teams cannot produce evidence for claims, licenses, or consent.
 
-## A responsible response process
+## What to do next
 
 1. Create a policy matrix by platform, country, vertical, and funnel stage.
 2. Assign reviewers for offer, creative, legal claims, destination, data, and targeting.
@@ -38,7 +38,7 @@ Keep one incident owner, one evidence folder, and one timeline. Consistency matt
 
 Never submit false documents, conceal account relationships, or use another account to evade an unresolved enforcement decision. Those actions can create additional integrity concerns across connected assets.
 
-## Controls to reduce recurrence
+## How to prevent the problem from happening again
 
 - Track policy changes.
 - Train operators on escalation triggers.

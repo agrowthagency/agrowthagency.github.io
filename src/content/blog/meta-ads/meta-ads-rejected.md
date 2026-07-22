@@ -45,7 +45,7 @@ Do not assume the named policy points to one offending word. The visible phrase 
 
 ## Choose correction or another review deliberately
 
-If the ad has a confirmed problem, correct it materially. Record the original, the relevant rule, the change, and the reviewer. Cosmetic substitutions designed to preserve the same prohibited meaning are not remediation.
+If the ad has a confirmed problem, correct it materially. Record the original, the relevant rule, the change, and the reviewer. Cosmetic substitutions designed to preserve the same prohibited meaning are not fixes.
 
 If the ad appears compliant, request another review through the option shown for that decision. A concise request should identify why the complete ad meets the cited standard and point to any context a reviewer may have missed. Avoid unrelated company history and emotional pressure.
 
@@ -64,7 +64,7 @@ Track rejection rate by policy label, creator, campaign type, and template. A hi
 
 ## Do not manufacture a clean history
 
-Deleting rejected ads does not replace root-cause analysis. Rebuilding the ad in another account, swapping Pages, or rotating domains can create integrity concerns beyond the original rejection. Keep the response proportionate to the decision.
+Deleting rejected ads does not replace analysis of the underlying cause. Rebuilding the ad in another account, swapping Pages, or rotating domains can create integrity concerns beyond the original rejection. Keep the response proportionate to the decision.
 
 For uncertainty about review timing and resubmission triggers, continue with [the Meta ad review process](/meta-ads/meta-ad-review-process/). If the interface restricts the whole account or business, use [Meta Advertising Standards enforcement](/meta-ads/meta-advertising-standards-enforcement/) to reclassify the event.
 
@@ -74,7 +74,7 @@ The rejected object may have been assembled from reusable parts rather than one 
 
 Preserve the configuration and preview relevant combinations. Determine whether the defect comes from one asset, a feed field, a template rule, or a particular pairing. Correcting only the previewed version can leave the source system ready to reproduce the issue.
 
-The same principle applies to shared landing-page components. A disclaimer, price module, quiz, or lead form may be controlled outside the campaign. Include its owner in remediation.
+The same principle applies to shared landing-page components. A disclaimer, price module, quiz, or lead form may be controlled outside the campaign. Include its owner in fixes.
 
 ## Review decisions at batch scope
 
@@ -89,7 +89,7 @@ Before editing a rejected ad, identify every live, paused, drafted, and schedule
 
 Batch analysis prevents a common failure: one team corrects the rejected ad while automated duplication or another market keeps publishing the same problem.
 
-## Maintain a claims library
+## Keep a claims library
 
 For objective claims, keep the approved wording, substantiation owner, evidence date, applicable products and markets, required qualification, and expiry trigger. Creative review should reference this library rather than rely on memory.
 

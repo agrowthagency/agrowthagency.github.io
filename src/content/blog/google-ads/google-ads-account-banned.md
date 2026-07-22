@@ -40,7 +40,7 @@ The difference changes the investigation:
 
 - A strike history asks whether the organization repeatedly failed to correct a known pattern.
 - An egregious-policy notice asks whether the business, destination, or behavior creates a more fundamental user-safety or system-integrity concern.
-- A billing suspension asks whether the financial identity and transaction history are authorized and coherent.
+- A billing suspension asks whether the financial identity and transaction history are authorized and consistent.
 - A security suspension asks who controlled the account and which activity was unauthorized.
 
 Calling all four “bans” hides the only information that matters.
@@ -55,7 +55,7 @@ Both reactions are poor. The correct interpretation is procedural: the suspensio
 
 An appeal is not a lottery ticket. Repeated, unchanged submissions can reduce the quality of the process, and Google warns that excessive appeals may not be processed.
 
-## A composite scenario: three teams, three meanings of “banned”
+## Example: three teams using “banned” to mean different things
 
 Imagine a group operating several brands through one manager account.
 
@@ -110,19 +110,19 @@ Complete the named task using authorized business or payment evidence. Do not co
 
 ### When the account is suspended
 
-Treat it as a formal incident. Preserve evidence, map the advertiser and related entities, identify root cause, complete any prerequisite verification, and submit a single evidence-led appeal through the notification.
+Treat it as a formal incident. Preserve evidence, map the advertiser and related entities, identify underlying cause, complete any prerequisite verification, and submit a single evidence-led appeal through the notification.
 
-## Language shapes governance
+## Language shapes management
 
-Strong organizations develop a controlled vocabulary for account incidents. They do this for the same reason security teams distinguish phishing, credential theft, malware, and privilege escalation: different failures require different owners and controls.
+Strong organizations develop a controlled vocabulary for account incidents. They do this for the same reason security teams distinguish phishing, login detail theft, malware, and access right escalation: different failures require different owners and controls.
 
-Marketing may own creative remediation. Web operations may own destination consistency. Finance owns payment evidence. Security owns unauthorized access. Corporate or compliance teams may own advertiser identity and regulated-business documentation. The incident owner connects these workstreams without flattening them into one vague “ban recovery” task.
+Marketing may own creative fixes. Web operations may own destination consistency. Finance owns payment evidence. Security owns unauthorized access. Corporate or compliance teams may own advertiser identity and regulated-business documentation. The incident owner connects these workstreams without flattening them into one vague “ban recovery” task.
 
 The phrase “Google Ads account banned” is still useful as a search query because it reflects how advertisers describe their problem. It should not survive inside the incident record.
 
 The more consequential the enforcement decision, the more precise the operator must become. The first step toward recovery is not optimism or urgency. It is naming the state correctly enough that the organization can finally see what happened.
 
-Translate the informal “banned” label into the states described in the [Google Ads suspension framework](/google-ads/google-ads-account-suspended/) and check whether [repeat-violation strikes](/google-ads/google-ads-policy-strikes/) are part of the history. Once the decision object is clear, structure the evidence through the [appeal and reinstatement process](/google-ads/appeal-and-reinstatement/) rather than treating every restriction as the same event.
+Translate the informal “banned” label into the states described in the [Google Ads suspension guide](/google-ads/google-ads-account-suspended/) and check whether [repeat-violation strikes](/google-ads/google-ads-policy-strikes/) are part of the history. Once the item affected by the decision is clear, structure the evidence through the [appeal and reinstatement process](/google-ads/appeal-and-reinstatement/) rather than treating every restriction as the same event.
 
 ## Official references
 

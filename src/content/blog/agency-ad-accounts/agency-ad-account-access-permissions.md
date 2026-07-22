@@ -10,7 +10,7 @@ updatedDate: 2026-07-22
 
 Giving an agency “admin so everything works” is not onboarding. It is an undocumented risk decision.
 
-Meta, Google, and TikTok expose different permission systems, but the governance problem is the same: grant enough capability for the contracted work without handing every operational task the power to change ownership, finance, or identity.
+Meta, Google, and TikTok expose different permission systems, but the management problem is the same: grant enough capability for the contracted work without handing every practical task the power to change ownership, finance, or identity.
 
 ## Map effective access, not role labels
 
@@ -40,13 +40,13 @@ Record:
 
 Do not solve one missing button with permanent administrator access.
 
-## Prefer formal relationships over credential sharing
+## Prefer formal relationships over login detail sharing
 
-Google manager links, TikTok Business Center partner requests, and Meta role/business-asset assignment allow agencies to operate without logging in as the client. Shared personal profiles and generic credentials erase accountability and complicate security recovery.
+Google manager links, TikTok Business Center partner requests, and Meta role/business-asset assignment allow agencies to operate without logging in as the client. Shared personal profiles and generic login details erase accountability and complicate security recovery.
 
 TikTok’s current access process asks an agency seeking admin or operator permissions whether it is the primary media agency. The answer should reflect the real commercial relationship.
 
-## Govern privilege changes
+## Manage administrator access changes
 
 Require tickets and second approval for admins, owner-manager status, finance roles, partner addition, identity linkage, data sharing, payment methods, and transfers. Verify the platform ID and downstream impact.
 
@@ -54,7 +54,7 @@ Monitor new invitations, users, managers, partners, and finance permissions. Rec
 
 ## Review the agency boundary
 
-The agency may assign its own staff after receiving partner or manager access. The contract should require named accountability, strong authentication, timely leaver removal, subcontractor disclosure, incident reporting, and minimum privilege.
+The agency may assign its own staff after receiving partner or manager access. The contract should require named accountability, strong authentication, timely leaver removal, subcontractor disclosure, incident reporting, and minimum access right.
 
 Client review should inspect effective asset assignments, not only the agency’s top-level presence.
 
@@ -66,11 +66,11 @@ Maintain at least two trusted client-controlled administrators for critical asse
 
 Use [ad accounts for media buyers](/agency-ad-accounts/ad-accounts-for-media-buyers/) for execution controls and [agency ad account security](/agency-ad-accounts/agency-ad-account-security/) for privileged-path protection.
 
-## Maintain a role catalog
+## Keep a role catalog
 
 A reusable role catalog turns access reviews into evidence rather than memory. For each platform role, record the business tasks it permits, whether it can change billing or users, the approving owner, and the maximum review interval. Map internal job titles to this catalog instead of granting whichever platform label sounds closest.
 
-The catalog should also identify combinations that create hidden privilege. A person who can publish ads and edit the destination may be able to release an unreviewed claim even if neither permission looks administrative alone.
+The catalog should also identify combinations that create hidden access right. A person who can publish ads and edit the destination may be able to release an unreviewed claim even if neither permission looks administrative alone.
 
 ## Separate duties at sensitive points
 
@@ -86,7 +86,7 @@ Emergency access should have a named incident, narrow purpose, expiration time, 
 
 ## Measure access-control health
 
-Track privileged-user count, dormant access, direct grants outside approved containers, unowned service accounts, overdue reviews, leaver-removal time, emergency-access events, and exceptions by client. Interpret the figures with scale and risk: zero emergency events may mean resilience or an unused process. Sample real users and ask them to demonstrate the task their role supports. Put review frequency, evidence, and remediation into [the account’s operating SLA](/agency-ad-accounts/agency-account-contracts-slas/), then confirm revocation through the [offboarding and migration checklist](/agency-ad-accounts/agency-account-offboarding-migration/). The useful outcome is confidence that privilege remains justified as assignments change.
+Track privileged-user count, dormant access, direct grants outside approved containers, unowned service accounts, overdue reviews, leaver-removal time, emergency-access events, and exceptions by client. Interpret the figures with scale and risk: zero emergency events may mean resilience or an unused process. Sample real users and ask them to demonstrate the task their role supports. Put review frequency, evidence, and fixes into [the account’s operating SLA](/agency-ad-accounts/agency-account-contracts-slas/), then confirm revocation through the [offboarding and migration checklist](/agency-ad-accounts/agency-account-offboarding-migration/). The useful outcome is confidence that access right remains justified as assignments change.
 
 ## Official resources
 

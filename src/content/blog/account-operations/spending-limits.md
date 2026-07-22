@@ -8,13 +8,13 @@ publishedDate: 2026-07-10
 updatedDate: 2026-07-10
 ---
 
-## What spending limits usually means
+## What spending limits means
 
 “Spending limit” can refer to several different controls: a user-set account cap, campaign budget, billing threshold, credit line, or a platform-imposed risk limit. Confusing them leads to unreliable forecasts and risky provider claims.
 
 The exact in-product notice should lead the diagnosis. Account labels used by teams, communities, or providers can be imprecise, while the platform notice identifies the affected asset, available review path, and policy area. Preserve that evidence before changing campaigns, users, billing, or connected assets.
 
-## Signals to check first
+## What to check first
 
 Use these signals to establish scope. They are prompts for investigation, not proof that a particular policy was violated.
 
@@ -22,7 +22,7 @@ Use these signals to establish scope. They are prompts for investigation, not pr
 - The billing threshold changes independently of campaign settings.
 - A provider advertises a limit that cannot be confirmed in the account.
 
-## A responsible response process
+## What to do next
 
 1. Name the exact control, owner, currency, renewal behavior, and evidence.
 2. Check account, campaign, and billing settings separately.
@@ -38,7 +38,7 @@ Keep one incident owner, one evidence folder, and one timeline. Consistency matt
 
 Never submit false documents, conceal account relationships, or use another account to evade an unresolved enforcement decision. Those actions can create additional integrity concerns across connected assets.
 
-## Controls to reduce recurrence
+## How to prevent the problem from happening again
 
 - Use staged budget approvals.
 - Monitor spend and thresholds daily during scale.

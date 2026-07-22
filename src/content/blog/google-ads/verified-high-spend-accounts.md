@@ -55,13 +55,13 @@ Whenever a provider says “limit,” ask for the exact control, currency, reset
 
 Experienced advertisers sometimes assume that years of spend create an informal buffer against enforcement. That belief confuses commercial value with system integrity.
 
-Google’s suspension framework is built around user safety, legal requirements, policy compliance, and the credibility of the advertiser. Egregious violations can lead to immediate suspension. Repeat violations can progress through strikes. Billing or verification issues can interrupt an account independently of campaign performance.
+Google’s suspension guide is built around user safety, legal requirements, policy compliance, and the credibility of the advertiser. Egregious violations can lead to immediate suspension. Repeat violations can progress through strikes. Billing or verification issues can interrupt an account independently of campaign performance.
 
-High spend may increase the operational impact of a suspension. It does not logically reduce the need for enforcement. In fact, a high-volume advertiser can create more user exposure, making governance more important.
+High spend may increase the practical impact of a suspension. It does not logically reduce the need for enforcement. In fact, a high-volume advertiser can create more user exposure, making management more important.
 
 The useful advantage of mature spend is not immunity. It is the operating evidence that should accompany it: stable payment ownership, documented approvals, controlled access, consistent identity, reliable destinations, and teams that know how to respond to warnings.
 
-## A composite scenario: buying the history without the business
+## Example: buying the history without the business
 
 Consider a composite advertiser entering a new market. A provider offers an account with substantial historical spend and completed verification. The account was originally used by another business, under another payments profile, promoting another website. The provider proposes changing the domain and campaigns while leaving the verified entity in place.
 
@@ -77,7 +77,7 @@ Google supports monthly invoicing for eligible advertisers and manager structure
 
 This is structured financial infrastructure. It creates obligations and permissions around a specific payments profile and organization. It should not be described loosely as an unlimited account.
 
-Due diligence should establish:
+Careful checks should establish:
 
 - Which entity holds the payments profile.
 - Which manager is the paying manager.
@@ -89,7 +89,7 @@ Due diligence should establish:
 
 An account can have strong credit terms and still be suspended for policy or verification reasons. Conversely, a compliant account may operate successfully on automatic payments without monthly invoicing.
 
-## A due-diligence test for verified or high-spend claims
+## A due-checks test for verified or high-spend claims
 
 ### 1. Define the advertiser
 

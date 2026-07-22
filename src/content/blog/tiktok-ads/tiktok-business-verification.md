@@ -66,11 +66,11 @@ The goal is not to force every role into one organization. It is to ensure that 
 
 ## Coordinate corporate transitions
 
-Before a merger, rebrand, new subsidiary, or agency transition changes platform data, document old and new entities, effective date, assets, accounts, domains, representatives, qualifications, billing, and customer disclosures. Preserve evidence of continuity.
+Before a merger, rebrand, new subsidiary, or agency transition changes platform data, document old and new entities, effective date, assets, accounts, domains, representatives, qualifications, billing, and customer disclosures. Preserve evidence of ability to keep operating.
 
-Changing many identity fields at once without a transition record makes a legitimate event harder to explain and harder to reverse operationally.
+Changing many identity fields at once without a transition record makes a legitimate event harder to explain and harder to reverse in practice.
 
-## Govern shared verification carefully
+## Manage shared verification carefully
 
 Where TikTok supports shared verification between a verified Business Center and linked Business Accounts, inventory which accounts receive that state, their owner, brand, purpose, and relationship to the verified company. Remove or reassess sharing when ownership or relationship changes.
 
@@ -83,13 +83,13 @@ Inheritance of a verification status does not make every account’s content, qu
 
 Complete it for name, number, address, website, representative, and certificate. This turns a vague rejection into a controlled comparison and prevents document roulette.
 
-## Treat verification as governance output
+## Treat verification as management output
 
 After approval, store verified object, entity, representative, documents, submission date, reviewer state, linked accounts, and change triggers. Schedule document expiry review. Ensure more than one authorized business-controlled administrator understands the record.
 
-Verification is strongest when it reflects a business already governed coherently; it is weakest when used to compensate for unclear ownership.
+Verification is strongest when it reflects a business already managed coherently; it is weakest when used to compensate for unclear ownership.
 
-Where verification is bundled into a commercial account service, confirm what remains the advertiser’s responsibility through the [provider due-diligence framework](/tiktok-ads/verified-business-center-account-providers/).
+Where verification is bundled into a commercial account service, confirm what remains the advertiser’s responsibility through the [provider due-checks guide](/tiktok-ads/verified-business-center-account-providers/).
 
 ## Official resources
 

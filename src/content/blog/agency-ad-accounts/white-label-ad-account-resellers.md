@@ -10,7 +10,7 @@ updatedDate: 2026-07-22
 
 White-label service can be commercially legitimate. Hidden control cannot.
 
-When an agency sources accounts or billing from an upstream provider but sells the relationship under its own brand, the client may not know which organization can remove access, lose credit, receive policy notices, view data, or answer the platform.
+When an agency sources accounts or billing from an provider earlier in the supply chain but sells the relationship under its own brand, the client may not know which organization can remove access, lose credit, receive policy notices, view data, or answer the platform.
 
 ## Draw the supply chain
 
@@ -22,7 +22,7 @@ If any layer cannot be named, ownership cannot be diligenced.
 
 ## Identify control concentration
 
-The upstream provider may control:
+The provider earlier in the supply chain may control:
 
 - Manager account or Business Center/Portfolio.
 - Advertiser creation and ownership.
@@ -40,11 +40,11 @@ Do not label an advertiser as client-owned if it is technically provider-control
 
 ## Assess financial exposure
 
-Determine where prefunds sit, when the platform is paid, whose credit is used, how spend is allocated, what fees apply, who refunds unused money, and what happens if the upstream provider is suspended or insolvent.
+Determine where prefunds sit, when the platform is paid, whose credit is used, how spend is allocated, what fees apply, who refunds unused money, and what happens if the provider earlier in the supply chain is suspended or insolvent.
 
 Reconcile platform evidence to every downstream client invoice.
 
-## Govern data and confidentiality
+## Manage data and confidentiality
 
 Identify which upstream users can see campaigns, audiences, leads, payment information, or client data. Require purpose limitation, security, confidentiality, incident notice, retention, deletion, and client separation.
 
@@ -56,9 +56,9 @@ Replacement accounts are not a universal remedy and should never be used to bypa
 
 ## Demand pass-through obligations
 
-Security, policy, data, audit, incident, billing, and termination requirements should bind every upstream provider. The contracted agency remains responsible for promises it makes to the client even when a subcontractor controls fulfillment.
+Security, policy, data, audit, incident, billing, and termination requirements should bind every provider earlier in the supply chain. The contracted agency remains responsible for promises it makes to the client even when a subcontractor controls fulfillment.
 
-## Use a composite case
+## A practical example
 
 A client’s ads stop. Its agency says “the supplier is updating accounts,” cannot provide the platform notice, and asks for new funds. The client discovers its account, billing, and support all sit with an unnamed third party.
 
@@ -66,17 +66,17 @@ The suspension may be legitimate or mistaken. The immediate business failure is 
 
 The same evidence should support a broader [assessment of the upstream account provider](/agency-ad-accounts/agency-ad-account-provider/) and show whether the arrangement has drifted toward [rented access with unclear control](/agency-ad-accounts/ad-account-rental/).
 
-## Verify the upstream proposition
+## Verify the upstream offer
 
 Ask the reseller to demonstrate the contractual and technical chain without exposing unrelated clients: legal entity, upstream service category, platform relationship wording, access method, payer, support route, and termination rights. A logo deck or dashboard screenshot does not establish authority to provide the service.
 
-## Preserve client separation
+## Keep client separation
 
-Confirm how users, campaigns, pixels, catalogs, public identities, billing records, documents, and support cases remain isolated across tenants. Test whether one client’s suspension, dispute, or overdue balance can remove capacity or visibility from others. Segregation must exist in permissions and ledgers, not only in the reseller portal.
+Confirm how users, campaigns, pixels, catalogs, public identities, billing records, documents, and support cases remain isolated across tenants. Test whether one client’s suspension, dispute, or overdue balance can remove capacity or visibility from others. Separation must exist in permissions and ledgers, not only in the reseller portal.
 
 ## Operate pass-through controls
 
-Client acceptance, claim evidence, verification, security, incident notice, billing disclosure, and offboarding requirements should flow through every layer. The reseller remains accountable to its client even when the upstream provider performs a control. Maintain evidence that obligations were actually executed.
+Client acceptance, claim evidence, verification, security, incident notice, billing disclosure, and offboarding requirements should flow through every layer. The reseller remains accountable to its client even when the provider earlier in the supply chain performs a control. Maintain evidence that obligations were actually executed.
 
 ## Audit recurring dependency
 
@@ -84,11 +84,11 @@ Review provider access, financial exposure, security incidents, support performa
 
 ## Set concentration limits
 
-Measure revenue, active clients, prefunded cash, platform spend, and critical assets dependent on each upstream party. Define thresholds that trigger diversification or reduced exposure. Continuity planning should identify which clients can move, which assets require rebuilding, and how truthful notice will be delivered.
+Measure revenue, active clients, prefunded cash, platform spend, and critical assets dependent on each upstream party. Define thresholds that trigger diversification or reduced exposure. planning to keep operations running should identify which clients can move, which assets require rebuilding, and how truthful notice will be delivered.
 
 ## Keep a chain-of-accountability register
 
-For each client, record the reseller, upstream provider, legal contracts, business containers, account owner, payer, verification dependencies, support paths, data processors, incident contacts, balances, and exit rights. Translate upstream obligations into [enforceable agency account terms](/agency-ad-accounts/agency-account-contracts-slas/), reconcile shared money through the [client billing ledger](/agency-ad-accounts/agency-ad-account-billing-reconciliation/), and include downstream information in the [data-ownership map](/agency-ad-accounts/agency-ad-account-data-ownership/). Link each obligation to the party that performs it and the reseller that remains answerable to the client. If one missing provider contact blocks the register, that is itself a concentration finding.
+For each client, record the reseller, provider earlier in the supply chain, legal contracts, business containers, account owner, payer, verification dependencies, support paths, data processors, incident contacts, balances, and exit rights. Translate upstream obligations into [enforceable agency account terms](/agency-ad-accounts/agency-account-contracts-slas/), reconcile shared money through the [client billing ledger](/agency-ad-accounts/agency-ad-account-billing-reconciliation/), and include downstream information in the [data-ownership map](/agency-ad-accounts/agency-ad-account-data-ownership/). Link each obligation to the party that performs it and the reseller that remains answerable to the client. If one missing provider contact blocks the register, that is itself a concentration finding.
 
 ## Official resources
 

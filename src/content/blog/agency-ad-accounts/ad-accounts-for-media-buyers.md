@@ -16,7 +16,7 @@ Campaign authority and business authority should be designed separately.
 
 Document assigned clients, platforms, advertiser IDs, permitted campaign actions, budget thresholds, markets, objectives, identities, data assets, approval requirements, and escalation paths.
 
-Use named users and formal manager/partner access. Never share client profiles or generic credentials.
+Use named users and formal manager/partner access. Never share client profiles or generic login details.
 
 ## Build an authority matrix
 
@@ -33,7 +33,7 @@ Use named users and formal manager/partner access. Never share client profiles o
 
 Platform roles should implement this as closely as possible.
 
-## Govern changes
+## Manage changes
 
 Require tickets or approval records for launches, major budget changes, new markets, domains, products, targeting, tracking, feeds, and identities. Preserve before/after configuration and platform IDs.
 
@@ -49,9 +49,9 @@ Create a stop rule when required evidence is missing. Performance incentives mus
 
 Set campaign/account caps, spend alerts, budget approval thresholds, and reconciliation. Give visibility required for pacing without unnecessary permission to alter payers, credit, or shared balances.
 
-## Use a composite case
+## A practical example
 
-A senior buyer is made admin across every client so they can solve billing errors after hours. Their compromised login adds a partner, changes a card, and launches ads across accounts. The mistake was not trusting the buyer; it was combining unrelated privileged duties.
+A senior buyer is made admin across every client so they can solve billing errors after hours. Their compromised login adds a partner, changes a card, and launches ads across accounts. The mistake was not trusting the buyer; it was combining unrelated sensitive administrator tasks.
 
 ## Monitor accountability
 
@@ -73,29 +73,29 @@ Use [agency permissions](/agency-ad-accounts/agency-ad-account-access-permission
 
 The request should name the buyer, client, platform, assets, duties, required role, approving owners, start date, and expected end date. Verify strong authentication and policy training before granting access. Avoid copying a previous buyer’s permissions when the assignment differs.
 
-## Separate privileged duties
+## Separate sensitive administrator tasks
 
 A buyer may need campaign execution without user administration, payer changes, business verification, or unrestricted data export. Reserve those capabilities for named owners. Material budget changes, new destinations, tracking changes, and public-identity connections should follow explicit approvals.
 
-## Govern automation
+## Manage automation
 
-Scripts, rules, bulk tools, and API integrations act with the authority of their credentials. Assign an owner, test scope, rate and budget guardrails, change record, monitoring, rollback method, and expiration. Disable orphaned automation during role changes; removing the human user may not revoke its token.
+Scripts, rules, bulk tools, and API integrations act with the authority of their login details. Assign an owner, test scope, rate and budget guardrails, change record, monitoring, rollback method, and expiration. Disable orphaned automation during role changes; removing the human user may not revoke its token.
 
-## Review operational errors
+## Review practical errors
 
-Track unauthorized launches, budget overshoots, wrong-market targeting, broken tracking, stale creative, permission exceptions, and reversals. Use severity and recurrence, not only campaign performance, to assess operational quality. A profitable error can still indicate a dangerous control failure.
+Track unauthorized launches, budget overshoots, wrong-market targeting, broken tracking, stale creative, permission exceptions, and reversals. Use severity and repeat issue, not only campaign performance, to assess practical quality. A profitable error can still indicate a dangerous control failure.
 
 ## Build resilient coverage
 
-Document account-specific knowledge, approval contacts, recurring tasks, and incident routes so a second trained person can assume work without sharing credentials. Run supervised handovers and periodic absence tests. Redundancy should reduce key-person risk without doubling unrestricted privilege.
+Document account-specific knowledge, approval contacts, recurring tasks, and incident routes so a second trained person can assume work without sharing login details. Run supervised handovers and periodic absence tests. Redundancy should reduce key-person risk without doubling unrestricted access right.
 
 ## Offboard promptly
 
 Remove platform roles, direct grants, partner assignments, finance access, files, support routes, tokens, shared inboxes, and recovery methods at the end of the assignment. Reassign owned automation and open tasks, then validate removal from the platform and agency sides.
 
-## Evaluate the operating system, not only the buyer
+## Evaluate the working process, not only the buyer
 
-Review performance alongside access exceptions, change quality, incident recurrence, documentation, policy findings, budget errors, automation ownership, and [handover readiness](/agency-ad-accounts/agency-account-offboarding-migration/). Separate coaching needs from control-design failures: repeated mistakes by different buyers usually indicate a weak system. Where duties, evidence, and response times remain ambiguous, translate them into [measurable contractual controls](/agency-ad-accounts/agency-account-contracts-slas/). The manager should be able to reconstruct who changed a material setting, under which approval, what validation occurred, and how it was reversed. That evidence protects the buyer as well as the client when outcomes are disputed.
+Review performance alongside access exceptions, change quality, incident repeat issue, documentation, policy findings, budget errors, automation ownership, and [handover readiness](/agency-ad-accounts/agency-account-offboarding-migration/). Separate coaching needs from control-design failures: repeated mistakes by different buyers usually indicate a weak system. Where duties, evidence, and response times remain ambiguous, translate them into [measurable contractual controls](/agency-ad-accounts/agency-account-contracts-slas/). The manager should be able to reconstruct who changed a material setting, under which approval, what validation occurred, and how it was reversed. That evidence protects the buyer as well as the client when outcomes are disputed.
 
 ## Official resources
 

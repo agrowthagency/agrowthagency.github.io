@@ -68,13 +68,13 @@ A chargeback can be appropriate for truly unauthorized activity, but reversing a
 
 Payment verification is not a search for any solvent identity. Documents should establish the actual authorized relationship. Borrowed or unrelated evidence can move the problem from billing into verification and Circumventing systems risk.
 
-## A composite scenario: legitimate spend, fragmented finance
+## Example: legitimate spending with inconsistent payment records
 
 Consider a composite regional advertiser. Campaigns are operated from an agency MCC. The client’s headquarters owns the brand, a local subsidiary receives the leads, and an employee initially added a personal card to launch quickly. Finance later replaces it with a corporate card issued in another country. The payments profile still contains the employee’s address.
 
 After a sharp spend increase, the account receives a billing suspension and payment-verification request. The team focuses on proving that both cards have funds. But available funds are not the ambiguous part. The account presents three payers, two countries, and no documented explanation of who is responsible for the advertising.
 
-The response requires governance:
+The response requires management:
 
 - Identify the correct paying entity.
 - Align the payments profile where the platform permits.
@@ -89,7 +89,7 @@ The lesson is not that cross-border payment is inherently suspicious. It is that
 
 For some Billing and Payment suspensions, Google may require payment-method verification before it processes the suspension appeal. The current guidance says the advertiser may need to verify each requested payment method using a code, a payment, or documents. The request appears in the account, and related updates may also come through Google Payments.
 
-Operationally, separate two workstreams:
+In practice, separate two workstreams:
 
 ### Verification workstream
 
@@ -97,7 +97,7 @@ Establish that the method and identity are authorized. Follow the exact in-accou
 
 ### Appeal workstream
 
-Explain why the account should be reinstated. Address unpaid balance, suspicious activity, chargeback, promotional-code issue, or other named concern. Include the business relationship, remediation, and control changes.
+Explain why the account should be reinstated. Address unpaid balance, suspicious activity, chargeback, promotional-code issue, or other named concern. Include the business relationship, fixes, and control changes.
 
 Passing verification does not automatically prove that every billing-policy concern has been resolved. It allows the appeal to proceed with a verified financial identity.
 
@@ -127,22 +127,22 @@ A concise appeal can still be rigorous. It should identify:
 3. The authorized relationship among advertiser, payer, agency, and payments profile.
 4. What was incorrect or compromised.
 5. What has been corrected.
-6. What control now prevents recurrence.
+6. What control now prevents repeat issue.
 7. Which requested verification tasks have been completed.
 
 Avoid absolute claims such as “all payments are valid” unless the organization has actually reconciled every relevant transaction. State what was verified and where uncertainty remains.
 
-## Billing architecture is part of account health
+## Billing setup is part of account health
 
 High-performing media teams often treat payment as an administrative dependency: finance keeps the card alive while marketing scales. That division fails when spend, identity, and risk are evaluated together.
 
 Reliable operations assign a billing owner, a backup approver, documented payment authority, threshold monitoring, regular reconciliation, and controlled changes to profiles and methods. Agencies should separate media spend, service fees, taxes, credits, and refunds in their records. Monthly invoicing requires equally clear ownership of the paying manager and payments profile.
 
-This article describes operational controls, not legal advice about payment disputes or chargebacks. Organizations should involve qualified financial or legal counsel when ownership or disputed transactions require it.
+This article describes practical controls, not legal advice about payment disputes or chargebacks. Organizations should involve qualified financial or legal counsel when ownership or disputed transactions require it.
 
 The deeper question after a billing suspension is not “Which card should we try next?” It is “Can we prove that every financial action in this account belongs to one authorized commercial relationship?” Until the answer is yes, a successful charge would only hide the real weakness.
 
-Before changing payment instruments, reconcile the account through the broader [billing and payments operating model](/google-ads/google-ads-billing-and-payments/) and investigate any unauthorized activity through the [account-security workflow](/google-ads/google-ads-account-security/). If the notice affects account eligibility rather than only transaction processing, move the evidence into the [account-suspension case](/google-ads/google-ads-account-suspended/).
+Before changing payment instruments, reconcile the account through the broader [billing and payments way the account is managed](/google-ads/google-ads-billing-and-payments/) and investigate any unauthorized activity through the [account-security workflow](/google-ads/google-ads-account-security/). If the notice affects account eligibility rather than only transaction processing, move the evidence into the [account-suspension case](/google-ads/google-ads-account-suspended/).
 
 ## Official references
 

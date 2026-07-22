@@ -12,9 +12,9 @@ A Google Ads account can have perfect campaign hygiene and still become a distri
 
 The usual explanation—“a login was hacked”—is too narrow. An attacker may enter through an administrator’s email, an inherited manager account, an OAuth application, a former agency user, a compromised workstation, or a recovery channel. Once inside, the attacker can add managers, launch campaigns, change destinations, raise budgets, alter billing, or remove legitimate users.
 
-Google Ads account security is therefore the governance of every path that can change advertising activity, not merely the strength of one password.
+Google Ads account security is therefore the management of every path that can change advertising activity, not merely the strength of one password.
 
-## Map the control surface before hardening it
+## List every access point before securing the account
 
 Begin with an access graph:
 
@@ -23,12 +23,12 @@ Begin with an access graph:
 - Related managers outside the expected hierarchy.
 - Administrative owner and upstream ownership inheritance.
 - Google Accounts and email addresses behind each user.
-- OAuth applications, API credentials, scripts, and automation tools.
+- OAuth applications, API login details, scripts, and automation tools.
 - Billing users, payments profile administrators, and paying managers.
 - Merchant Center, Analytics, tag management, feeds, and other linked products.
 - Recovery email, recovery phone, and organization-managed identity controls.
 
-The graph should identify a named human or controlled service behind every privileged node. Shared inboxes, shared credentials, unidentified vendor accounts, and former employees are exceptions to resolve, not normal operating shortcuts.
+The graph should identify a named human or controlled service behind every privileged node. Shared inboxes, shared login details, unidentified vendor accounts, and former employees are exceptions to resolve, not normal operating shortcuts.
 
 Google’s current [security best practices](https://support.google.com/google-ads/answer/12864492?hl=en) emphasize minimum necessary access, review of related managers, and stronger authentication controls. Apply those principles to the whole graph.
 
@@ -48,11 +48,11 @@ For every manager relationship, document:
 - Review date.
 - Offboarding condition.
 
-Do not grant manager ownership merely because it is convenient. Google distinguishes linking from ownership and provides several user levels for different responsibilities. Administrative privileges should match an explicit need.
+Do not grant manager ownership merely because it is convenient. Google distinguishes linking from ownership and provides several user levels for different responsibilities. Administrative access rights should match an explicit need.
 
 Review the Related managers view, not only the expected hierarchy. An unfamiliar manager link is a security event until explained.
 
-## Authentication must protect the person behind the privilege
+## Authentication must protect the person behind the access right
 
 Two-Step Verification reduces risk, but it is not the entire identity control. A user can approve a malicious OAuth application, reuse a compromised password on email, accept a fraudulent support request, or leave an authenticated device unattended.
 
@@ -61,7 +61,7 @@ Privileged-user standards should include:
 - Organization-managed accounts where practical.
 - Strong multifactor authentication resistant to phishing for administrators.
 - Protected recovery channels.
-- No credential sharing.
+- No login detail sharing.
 - Device security and session review.
 - Approved password-management practices.
 - Verification of unexpected support contacts and login prompts.
@@ -105,9 +105,9 @@ When compromise is suspected:
 
 Do not focus first on deleting fraudulent campaigns. Removing visible objects without preserving their identifiers and history can weaken the investigation. Do not file a chargeback before finance distinguishes unauthorized activity from legitimate unsettled charges and understands the platform process.
 
-This is operational guidance, not legal or banking advice. Payment disputes should be coordinated with the organization’s financial and legal owners.
+This is practical guidance, not legal or banking advice. Payment disputes should be coordinated with the organization’s financial and legal owners.
 
-## A composite scenario: the legitimate login that became a portfolio incident
+## Example: a legitimate login that affected several accounts
 
 Consider a composite agency whose senior buyer has Administrative access to the MCC. The buyer uses Two-Step Verification, but authorizes an apparently legitimate reporting application through OAuth. The application is compromised.
 
@@ -123,22 +123,22 @@ After access is restored, conduct a controlled validation:
 
 - Confirm every direct user and manager.
 - Confirm ownership and billing roles.
-- Revoke unknown OAuth applications and credentials.
+- Revoke unknown OAuth applications and login details.
 - Review campaigns, assets, rules, scripts, budgets, and destinations.
 - Check linked products and tag infrastructure.
 - Reconcile charges and record reimbursement status.
 - Review policy actions caused by unauthorized content.
-- Rotate relevant credentials and close the initial entry path.
+- Rotate relevant login details and close the initial entry path.
 
 Then write a short post-incident review: initial access vector, detection gap, affected scope, recovery actions, financial impact, policy impact, and controls added. Preserve it for future verification, billing, or appeal questions.
 
-## Security is a property of the operating model
+## Security is a property of the way the account is managed
 
 An account is not secure because no suspicious campaign is visible today. It is secure when every privileged path has an owner, access is proportionate, material changes are observable, and the organization can recover without guessing who controls what.
 
 As advertising stacks become more connected, account security and policy compliance converge. A compromised identity can produce malicious destinations, false representation, billing disputes, and account enforcement. The security program must therefore protect the advertiser’s ability to prove which activity was authorized.
 
-Use the [Google Ads billing suspension framework](/google-ads/billing-suspension/) when unauthorized activity creates a payment enforcement issue. For manager-level blast radius and client relationships, continue with the [Google Ads MCC suspension analysis](/google-ads/mcc-suspension/). If stakeholders describe the outcome only as a “ban,” first use the [banned-versus-suspended distinction](/google-ads/google-ads-account-banned/) to identify the actual security and enforcement state.
+Use the [Google Ads billing suspension guide](/google-ads/billing-suspension/) when unauthorized activity creates a payment enforcement issue. For manager-level number of accounts that could be affected and client relationships, continue with the [Google Ads MCC suspension analysis](/google-ads/mcc-suspension/). If stakeholders describe the outcome only as a “ban,” first use the [banned-versus-suspended distinction](/google-ads/google-ads-account-banned/) to identify the actual security and enforcement state.
 
 ## Official references
 

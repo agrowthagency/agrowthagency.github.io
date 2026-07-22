@@ -71,7 +71,7 @@ Map three geographies:
 
 Then account for location settings, cross-border fulfillment, VPN or travel scenarios, localized pages, and campaign expansion. Broadening targets is a compliance change, not merely a media optimization.
 
-Google’s June 2026 financial-services update, for example, introduced verification requirements for additional EEA markets with enforcement beginning on specified dates. The operational lesson is larger than one update: country eligibility is versioned and must be monitored.
+Google’s June 2026 financial-services update, for example, introduced verification requirements for additional EEA markets with enforcement beginning on specified dates. The practical lesson is larger than one update: country eligibility is versioned and must be monitored.
 
 ## Domain control is part of certification integrity
 
@@ -110,7 +110,7 @@ Maintain:
 
 Never substitute the agency’s documents simply because the client’s approval is difficult. Borrowed identity can turn an eligibility problem into verification, misrepresentation, or Circumventing systems risk.
 
-## A composite scenario: certified category, uncertified operation
+## Example: certified category, uncertified operation
 
 Consider a composite financial platform licensed in one market. Its agency copies the successful campaign into several neighboring countries, localizes the landing page, and uses the same Google Ads account. The team assumes the original license and advertiser verification are sufficient.
 
@@ -139,7 +139,7 @@ The deeper principle is simple: restricted-business advertising is an authorizat
 
 When that boundary is explicit, compliance becomes part of market design. When it is assumed, every campaign change can unknowingly redefine the business Google is being asked to approve.
 
-Restricted-business eligibility depends on a coherent advertiser. Use the [Google Ads advertiser verification framework](/google-ads/google-ads-advertiser-verification/) for identity and relationship controls, and the [Google agency account framework](/google-ads/google-agency-ad-account/) when an agency or manager participates in applications, billing, or account ownership. Where Google asks how the parties actually deliver the service, keep those facts aligned with the [business-operations verification record](/google-ads/google-ads-business-operations-verification/).
+Restricted-business eligibility depends on a consistent advertiser. Use the [Google Ads advertiser verification guide](/google-ads/google-ads-advertiser-verification/) for identity and relationship controls, and the [Google agency account guide](/google-ads/google-agency-ad-account/) when an agency or manager participates in applications, billing, or account ownership. Where Google asks how the parties actually deliver the service, keep those facts aligned with the [business-operations verification record](/google-ads/google-ads-business-operations-verification/).
 
 ## Official references
 

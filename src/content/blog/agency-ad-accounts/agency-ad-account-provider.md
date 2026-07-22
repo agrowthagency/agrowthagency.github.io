@@ -14,16 +14,16 @@ A login, Business Manager invitation, or advertiser ID proves access. It does no
 
 ## Identify the exact product
 
-Require a plain-language architecture:
+Require a plain-language setup:
 
 - Platform and account type.
 - Manager, Business Portfolio, or Business Center controller.
 - Owned versus partner/linked advertiser status.
 - Client and provider access levels.
 - Public identity, domain, pixel/dataset, catalog, audience, and lead ownership.
-- Billing option, payer, currency, fees, credit, and prefunding.
+- Billing option, payer, currency, fees, credit, and advance funding.
 - Verified entity and industry qualifications.
-- Support path and upstream provider.
+- Support path and provider earlier in the supply chain.
 - Transfer, offboarding, and data retention.
 
 “Agency account” is not an answer to any of these.
@@ -38,37 +38,37 @@ Use a live, permission-appropriate walkthrough with current IDs, roles, ownershi
 
 Google manager linking does not automatically create owner status; a manager that creates a client account becomes owner by default. TikTok distinguishes owned and partner-owned accounts, and transfer eligibility varies. Meta uses people and partner/business-asset relationships. A provider should explain these differences instead of selling one universal ownership story.
 
-## Diligence money
+## Check money carefully
 
 Ask who owes the platform, when the client funds the provider, how spend is allocated, whether balances are segregated, what fees and currency conversion apply, and what happens to unused funds or refunds. Link platform evidence to client invoices.
 
 High thresholds, credit lines, and historical spend are not permanent limits or policy protection.
 
-## Diligence compliance and identity
+## Check compliance and identity carefully
 
 Confirm real advertiser, product, markets, qualifications, brand, domain, payer, and agency relationship. Reject instructions to conceal the advertiser, use unrelated verification, rotate accounts after enforcement, or run prohibited activity through provider status.
 
 Ask how the provider reviews clients, claims, destinations, creators, catalogs, and repeated violations. Google’s third-party policy makes transparency and agency conduct explicit; Meta and TikTok also assess business/account behavior and relationships.
 
-## Diligence security and data
+## Check security and data carefully
 
-Review authentication, named access, admin limits, subcontractors, monitoring, incident notification, evidence handling, data purposes, client separation, retention, deletion, and recovery. Never accept shared personal credentials as the default access model.
+Review authentication, named access, admin limits, subcontractors, monitoring, incident notification, evidence handling, data purposes, client separation, retention, deletion, and recovery. Never accept shared personal login details as the default access model.
 
 ## Test failure scenarios
 
 What happens if the provider business is restricted, credit disappears, an admin is compromised, support is lost, verification is requested, the account is suspended, or the provider becomes insolvent? Who controls notices, funds, data, and response?
 
-## Use a composite case
+## A practical example
 
-A provider advertises verified, high-limit accounts with 24/7 support. After suspension it cannot share the notice because an upstream partner owns the Business Center. Client funds remain as an internal balance and the pixel is shared. Every sales claim was technically phrased and operationally incomplete.
+A provider advertises verified, high-limit accounts with 24/7 support. After suspension it cannot share the notice because an upstream partner owns the Business Center. Client funds remain as an internal balance and the pixel is shared. Every sales claim was technically phrased and incomplete in practice.
 
 ## Score evidence, not confidence
 
-Create a due-diligence register with claim, evidence, date, owner, change trigger, risk, contract term, and remedy. Review it regularly.
+Create a due-checks register with claim, evidence, date, owner, change trigger, risk, contract term, and remedy. Review it regularly.
 
 The credible provider does not sell immunity. It makes control, money, identity, data, and failure legible.
 
-## Require an onboarding evidence pack
+## Require an onboarding set of supporting evidence
 
 Before transferring funds, collect executed contract, legal entity and bank verification, platform IDs, current ownership/status, access invitation, billing model, verified identity, approved products/markets, security contacts, data schedule, support route, and exit plan.
 
@@ -84,19 +84,19 @@ Review eligibility questions, KYC/business evidence, product and claim review, d
 
 Define planned maintenance, access outage, billing interruption, support outage, account restriction, provider restriction, and termination. Each has a different remedy. A replacement account does not preserve data, identity, balance, verification, or enforcement history.
 
-## Establish recurring diligence
+## Set recurring checks
 
-Quarterly or after material change, reconfirm entity, platform control, account status, access, payer, credit/threshold, verification, upstream providers, support, security, and exit readiness. Monitor contract and evidence expiry.
+Quarterly or after material change, reconfirm entity, platform control, account status, access, payer, credit/threshold, verification, providers earlier in the supply chain, support, security, and exit readiness. Monitor contract and evidence expiry.
 
 ## Set termination triggers
 
-Triggers can include undisclosed upstream control, false platform claims, shared credentials, unexplained billing, refusal to provide spend evidence, instructions to bypass enforcement, security breach, missed client notifications, or inability to return funds/data.
+Triggers can include undisclosed upstream control, false platform claims, shared login details, unexplained billing, refusal to provide spend evidence, instructions to bypass enforcement, security breach, missed client notifications, or inability to return funds/data.
 
 Define containment and migration before invoking termination. Sudden removal without client administrators or records can compound harm.
 
 ## Score concentration
 
-Measure provider-dependent accounts, spend, balances, identities, pixels, catalogs, clients, and markets. Set exposure limits and alternatives. No due-diligence result makes one counterparty failure impossible.
+Measure provider-dependent accounts, spend, balances, identities, pixels, catalogs, clients, and markets. Set exposure limits and alternatives. No due-checks result makes one other party failure impossible.
 
 Continue with [white-label ad account resellers](/agency-ad-accounts/white-label-ad-account-resellers/) and [agency account contracts and SLAs](/agency-ad-accounts/agency-account-contracts-slas/).
 

@@ -83,13 +83,13 @@ Before submission:
 
 If a corrected destination has not been recrawled, allow the production change to stabilize before interpreting an immediate duplicate result as a new policy judgment.
 
-## A composite scenario: fifty ads, one redirect
+## Example: fifty ads affected by one redirect
 
 Consider a composite ecommerce advertiser that adds an account-level tracking template. A parameter is malformed and some expanded URLs redirect to a different regional domain. Fifty ads receive a destination mismatch label.
 
 The media team duplicates the ads and appeals each campaign. The duplicates inherit the same template and fail again.
 
-The correct unit of remediation is the account-level tracking configuration. The team preserves the affected expanded URLs, corrects the template, validates every regional route, then appeals the grouped objects after the fix is live. It also introduces a pre-release route test for tracking changes.
+The correct fix is the account-level tracking configuration. The team preserves the affected expanded URLs, corrects the template, validates every regional route, then appeals the grouped objects after the fix is live. It also introduces a pre-release route test for tracking changes.
 
 The policy decision appeared at ad level. The defect was account-level infrastructure.
 
@@ -97,7 +97,7 @@ The policy decision appeared at ad level. The defect was account-level infrastru
 
 A disapproval is often recoverable without an account incident. The risk grows when the advertiser repeatedly uploads substantially similar violating material, ignores a warning, or continues the pattern across accounts.
 
-Monitor recurrence by policy, not only by campaign. Where a policy belongs to Google’s strike-based enforcement scope, repeated violation can lead to warnings, strikes, temporary holds, and eventually suspension. Egregious policies can follow a different path without that escalation ladder.
+Monitor repeat issue by policy, not only by campaign. Where a policy belongs to Google’s strike-based enforcement scope, repeated violation can lead to warnings, strikes, temporary holds, and eventually suspension. Egregious policies can follow a different path without that escalation ladder.
 
 Create an escalation rule: a first-time isolated creative defect can remain with the campaign owner; repeated, cross-account, destination-wide, regulated, or egregious labels require compliance or incident ownership.
 
@@ -114,13 +114,13 @@ Policy Manager’s appeal history should be treated as part of the account recor
 
 Over time, the record shows which systems create policy friction and which corrective controls work. It also prevents a new agency or employee from repeating appeals whose assumptions were already disproved.
 
-Measure the review workflow as an operational process. Track time from detection to diagnosis, diagnosis to production correction, correction to appeal, and appeal to outcome. Separate delays caused by internal ownership, incomplete deployment, duplicate submissions, and platform review. The objective is not to pressure every decision into a faster cycle; it is to identify where the organization wastes constrained appeal opportunities or leaves invalid assets active longer than necessary.
+Measure the review workflow as a working process. Track time from detection to diagnosis, diagnosis to production correction, correction to appeal, and appeal to outcome. Separate delays caused by internal ownership, incomplete deployment, duplicate submissions, and platform review. The objective is not to pressure every decision into a faster cycle; it is to identify where the organization wastes constrained appeal opportunities or leaves invalid assets active longer than necessary.
 
 A reliable workflow also records unaffected objects. Knowing why some ads remained eligible can help isolate the real dependency and prevent unnecessary account-wide edits.
 
 The best response to a disapproved Google ad is not the fastest edit. It is the smallest complete correction at the level where the defect actually lives.
 
-For URL and crawl failures, continue with [Google Ads destination requirements](/google-ads/google-ads-destination-requirements/). For repeat enforcement, use the [Google Ads policy strikes framework](/google-ads/google-ads-policy-strikes/). When the affected object or escalation path remains unclear, place the event inside the broader [policy-enforcement taxonomy](/google-ads/google-ads-policy-enforcement/) before choosing a remedy.
+For URL and crawl failures, continue with [Google Ads destination requirements](/google-ads/google-ads-destination-requirements/). For repeat enforcement, use the [Google Ads policy strikes guide](/google-ads/google-ads-policy-strikes/). When the affected object or escalation path remains unclear, place the event inside the broader [policy-list of enforcement categories](/google-ads/google-ads-policy-enforcement/) before choosing a remedy.
 
 ## Official references
 

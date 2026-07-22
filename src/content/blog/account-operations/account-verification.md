@@ -8,13 +8,13 @@ publishedDate: 2026-07-10
 updatedDate: 2026-07-10
 ---
 
-## What account verification usually means
+## What account verification means
 
 Verification helps platforms understand who is advertising and whether the business is eligible for certain products or markets. Problems often arise from inconsistency rather than a single missing document: names, addresses, domains, payment owners, and account administrators should describe the same legitimate operation.
 
 The exact in-product notice should lead the diagnosis. Account labels used by teams, communities, or providers can be imprecise, while the platform notice identifies the affected asset, available review path, and policy area. Preserve that evidence before changing campaigns, users, billing, or connected assets.
 
-## Signals to check first
+## What to check first
 
 Use these signals to establish scope. They are prompts for investigation, not proof that a particular policy was violated.
 
@@ -22,7 +22,7 @@ Use these signals to establish scope. They are prompts for investigation, not pr
 - A document is rejected as expired, unreadable, altered, or mismatched.
 - The account’s legal entity and advertised brand are not clearly connected.
 
-## A responsible response process
+## What to do next
 
 1. List every requested field and its authoritative source document.
 2. Reconcile spelling, legal names, addresses, websites, and payment ownership.
@@ -38,7 +38,7 @@ Keep one incident owner, one evidence folder, and one timeline. Consistency matt
 
 Never submit false documents, conceal account relationships, or use another account to evade an unresolved enforcement decision. Those actions can create additional integrity concerns across connected assets.
 
-## Controls to reduce recurrence
+## How to prevent the problem from happening again
 
 - Maintain a current corporate-document pack.
 - Update platforms after legal changes.

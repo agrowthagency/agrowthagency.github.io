@@ -8,13 +8,13 @@ publishedDate: 2026-07-10
 updatedDate: 2026-07-10
 ---
 
-## What appeal documents usually means
+## What appeal documents means
 
-The best document package is relevant, current, readable, and internally consistent. More files do not automatically create a stronger appeal; each item should answer a specific question about identity, ownership, authorization, eligibility, payment, or remediation.
+The best document package is relevant, current, readable, and internally consistent. More files do not automatically create a stronger appeal; each item should answer a specific question about identity, ownership, authorization, eligibility, payment, or fixes.
 
 The exact in-product notice should lead the diagnosis. Account labels used by teams, communities, or providers can be imprecise, while the platform notice identifies the affected asset, available review path, and policy area. Preserve that evidence before changing campaigns, users, billing, or connected assets.
 
-## Signals to check first
+## What to check first
 
 Use these signals to establish scope. They are prompts for investigation, not proof that a particular policy was violated.
 
@@ -22,7 +22,7 @@ Use these signals to establish scope. They are prompts for investigation, not pr
 - A previous submission failed because details did not match.
 - Several teams hold different pieces of the incident record.
 
-## A responsible response process
+## What to do next
 
 1. Create an index linking every platform request to one or more authoritative documents.
 2. Include the enforcement notice, IDs, timeline, correction log, and supporting records.
@@ -38,7 +38,7 @@ Keep one incident owner, one evidence folder, and one timeline. Consistency matt
 
 Never submit false documents, conceal account relationships, or use another account to evade an unresolved enforcement decision. Those actions can create additional integrity concerns across connected assets.
 
-## Controls to reduce recurrence
+## How to prevent the problem from happening again
 
 - Maintain an encrypted verification pack.
 - Assign document owners.

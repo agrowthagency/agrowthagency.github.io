@@ -12,7 +12,7 @@ The weakest response to an Unacceptable Business Practices suspension is often a
 
 Teams add a footer address, expand the About page, and rewrite several claims. Those changes may be useful, but they do not answer the account-level question: was the business hiding or misrepresenting its identity, authority, product, service, or intent in a way that could seriously harm users?
 
-Google treats this area as egregious. The remediation must therefore establish trustworthy business reality, not merely produce a more compliant-looking landing page.
+Google treats this area as egregious. The fixes must therefore establish trustworthy business reality, not merely produce a more compliant-looking landing page.
 
 ## Understand why the policy is different
 
@@ -76,7 +76,7 @@ An invoice showing that the advertiser bought a product does not necessarily aut
 
 An advertiser can create policy risk by offering something it cannot actually provide, even if the intent was optimistic rather than fraudulent.
 
-Test operational capability:
+Test practical capability:
 
 - Inventory or supplier commitment.
 - Service coverage and staffing.
@@ -90,21 +90,21 @@ If capability changed, pause promotion before the destination becomes a historic
 
 ## Phishing and impersonation require containment
 
-Where the notice or evidence involves phishing, credential collection, malicious impersonation, or unauthorized activity, treat the incident as both policy and security response.
+Where the notice or evidence involves phishing, login detail collection, malicious impersonation, or unauthorized activity, treat the incident as both policy and security response.
 
 Preserve pages, redirects, logs, account change history, users, manager links, domains, and payment records. Determine whether the business created the content, a vendor deployed it, or the account or site was compromised. Secure the affected systems before changing evidence indiscriminately.
 
-A genuine compromise does not make the harmful experience irrelevant, but it changes the factual appeal thesis. The advertiser must establish which activity was unauthorized, how access occurred, what was contained, and how recurrence is controlled.
+A genuine compromise does not make the harmful experience irrelevant, but it changes the factual appeal thesis. The advertiser must establish which activity was unauthorized, how access occurred, what was contained, and how repeat issue is controlled.
 
-## A composite scenario: the authorized service with an unauthorized identity
+## Example: the authorized service with an unauthorized identity
 
-Consider a composite support company allowed to resell a software vendor’s product. Its ads use the vendor’s logo and “official support” language. The landing page resembles the vendor’s login screen and collects customer credentials to begin service.
+Consider a composite support company allowed to resell a software vendor’s product. Its ads use the vendor’s logo and “official support” language. The landing page resembles the vendor’s login screen and collects customer login details to begin service.
 
-The reseller agreement is real, but it does not authorize official-status claims or credential collection. The team responds to suspension by adding its legal name in the footer.
+The reseller agreement is real, but it does not authorize official-status claims or login detail collection. The team responds to suspension by adding its legal name in the footer.
 
 That does not correct the core failure. The experience still implies the wrong provider and uses a trusted identity to collect sensitive information.
 
-Credible remediation removes the impersonating design and language, stops credential collection, clarifies the independent relationship before conversion, documents the limited reseller authority, investigates affected data, and changes the approval process for brand assets and forms.
+Credible fixes removes the impersonating design and language, stops login detail collection, clarifies the independent relationship before conversion, documents the limited reseller authority, investigates affected data, and changes the approval process for brand assets and forms.
 
 Trust cannot be repaired with a footer when the transaction model remains misleading.
 
@@ -118,11 +118,11 @@ Identify the exact allegation and provide primary evidence of identity, authorit
 
 ### A real failure existed and has been corrected
 
-Name the failure without minimizing it. Show every affected surface, the production corrections, customer or security response where relevant, and the control that prevents recurrence.
+Name the failure without minimizing it. Show every affected areas, the production corrections, customer or security response where relevant, and the control that prevents repeat issue.
 
 Avoid generic claims such as “we are a legitimate company” or “our website is safe.” Registration proves existence, not truthful representation or fulfillment. A security scan proves one technical state, not commercial authority.
 
-Google notes that reinstatement in egregious cases requires compelling circumstances and good reason. Submit a coherent evidence package rather than repeated narratives that change with each appeal.
+Google notes that reinstatement in egregious cases requires compelling circumstances and good reason. Submit a consistent evidence package rather than repeated narratives that change with each appeal.
 
 ## Prevention requires ownership of business truth
 
@@ -139,7 +139,7 @@ Assign accountable owners for:
 
 Review material changes before campaigns launch. The compliance question is not simply whether the new page contains required sections. It is whether the real business behind the page remains the business users are led to trust.
 
-For the broader taxonomy of pricing, claims, availability, and misleading design, use [Google Ads Misrepresentation](/google-ads/google-ads-misrepresentation/). Where the underlying product requires additional approval, assess [restricted-business eligibility](/google-ads/google-ads-restricted-businesses/) independently. For the suspension record and submission design, continue with [Google Ads appeal and reinstatement](/google-ads/appeal-and-reinstatement/).
+For the broader list of categories of pricing, claims, availability, and misleading design, use [Google Ads Misrepresentation](/google-ads/google-ads-misrepresentation/). Where the underlying product requires additional approval, assess [restricted-business eligibility](/google-ads/google-ads-restricted-businesses/) independently. For the suspension record and submission design, continue with [Google Ads appeal and reinstatement](/google-ads/appeal-and-reinstatement/).
 
 ## Official references
 

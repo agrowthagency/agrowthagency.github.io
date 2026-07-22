@@ -8,7 +8,7 @@ publishedDate: 2026-07-10
 updatedDate: 2026-07-21
 ---
 
-Meta Business Manager is still the phrase many teams use for the business asset layer now commonly presented as a Business Portfolio. A restriction there is operationally different from one rejected ad or one disabled ad account because the business layer connects people, partners, Pages, accounts, pixels, catalogs, domains, apps, and finance functions.
+Meta Business Manager is still the phrase many teams use for the business asset layer now commonly presented as a Business Portfolio. A restriction there is different in practice from one rejected ad or one disabled ad account because the business layer connects people, partners, Pages, accounts, pixels, catalogs, domains, apps, and finance functions.
 
 The restriction surface is wide. The investigation must be equally structured.
 
@@ -40,7 +40,7 @@ Agencies, groups, and multi-brand businesses can have large graphs for valid rea
 | Relationship | Evidence of legitimacy |
 | --- | --- |
 | Agency to client | Current contract, named client owner, scoped partner access |
-| Parent to subsidiary | Corporate record and operational responsibility |
+| Parent to subsidiary | Corporate record and practical responsibility |
 | Brand to legal entity | Trademark, ownership, license, or franchise record |
 | Payer to advertiser | Contract, invoice flow, and finance approval |
 | Person to business | Employment or contractor authorization and named role |
@@ -56,7 +56,7 @@ Review rejected ads, repeated categories, duplicated creatives, attempts to cont
 
 ### Authenticity and identity
 
-Confirm that administrators are real people, the portfolio represents the stated organization, and Pages, domains, brands, and verification records are coherent.
+Confirm that administrators are real people, the portfolio represents the stated organization, and Pages, domains, brands, and verification records are consistent.
 
 ### Security
 
@@ -66,7 +66,7 @@ Look for unknown sessions, invitations, partners, campaigns, Pages, payment chan
 
 Reconcile payers, methods, balances, failed charges, and unfamiliar transactions. Determine whether finance relationships match client and account ownership.
 
-### Asset governance
+### Asset management
 
 Identify abandoned assets, former vendors, excessive permissions, single administrators, and accounts created under ownership models the client cannot exit.
 
@@ -78,13 +78,13 @@ Mass-removing legitimate assets to make the portfolio look clean can interrupt t
 
 ## Prepare a portfolio-level review
 
-The submission should identify the business ID and decision, explain the business model and relevant relationships, state confirmed root cause or why the restriction appears incorrect, list completed corrections, and point to evidence. Include an asset appendix only when it helps explain scope; volume without relevance is not clarity.
+The submission should identify the business ID and decision, explain the business model and relevant relationships, state confirmed underlying cause or why the restriction appears incorrect, list completed corrections, and point to evidence. Include an asset appendix only when it helps explain scope; volume without relevance is not clarity.
 
-Use [Meta business asset governance](/meta-ads/meta-business-asset-governance/) to rebuild durable ownership and access. Use [Meta business verification](/meta-ads/meta-business-verification/) for identity reconciliation and [Meta Ads appeal and recovery](/meta-ads/appeal-and-recovery/) for the incident program.
+Use [Meta business asset management](/meta-ads/meta-business-asset-governance/) to rebuild durable ownership and access. Use [Meta business verification](/meta-ads/meta-business-verification/) for checking that identity information matches and [Meta Ads appeal and recovery](/meta-ads/appeal-and-recovery/) for the incident program.
 
 ## Analyze concentration risk
 
-Centralization improves control only when the center is well governed. A single portfolio can concentrate authentication, Page ownership, datasets, catalogs, billing, and client delivery. Estimate the impact if each privileged person, partner, payment method, or shared asset becomes unavailable.
+Centralization improves control only when the center is well managed. A single portfolio can concentrate authentication, Page ownership, datasets, catalogs, billing, and client delivery. Estimate the impact if each privileged person, partner, payment method, or shared asset becomes unavailable.
 
 Build a criticality rating based on active spend, number of brands or clients, customer data dependency, public identity, financial exposure, and difficulty of replacement. High-criticality assets require backup administrators, documented ownership, stronger change approval, and tested offboarding.
 
@@ -94,12 +94,12 @@ Do not fragment assets merely to hide relationships. The goal is transparent res
 
 For each ad account and Page, determine who created it, under which business, for which advertiser, and how control changed over time. Accounts obtained through providers or former agencies may carry ownership and access conditions that current staff do not understand.
 
-Create a provenance record:
+Create a origin and ownership history record:
 
 | Asset | Creator/controller at creation | Intended advertiser | Transfers/partners | Current authority |
 | --- | --- | --- | --- | --- |
 
-An unexplained history is not proof of abuse, but it is a governance weakness that can obstruct both diagnosis and offboarding.
+An unexplained history is not proof of abuse, but it is a management weakness that can obstruct both diagnosis and offboarding.
 
 ## Coordinate client investigations in agencies
 
@@ -109,9 +109,9 @@ Assign a central incident lead for shared systems and separate client workstream
 
 ## Validate the rebuilt portfolio
 
-After remediation or restoration, review every privileged person and partner, confirm client owners, test notifications, reconcile payments, verify Pages and domains, inspect active integrations, and compare live assets to the register. Sample change logs for unauthorized activity.
+After fixes or restoration, review every privileged person and partner, confirm client owners, test notifications, reconcile payments, verify Pages and domains, inspect active integrations, and compare live assets to the register. Sample change logs for unauthorized activity.
 
-A portfolio is not recovered merely because Ads Manager loads. Recovery means its relationships can be explained, its privileged paths are controlled, and its critical assets can survive ordinary staff and vendor changes.
+A portfolio is not recovered merely because Ads Manager loads. Recovery means its relationships can be explained, its administrator access paths are controlled, and its critical assets can survive ordinary staff and vendor changes.
 
 The portfolio review should also identify people whose [personal advertising access is restricted](/meta-ads/personal-advertising-access-restricted/); restoring the business container does not automatically resolve a person-level decision.
 
@@ -120,4 +120,4 @@ The portfolio review should also identify people whose [personal advertising acc
 - [Meta ad review, policy, and support](https://www.facebook.com/business/ads/review-policy-guidelines)
 - [Business Support Home](https://www.facebook.com/business-support-home/)
 - [Meta Business Help Center](https://www.facebook.com/business/help)
-- [Protect accounts from credential-stealing malware](https://www.facebook.com/help/773912954219636)
+- [Protect accounts from login detail-stealing malware](https://www.facebook.com/help/773912954219636)

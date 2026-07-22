@@ -12,7 +12,7 @@ Meta Ads billing is usually invisible while campaigns deliver. It becomes urgent
 
 That is not merely a card problem. Billing is the financial control plane connecting the advertiser, payer, currency, payment setting, stored methods, permissions, transactions, and internal approval system.
 
-## Document the billing architecture
+## Document the billing setup
 
 For each ad account, record:
 
@@ -25,7 +25,7 @@ For each ad account, record:
 - Tax information and invoice recipient.
 - Internal budget owner, purchase order, and reconciliation owner.
 
-Meta’s [accepted payment guidance](https://www.facebook.com/help/messenger-app/212763688755026) explains that available methods depend on country and currency, and that the first method can determine whether an account uses automatic payments or available funds. Account design decisions made at setup can therefore have lasting operational effects.
+Meta’s [accepted payment guidance](https://www.facebook.com/help/messenger-app/212763688755026) explains that available methods depend on country and currency, and that the first method can determine whether an account uses automatic payments or available funds. Account design decisions made at setup can therefore have lasting practical effects.
 
 ## Distinguish budgets, spending controls, and billing
 
@@ -49,7 +49,7 @@ Meta’s guidance on [finding ad charges](https://www.facebook.com/help/messenge
 
 Investigate discrepancies before disputing them. Determine whether a colleague, agency, shared payment method, another ad account, exchange-rate timing, tax, temporary authorization, or unauthorized user explains the charge.
 
-## Govern changes as financial events
+## Manage changes as financial events
 
 Require approval and a change record when adding or removing a payment method, changing a spending control, granting finance permissions, or moving an account between operating relationships. Meta requires appropriate account permissions to add a payment method, which is another reason to keep administrative and finance access narrow.
 
@@ -75,7 +75,7 @@ The client should be able to distinguish media spend from service fees. The agen
 
 ## Control payment method reuse
 
-A method shared across unrelated ad accounts can simplify operations but increases blast radius, reconciliation difficulty, and security exposure. Document every account permitted to use it and require approval for additions. Consider whether separate methods, virtual controls, or account-specific limits are appropriate within the organization’s financial system.
+A method shared across unrelated ad accounts can simplify operations but increases the number of accounts that could be affected, reconciliation difficulty, and security exposure. Document every account permitted to use it and require approval for additions. Consider whether separate methods, virtual controls, or account-specific limits are appropriate within the organization’s financial system.
 
 Never use an employee’s personal card as an undocumented long-term bridge. If an emergency business-approved exception is necessary, define amount, duration, reimbursement, data handling, and removal.
 

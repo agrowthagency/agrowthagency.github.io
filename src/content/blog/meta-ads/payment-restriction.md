@@ -75,9 +75,9 @@ When a bank or payment provider declines a transaction, provide the date, amount
 
 Record the issuer’s response and case number. “The bank says the card works” may only mean ordinary point-of-sale transactions are enabled; it does not prove that the specific Meta charge was approved.
 
-Do not share full card credentials in support messages or incident spreadsheets. Use masked identifiers sufficient to reconcile the method.
+Do not share full card login details in support messages or incident spreadsheets. Use masked identifiers sufficient to reconcile the method.
 
-## Investigate multi-account blast radius
+## Investigate multi-account number of accounts that could be affected
 
 One payment method may fund several accounts or clients. When it fails or appears compromised, list every connected account, active campaign, current balance, and responsible owner. Determine whether the failure is method-wide or isolated to one account.
 

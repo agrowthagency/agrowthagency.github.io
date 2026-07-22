@@ -10,9 +10,9 @@ updatedDate: 2026-07-22
 
 “Priority support” is useful only after the buyer learns what the word support actually buys.
 
-It may mean an agency incident desk, a named platform representative, eligibility for a ticket channel, or an upstream provider that speaks to the platform. None guarantees a favorable decision.
+It may mean an agency incident desk, a named platform representative, eligibility for a ticket channel, or an provider earlier in the supply chain that speaks to the platform. None guarantees a favorable decision.
 
-## Decompose the claim
+## Break down the claim
 
 | Sales phrase | Required clarification |
 | --- | --- |
@@ -34,15 +34,15 @@ Capture exact wording in the contract and a claim-verification worksheet.
 
 The agency can contractually control the first two, sometimes facilitate the third, and cannot own the fourth.
 
-## Ask for operational evidence
+## Ask for evidence from real operations
 
-Review anonymized incident process, notification SLA, named roles, evidence checklist, case ownership, client update cadence, security/billing coordination, and post-reinstatement controls. Do not request another client’s confidential tickets.
+Review anonymized incident process, notification SLA, named roles, evidence checklist, case ownership, client update schedule, security/billing coordination, and post-reinstatement controls. Do not request another client’s confidential tickets.
 
 Verify any partner or representative claim through current official evidence where possible. Logos and old screenshots are not permanent status.
 
 ## Reject bypass language
 
-Guaranteed replacements, “ban-proof” accounts, unlimited appeals, account rotation, false documents, hidden advertiser identity, or domain swapping after enforcement are not premium support. They are governance warnings.
+Guaranteed replacements, “ban-proof” accounts, unlimited appeals, account rotation, false documents, hidden advertiser identity, or domain swapping after enforcement are not premium support. They are management warnings.
 
 Meta, Google, and TikTok each retain enforcement authority and consider evasion or repeated abusive behavior relevant.
 
@@ -52,13 +52,13 @@ The agency can promise to acknowledge an incident, preserve evidence, start cont
 
 ## Model provider dependency
 
-If support belongs to an upstream reseller, identify it, the contract, access to client data, case continuity, and what happens when the relationship ends. The client should retain notices, case IDs, submitted text, evidence, and decisions.
+If support belongs to an upstream reseller, identify it, the contract, access to client data, case ability to keep operating, and what happens when the relationship ends. The client should retain notices, case IDs, submitted text, evidence, and decisions.
 
 ## Evaluate replacement precisely
 
 Does replacement preserve account history, identities, pixels, catalogs, audiences, balances, invoices, verification, and data? Usually it does not preserve all of them. A new account also cannot lawfully be used to bypass unresolved enforcement.
 
-The credible support proposition is disciplined uncertainty: faster internal response, better evidence, and honest boundaries—not control over the platform.
+The credible support offer is disciplined uncertainty: faster internal response, better evidence, and honest boundaries—not control over the platform.
 
 ## Build a claim-evidence register
 
@@ -66,9 +66,9 @@ For every commercial statement—“priority,” “dedicated,” “direct,” 
 
 ## Publish an honest service ladder
 
-Separate acknowledgment, triage, evidence collection, internal review, submission, escalation attempt, platform response, and recovery validation. Time only the stages the agency controls. Report percentiles and sample sizes for operational stages rather than presenting a best case as a universal outcome.
+Separate acknowledgment, triage, evidence collection, internal review, submission, escalation attempt, platform response, and recovery validation. Time only the stages the agency controls. Report percentiles and sample sizes for practical stages rather than presenting a best case as a universal outcome.
 
-## Preserve a case archive
+## Keep a case archive
 
 Keep the decision notice, affected objects, factual chronology, submitted evidence, platform responses, client approvals, changes made, and final status. The archive prevents contradictory resubmissions and makes recurring root causes visible. Restrict it to the relevant client and approved reviewers.
 
@@ -78,11 +78,11 @@ Document what happens if a representative changes, a provider relationship ends,
 
 ## Limit replacement promises
 
-Define eligible causes, excluded causes, asset and data continuity, balance handling, review requirements, timing controlled by each party, and whether a replacement changes the advertiser or payer identity. Replacement must not be used to evade enforcement. Often the correct remedy is diagnosis and correction, not a new account.
+Define eligible causes, excluded causes, asset and data ability to keep operating, balance handling, review requirements, timing controlled by each party, and whether a replacement changes the advertiser or payer identity. Replacement must not be used to evade enforcement. Often the correct remedy is diagnosis and correction, not a new account.
 
 ## Score support quality with controllable measures
 
-Measure acknowledgment, complete-evidence time, internal review time, update reliability, submission rework, escalation attempts, case continuity, and post-recovery validation. Connect these measures to the [suspension-response workflow](/agency-ad-accounts/agency-account-suspension-response/) and the service boundaries written into [agency account SLAs](/agency-ad-accounts/agency-account-contracts-slas/). Segment cases by type and complexity; a median across routine and suspended accounts is misleading. Report platform response separately, especially when evaluating a [provider’s support proposition](/agency-ad-accounts/agency-ad-account-provider/), and never turn correlation into a guaranteed outcome.
+Measure acknowledgment, complete-evidence time, internal review time, update reliability, submission rework, escalation attempts, case ability to keep operating, and post-recovery validation. Connect these measures to the [suspension-response workflow](/agency-ad-accounts/agency-account-suspension-response/) and the service boundaries written into [agency account SLAs](/agency-ad-accounts/agency-account-contracts-slas/). Segment cases by type and complexity; a median across routine and suspended accounts is misleading. Report platform response separately, especially when evaluating a [provider’s support offer](/agency-ad-accounts/agency-ad-account-provider/), and never turn correlation into a guaranteed outcome.
 
 ## Official resources
 

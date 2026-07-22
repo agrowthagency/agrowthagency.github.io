@@ -12,7 +12,7 @@ updatedDate: 2026-07-21
 
 The product is not the label. It is the allocation of ownership, access, money, identity, data, support, and exit risk.
 
-## Identify the operating model
+## Identify the way the account is managed
 
 Document:
 
@@ -32,7 +32,7 @@ TikTok’s current [ad-account access process](https://ads.tiktok.com/help/artic
 
 | Structure | Advantage | Dependency |
 | --- | --- | --- |
-| Client-owned, agency access | Direct continuity and visibility | Client must govern account and finance |
+| Client-owned, agency access | Direct ability to keep operating and visibility | Client must manage account and finance |
 | Agency-created for client | Managed setup | Agency control and transfer limits |
 | Fully managed, no client access | Simplicity | Reporting, billing, and exit dependency |
 | Reseller/sub-provider | Added service or capacity | Hidden ownership and support layers |
@@ -47,7 +47,7 @@ Keep client pixels, catalogs, audiences, leads, creative, and reporting under a 
 
 ## Make billing transparent
 
-State who owes TikTok, payment option, currency, tax, prefunding, fees, credit, refund treatment, unused balance, and reconciliation method. Link client invoices to platform accounts and periods. Do not call a billing threshold a permanent spending limit.
+State who owes TikTok, payment option, currency, tax, advance funding, fees, credit, refund treatment, unused balance, and reconciliation method. Link client invoices to platform accounts and periods. Do not call a billing threshold a permanent spending limit.
 
 ## Allocate incident duties
 
@@ -55,17 +55,17 @@ Define who detects, contains, investigates, submits appeals, communicates with T
 
 Provider experience may improve operations and support routing. It cannot guarantee approval, limit, reinstatement, or permission to advertise an ineligible product.
 
-## Diligence the supply chain
+## Check the supply chain carefully
 
-Identify subcontractors and upstream providers controlling accounts, billing, support, or labor. Require legal entity, Business Center ID, security, confidentiality, incident reporting, access, and termination disclosures. Refusal to identify the actual controller is a material warning.
+Identify subcontractors and providers earlier in the supply chain controlling accounts, billing, support, or labor. Require legal entity, Business Center ID, security, confidentiality, incident reporting, access, and termination disclosures. Refusal to identify the actual controller is a material warning.
 
-Reject shared credentials, false documents, hidden advertisers, guaranteed reinstatement, and instructions to rotate accounts or domains around enforcement.
+Reject shared login details, false documents, hidden advertisers, guaranteed reinstatement, and instructions to rotate accounts or domains around enforcement.
 
 ## Design exit before launch
 
 Specify final spend, balances, invoices, campaign and creative exports, pixels, catalogs, audiences, TikTok identities, leads, support cases, user removal, partner removal, and data retention. Test that client-controlled administrators can access critical assets.
 
-Use [TikTok Business Center asset governance](/tiktok-ads/tiktok-business-center-asset-governance/) for ownership, [TikTok Ads billing and payments](/tiktok-ads/tiktok-ads-billing-and-payments/) for finance, and [Verified TikTok Business Center providers](/tiktok-ads/verified-business-center-account-providers/) for commercial claims.
+Use [TikTok Business Center asset management](/tiktok-ads/tiktok-business-center-asset-governance/) for ownership, [TikTok Ads billing and payments](/tiktok-ads/tiktok-ads-billing-and-payments/) for finance, and [Verified TikTok Business Center providers](/tiktok-ads/verified-business-center-account-providers/) for commercial claims.
 
 ## Require a control schedule
 
@@ -79,13 +79,13 @@ Reconcile agency reports with TikTok campaign and billing data. Define time zone
 
 If direct account access is not part of the model, provide adequate evidence and contractual audit rights without exposing other clients.
 
-## Govern creator and identity supply chains
+## Manage creator and identity supply chains
 
 Document creators, TikTok accounts, Spark authorizations, posts, agencies, talent managers, usage period, markets, advertiser accounts, content rights, and revocation. Do not let a media account provider become the undocumented controller of the brand’s paid identity.
 
 ## Model provider failure
 
-Plan for provider Business Center restriction, compromised admin, exhausted balance or credit, lost support channel, termination, insolvency, and an upstream provider ending service. Define notification, campaign stop, data access, fund treatment, and transition.
+Plan for provider Business Center restriction, compromised admin, exhausted balance or credit, lost support channel, termination, insolvency, and an provider earlier in the supply chain ending service. Define notification, campaign stop, data access, fund treatment, and transition.
 
 ## Separate support from decision authority
 

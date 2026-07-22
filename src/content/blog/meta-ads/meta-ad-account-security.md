@@ -10,7 +10,7 @@ updatedDate: 2026-07-21
 
 A Meta ad account is controlled through people and relationships. A person’s Facebook account can administer a Business Portfolio; that portfolio can control ad accounts, Pages, pixels, catalogs, Instagram accounts, and payment functions; partners can receive access across organizational boundaries.
 
-Security is therefore the governance of every path that can change spend, identity, data, or permissions.
+Security is therefore the management of every path that can change spend, identity, data, or permissions.
 
 ## Map the control graph
 
@@ -34,8 +34,8 @@ Not every permission creates the same exposure. Full-control administrators, fin
 | Personal profile | Entry to multiple business assets | Strong unique password, two-factor authentication, login alerts |
 | Business full control | Add users, partners, or assets | Minimal named owners and periodic review |
 | Partner access | Cross-company operations | Written scope, asset-level assignment, expiry and offboarding |
-| Ad account role | Campaign and possible payment activity | Least privilege and change monitoring |
-| Page/Instagram control | Public identity and ad authorization | Separate content and advertising governance |
+| Ad account role | Campaign and possible payment activity | Least access right and change monitoring |
+| Page/Instagram control | Public identity and ad authorization | Separate content and advertising management |
 | Payment access | Spend and financial disruption | Finance ownership, reconciliation, and alerts |
 
 Meta recommends controls including two-factor authentication, login alerts, session review, business notifications, Security Checkup, and removal of suspicious browser extensions or malware. Apply them to every administrator, not only the marketing lead.
@@ -48,7 +48,7 @@ When one appears:
 
 1. Record timestamps, asset IDs, charges, ads, users, and notifications.
 2. Secure trusted administrator email and devices.
-3. Reset credentials, enable or restore strong authentication, and terminate unknown sessions.
+3. Reset login details, enable or restore strong authentication, and terminate unknown sessions.
 4. Remove unauthorized people, partners, apps, and payment methods where safe and permitted.
 5. Pause unauthorized activity without deleting the evidence needed for investigation.
 6. Notify the real asset owners, finance, IT/security, and affected clients.
@@ -62,25 +62,25 @@ Reconcile Meta payment activity with bank records using transaction references. 
 
 Use the [Meta payment restriction guide](/meta-ads/payment-restriction/) if security activity has already interrupted payment capability. Do not rotate through new cards while access remains compromised.
 
-## Recovery ends with governance
+## Recovery ends with management
 
-After containment, identify the initial access path and every asset touched. Restore only known-good campaigns and users. Preserve the incident timeline, support case IDs, financial reconciliation, and control changes.
+After containment, identify the initial access path and every asset touched. Restore only known-good campaigns and users. Preserve the incident timeline, support case IDs, checking and correcting the payment records, and control changes.
 
 Then set a recurring access review, immediate offboarding process, partner inventory, authentication requirement, and notification owner. The strongest recovery is not merely regaining access; it is reducing the number of uncontrolled paths back into the business.
 
-## Establish privileged-access rules
+## Set privileged-access rules
 
-Full control, finance permissions, and partner assignment should require a named request, business justification, approver, start date, and review or expiry date. Avoid permanent privileged access for short engagements.
+Full control, finance permissions, and partner assignment should require a named request, business justification, approver, start date, and review or expiry date. Avoid permanent administrator access for short engagements.
 
-Maintain at least two trusted business-controlled administrators for continuity, but keep the privileged group small. Backup access is valuable only when the backup person is real, trained, reachable, and protected. An old employee left in place “just in case” is not resilience.
+Maintain at least two trusted business-controlled administrators for ability to keep operating, but keep the privileged group small. Backup access is valuable only when the backup person is real, trained, reachable, and protected. An old employee left in place “just in case” is not resilience.
 
 Review whether administrators’ recovery email and phone channels remain controlled by them and whether corporate device standards apply. Two-factor authentication is less useful when the recovery path or email account is exposed.
 
-## Govern agencies and external partners
+## Manage agencies and external partners
 
 Before assigning a partner, record its legal entity, Business ID, contract owner, assets required, allowed tasks, data responsibilities, subcontractors, and offboarding date. Assign individual assets instead of granting broad portfolio access where possible.
 
-Require the partner to report personnel changes and suspected compromise promptly. The client should be able to remove the organization without depending on the partner to approve its own removal. Review nested operational relationships that are not obvious from the original contract.
+Require the partner to report personnel changes and suspected compromise promptly. The client should be able to remove the organization without depending on the partner to approve its own removal. Review nested practical relationships that are not obvious from the original contract.
 
 ## Build detection from ordinary records
 
@@ -88,7 +88,7 @@ Security monitoring does not need to begin with advanced tooling. Reconcile camp
 
 Every alert needs an owner and a confirmation deadline. Notifications that accumulate in a shared inbox without triage create the appearance of monitoring without actual control.
 
-## Preserve forensic boundaries
+## Keep forensic boundaries
 
 During compromise, save screenshots and exports in a restricted incident folder. Limit access to personal data, payment information, session evidence, and identity documents. Record who collected each artifact and when. Share only the evidence necessary with agencies, clients, banks, insurers, or Meta.
 
@@ -98,7 +98,7 @@ Containment should distinguish a compromised account from a [disabled ad account
 
 ## Official resources
 
-- [Protect accounts from credential-stealing malware](https://www.facebook.com/help/773912954219636)
+- [Protect accounts from login detail-stealing malware](https://www.facebook.com/help/773912954219636)
 - [Security Checkup](https://www.facebook.com/help/securitycheckup)
 - [Assign people to a Meta ad account](https://www.facebook.com/help/messenger-app/195296697183682/)
 - [Meta ad review, policy, and support](https://www.facebook.com/business/ads/review-policy-guidelines)

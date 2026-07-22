@@ -8,13 +8,13 @@ publishedDate: 2026-07-10
 updatedDate: 2026-07-10
 ---
 
-## What why ad accounts get restricted usually means
+## What why ad accounts get restricted means
 
 Ad platforms evaluate more than individual creative. Enforcement may reflect the advertised product, landing page, business identity, payment behavior, account security, repeated violations, user complaints, or relationships with other assets. A cross-platform diagnosis starts by separating the visible notice from the underlying system.
 
 The exact in-product notice should lead the diagnosis. Account labels used by teams, communities, or providers can be imprecise, while the platform notice identifies the affected asset, available review path, and policy area. Preserve that evidence before changing campaigns, users, billing, or connected assets.
 
-## Signals to check first
+## What to check first
 
 Use these signals to establish scope. They are prompts for investigation, not proof that a particular policy was violated.
 
@@ -22,7 +22,7 @@ Use these signals to establish scope. They are prompts for investigation, not pr
 - Business, identity, payment, or domain information cannot be verified consistently.
 - The account connects to compromised users, restricted assets, or previously enforced advertisers.
 
-## A responsible response process
+## What to do next
 
 1. Classify the issue as creative, destination, business model, identity, billing, security, or relationship risk.
 2. Build a timeline covering campaigns, website changes, users, payments, verification, and support.
@@ -38,7 +38,7 @@ Keep one incident owner, one evidence folder, and one timeline. Consistency matt
 
 Never submit false documents, conceal account relationships, or use another account to evade an unresolved enforcement decision. Those actions can create additional integrity concerns across connected assets.
 
-## Controls to reduce recurrence
+## How to prevent the problem from happening again
 
 - Use cross-functional launch reviews.
 - Monitor account health indicators.

@@ -8,13 +8,13 @@ publishedDate: 2026-07-10
 updatedDate: 2026-07-10
 ---
 
-## What account warming usually means
+## What account warming means
 
 “Account warming” is often used loosely. A legitimate ramp-up means verifying the business, securing access, confirming billing, testing measurement, launching compliant campaigns, and increasing budgets only when operations are stable. It should never mean manufacturing behavior or bypassing enforcement.
 
 The exact in-product notice should lead the diagnosis. Account labels used by teams, communities, or providers can be imprecise, while the platform notice identifies the affected asset, available review path, and policy area. Preserve that evidence before changing campaigns, users, billing, or connected assets.
 
-## Signals to check first
+## What to check first
 
 Use these signals to establish scope. They are prompts for investigation, not proof that a particular policy was violated.
 
@@ -22,7 +22,7 @@ Use these signals to establish scope. They are prompts for investigation, not pr
 - A provider recommends artificial activity to make an account look older or trusted.
 - Budget increases exceed the team’s ability to monitor support, payments, and fulfillment.
 
-## A responsible response process
+## What to do next
 
 1. Complete business, domain, access, and payment readiness first.
 2. Launch a genuine, policy-reviewed campaign with measurable objectives.
@@ -38,7 +38,7 @@ Keep one incident owner, one evidence folder, and one timeline. Consistency matt
 
 Never submit false documents, conceal account relationships, or use another account to evade an unresolved enforcement decision. Those actions can create additional integrity concerns across connected assets.
 
-## Controls to reduce recurrence
+## How to prevent the problem from happening again
 
 - Use a documented launch gate.
 - Scale against fulfillment and payment capacity.

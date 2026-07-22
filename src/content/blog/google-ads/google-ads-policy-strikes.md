@@ -32,12 +32,12 @@ Do not infer the strike count from the number of rejected ads. A strike is an ac
 
 ## The escalation model creates two clocks
 
-Under the current framework, the first violation produces a warning rather than a strike. Continued violation can lead to a first strike and a three-day temporary hold. A second strike for the same policy within the relevant window creates a seven-day hold. A third strike can result in account suspension. Google describes 90-day relationships between successive strikes and removes a successfully appealed strike.
+Under the current guide, the first violation produces a warning rather than a strike. Continued violation can lead to a first strike and a three-day temporary hold. A second strike for the same policy within the relevant window creates a seven-day hold. A third strike can result in account suspension. Google describes 90-day relationships between successive strikes and removes a successfully appealed strike.
 
 This creates two clocks:
 
 1. **Enforcement clock:** the hold period and strike history.
-2. **Operational clock:** the time required to find and remove the complete violation pattern.
+2. **Practical clock:** the time required to find and remove the complete violation pattern.
 
 Teams often focus only on when delivery can resume. That encourages them to acknowledge quickly, then relaunch from an incompletely reviewed account. The account exits the hold while the cause remains live.
 
@@ -76,11 +76,11 @@ For every warning or strike, search beyond the named asset:
 - Scheduled uploads, scripts, API jobs, and rules that could recreate it.
 - Translations and localized variants.
 
-Classify the root cause. Was the policy misunderstood? Did review cover only creative but not the destination? Did a feed regenerate removed language? Did an agency template spread the same prohibited claim? Did nobody own the warning after the original buyer left?
+Classify the underlying cause. Was the policy misunderstood? Did review cover only creative but not the destination? Did a feed regenerate removed language? Did an agency template spread the same prohibited claim? Did nobody own the warning after the original buyer left?
 
 The correction must sit at the same level as the generator.
 
-## A composite scenario: the claim that kept returning
+## Example: the claim that kept returning
 
 Consider a composite advertiser promoting a regulated credit service. An ad receives a policy warning for a prohibited claim. The buyer edits the visible headline and records the task as complete.
 
@@ -88,9 +88,9 @@ The same claim remains in a responsive asset library and in a spreadsheet used f
 
 The organization interprets each event as an isolated creative mistake. Google sees continued violation of the same policy.
 
-The correct response disables the upload, inventories all variants, removes the claim across assets and destinations, updates the approved-message library, assigns compliance review for the vertical, and records the strike centrally. The asset edit is the smallest part of the remediation.
+The correct response disables the upload, inventories all variants, removes the claim across assets and destinations, updates the approved-message library, assigns compliance review for the vertical, and records the strike centrally. The asset edit is the smallest part of the fixes.
 
-## Maintain a strike register above the campaign layer
+## Keep a strike register above the campaign layer
 
 The register should contain:
 
@@ -98,14 +98,14 @@ The register should contain:
 - Warning and strike dates.
 - Customer ID and affected business.
 - Assets cited and broader scope found.
-- Root cause.
-- Remediation owner and completion evidence.
+- Underlying cause.
+- person responsible for the fix and completion evidence.
 - Acknowledgement or appeal decision.
 - Appeal outcome.
 - Relevant 90-day dates.
 - Preventive control and validation date.
 
-For an MCC, keep client-specific records while monitoring repeated operational patterns across the portfolio. Similar violations can reveal a shared agency process even when enforcement remains account-specific.
+For an MCC, keep client-specific records while monitoring repeated practical patterns across the portfolio. Similar violations can reveal a shared agency process even when enforcement remains account-specific.
 
 ## Relaunch should be a controlled event
 
@@ -123,11 +123,11 @@ Avoid creating replacement accounts or moving the offer elsewhere to escape the 
 
 The mature interpretation of a Google Ads policy strike is not “Google has penalized this account again.” It is “the organization has received evidence that its first correction did not reach the system that produced the violation.”
 
-That is why strike management belongs in governance, not only media buying.
+That is why strike management belongs in management, not only media buying.
 
 The record should remain usable after employees, agencies, campaigns, and account structures change.
 
-Continue with the broader [Google Ads policy enforcement framework](/google-ads/google-ads-policy-enforcement/) or the [account suspension diagnosis](/google-ads/google-ads-account-suspended/) if the strike path has progressed to suspension. When internal reports use “banned” as a catch-all, the [incident-state comparison](/google-ads/google-ads-account-banned/) helps prevent a strike from being recorded as the wrong enforcement object.
+Continue with the broader [Google Ads policy enforcement guide](/google-ads/google-ads-policy-enforcement/) or the [account suspension diagnosis](/google-ads/google-ads-account-suspended/) if the strike path has progressed to suspension. When internal reports use “banned” as a catch-all, the [incident-state comparison](/google-ads/google-ads-account-banned/) helps prevent a strike from being recorded as the wrong item affected by enforcement.
 
 ## Official references
 

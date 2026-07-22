@@ -10,7 +10,7 @@ updatedDate: 2026-07-22
 
 The worst agency response to suspension is speed without coordination. Creative edits, security resets, billing changes, client emails, and duplicate appeals begin before anyone owns one factual timeline.
 
-## Classify the decision object
+## Identify exactly what the platform restricted
 
 Record platform wording, object and ID, date, policy or reason, affected capability, deadline, review route, and related cases. Determine whether enforcement applies to one ad, client advertiser, user, Page/identity, manager hierarchy, Business Center, payment function, or catalog.
 
@@ -29,7 +29,7 @@ Do not call every event an “agency account ban.”
 
 All use one incident ID and timeline. Resolving one does not close the others.
 
-## Preserve scope and confidentiality
+## Keep scope and confidentiality
 
 For agency manager or Business Center incidents, identify shared administrators, templates, payment arrangements, data assets, and providers. Keep separate client evidence folders. Tell each client confirmed impact without exposing another client’s activity.
 
@@ -43,13 +43,13 @@ Platform guidance across Meta and TikTok identifies evasion or replacement behav
 
 The client confirms business identity, product, qualification, and customer experience. The agency confirms campaign, account, access, and corrections. Finance and security confirm their records. One authorized owner reconciles and submits.
 
-State whether the decision appears incorrect or what root cause was confirmed, what changed, and what prevents recurrence. Avoid guarantees and conflicting tickets.
+State whether the decision appears incorrect or what underlying cause was confirmed, what changed, and what prevents repeat issue. Avoid guarantees and conflicting tickets.
 
 ## Communicate commercially without overpromising
 
 Updates should state exact object/status, confirmed impact, work completed, next authorized action, dependencies, and uncertainty. Do not promise a platform response time or outcome.
 
-Contract SLAs should govern agency notification and investigation time, not platform decision time.
+Contract SLAs should manage agency notification and investigation time, not platform decision time.
 
 ## Restart through gates
 
@@ -67,21 +67,21 @@ Define explicit gates for containment, fact completion, appeal approval, control
 
 ## Bound the response SLA honestly
 
-An agency can commit to acknowledgment time, evidence requests, internal review, submission quality, update cadence, and escalation attempts. It cannot promise the platform’s review time or outcome. Contracts and incident communications should make that boundary visible before a suspension occurs.
+An agency can commit to acknowledgment time, evidence requests, internal review, submission quality, update schedule, and escalation attempts. It cannot promise the platform’s review time or outcome. Contracts and incident communications should make that boundary visible before a suspension occurs.
 
 ## Audit the shared hierarchy
 
-When several accounts are affected, inspect common partners, business containers, payment instruments, domains, administrators, integrations, and upstream providers. Do not assume correlation proves the cause, but do not investigate each client in isolation when the architecture creates a shared path.
+When several accounts are affected, inspect common partners, business containers, payment instruments, domains, administrators, integrations, and providers earlier in the supply chain. Do not assume correlation proves the cause, but do not investigate each client in isolation when the setup creates a shared path.
 
-## Preserve legitimate continuity
+## Keep legitimate ability to keep operating
 
-Continuity planning should focus on unaffected channels, approved owned accounts, communications, fulfillment, cash management, and restoration sequencing. Creating substitute identities or cycling accounts to escape enforcement increases factual inconsistency and can expand the incident.
+planning to keep operations running should focus on unaffected channels, approved owned accounts, communications, fulfillment, cash management, and restoration sequencing. Creating substitute identities or cycling accounts to escape enforcement increases factual inconsistency and can expand the incident.
 
 ## Close with a postmortem
 
 Record the timeline, confirmed and rejected hypotheses, decision evidence, client and agency contributions, financial impact, control changes, and validation owner. Separate lessons that apply to the portfolio from details restricted to the client. A reinstatement without a postmortem restores delivery but preserves the failure mode.
 
-## Maintain an incident decision log
+## Keep an incident decision log
 
 Log each material action with time, owner, affected scope, evidence, authorization, and expected validation. Include decisions not to act and why. The log should distinguish platform facts, client statements, agency observations, and hypotheses. It connects the underlying [policy decision record](/agency-ad-accounts/agency-policy-compliance-governance/) with the agency’s [real support and escalation capabilities](/agency-ad-accounts/agency-support-reinstatement-claims/). Where access or identity integrity is uncertain, run the [security incident process](/agency-ad-accounts/agency-ad-account-security/) and [verification comparison](/agency-ad-accounts/agency-advertiser-verification/) as separate workstreams. Restrict sensitive evidence, but keep a common status view so urgency does not generate parallel appeals or unauthorized changes.
 

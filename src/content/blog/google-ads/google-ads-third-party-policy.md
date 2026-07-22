@@ -23,7 +23,7 @@ Map:
 - Contracting agency entity.
 - Manager accounts and client customer IDs.
 - Sales channels and scripts.
-- Advertised Google relationship or credentials.
+- Advertised Google relationship or login details.
 - Client access and ownership model.
 - Media billing and agency fees.
 - Performance reports and source data.
@@ -69,15 +69,15 @@ Do not present blended charges as if all funds were paid to Google. Do not selec
 
 The exact reporting model can vary, but it should support an informed commercial decision.
 
-## Complaints are governance data
+## Complaints are management data
 
 Agencies often classify complaints as isolated customer-service events. Repeated complaints about the same promise, fee, access restriction, cancellation barrier, or performance representation can reveal a policy pattern.
 
-Maintain a complaint taxonomy and connect it to sales source, contract version, account model, and responsible team. Escalate allegations involving Google affiliation, guaranteed outcomes, hidden charges, missing account access, unauthorized changes, or refusal to release client assets.
+Maintain a complaint list of categories and connect it to sales source, contract version, account model, and responsible team. Escalate allegations involving Google affiliation, guaranteed outcomes, hidden charges, missing account access, unauthorized changes, or refusal to release client assets.
 
 Do not measure resolution only by whether the customer stopped contacting the agency. Determine whether the underlying practice remains in other customer files. A complaint process becomes a compliance control when it can change sales scripts, billing design, permissions, and offboarding—not merely close tickets.
 
-## Client access and ownership are governance questions
+## Client access and ownership are management questions
 
 Linking a manager account is not the same as owning a client account. A manager-created account can make the manager the initial owner, while a linked existing account does not automatically confer ownership. Google also provides different access levels.
 
@@ -95,7 +95,7 @@ Ownership should serve an operating need, not function as commercial lock-in. Th
 
 ## Significant or sustained violations create manager risk
 
-Google’s current [third-party enforcement guidance](https://support.google.com/adspolicy/answer/16489095?hl=en) allows compliance review and describes consequences such as loss of privileges, program restrictions, and advertising or manager-account suspension for significant, sustained, repeated, or especially serious violations.
+Google’s current [third-party enforcement guidance](https://support.google.com/adspolicy/answer/16489095?hl=en) allows compliance review and describes consequences such as loss of access rights, program restrictions, and advertising or manager-account suspension for significant, sustained, repeated, or especially serious violations.
 
 Google may request information and may contact customers to validate compliance. Treat such a review as an organizational incident:
 
@@ -104,19 +104,19 @@ Google may request information and may contact customers to validate compliance.
 3. Map affected sales, contracts, accounts, billing, and reporting.
 4. Test whether the issue is isolated or systemic.
 5. Correct the operating process, not only the cited example.
-6. Provide accurate records and monitor remediation.
+6. Provide accurate records and monitor fixes.
 
-Individual client accounts can also be affected when linked to a manager in violation of third-party policy. Google’s account-pausing guidance states that an affected client may be instructed to unlink from the violating manager. That makes agency compliance part of client continuity planning.
+Individual client accounts can also be affected when linked to a manager in violation of third-party policy. Google’s account-pausing guidance states that an affected client may be instructed to unlink from the violating manager. That makes agency compliance part of client planning to keep operations running.
 
-## A composite scenario: compliant campaigns, non-compliant service
+## Example: compliant campaigns, non-compliant service
 
 Consider a composite provider selling “Google-approved high-limit accounts.” Sales guarantees stable placement and implies an exclusive relationship. Clients prepay a blended amount but cannot see Google invoices. Accounts are created under the provider’s MCC, and clients receive read-only access. Offboarding requires surrendering campaign history.
 
 The ads themselves promote ordinary eligible products. Campaign review does not expose the service-model problems.
 
-The remediation requires changes to sales claims, contracting, fee disclosure, account access, ownership, reporting, and offboarding. Rewording the website’s Google Partner reference is insufficient if dependency and financial opacity remain.
+The fix requires changes to sales claims, contracting, fee disclosure, account access, ownership, reporting, and offboarding. Rewording the website’s Google Partner reference is insufficient if dependency and financial opacity remain.
 
-Third-party compliance is the product architecture surrounding campaign delivery.
+Third-party compliance is the product setup surrounding campaign delivery.
 
 ## Build an agency control register
 
@@ -130,7 +130,7 @@ Maintain controls for:
 - Policy-notice communication.
 - Complaint classification and escalation.
 - Cancellation, export, and offboarding.
-- Subcontractor due diligence.
+- Subcontractor careful checks.
 - Periodic customer-file audits.
 
 Track exceptions with an owner and expiry date. If a client cannot receive standard access or billing visibility for a legitimate reason, document the reason and the alternative control.
@@ -139,11 +139,11 @@ Track exceptions with an owner and expiry date. If a client cannot receive stand
 
 An agency may use freelance buyers, white-label teams, billing partners, software vendors, lead generators, or account providers. The client experience can still be affected by how those parties sell, access accounts, report spend, or handle data.
 
-Maintain a subcontractor register covering scope, account access, customer contact, billing role, permitted claims, security requirements, and termination. Review the provider’s operating evidence rather than relying only on a contractual promise to follow policy. If a subcontractor’s model depends on opaque ownership, shared credentials, unverifiable accounts, or misleading Google affiliation, the agency has imported the risk into its own service.
+Maintain a subcontractor register covering scope, account access, customer contact, billing role, permitted claims, security requirements, and termination. Review the provider’s operating evidence rather than relying only on a contractual promise to follow policy. If a subcontractor’s model depends on opaque ownership, shared login details, unverifiable accounts, or misleading Google affiliation, the agency has imported the risk into its own service.
 
-The strongest agency is not the one that claims privileged access to Google Ads. It is the one whose clients can understand what they bought, what Google charged, who controls the account, and how the relationship can end without destroying business continuity.
+The strongest agency is not the one that claims administrator access to Google Ads. It is the one whose clients can understand what they bought, what Google charged, who controls the account, and how the relationship can end without destroying ability to keep the business running.
 
-Use the broader [Google agency account framework](/google-ads/google-agency-ad-account/) for ownership, billing, verification, and offboarding design. If enforcement reaches the manager hierarchy, continue with [Google Ads MCC suspension](/google-ads/mcc-suspension/). The client description and agency role should also remain consistent with any [business-operations verification submission](/google-ads/google-ads-business-operations-verification/).
+Use the broader [Google agency account guide](/google-ads/google-agency-ad-account/) for ownership, billing, verification, and offboarding design. If enforcement reaches the manager hierarchy, continue with [Google Ads MCC suspension](/google-ads/mcc-suspension/). The client description and agency role should also remain consistent with any [business-operations verification submission](/google-ads/google-ads-business-operations-verification/).
 
 ## Official references
 

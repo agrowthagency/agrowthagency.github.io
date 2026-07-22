@@ -56,13 +56,13 @@ Review the contracting entity, address, Business Center ID, security requirement
 
 What happens if the provider Business Center is restricted, a shared balance is unavailable, TikTok requests new verification, the account is suspended, the provider loses a credit line, the client changes agency, or the provider disappears?
 
-Assess deposits and prefunding as counterparty exposure. Determine where money sits, when TikTok is paid, what can be refunded, and how open balances are resolved.
+Assess deposits and advance funding as other party exposure. Determine where money sits, when TikTok is paid, what can be refunded, and how open balances are resolved.
 
-## Protect continuity
+## Protect ability to keep operating
 
 Keep brand identities and business-critical data under clear client control where the platform and model permit. Define exports and access to campaigns, reports, pixels, catalogs, audiences, leads, creative, and support cases. Reassess ownership, verification, finance, and provider status regularly.
 
-No provider can guarantee approval or immunity. The credible proposition is transparent governance under uncertainty.
+No provider can guarantee approval or immunity. The credible offer is transparent management under uncertainty.
 
 Use [TikTok agency ads accounts](/tiktok-ads/tiktok-agency-ads-account/) for the service model, [TikTok business verification](/tiktok-ads/tiktok-business-verification/) for identity scope, and [TikTok Ads billing and payments](/tiktok-ads/tiktok-ads-billing-and-payments/) for financial terminology.
 
@@ -76,17 +76,17 @@ For each sales claim, store exact wording, live platform evidence, account/Busin
 | High limit | Exact budget, threshold, balance, or credit term |
 | Agency account | Controller, ownership, client access, primary media relationship |
 | Fast approval | Evidence and explicit absence of guarantee |
-| Replacement | Data, balance, identity, exclusions, continuity |
+| Replacement | Data, balance, identity, exclusions, ability to keep operating |
 
-If the provider refuses exact nouns and IDs, the buyer cannot diligence the product.
+If the provider refuses exact nouns and IDs, the buyer cannot check the product.
 
 ## Evaluate economics, not only capacity
 
-Model deposit, prefunding, minimum spend, service fee, tax, exchange rate, unused balance, refund, credit note, payment timing, and termination costs. Large provider-held balances create counterparty exposure.
+Model deposit, advance funding, minimum spend, service fee, tax, exchange rate, unused balance, refund, credit note, payment timing, and termination costs. Large provider-held balances create other party exposure.
 
 Confirm whether the supposed capacity is actually required for the campaign plan.
 
-## Protect measurement continuity
+## Protect measurement ability to keep operating
 
 Determine who controls pixel, app, catalog, audience, lead, creative, identity, and reporting assets. Test what remains available if the advertiser account cannot transfer or the provider relationship ends.
 
@@ -94,7 +94,7 @@ A history of high spend is not a durable business asset when measurement and cus
 
 ## Reject bypass indicators
 
-Warning signs include false verification documents, hidden advertiser identity, unrelated payment entities without contract, shared user credentials, account rotation, domain swapping after enforcement, and claims that prohibited industries are acceptable through provider status.
+Warning signs include false verification documents, hidden advertiser identity, unrelated payment entities without contract, shared user login details, account rotation, domain swapping after enforcement, and claims that prohibited industries are acceptable through provider status.
 
 ## Reassess periodically
 

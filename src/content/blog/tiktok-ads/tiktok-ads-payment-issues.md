@@ -39,7 +39,7 @@ Use masked method identifiers and protect financial data. Record bank case numbe
 | Issuer | Authorization/decline, reason, settlement, reversal |
 | Internal | Approved spend, payer, cost center, expected account |
 
-## Investigate blast radius
+## Investigate number of accounts that could be affected
 
 One method, payment portfolio, or Business Center balance may support multiple accounts. Identify all connected advertisers, current balances, active campaigns, client owners, and finance permissions. Coordinate before removing a method needed for investigation or other authorized delivery.
 
@@ -57,7 +57,7 @@ A successful card check is not closure. Confirm the outstanding balance, account
 
 Close the incident with reconciled transactions, confirmed payer, secured access, restored or intentionally stopped delivery, updated ledger, and preventive controls for expiry, limits, alerts, access, and backup methods.
 
-Use [TikTok Ads billing and payments](/tiktok-ads/tiktok-ads-billing-and-payments/) for architecture and [TikTok Ads account suspended](/tiktok-ads/tiktok-ads-account-suspended/) if account enforcement remains after finance is healthy.
+Use [TikTok Ads billing and payments](/tiktok-ads/tiktok-ads-billing-and-payments/) for setup and [TikTok Ads account suspended](/tiktok-ads/tiktok-ads-account-suspended/) if account enforcement remains after finance is healthy.
 
 ## Avoid false recovery signals
 
@@ -69,7 +69,7 @@ After every action, confirm the actual payment page, account status, balance, ca
 
 TikTok documents a distinct refund process for suspended accounts, with eligibility review and limitations tied to payment method and account state. Preserve the original payment instrument where possible and do not promise timing, amount, or approval.
 
-Before requesting, reconcile prepaid balance, deductions, currency, original method, account closure implications, and client ownership. Store request status and support case. This is operational guidance, not legal or financial advice.
+Before requesting, reconcile prepaid balance, deductions, currency, original method, account closure implications, and client ownership. Store request status and support case. This is practical guidance, not legal or financial advice.
 
 ## Build a payment incident runbook
 
@@ -83,7 +83,7 @@ A bank dispute may be appropriate for genuine unauthorized activity, but it shou
 
 Do not use chargeback as a shortcut for poor client reconciliation or a disagreement over agency fees.
 
-## Learn from the financial root cause
+## Learn from the financial underlying cause
 
 Classify expiry, issuer configuration, insufficient balance, missing finance permissions, reconciliation delay, shared-method concentration, compromise, or process error. Assign a control: expiry monitoring, backup approval, lower-risk allocation, access review, alerting, or daily reconciliation.
 

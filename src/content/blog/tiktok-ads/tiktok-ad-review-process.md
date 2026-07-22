@@ -70,13 +70,13 @@ Sample approved campaigns and compare them with their preflight packet. Confirm 
 
 Approval is a state of a configured object at a time. It is not a reusable certificate for later creative, markets, identities, or pages.
 
-## Govern Spark Ads reviewability
+## Manage Spark Ads reviewability
 
 Spark Ads combine organic posts, account identity, authorization, and paid configuration. Record post ID, creator or brand owner, authorization method and duration, caption and audio, permitted edits, advertiser accounts, markets, and landing page.
 
 A post that is acceptable organically is not automatically eligible as an ad in every industry or market. Paid targeting and commercial claims introduce their own review context.
 
-## Use a release evidence packet
+## Use a release set of supporting evidence
 
 For material launches, keep one folder or record containing final export, subtitles and translation, claim evidence, identity authorization, target settings, URL resolution, page captures, qualification, approvals, and publication IDs. This reduces contradictory reconstruction after a rejection.
 

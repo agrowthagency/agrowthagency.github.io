@@ -16,9 +16,9 @@ Editing, reaction shots, demonstrations, captions, audio, countdowns, price over
 
 TikTok’s April 2026 [misleading and false content policy](https://ads.tiktok.com/help/article/tiktok-ads-policy-misleading-and-false-content?lang=en) addresses exaggerated outcomes, inconsistencies between ads and landing pages, deceptive interactive elements, comparisons, and edited or AI-generated content. Its deceptive-practices policy also addresses harmful business behavior and patterns across accounts.
 
-Map every material proposition:
+Map every material offer:
 
-| Proposition | Evidence and execution check |
+| Offer | Evidence and execution check |
 | --- | --- |
 | Product effect | Substantiation, typicality, time, conditions |
 | Price/discount | Same destination amount, currency, dates, eligibility |
@@ -40,7 +40,7 @@ Compare product, price, discount, seller, availability, terms, risk, and result 
 
 Check localized pages, mobile variants, upsells, subscriptions, forms, and after-conversion experience. Fine print should qualify, not reverse, the primary message.
 
-## Govern creators and agencies
+## Manage creators and agencies
 
 Give creators a fact sheet, prohibited implications, approved claims, required qualifications, brand relationship, and escalation contact. Contractual creative freedom does not transfer the advertiser’s responsibility for truthful facts.
 
@@ -54,13 +54,13 @@ Use [TikTok Ads landing page requirements](/tiktok-ads/tiktok-ads-landing-page-r
 
 ## Separate evidence from creative intuition
 
-For each objective claim, record the proposition, product/version, population, market, evidence source, evidence owner, date, limitations, approved wording, required qualification, and expiry trigger. The compliance question is not whether the hook “feels reasonable.” It is whether the communicated outcome is materially supported.
+For each objective claim, record the offer, product/version, population, market, evidence source, evidence owner, date, limitations, approved wording, required qualification, and expiry trigger. The compliance question is not whether the hook “feels reasonable.” It is whether the communicated outcome is materially supported.
 
 When support is ambiguous, narrow the claim or remove it. Do not make disclaimers carry a promise the evidence cannot support.
 
-## Govern scarcity and promotion systems
+## Manage scarcity and promotion systems
 
-Countdowns, limited inventory, prize language, discount percentages, reference prices, and “today only” offers require live operational facts. Identify which commerce system controls each value and how creative updates when facts change.
+Countdowns, limited inventory, prize language, discount percentages, reference prices, and “today only” offers require live practical facts. Identify which commerce system controls each value and how creative updates when facts change.
 
 Never let an evergreen template generate false urgency. Preserve promotion terms and ensure the landing page and checkout show the same conditions.
 
@@ -70,7 +70,7 @@ Check play, close, swipe, carousel, notification, chat, download, and form eleme
 
 Consider the complete motion and timing. A still-frame legal review can miss a deceptive sequence.
 
-## Handle AI and edited media with provenance
+## Handle AI and edited media with origin and ownership history
 
 Record source assets, generation or editing tools, material transformations, depicted people or events, permissions, and required disclosure. Confirm that alteration does not fabricate product performance, authority, testimony, or real-world events.
 
@@ -82,7 +82,7 @@ Review refunds, charge disputes, complaints, product returns, delivery failures,
 
 ## End with a truth control
 
-When a misleading-content incident closes, update the source brief, evidence library, creator contract, pricing feed, destination release, or approval ownership. A synonym change is not a control. Material truth must survive scale, localization, and time.
+When a misleading-content incident closes, update the source brief, evidence library, creator contract, pricing feed, destination release, or approval ownership. A synonym change is not a control. Important facts must survive scale, localization, and time.
 
 ## Official resources
 

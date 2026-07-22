@@ -27,11 +27,11 @@ Build a launch matrix with these dimensions:
 
 A business that is lawful in one country is not automatically eligible everywhere. A corporate license may cover one entity but not its affiliate or agency. Authorization for one product, domain, or account should not be assumed to cover another.
 
-## Separate prohibited, restricted, and operationally limited
+## Separate prohibited, restricted, and limited in practice
 
 - **Prohibited:** the product, service, content, or practice cannot be promoted in the planned form.
 - **Restricted:** promotion may be allowed only with conditions such as geography, age, permission, or presentation.
-- **Operationally limited:** an account may not have access to a feature, placement, objective, or authorization even if the broader category can advertise.
+- **limited in practice:** an account may not have access to a feature, placement, objective, or authorization even if the broader category can advertise.
 
 Do not treat an approved ad from another market or advertiser as precedent. Its eligibility facts may be different, and an approval is not a legal opinion or permanent authorization.
 
@@ -57,13 +57,13 @@ Require a fresh eligibility review when:
 
 If one ad misstates an otherwise eligible offer, fix the object and workflow. If the product itself is ineligible, stop the launch rather than generating variants. If an account or business is restricted, investigate repeated behavior, asset relationships, and any attempt to continue through substitutes.
 
-Use [Meta Advertising Standards enforcement](/meta-ads/meta-advertising-standards-enforcement/) to classify the decision. For destination and identity coherence, use [Meta Ads landing page requirements](/meta-ads/meta-landing-page-requirements/) and [Meta business verification](/meta-ads/meta-business-verification/).
+Use [Meta Advertising Standards enforcement](/meta-ads/meta-advertising-standards-enforcement/) to classify the decision. For destination and consistent identity information, use [Meta Ads landing page requirements](/meta-ads/meta-landing-page-requirements/) and [Meta business verification](/meta-ads/meta-business-verification/).
 
 ## Assign a product-policy owner
 
 Media buyers should not carry sole responsibility for classifying products they did not design. Assign a business or compliance owner who can explain product function, ingredients or features, customer eligibility, licensing, pricing, fulfillment, complaints, and market availability.
 
-That owner approves the product-policy record before creative production. Marketing then implements the conditions in ads and targeting. Legal interpretation, operational truth, and campaign execution remain connected.
+That owner approves the product-policy record before creative production. Marketing then implements the conditions in ads and targeting. Legal interpretation, practical truth, and campaign execution remain connected.
 
 ## Evaluate composite offers
 
@@ -75,9 +75,9 @@ Map every step from ad to customer transaction and identify who performs it. If 
 
 For every license, Meta permission, certification, or partner authorization, record the holder, number, scope, market, products, domains, accounts, effective date, expiry, renewal owner, and evidence location. Configure reminders well before expiry.
 
-Do not assume continuity after a merger, agency change, new Page, domain migration, or account replacement. Revalidate whether the authorization still applies to the exact configuration.
+Do not assume ability to keep operating after a merger, agency change, new Page, domain migration, or account replacement. Revalidate whether the authorization still applies to the exact configuration.
 
-## Govern country expansion
+## Manage country expansion
 
 Create a per-country launch approval that covers product legality, Meta requirements, language, age, licenses, claims, destination, payments, fulfillment, customer support, and data collection. Country inclusion in an Ads Manager selector is not evidence that the offer is eligible there.
 
@@ -93,7 +93,7 @@ Marketing compliance cannot remain accurate if it does not receive product and l
 
 If the promoted activity is clearly prohibited in the planned context, another review is not a strategy. Retire the campaign and prevent reuse. If the business can lawfully operate only under conditions not yet met, complete those conditions before publication.
 
-Reserve review requests for decisions believed to be incorrect or for cases where genuine remediation can be accurately demonstrated.
+Reserve review requests for decisions believed to be incorrect or for cases where genuine fixes can be accurately demonstrated.
 
 ## Official resources
 

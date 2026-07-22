@@ -89,15 +89,15 @@ Review:
 - Whether the page is primarily an ad bridge with little original value.
 - Whether contact, pricing, terms, and material offer information are discoverable.
 
-Performance matters operationally as well. A page that intermittently times out can move between apparently healthy and disapproved states without a content change.
+Performance matters in practice as well. A page that intermittently times out can move between apparently healthy and disapproved states without a content change.
 
-## A composite scenario: the URL nobody owned
+## Example: a URL with no clear owner
 
 Consider a composite advertiser using a third-party tracker. The final URL points to the brand domain. The tracker applies a country rule, sends mobile users through a shortened URL, and redirects some visitors to a localized checkout on another domain. A new CDN rule blocks unfamiliar bots.
 
 The marketing team opens the final URL on a desktop and sees a healthy page. It appeals the mismatch and accessibility decisions. The appeal fails because neither test reproduced the expanded production route.
 
-The correct investigation maps each route, removes the unsupported cross-domain hop, allows legitimate AdsBot access without exposing protected infrastructure, validates the localized checkout architecture, and assigns one owner for tracking changes.
+The correct investigation maps each route, removes the unsupported cross-domain hop, allows legitimate AdsBot access without exposing protected infrastructure, validates the localized checkout setup, and assigns one owner for tracking changes.
 
 The policy issue was not “the website.” It was an ungoverned chain shared by marketing, analytics, ecommerce, and infrastructure.
 
@@ -124,7 +124,7 @@ That makes destination integrity part of identity and representation. The domain
 
 The strongest destination control is not a pre-appeal scan. It is ownership of the whole click path—from displayed URL to fulfilled promise.
 
-If route variation is designed to hide material content or bypass review, the issue moves beyond destination functionality into [Google Ads Circumventing systems](/google-ads/circumventing-systems/). If destination activity appears unauthorized, treat it through the [Google Ads account security framework](/google-ads/google-ads-account-security/) as well as the website investigation. A destination defect attached to an individual asset should feed the narrower [disapproved-ad workflow](/google-ads/google-ads-disapproved-ads/) before the team assumes account-wide enforcement.
+If route variation is designed to hide material content or bypass review, the issue moves beyond destination functionality into [Google Ads Circumventing systems](/google-ads/circumventing-systems/). If destination activity appears unauthorized, treat it through the [Google Ads account security guide](/google-ads/google-ads-account-security/) as well as the website investigation. A destination defect attached to an individual asset should feed the narrower [disapproved-ad workflow](/google-ads/google-ads-disapproved-ads/) before the team assumes account-wide enforcement.
 
 ## Official references
 

@@ -14,11 +14,11 @@ An ad can be rejected while its ad account remains usable. A person can lose per
 
 The first job is not persuasion. It is classification.
 
-## Separate the decision object from the policy signal
+## Separate the item affected by the decision from the policy signal
 
 Record two fields independently:
 
-1. **Decision object:** the exact ad, ad account, person, Page, business, catalog, commerce account, or payment function affected.
+1. **Item affected by the decision:** the exact ad, ad account, person, Page, business, catalog, commerce account, or payment function affected.
 2. **Policy signal:** the standard, behavior, security concern, payment issue, or relationship Meta identifies.
 
 That produces a useful routing table.
@@ -38,7 +38,7 @@ Meta’s [ad review and enforcement guide](https://www.facebook.com/business/ads
 
 Creative review matters, but account-level decisions can incorporate broader conduct. Meta says restrictions may follow severe or repeated violations, attempts to evade review or enforcement, use of inauthentic user accounts, and connections to abusive assets.
 
-This means a clean final ad does not prove that the operating system is healthy. Review:
+This means a clean final ad does not prove that the working process is healthy. Review:
 
 - Who created and edited ads.
 - Whether every administrator is a real, authorized person.
@@ -49,7 +49,7 @@ This means a clean final ad does not prove that the operating system is healthy.
 
 The objective is not to guess a hidden score. It is to find contradictions that a reasonable integrity system would need to resolve.
 
-## Preserve state before remediation
+## Keep state before fixes
 
 Capture the exact notification, asset IDs, timestamps, policy labels, available buttons, case IDs, and recent change history. Export or record rejected ads and payment activity where access permits. List the people and partners with control.
 
@@ -63,31 +63,31 @@ This discipline prevents an early theory from becoming a false admission. It als
 
 ## Correct the system at the same scope as the decision
 
-An ad-level issue may require a truthful creative or destination correction. Repeated disapprovals may require a campaign template and approval workflow change. A compromised administrator requires containment, access review, authentication, and device remediation. A business-level restriction requires an asset and relationship audit, not one edited headline.
+An ad-level issue may require a truthful creative or destination correction. Repeated disapprovals may require a campaign template and approval workflow change. A compromised administrator requires containment, access review, authentication, and device fixes. A business-level restriction requires an asset and relationship audit, not one edited headline.
 
 Use one incident owner and a change log. For each confirmed issue, document:
 
-1. The evidence that establishes root cause.
+1. The evidence that establishes underlying cause.
 2. The exact correction and completion time.
 3. The affected assets.
-4. The durable control that reduces recurrence.
+4. The durable control that reduces repeat issue.
 5. The evidence attached to the review request.
 
-Do not create substitute profiles, Pages, businesses, or ad accounts to route around an unresolved restriction. That changes the evidence graph and may itself resemble evasion.
+Do not create substitute profiles, Pages, businesses, or ad accounts to route around an unresolved restriction. That changes the full set of evidence and may itself resemble evasion.
 
 ## Review is a decision-specific correction
 
-A useful review request identifies the asset and decision, explains why the decision is incorrect or what caused the confirmed issue, shows what changed, and states how recurrence will be prevented. It does not promise generic compliance or make claims the records cannot support.
+A useful review request identifies the asset and decision, explains why the decision is incorrect or what caused the confirmed issue, shows what changed, and states how repeat issue will be prevented. It does not promise generic compliance or make claims the records cannot support.
 
-If only an ad was rejected, continue with [Meta ads rejected](/meta-ads/meta-ads-rejected/). For a broad account event, use the [Facebook ad account restriction framework](/meta-ads/facebook-ad-account-restricted/). If the decision is already understood and the team is preparing a case, use [Meta account review](/meta-ads/account-review/).
+If only an ad was rejected, continue with [Meta ads rejected](/meta-ads/meta-ads-rejected/). For a broad account event, use the [Facebook ad account restriction guide](/meta-ads/facebook-ad-account-restricted/). If the decision is already understood and the team is preparing a case, use [Meta account review](/meta-ads/account-review/).
 
-## Build an internal enforcement taxonomy
+## Build an internal list of enforcement categories
 
-Platform terminology should remain exact in the evidence record, but the organization also needs a stable internal taxonomy. Without one, a marketer records “ban,” finance records “card issue,” and the agency records “review” for the same incident.
+Platform terminology should remain exact in the evidence record, but the organization also needs a stable internal list of categories. Without one, a marketer records “ban,” finance records “card issue,” and the agency records “review” for the same incident.
 
-Use fields for platform, decision object, decision type, policy or integrity label, first observed time, severity, operational impact, available action, root-cause domain, and resolution. Keep the raw platform wording beside the normalized category.
+Use fields for platform, item affected by the decision, decision type, policy or integrity label, first observed time, severity, practical impact, available action, area containing the underlying cause, and resolution. Keep the raw platform wording beside the normalized category.
 
-That taxonomy enables meaningful trend analysis. Count incidents per 100 submitted ads, repeat issues by template, time to containment, review reversal rate, and recurrence after remediation. Do not turn these metrics into a promise that a particular appeal will succeed. Their purpose is to reveal weak processes.
+That list of categories enables meaningful trend analysis. Count incidents per 100 submitted ads, repeat issues by template, time to containment, review reversal rate, and repeat issue after fixes. Do not turn these metrics into a promise that a particular appeal will succeed. Their purpose is to reveal weak processes.
 
 ## Recognize cross-system cases
 
@@ -101,9 +101,9 @@ Security should contain access, marketing should preserve and assess the ads, an
 
 ## Set escalation thresholds
 
-Define when an object-level incident becomes a system review. Useful triggers include the same policy label across multiple creators, rejection of a shared template, unfamiliar activity on any privileged user, a Page or business decision, a payment anomaly coupled with access changes, or recurrence after a documented correction.
+Define when an object-level incident becomes a system review. Useful triggers include the same policy label across multiple creators, rejection of a shared template, unfamiliar activity on any privileged user, a Page or business decision, a payment anomaly coupled with access changes, or repeat issue after a documented correction.
 
-Escalation does not mean sending more support contacts. It means widening internal scope, stopping risky automation, preserving more evidence, and assigning the functions required to establish root cause.
+Escalation does not mean sending more support contacts. It means widening internal scope, stopping risky automation, preserving more evidence, and assigning the functions required to establish underlying cause.
 
 ## Official resources
 

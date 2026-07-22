@@ -8,9 +8,9 @@ publishedDate: 2026-07-21
 updatedDate: 2026-07-21
 ---
 
-Most advertisers discover their billing architecture when it fails. That is too late to learn that nobody can explain the payment option, threshold, payer, Business Center role, or which accounts draw from a shared balance.
+Most advertisers discover their billing setup when it fails. That is too late to learn that nobody can explain the payment option, threshold, payer, Business Center role, or which accounts draw from a shared balance.
 
-## Document the architecture
+## Document the setup
 
 For every advertiser account, record account and Business Center IDs, legal advertiser, currency and time zone, payment option, primary and backup methods, payer relationship, financial roles, billing threshold or balance model, invoices, tax treatment, internal budget owner, and reconciliation owner.
 
@@ -18,7 +18,7 @@ TikTok’s July 2026 [payment-method guidance](https://ads.tiktok.com/help/artic
 
 ## Separate billing concepts
 
-| Concept | Operational purpose | Does not guarantee |
+| Concept | Practical purpose | Does not guarantee |
 | --- | --- | --- |
 | Campaign/ad-group budget | Controls planned delivery | Charge timing or available funds |
 | Manual-payment balance | Funds delivery in advance | Eligibility for automatic billing |
@@ -35,7 +35,7 @@ Match TikTok payment activity and invoices, bank or card settlements, and the in
 
 Agency-paid media requires a platform-to-client ledger showing spend, fees, taxes, currency conversion, credits, refunds, and open balance. The client should understand which entity owes TikTok and what happens at termination.
 
-## Govern finance roles
+## Manage finance roles
 
 TikTok Business Center separates base and advanced finance permissions. Assign financial analyst or manager capabilities only to genuine finance operators. Require approval for new payment methods, threshold changes, credit applications, balance allocation, and changes in payer.
 
@@ -55,9 +55,9 @@ Offboarding should establish final delivery time, later expected charges, remain
 
 TikTok documentation states that manual payment can move to automatic payment or monthly invoicing, and automatic payment can move to monthly invoicing, while moving back to manual is not supported in the described flow. Treat a payment-option change as an architectural decision.
 
-Before changing, document accounts affected, remaining funds, threshold or credit behavior, Business Center ownership, budget caps, roles, cutover time, reporting, and rollback limits. In Enterprise Business Center, a change can apply across a wider structure; confirm blast radius from the interface and current guidance.
+Before changing, document accounts affected, remaining funds, threshold or credit behavior, Business Center ownership, budget caps, roles, cutover time, reporting, and rollback limits. In Enterprise Business Center, a change can apply across a wider structure; confirm number of accounts that could be affected from the interface and current guidance.
 
-## Govern shared balance allocation
+## Manage shared balance allocation
 
 When Business Center funding serves several advertiser accounts, define allocation owner, client budgets, daily/monthly caps, priority during low balance, alert levels, and reconciliation. A shared pool can improve efficiency while allowing one account to consume capacity expected by another.
 
@@ -73,7 +73,7 @@ Do not present an agency’s credit as the client’s transferable asset. Contra
 
 Schedule method-expiry checks, threshold and bill-date review, invoice download, transaction reconciliation, client billing, tax review, credit expiry, access certification, and dormant-account closure. Assign backups for holidays and staff departure.
 
-## Use a composite reconciliation case
+## A practical example
 
 An agency sees a bank charge larger than one client’s reported spend. The method funds three accounts, one passed its threshold and another carried an earlier balance. Matching the statement only to yesterday’s campaign spend makes the charge look unauthorized.
 

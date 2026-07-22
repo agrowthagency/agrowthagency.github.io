@@ -19,7 +19,7 @@ A verified business can still publish a rejected ad, lose access, encounter bill
 Keep four concepts separate:
 
 - **Legal existence:** the entity appears in authoritative records.
-- **Operational authority:** the submitting person is allowed to act for it.
+- **Practical authority:** the submitting person is allowed to act for it.
 - **Asset relationship:** Pages, domains, accounts, and partners connect coherently to it.
 - **Policy standing:** current activity follows applicable standards.
 
@@ -65,19 +65,19 @@ Do not respond by uploading a series of unrelated documents or changing fields u
 
 If access or security changed during the process, investigate [Meta ad account security](/meta-ads/meta-ad-account-security/). If the verification issue sits inside a portfolio-wide restriction, use [Meta Business Manager restricted](/meta-ads/business-manager-restricted/) to audit the broader asset graph.
 
-## Verification should improve governance
+## Verification should improve management
 
-After completion, store the verified identity, evidence date, portfolio ID, domains, responsible owner, and renewal or change triggers. Revisit the record after a legal name change, merger, domain migration, agency transition, or material change in the operating model.
+After completion, store the verified identity, evidence date, portfolio ID, domains, responsible owner, and renewal or change triggers. Revisit the record after a legal name change, merger, domain migration, agency transition, or material change in the way the account is managed.
 
 Do not let a former employee, vendor, or agency remain the only person who understands the verification record. The business should be able to reproduce its own identity and authority without depending on an external account seller.
 
-## Select evidence by proposition
+## Select evidence by offer
 
 Different documents prove different facts. A registry extract may establish legal name and registration, a utility or bank document may support an address, a domain record or controlled email may demonstrate a contact path, and a contract may establish an agency or brand relationship.
 
 Create an evidence map before uploading:
 
-| Proposition | Primary source | Supporting source | Known discrepancy |
+| Offer | Primary source | Supporting source | Known discrepancy |
 | --- | --- | --- | --- |
 | Entity exists | Current government/business registry | Formation document | Legacy trading name |
 | Address | Accepted current business record | Lease or account record | Mailing vs operating site |
@@ -89,9 +89,9 @@ Do not assume a large pile of documents is stronger. Evidence should be current,
 
 ## Coordinate corporate changes
 
-Mergers, acquisitions, new subsidiaries, rebrands, address changes, and domain migrations can make a previously coherent record stale. Before changing portfolio details, map the old and new entity, effective date, assets, contracts, payment responsibility, and public disclosures.
+Mergers, acquisitions, new subsidiaries, rebrands, address changes, and domain migrations can make a previously consistent record stale. Before changing portfolio details, map the old and new entity, effective date, assets, contracts, payment responsibility, and public disclosures.
 
-Keep evidence of continuity. A sudden name, domain, payer, and administrator change without a documented corporate event is harder to explain than a controlled transition with records.
+Keep evidence of ability to keep operating. A sudden name, domain, payer, and administrator change without a documented corporate event is harder to explain than a controlled transition with records.
 
 ## Distinguish advertiser from beneficiary and provider
 
@@ -103,9 +103,9 @@ The objective is not to force every role into one company. It is to make real re
 
 Corporate and identity documents are sensitive. Store them in an access-controlled location, record submission and expiry dates, and avoid distributing them through informal chats or provider folders. Remove former vendors and staff promptly.
 
-Verification governance includes data governance: who may collect, review, submit, retain, and delete the supporting evidence.
+Verification management includes data management: who may collect, review, submit, retain, and delete the supporting evidence.
 
-Verification confirms business facts within a defined process; it does not replace the product- and market-level checks in [Meta’s restricted-business framework](/meta-ads/meta-restricted-businesses/).
+Verification confirms business facts within a defined process; it does not replace the product- and market-level checks in [Meta’s restricted-business guide](/meta-ads/meta-restricted-businesses/).
 
 ## Official resources
 

@@ -51,21 +51,21 @@ It does not establish clean policy history, active support, stable billing, owne
 
 Platforms can request updated information, and business facts change. Model what happens if a new representative, website, payer, domain, product, client, or agency no longer matches the record. Who can access and update the evidence?
 
-## Use a composite case
+## A practical example
 
 A provider offers a verified Business Center created for a trading company. A healthcare advertiser uses it with a different brand, domain, payer, and licensed provider. The provider says verification is platform-level and clients are “under the umbrella.”
 
 The phrase does not reconcile the advertiser, industry qualification, or customer experience. One verified field cannot carry an unrelated operation.
 
-## Diligence ownership and exit
+## Check ownership and exit carefully
 
-Confirm platform controller, client access, upstream managers/partners, public identities, data assets, payment, support, and transfer constraints. The verified entity may be the only party able to answer future review, which creates counterparty dependence.
+Confirm platform controller, client access, upstream managers/partners, public identities, data assets, payment, support, and transfer constraints. The verified entity may be the only party able to answer future review, which creates other party dependence.
 
-## Prefer coherent verification
+## Prefer consistent verification
 
-The durable route is an account structure where the actual advertiser and relationships can be truthfully verified and reproduced after agency transition. Verification should reflect governance already in place, not compensate for hidden ownership.
+The durable route is an account structure where the actual advertiser and relationships can be truthfully verified and reproduced after agency transition. Verification should reflect management already in place, not compensate for hidden ownership.
 
-Use [agency advertiser verification](/agency-ad-accounts/agency-advertiser-verification/) and [verified/high-limit account claims](/agency-ad-accounts/high-limit-ad-accounts/) for adjacent diligence.
+Use [agency advertiser verification](/agency-ad-accounts/agency-advertiser-verification/) and [verified/high-limit account claims](/agency-ad-accounts/high-limit-ad-accounts/) for adjacent checks.
 
 ## Verify evidence without collecting excess data
 
@@ -85,7 +85,7 @@ If the account is restricted or compromised, who can access the verification rec
 
 ## Plan transition
 
-Determine whether verification survives transfer, new payer, new domain, new Business Center/MCC, rebrand, acquisition, or client-owned rebuild. Do not promise continuity that the platform has not confirmed.
+Determine whether verification survives transfer, new payer, new domain, new Business Center/MCC, rebrand, acquisition, or client-owned rebuild. Do not promise ability to keep operating that the platform has not confirmed.
 
 ## Monitor identity drift
 
@@ -95,7 +95,7 @@ The safer account is not the one verified earliest. It is the one whose current 
 
 ## Keep a verification dependency record
 
-Record the verified entity, evidence scope, account and business owner, advertiser presented to users, payer, authorized operator, support route, expiry or change triggers, and transition plan. Note every place where the operating business differs from the verified record and whether that difference has a legitimate explanation. Compare the arrangement with the risks of [rented account access](/agency-ad-accounts/ad-account-rental/) and the evidence expected in a broader [provider review](/agency-ad-accounts/agency-ad-account-provider/). Revisit the record when markets, domains, products, or payers change. A coherent dependency record is more valuable than a one-time status badge.
+Record the verified entity, evidence scope, account and business owner, advertiser presented to users, payer, authorized operator, support route, expiry or change triggers, and transition plan. Note every place where the operating business differs from the verified record and whether that difference has a legitimate explanation. Compare the arrangement with the risks of [rented account access](/agency-ad-accounts/ad-account-rental/) and the evidence expected in a broader [provider review](/agency-ad-accounts/agency-ad-account-provider/). Revisit the record when markets, domains, products, or payers change. A consistent dependency record is more valuable than a one-time status badge.
 
 ## Official resources
 

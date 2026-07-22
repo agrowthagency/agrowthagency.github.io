@@ -22,9 +22,9 @@ Record the ad account ID, exact notice, date, policy label, restricted capabilit
 - Whether the Page, Business Portfolio, catalog, and payment function show separate restrictions.
 - Whether the issue is actually a failed payment or an ad still in review.
 
-A person-level restriction can look like an account failure to that person. A Page restriction can stop ads across several accounts. Classification comes before remediation.
+A person-level restriction can look like an account failure to that person. A Page restriction can stop ads across several accounts. Classification comes before fixes.
 
-## Preserve the pre-incident state
+## Keep the pre-incident state
 
 Capture notices and change history before deleting ads, removing users, replacing cards, or editing destinations. Build a 30- to 90-day timeline appropriate to the incident, including:
 
@@ -64,7 +64,7 @@ Match Meta transactions with statements, confirm the real payer, resolve failed 
 
 Map the Business Portfolio, Pages, other ad accounts, pixels, catalogs, partners, payment methods, and prior operating relationships. Determine whether the account sits inside a broader restriction.
 
-## Build remediation at root-cause scope
+## Build fixes at root-cause scope
 
 One edited ad is enough only when one ad was the whole problem. A reusable template defect requires correction across campaigns. A compromised person requires device and access containment across every managed asset. An identity mismatch requires reconciliation from business record to Page, domain, and payment relationship.
 
@@ -74,13 +74,13 @@ Do not create or acquire another account to continue the same unresolved activit
 
 ## Request review with account-level evidence
 
-State the exact decision and account ID. Explain either why the restriction appears incorrect or the confirmed cause and completed remediation. Include a small set of evidence that directly supports the explanation. Describe sustainable controls, not vague promises.
+State the exact decision and account ID. Explain either why the restriction appears incorrect or the confirmed cause and completed fixes. Include a small set of evidence that directly supports the explanation. Describe sustainable controls, not vague promises.
 
-Use [Meta account review](/meta-ads/account-review/) to assemble the submission and [Meta Ads appeal and recovery](/meta-ads/appeal-and-recovery/) to govern containment and restart. If the event extends across business assets, continue with [Meta Business Manager restricted](/meta-ads/business-manager-restricted/).
+Use [Meta account review](/meta-ads/account-review/) to assemble the submission and [Meta Ads appeal and recovery](/meta-ads/appeal-and-recovery/) to manage containment and restart. If the event extends across business assets, continue with [Meta Business Manager restricted](/meta-ads/business-manager-restricted/).
 
 ## Test competing hypotheses
 
-Create a hypothesis table before declaring root cause.
+Create a hypothesis table before declaring underlying cause.
 
 | Hypothesis | Supporting evidence | Contradicting evidence | Test/owner | Status |
 | --- | --- | --- | --- | --- |

@@ -30,7 +30,7 @@ One generic checklist cannot substitute for those differences.
 4. Transfer or rebuild billing with explicit effective dates.
 5. Transfer, reassign, or document non-transferable assets.
 6. Validate data, identities, campaigns, and integrations.
-7. Remove old people, partners, managers, and credentials.
+7. Remove old people, partners, managers, and login details.
 8. Reconcile money, support cases, records, and deletion.
 
 Avoid simultaneous changes without a rollback or evidence record.
@@ -61,7 +61,7 @@ Define who may change campaigns, budgets, billing, users, and assets while two a
 
 ## Close with evidence
 
-Obtain client confirmation of access, delivered items, unresolved dependencies, financial reconciliation, removals, retention, and deletion. An offboarding is not complete because the meeting ended.
+Obtain client confirmation of access, delivered items, unresolved dependencies, checking and correcting the payment records, removals, retention, and deletion. An offboarding is not complete because the meeting ended.
 
 Use [client-owned vs agency-owned ad accounts](/agency-ad-accounts/client-owned-vs-agency-owned-ad-accounts/) to choose the initial model and [agency ad account data ownership](/agency-ad-accounts/agency-ad-account-data-ownership/) for portability.
 
@@ -71,23 +71,23 @@ During overlap, state who can edit campaigns, approve creative, change budgets, 
 
 ## Register non-transferable elements
 
-Some history, billing arrangements, support relationships, verification states, audiences, or platform-owned signals may not move cleanly. Record each constraint, its operational impact, the proposed rebuild or archive, and the party accepting residual loss. Do not promise a byte-for-byte migration when the platform architecture cannot support it.
+Some history, billing arrangements, support relationships, verification states, audiences, or platform-owned signals may not move cleanly. Record each constraint, its practical impact, the proposed rebuild or archive, and the party accepting residual loss. Do not promise a byte-for-byte migration when the platform setup cannot support it.
 
 ## Prove billing separation
 
-Capture final delivery dates, platform charges, taxes, credits, refunds, prefunding balances, agency invoices, and payment-method removal. Reconcile late adjustments after the campaign stops. The outgoing agency should not retain a client card “just in case,” and the incoming agency should not start spend before payer responsibility is explicit.
+Capture final delivery dates, platform charges, taxes, credits, refunds, advance funding balances, agency invoices, and payment-method removal. Reconcile late adjustments after the campaign stops. The outgoing agency should not retain a client card “just in case,” and the incoming agency should not start spend before payer responsibility is explicit.
 
 ## Close security paths
 
-Revoke direct users, partner links, manager relationships, finance roles, API tokens, automation credentials, shared inboxes, recovery methods, file access, and support delegation. Validate from both the agency and client views; an apparently removed top-level relationship may leave direct grants behind.
+Revoke direct users, partner links, manager relationships, finance roles, API tokens, automation login details, shared inboxes, recovery methods, file access, and support delegation. Validate from both the agency and client views; an apparently removed top-level relationship may leave direct grants behind.
 
-## Obtain client acceptance
+## Get client acceptance
 
 Finish with a signed or otherwise evidenced acceptance covering received assets, known limitations, open disputes, retained data, revoked access, final balances, and the new operating owner. The acceptance is not a waiver of hidden errors; it is a shared statement of the transition state.
 
 ## Measure migration completeness
 
-Use a closure scorecard covering administrator continuity, campaign and creative inventory, audiences and measurement, public identities, verification records, [final billing settlement](/agency-ad-accounts/agency-ad-account-billing-reconciliation/), support cases, data delivery, integration revocation, retained-data exceptions, and client acceptance. Mark each item complete, constrained, rebuilt, retired, or disputed. A high percentage alone is not enough: one unresolved payer or administrator can outweigh dozens of transferred files. Keep the scorecard until late charges, a [full permission review](/agency-ad-accounts/agency-ad-account-access-permissions/), and [post-transition security validation](/agency-ad-accounts/agency-ad-account-security/) confirm that the old operating path is truly closed.
+Use a closure scorecard covering administrator ability to keep operating, campaign and creative inventory, audiences and measurement, public identities, verification records, [final billing settlement](/agency-ad-accounts/agency-ad-account-billing-reconciliation/), support cases, data delivery, integration revocation, retained-data exceptions, and client acceptance. Mark each item complete, constrained, rebuilt, retired, or disputed. A high percentage alone is not enough: one unresolved payer or administrator can outweigh dozens of transferred files. Keep the scorecard until late charges, a [full permission review](/agency-ad-accounts/agency-ad-account-access-permissions/), and [post-transition security validation](/agency-ad-accounts/agency-ad-account-security/) confirm that the old operating path is truly closed.
 
 ## Official resources
 

@@ -24,7 +24,7 @@ The reviewer or system needs to reconcile several things:
 4. What happens after a click, form submission, message, or catalog interaction.
 5. Whether the product and method are permitted in that context.
 
-An ad that is defensible sentence by sentence can still be difficult to review when its Page name, domain, price, offer, and legal entity contradict one another. Reviewability improves when material truth remains stable across every surface.
+An ad that is defensible sentence by sentence can still be difficult to review when its Page name, domain, price, offer, and legal entity contradict one another. Reviewability improves when important facts remains stable across every surface.
 
 ## Build a preflight record
 
@@ -61,11 +61,11 @@ Approval is a state at a point in time, not a transferable certificate for every
 
 First confirm the actual delivery status and whether the ad is still in review, scheduled for later, rejected, limited by account status, or blocked by billing. Do not repeatedly duplicate or edit the ad merely to restart the clock; each material edit can create another review event and a harder audit trail.
 
-If the status remains in review, preserve the ad ID and submission time and use the support option available to that account. Operational planning should include launch buffers, especially for regulated categories, large releases, and campaigns tied to fixed events.
+If the status remains in review, preserve the ad ID and submission time and use the support option available to that account. Practical planning should include launch buffers, especially for regulated categories, large releases, and campaigns tied to fixed events.
 
 ## Turn decisions into learning
 
-For each rejection, log the standard, component, root cause, resolution, and whether another review reversed the decision. Distinguish actual policy defects from mistaken or context-limited decisions. Both should improve the system, but in different ways.
+For each rejection, log the standard, component, underlying cause, resolution, and whether another review reversed the decision. Distinguish actual policy defects from mistaken or context-limited decisions. Both should improve the system, but in different ways.
 
 A monthly review should ask:
 
@@ -83,7 +83,7 @@ Fixed launch dates create pressure to publish before an organization is ready. W
 
 Separate technical publication from budget activation. Where the workflow allows, prepare approved source materials and destination releases in advance, then verify the final campaign object before meaningful spend begins. This is ordinary release management, not an attempt to predict or influence a review outcome.
 
-## Define roles and segregation of duties
+## Define roles and separation of duties
 
 At minimum, assign:
 

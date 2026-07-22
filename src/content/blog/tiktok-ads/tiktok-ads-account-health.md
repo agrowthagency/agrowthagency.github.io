@@ -21,7 +21,7 @@ For each warning, record:
 - Policy label and affected market or placement.
 - Creator, approver, template, and source system.
 - Whether the object was edited, appealed, deleted, or retired.
-- Root cause and control change.
+- Underlying cause and control change.
 
 TikTok’s [warning FAQ](https://ads.tiktok.com/help/article/faqs-for-account-suspension-warning-notifications?lang=en) notes that referenced violations may include deleted ad groups and that multiple warnings can arrive in one day. Deletion is therefore not a reliable way to erase the incident from the operating record.
 
@@ -38,7 +38,7 @@ Group warnings by shared dependency:
 | Product feed | Are price, inventory, category, or product records stale? |
 | Identity | Is the advertiser, TikTok account, brand, or qualification unclear? |
 
-The correct unit of remediation is often a template, feed, brief, or release process rather than the listed ad group.
+The correct fix is often a template, feed, brief, or release process rather than the listed ad group.
 
 ## Appeal errors without ignoring real defects
 
@@ -46,11 +46,11 @@ If a referenced decision appears incorrect, preserve the object and submit the a
 
 Maintain one record showing which violations were confirmed, reversed, still under review, or retired. This prevents a later incident owner from treating every historical warning as equally valid.
 
-## Establish health-response thresholds
+## Set health-response thresholds
 
-Define internal triggers stricter than waiting for suspension. Examples include repeated labels across two campaigns, any warning involving a shared destination, any security anomaly, a sensitive-industry eligibility issue, or recurrence after a documented fix.
+Define internal triggers stricter than waiting for suspension. Examples include repeated labels across two campaigns, any warning involving a shared destination, any security anomaly, a sensitive-industry eligibility issue, or repeat issue after a documented fix.
 
-A trigger should pause the relevant production path, assign an owner, widen the batch audit, and prevent duplication until the root cause is closed. It should not generate multiple support tickets.
+A trigger should pause the relevant production path, assign an owner, widen the batch audit, and prevent duplication until the underlying cause is closed. It should not generate multiple support tickets.
 
 ## Make health review routine
 
@@ -58,11 +58,11 @@ Review Account Health on a schedule and before major launches. Compare it with r
 
 The point is not to protect a cosmetic score. It is to shorten the distance between a policy signal and organizational learning.
 
-Use [TikTok Ads policy enforcement](/tiktok-ads/tiktok-ads-policy-enforcement/) for the broader taxonomy and [TikTok Ads account suspended](/tiktok-ads/tiktok-ads-account-suspended/) when account capability has already been restricted.
+Use [TikTok Ads policy enforcement](/tiktok-ads/tiktok-ads-policy-enforcement/) for the broader list of categories and [TikTok Ads account suspended](/tiktok-ads/tiktok-ads-account-suspended/) when account capability has already been restricted.
 
 ## Build a warning ledger
 
-The ledger should retain the original platform decision even after an object is edited or deleted. Include decision ID where available, first seen, creator, source template, affected markets, appeal state, root cause, batch scope, remediation owner, validation, and recurrence link.
+The ledger should retain the original platform decision even after an object is edited or deleted. Include decision ID where available, first seen, creator, source template, affected markets, appeal state, underlying cause, batch scope, person responsible for the fix, validation, and repeat issue link.
 
 Do not overwrite a reversed decision as though it never happened. Mark it reversed and preserve why. Otherwise the team may “fix” compliant behavior or misread historical warning counts.
 
@@ -81,7 +81,7 @@ Account Health is a lagging indicator of behavior already observed. Build leadin
 
 These controls reduce reliance on the platform to be the first reviewer that notices a systemic defect.
 
-## Use a composite pattern review
+## A practical example
 
 Imagine three ad groups from two creators are flagged for inconsistent discounts. One has already been deleted. The common destination reads prices from a regional feed that updates later than creative. Appealing each object separately misses the production defect.
 
@@ -93,7 +93,7 @@ Leadership reporting should show open warnings, confirmed versus reversed decisi
 
 Account Health is useful when it changes organizational behavior. A clean-looking dashboard with an unchanged production system is only delayed risk.
 
-If internal reporting collapses warnings and suspensions into “banned,” use the [TikTok account-state comparison](/tiktok-ads/tiktok-ads-account-banned/) before assigning severity or remediation ownership.
+If internal reporting collapses warnings and suspensions into “banned,” use the [TikTok account-state comparison](/tiktok-ads/tiktok-ads-account-banned/) before assigning severity or responsibility for the fix.
 
 ## Official resources
 

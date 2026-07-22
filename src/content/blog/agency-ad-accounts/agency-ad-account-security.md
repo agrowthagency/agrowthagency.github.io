@@ -12,23 +12,23 @@ Agency scale converts one compromised operator into a portfolio event.
 
 A user may access a Google manager hierarchy, Meta Business Portfolios, TikTok Business Centers, Pages, TikTok identities, pixels, catalogs, payment functions, and support cases. The attack surface is the union of those relationships.
 
-## Map privileged paths
+## Map administrator access paths
 
 Inventory users, manager accounts, Business Centers/Portfolios, partners, client advertisers, public identities, domains, pixels/datasets, catalogs, apps, audiences, payment profiles/methods, integrations, and recovery channels.
 
 Record client owner, agency owner, role, scope, authentication, device policy, start/review date, and offboarding action.
 
-## Minimize blast radius
+## Minimize number of accounts that could be affected
 
 - Keep small client-controlled and agency-controlled admin groups.
-- Use named roles and partner/manager links instead of shared credentials.
+- Use named roles and partner/manager links instead of shared login details.
 - Separate finance and hierarchy administration from campaign work.
 - Scope staff to assigned clients.
 - Use strong authentication and controlled recovery channels.
 - Review upstream and subcontractor access.
 - Remove dormant users and partners promptly.
 
-TikTok recommends at least two valid client-controlled Business Center admins while limiting admin access. Google owner-manager privileges can extend transitively through a hierarchy. Design both continuity and concentration consciously.
+TikTok recommends at least two valid client-controlled Business Center admins while limiting admin access. Google owner-manager access rights can extend transitively through a hierarchy. Design both ability to keep operating and concentration consciously.
 
 ## Detect against expected operation
 
@@ -39,7 +39,7 @@ Every alert needs an owner and response time. Notifications in a shared inbox ar
 ## Contain a multi-client incident
 
 1. Preserve IDs, times, users, ads, transactions, and notices.
-2. Secure trusted email, devices, credentials, authentication, and recovery.
+2. Secure trusted email, devices, login details, authentication, and recovery.
 3. Remove unauthorized access while retaining evidence.
 4. Pause unauthorized spend and identity use.
 5. Identify every client and asset the actor could reach.
@@ -48,11 +48,11 @@ Every alert needs an owner and response time. Notifications in a shared inbox ar
 
 Do not put a new payment method into an exposed account or delete unauthorized campaigns before preserving the record.
 
-## Govern subcontractors
+## Manage subcontractors
 
 Require legal identity, platform business/manager IDs, named users, security controls, staff changes, incident notification, evidence cooperation, and offboarding. A white-label provider should not remain an invisible privileged path.
 
-## Preserve forensic and privacy boundaries
+## Keep forensic and privacy boundaries
 
 Store personal, identity, session, financial, and client data in restricted incident locations. Separate clients while retaining a central shared-system timeline. Escalate possible data exposure beyond the media team.
 
@@ -62,13 +62,13 @@ Run a scenario with the primary admin unavailable, unknown spend after hours, se
 
 The agency is recovered when every critical path can be explained and controlled—not merely when campaigns resume.
 
-## Govern privileged access as a lifecycle
+## Manage administrator access as a lifecycle
 
-Every administrator, finance user, integration, API token, and recovery method needs an owner, business purpose, grant date, review date, and removal condition. Approval should occur before access, while activity review and recertification happen afterward. A current roster without grant evidence cannot show whether privilege was justified.
+Every administrator, finance user, integration, API token, and recovery method needs an owner, business purpose, grant date, review date, and removal condition. Approval should occur before access, while activity review and recertification happen afterward. A current roster without grant evidence cannot show whether access right was justified.
 
 ## Define client notification boundaries
 
-The incident plan should specify what triggers client notice, which facts can be shared, who approves the message, and how updates are delivered. Early notice may be necessary before the root cause is known; distinguish confirmed facts, working hypotheses, containment actions, and client decisions so urgency does not create misinformation.
+The incident plan should specify what triggers client notice, which facts can be shared, who approves the message, and how updates are delivered. Early notice may be necessary before the underlying cause is known; distinguish confirmed facts, working hypotheses, containment actions, and client decisions so urgency does not create misinformation.
 
 ## Protect forensic boundaries
 
@@ -80,11 +80,11 @@ Test scenarios such as a compromised buyer, malicious destination edit, unauthor
 
 ## Validate after recovery
 
-Password resets alone do not close an incident. Recheck users, partners, billing, public identities, pixels, catalogs, domains, automation, ads, destinations, and recovery channels. Monitor for recurrence and formally accept residual risk before returning to normal operating privileges.
+Password resets alone do not close an incident. Recheck users, partners, billing, public identities, pixels, catalogs, domains, automation, ads, destinations, and recovery channels. Monitor for repeat issue and formally accept residual risk before returning to normal operating access rights.
 
-## Maintain a security assurance view
+## Keep a security assurance view
 
-Report strong-authentication coverage, privileged users, unresolved access exceptions, critical integrations, anomalous changes, leaver-removal time, incident age, recovery-test results, and corrective-action closure. Reconcile privileged paths with the [approved permissions model](/agency-ad-accounts/agency-ad-account-access-permissions/) and test whether the [suspension-response team](/agency-ad-accounts/agency-account-suspension-response/) can separate security facts from policy facts. Show the client only its relevant detail while agency leadership sees the dependencies created by a [multi-platform account portfolio](/agency-ad-accounts/multi-platform-agency-accounts/). Trends matter more than a single green status; rising orphaned tokens or late reviews should trigger intervention before compromise.
+Report strong-authentication coverage, privileged users, unresolved access exceptions, critical integrations, anomalous changes, leaver-removal time, incident age, recovery-test results, and corrective-action closure. Reconcile administrator access paths with the [approved permissions model](/agency-ad-accounts/agency-ad-account-access-permissions/) and test whether the [suspension-response team](/agency-ad-accounts/agency-account-suspension-response/) can separate security facts from policy facts. Show the client only its relevant detail while agency leadership sees the dependencies created by a [multi-platform account portfolio](/agency-ad-accounts/multi-platform-agency-accounts/). Trends matter more than a single green status; rising orphaned tokens or late reviews should trigger intervention before compromise.
 
 ## Official resources
 

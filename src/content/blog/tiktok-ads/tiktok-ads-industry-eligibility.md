@@ -34,7 +34,7 @@ An eligible company does not make every product eligible. A license in one count
 - **Prohibited:** the planned activity cannot be advertised in that context.
 - **Restricted:** it may advertise only under defined conditions.
 - **Qualification pending:** required documents or platform approval are incomplete.
-- **Operationally ineligible:** the chosen account, identity, market, destination, or format does not satisfy the conditions.
+- **ineligible in practice:** the chosen account, identity, market, destination, or format does not satisfy the conditions.
 
 This vocabulary prevents teams from calling every rejection a creative problem.
 
@@ -54,7 +54,7 @@ Block campaign duplication into unapproved geographies. Country selection in Ads
 
 Product formulation, prices, licenses, provider relationships, complaints, inventory, fulfillment, and law can change after approval. Connect business changes to campaign review and stop triggers. Marketing cannot keep advertising facts current if operations never notify it.
 
-If the activity is clearly prohibited, another appeal is not a strategy. Retire the campaign and prevent reuse. Use appeal for a decision believed to be incorrect or after genuine, permissible remediation.
+If the activity is clearly prohibited, another appeal is not a strategy. Retire the campaign and prevent reuse. Use appeal for a decision believed to be incorrect or after genuine, permissible fixes.
 
 For identity evidence, continue with [TikTok business verification](/tiktok-ads/tiktok-business-verification/). For claim design, use [TikTok misleading and false content](/tiktok-ads/tiktok-ads-misleading-content/).
 
@@ -70,13 +70,13 @@ Require approval for product legality, TikTok policy, age, language, certificate
 
 Configure campaign naming and build controls so automated expansion or duplication cannot add an unapproved country silently.
 
-## Govern creators in restricted categories
+## Manage creators in restricted categories
 
 Provide creators a market-specific fact sheet: allowed product, claim boundaries, required disclosures, prohibited demonstrations, age considerations, licensed entity, destination, and approval process. Review final video, audio, text, and account identity.
 
 Authenticity does not mean improvising regulated claims. A creator’s personal experience cannot automatically substantiate typical product outcomes.
 
-## Use a composite eligibility case
+## A practical example
 
 A licensed financial platform expands an approved campaign to a neighboring market using the same agency account and localized landing page. The business assumes its verification and home-market license travel with the campaign.
 
@@ -84,7 +84,7 @@ The error is not translation. The new combination has a different legal entity/m
 
 ## Record why a launch is rejected internally
 
-Use clear dispositions: prohibited by TikTok, not lawful in market, certificate missing, advertiser mismatch, evidence insufficient, destination incomplete, or operational control unavailable. This prevents future teams from reopening the same idea under a new creative name.
+Use clear dispositions: prohibited by TikTok, not lawful in market, certificate missing, advertiser mismatch, evidence insufficient, destination incomplete, or practical control unavailable. This prevents future teams from reopening the same idea under a new creative name.
 
 ## Monitor policy change
 

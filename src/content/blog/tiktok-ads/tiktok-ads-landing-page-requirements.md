@@ -22,7 +22,7 @@ Test target countries, mobile orientations, common devices, slow connections, co
 
 TikTok’s [landing-page best practices](https://ads.tiktok.com/help/article/ad-review-checklist-landing-page?lang=en) emphasize valid business information for certain categories, mobile usability, absence of prohibited products, and limits on requesting sensitive information to access a site. These are starting controls, not a complete checklist for every industry.
 
-## Preserve material truth
+## Keep important facts
 
 | Ad signal | Destination obligation |
 | --- | --- |
@@ -35,7 +35,7 @@ TikTok’s [landing-page best practices](https://ads.tiktok.com/help/article/ad-
 
 TikTok’s misleading-content policy specifically addresses inconsistency between ad and landing page. Fine print should clarify a truthful message, not reverse it.
 
-## Govern the whole site context
+## Manage the whole site context
 
 A landing page can expose navigation, related products, pop-ups, and checkout options beyond the promoted item. TikTok’s guidance notes that prohibited products displayed on the destination can create problems even when the ad promotes something else. Test header, footer, menus, recommendations, and localized catalogs.
 
@@ -49,7 +49,7 @@ Archive representative screenshots and resolved routes at approval. Monitor stat
 
 ## Investigate variation honestly
 
-Localization and experimentation can be legitimate. Document their rules and confirm that material truth does not change by user agent, IP, referral, cookie, or reviewer state. Do not temporarily show a compliant page only for review.
+Localization and experimentation can be legitimate. Document their rules and confirm that important facts does not change by user agent, IP, referral, cookie, or reviewer state. Do not temporarily show a compliant page only for review.
 
 If unexpected content appears, investigate web compromise and ad-account security together. Swapping domains without resolving the system can escalate a destination defect into an integrity concern.
 
@@ -67,7 +67,7 @@ Create a form-field inventory with purpose, necessity, recipient, retention, con
 
 Do not require sensitive information merely to let a visitor view the destination. TikTok’s landing-page guidance identifies this as a review concern.
 
-## Establish destination acceptance criteria
+## Set destination acceptance criteria
 
 A page is ready only when it is accessible in target conditions, mobile usable, secure, consistent with the ad, clear about business and offer, free of prohibited products, appropriately qualified, honest in data collection, and monitored. Assign a rollback owner.
 

@@ -46,7 +46,7 @@ Quarterly and after organizational change, verify that each member remains emplo
 
 Inspect asset-level assignments, not only the member list. A standard role can still hold sensitive advertiser or identity access. A removed agency employee may retain access through another Business Center or TikTok account authorization.
 
-## Govern invitations
+## Manage invitations
 
 Require ticket, approver, verified recipient, intended role, assets, and expiry. Confirm invitation warnings rather than bypassing them. Do not invite generic shared inbox identities when named accountability is possible.
 
@@ -56,9 +56,9 @@ For partner access, document the partner Business Center ID, legal entity, contr
 
 Remove Business Center membership, advertiser assignments, finance roles, partner access, TikTok identity permission, external analytics, domains, creative tools, and support channels as relevant. Confirm from the owner side and preserve an audit record.
 
-Maintain two trusted client-controlled admins for critical continuity, but keep the privileged set small. A former employee left as backup is not resilience.
+Maintain two trusted client-controlled admins for critical ability to keep operating, but keep the privileged set small. A former employee left as backup is not resilience.
 
-Use [TikTok Business Center asset governance](/tiktok-ads/tiktok-business-center-asset-governance/) for ownership and [TikTok Ads account security](/tiktok-ads/tiktok-ads-account-security/) for detection and recovery.
+Use [TikTok Business Center asset management](/tiktok-ads/tiktok-business-center-asset-governance/) for ownership and [TikTok Ads account security](/tiktok-ads/tiktok-ads-account-security/) for detection and recovery.
 
 ## Build a role catalog
 
@@ -70,13 +70,13 @@ Exceptions need an expiry. This avoids rebuilding access from memory for every h
 
 Where team size permits, separate the person who requests a new payment method, admin, partner, or transfer from the person who approves it. Separate campaign creation from final approval in sensitive industries. Require finance confirmation for large budget or threshold changes.
 
-Small businesses can use written confirmation and retrospective review when full segregation is impractical.
+Small businesses can use written confirmation and retrospective review when full separation is impractical.
 
 ## Review effective partner access
 
 A partner may assign its own members after receiving access. Contractually require it to control its staff, maintain authentication, remove leavers, disclose subcontractors, and report compromise. Review assets assigned to the partner, not only whether the partner appears in the list.
 
-## Govern TikTok identity permissions
+## Manage TikTok identity permissions
 
 Record whether the relationship permits existing-post use, new video publication, ads-only content, organic profile visibility, LIVE, messaging, or management. Approvals should state which advertiser accounts may use the identity and when authorization ends.
 
@@ -84,13 +84,13 @@ A person who can access the advertiser account may be able to use a linked TikTo
 
 ## Monitor permission drift
 
-Alert or review on new admin, finance role, partner, advertiser assignment, identity link, and asset transfer. Compare changes with approved tickets. Investigate privilege granted outside onboarding or client authorization.
+Alert or review on new admin, finance role, partner, advertiser assignment, identity link, and asset transfer. Compare changes with approved tickets. Investigate access right granted outside onboarding or client authorization.
 
 ## Test emergency access
 
 Verify that a second client-controlled admin can log in securely, view critical assets, remove a compromised user, and contact the right internal owners. Do not wait for the sole admin to become unavailable.
 
-Emergency access should be monitored and reviewed after use. It is not a shared daily credential.
+Emergency access should be monitored and reviewed after use. It is not a shared daily login detail.
 
 When the relationship includes an external operator, compare the requested role with the responsibilities described in the [TikTok agency account model](/tiktok-ads/tiktok-agency-ads-account/) before granting portfolio-wide access.
 

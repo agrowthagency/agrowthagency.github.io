@@ -10,7 +10,7 @@ updatedDate: 2026-07-22
 
 “High limit” is valuable precisely because it is vague. A seller can imply spending capacity, credit, stability, and policy tolerance without naming the field that provides any of them.
 
-## Decompose the claim
+## Break down the claim
 
 | Possible meaning | What it actually describes |
 | --- | --- |
@@ -32,17 +32,17 @@ Google and TikTok documentation both describe invoicing/credit and billing struc
 
 ## Ask who bears the liability
 
-If the agency’s payment profile or credit line supports the account, document who owes the platform, how the client funds spend, fees, unused balance, defaults, refunds, and what happens if provider credit changes. High available capacity may be high counterparty exposure.
+If the agency’s payment profile or credit line supports the account, document who owes the platform, how the client funds spend, fees, unused balance, defaults, refunds, and what happens if provider credit changes. High available capacity may be high other party exposure.
 
 ## Validate need and economics
 
-Compare the campaign plan with claimed capacity. Model prefunding, minimum spend, fees, taxes, currency conversion, cash cycle, and expected threshold frequency. Paying a premium for unused capacity is not resilience.
+Compare the campaign plan with claimed capacity. Model advance funding, minimum spend, fees, taxes, currency conversion, cash cycle, and expected threshold frequency. Paying a premium for unused capacity is not resilience.
 
 ## Separate capacity from compliance
 
 High spend history, invoicing, verification, and provider support do not make a product eligible or protect against suspension. A new advertiser, domain, payer, market, or offer changes the risk system.
 
-## Use a composite case
+## A practical example
 
 A provider shows a $100,000 monthly credit line and calls each client account “100k limit.” Ten clients share the line, allocations are internal, and one late payer can affect the provider. No client has a guaranteed independent capacity.
 
@@ -74,7 +74,7 @@ The platform may permit a budget while the provider contract sets a lower cap, t
 
 Model when client funds arrive, when the platform charges, settlement delays, threshold frequency, invoice due dates, tax, currency, credits, and refunds. Higher capacity can require more working capital and faster reconciliation.
 
-## Govern limit increases
+## Manage limit increases
 
 Require business justification, approved forecast, platform evidence, payer consent, risk review, campaign controls, alerts, and post-change reconciliation. Do not request or purchase capacity merely as a status signal.
 
@@ -90,11 +90,11 @@ Failed payments, account restriction, provider changes, credit events, and unusu
 
 Describe current observed capacity and dependencies. Avoid “guaranteed daily spend,” “unlimited scale,” or “permanent threshold.” The platform auction, policy, payer, and business demand still determine actual delivery.
 
-Capacity is useful only when the advertiser can fund, govern, and lawfully use it.
+Capacity is useful only when the advertiser can fund, manage, and lawfully use it.
 
 ## Review capacity as a risk position
 
-Report authorized budget, platform delivery, billed exposure, prefunding, credit headroom, payment timing, shared-facility concentration, dispute amounts, and stress-test results. If capacity is bundled with an identity label, first establish [what the pre-verified claim actually covers](/agency-ad-accounts/pre-verified-ad-accounts/). Validate upstream evidence through the [provider assessment](/agency-ad-accounts/agency-ad-account-provider/) and assign financial responsibilities in the [account contract and SLA](/agency-ad-accounts/agency-account-contracts-slas/). Link every increase to verified demand and client approval; reduce limits or pause growth when exposure rises faster than evidence.
+Report authorized budget, platform delivery, billed exposure, advance funding, credit headroom, payment timing, shared-facility concentration, dispute amounts, and stress-test results. If capacity is bundled with an identity label, first establish [what the pre-verified claim actually covers](/agency-ad-accounts/pre-verified-ad-accounts/). Validate upstream evidence through the [provider assessment](/agency-ad-accounts/agency-ad-account-provider/) and assign financial responsibilities in the [account contract and SLA](/agency-ad-accounts/agency-account-contracts-slas/). Link every increase to verified demand and client approval; reduce limits or pause growth when exposure rises faster than evidence.
 
 ## Official resources
 

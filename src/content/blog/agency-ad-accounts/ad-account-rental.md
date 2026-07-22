@@ -18,7 +18,7 @@ The word rental makes an ad account sound like infrastructure. Platform accounts
 | Agency-created advertiser used for one client | Provider controls creation and possibly ownership/billing |
 | Fully managed provider account | Client buys campaign operation, not necessarily platform access |
 | Shared or reseller-supplied account | Upstream control and client separation require scrutiny |
-| Credentials to an unrelated account | High authenticity, security, ownership, and policy risk |
+| Login details to an unrelated account | High authenticity, security, ownership, and policy risk |
 
 Do not let one price list treat these as interchangeable.
 
@@ -26,13 +26,13 @@ Do not let one price list treat these as interchangeable.
 
 Map verified entity, legal advertiser, brand, domain, product provider, agency, payer, and customer relationship. If the account identity describes one company while another runs unrelated offers, the model may create misrepresentation or re-verification risk.
 
-## Reject credential-based access
+## Reject login detail-based access
 
 Formal manager, partner, and role systems exist across Google, Meta, and TikTok. Shared personal profiles, purchased logins, remote browser sessions, or inauthentic users remove accountability and expand compromise risk.
 
 The buyer should receive named, permission-appropriate access where the model permits it.
 
-## Understand enforcement continuity
+## Understand enforcement ability to keep operating
 
 A rented relationship does not isolate the advertiser from policy. Platforms can assess ads, destinations, payers, users, business identity, and connected assets. Replacing a restricted account while continuing the same unresolved behavior can resemble evasion.
 
@@ -40,11 +40,11 @@ The provider should have client eligibility, creative/destination review, securi
 
 ## Follow money and data
 
-Document prefunding, platform payer, fees, spend evidence, credit, balances, refunds, and insolvency treatment. Determine who owns pixels, audiences, catalogs, leads, conversions, creative, and reports; what the client can access; and what happens at exit.
+Document advance funding, platform payer, fees, spend evidence, credit, balances, refunds, and insolvency treatment. Determine who owns pixels, audiences, catalogs, leads, conversions, creative, and reports; what the client can access; and what happens at exit.
 
-## Use a composite case
+## A practical example
 
-An affiliate buyer receives credentials to an “aged rental” and funds a wallet. The account displays a different company, shares a pixel with unknown advertisers, and the provider instructs the buyer to use a generic pre-lander. When access disappears, no platform notice or transaction record is available.
+An affiliate buyer receives login details to an “aged rental” and funds a wallet. The account displays a different company, shares a pixel with unknown advertisers, and the provider instructs the buyer to use a generic pre-lander. When access disappears, no platform notice or transaction record is available.
 
 The core failure is not that rental is expensive. The advertiser never had an accountable operating relationship.
 
@@ -52,7 +52,7 @@ The core failure is not that rental is expensive. The advertiser never had an ac
 
 - Named contracting and controlling entities.
 - Current platform IDs and ownership/status.
-- Formal access without credential sharing.
+- Formal access without login detail sharing.
 - Real advertiser/verification explanation.
 - Transparent payer, fees, and balance.
 - Client-specific data and confidentiality controls.
@@ -66,13 +66,13 @@ If the provider cannot meet them, the account is not a business asset; it is rev
 
 Age, spend history, verification, agency status, and support do not make an account immune. Any claim of “ban-proof,” permanent replacement, or permission for prohibited products should lower confidence.
 
-A credible comparison starts with [evidence about the provider’s operating model](/agency-ad-accounts/agency-ad-account-provider/) and then tests whether [client or agency ownership](/agency-ad-accounts/client-owned-vs-agency-owned-ad-accounts/) offers the safer structural alternative.
+A credible comparison starts with [evidence about the provider’s way the account is managed](/agency-ad-accounts/agency-ad-account-provider/) and then tests whether [client or agency ownership](/agency-ad-accounts/client-owned-vs-agency-owned-ad-accounts/) offers the safer structural alternative.
 
-## Test account provenance
+## Test account origin and ownership history
 
 Record who created the account, for which advertiser, under which manager/business, how ownership or access changed, and which businesses previously used it. Ask for current status and relationships—not only creation date.
 
-An “aged” account may carry history the buyer cannot inspect. Age is not provenance and provenance is not policy immunity.
+An “aged” account may carry history the buyer cannot inspect. Age is not origin and ownership history and origin and ownership history is not policy immunity.
 
 ## Review client separation
 
@@ -80,15 +80,15 @@ Confirm whether the advertiser, pixel, audience, catalog, payment method, identi
 
 ## Analyze revocation risk
 
-Who can remove the client, close the account, change credentials, move funds, revoke Page/TikTok identity permission, or withhold reports? What contract remedy exists, and can the client preserve operations without that party?
+Who can remove the client, close the account, change login details, move funds, revoke Page/TikTok identity permission, or withhold reports? What contract remedy exists, and can the client preserve operations without that party?
 
-## Govern prefunding
+## Manage advance funding
 
-Set maximum balance, replenishment cadence, spend reconciliation, client segregation, refund timing, and evidence. Avoid sending large funds merely because the provider offers a discounted fee or short payment window.
+Set maximum balance, replenishment schedule, spend reconciliation, client separation, refund timing, and evidence. Avoid sending large funds merely because the provider offers a discounted fee or short payment window.
 
-## Distinguish managed service from disguised credential sale
+## Distinguish managed service from disguised login detail sale
 
-A managed service has a contracting entity, defined operators, roles, invoices, client facts, policy process, and accountability. A credential sale provides access while disclaiming responsibility. The latter cannot become safer by calling itself rental.
+A managed service has a contracting entity, defined operators, roles, invoices, client facts, policy process, and accountability. A login detail sale provides access while disclaiming responsibility. The latter cannot become safer by calling itself rental.
 
 ## Create exit tests
 
@@ -98,7 +98,7 @@ The decisive question is not whether an account can serve today. It is whether t
 
 ## Record the go/no-go decision
 
-The final decision record should name the contracting entity, platform owner, [access route and effective permissions](/agency-ad-accounts/agency-ad-account-access-permissions/), payer, [verified-advertiser record](/agency-ad-accounts/agency-advertiser-verification/), permitted offer, data controller, support path, balance treatment, and [practical exit steps](/agency-ad-accounts/agency-account-offboarding-migration/). Require legal, finance, security, and media owners to approve the parts they control. Revisit the decision when the provider, hierarchy, payer, identity, or client use case changes. If the operating team cannot reproduce this record, it cannot reliably distinguish a governed service from temporary borrowed access.
+The final decision record should name the contracting entity, platform owner, [access route and effective permissions](/agency-ad-accounts/agency-ad-account-access-permissions/), payer, [verified-advertiser record](/agency-ad-accounts/agency-advertiser-verification/), permitted offer, data controller, support path, balance treatment, and [practical exit steps](/agency-ad-accounts/agency-account-offboarding-migration/). Require legal, finance, security, and media owners to approve the parts they control. Revisit the decision when the provider, hierarchy, payer, identity, or client use case changes. If the operating team cannot reproduce this record, it cannot reliably distinguish a managed service from temporary borrowed access.
 
 ## Official resources
 

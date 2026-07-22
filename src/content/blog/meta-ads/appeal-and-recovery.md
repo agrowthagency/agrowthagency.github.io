@@ -40,7 +40,7 @@ Route the incident to the right lead.
 
 Containment should reduce harm without resembling evasion. Do not move the same activity to substitute profiles, Pages, businesses, accounts, or domains.
 
-## Phase 3: establish root cause
+## Phase 3: establish underlying cause
 
 Use the exact decision as the starting hypothesis, then test it against platform records and business evidence. Review the entire relevant system rather than searching for a sacrificial ad.
 
@@ -80,17 +80,17 @@ Define rollback conditions. A repeated unfamiliar login, billing anomaly, reject
 
 ## Phase 7: close with durable controls
 
-An incident closes only when evidence is stored, financial effects are reconciled, root cause is documented, corrective actions are validated, and preventive controls have owners and review dates.
+An incident closes only when evidence is stored, financial effects are reconciled, underlying cause is documented, corrective actions are validated, and preventive controls have owners and review dates.
 
 Run a short retrospective: what signal was missed, which dependency expanded the impact, which response created noise, and what will be monitored differently? Update training and templates across every account that uses the same workflow.
 
 For account-level diagnosis, use [Facebook ad account restricted](/meta-ads/facebook-ad-account-restricted/). For portfolio-wide events, use [Meta Business Manager restricted](/meta-ads/business-manager-restricted/).
 
-## Manage business continuity explicitly
+## Manage ability to keep the business running explicitly
 
 Recovery planning should identify customer commitments, campaign deadlines, lead handling, commerce orders, and finance exposure. Communicate confirmed impact to stakeholders without promising a restoration time or outcome that Meta has not provided.
 
-Legitimate continuity can include pausing promotions, reallocating work to unaffected authorized people, preserving customer support, and continuing non-advertising channels. It does not include routing restricted activity through substitute assets. Record every continuity decision so commercial urgency does not quietly override the incident boundary.
+Legitimate ability to keep operating can include pausing promotions, reallocating work to unaffected authorized people, preserving customer support, and continuing non-advertising channels. It does not include routing restricted activity through substitute assets. Record every ability to keep operating decision so commercial urgency does not quietly override the incident boundary.
 
 ## Use recovery gates
 
@@ -100,11 +100,11 @@ Require evidence before moving between phases:
 | --- | --- |
 | Stabilized | Decision and affected assets identified; owner assigned |
 | Contained | Confirmed harmful or unauthorized activity stopped |
-| Diagnosed | Root cause confirmed or uncertainty documented after scoped audit |
+| Diagnosed | Underlying cause confirmed or uncertainty documented after scoped audit |
 | Remediated | Fixes completed and independently validated |
 | Submitted | Review text and evidence approved and archived |
 | Restored | Access, billing, identity, destination, and campaigns verified |
-| Closed | Reconciliation complete; controls assigned and scheduled |
+| Closed | reconciliation complete; controls assigned and scheduled |
 
 Gates reduce the temptation to treat access restoration as proof that security, finance, and policy work can stop.
 
@@ -116,7 +116,7 @@ If the result is unfavorable, preserve it and reassess the diagnosis. Use only t
 
 ## Run a portfolio-wide lesson review
 
-An incident caused by a shared template, vendor, administrator, payment method, domain component, or governance pattern may affect other accounts even when they have not been restricted. Search the portfolio for the same dependency and correct it proactively.
+An incident caused by a shared template, vendor, administrator, payment method, domain component, or management pattern may affect other accounts even when they have not been restricted. Search the portfolio for the same dependency and correct it proactively.
 
 Document which controls changed, how their operation will be tested, and when leadership will review effectiveness. Recovery creates value only when the organization becomes less likely to repeat the failure.
 
@@ -127,4 +127,4 @@ If the interface describes the account as disabled rather than merely restricted
 - [Meta ad review, policy, and support](https://www.facebook.com/business/ads/review-policy-guidelines)
 - [Business Support Home](https://www.facebook.com/business-support-home/)
 - [Meta Advertising Standards](https://transparency.meta.com/policies/ad-standards/)
-- [Protect accounts from credential-stealing malware](https://www.facebook.com/help/773912954219636)
+- [Protect accounts from login detail-stealing malware](https://www.facebook.com/help/773912954219636)

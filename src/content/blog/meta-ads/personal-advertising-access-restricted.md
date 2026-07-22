@@ -28,7 +28,7 @@ Do not use community vocabulary such as “profile ban” as the incident label.
 
 ## Investigate the person-to-asset history
 
-Review the operator’s legitimate business role, authentication, recent sessions, devices, pages and businesses managed, recent invitations, account creation activity, and ads or payment changes performed. Ask whether the person manages a high number of unrelated assets, uses shared credentials, or recently accepted access from an unknown business.
+Review the operator’s legitimate business role, authentication, recent sessions, devices, pages and businesses managed, recent invitations, account creation activity, and ads or payment changes performed. Ask whether the person manages a high number of unrelated assets, uses shared login details, or recently accepted access from an unknown business.
 
 Meta identifies inauthentic accounts and connections to abusive assets among the behaviors that may lead to advertising restrictions. That makes the operator relationship graph relevant, even when the current client’s ads appear clean.
 
@@ -45,21 +45,21 @@ Build a timeline without assuming guilt:
 
 If any activity is unfamiliar, treat the event as a security incident. Secure email and devices, change the password, enable two-factor authentication, review sessions, remove malicious extensions, and alert business owners. Then audit every asset the person could control.
 
-Do not create a replacement personal profile, borrow a colleague’s login, or add the restricted person under a false identity. Legitimate continuity comes from pre-existing named administrators and documented handover, not credential sharing.
+Do not create a replacement personal profile, borrow a colleague’s login, or add the restricted person under a false identity. Legitimate ability to keep operating comes from pre-existing named administrators and documented handover, not login detail sharing.
 
 ## Prepare a person-level review
 
-The review should explain who the person is, their legitimate role, the relevant assets, what the investigation found, and any corrective security or governance action. Attach only evidence relevant to the question presented in the available review flow.
+The review should explain who the person is, their legitimate role, the relevant assets, what the investigation found, and any corrective security or management action. Attach only evidence relevant to the question presented in the available review flow.
 
 Avoid claiming that the person is safe merely because one ad account has no rejected ads. The decision may concern authenticity, security, or activity across other managed assets.
 
-Use [Meta account review](/meta-ads/account-review/) to structure the evidence packet. Use [Meta ad account security](/meta-ads/meta-ad-account-security/) for containment. If the business itself is restricted, move to [Meta Business Manager restricted](/meta-ads/business-manager-restricted/).
+Use [Meta account review](/meta-ads/account-review/) to structure the set of supporting evidence. Use [Meta ad account security](/meta-ads/meta-ad-account-security/) for containment. If the business itself is restricted, move to [Meta Business Manager restricted](/meta-ads/business-manager-restricted/).
 
-## Design continuity without bypass
+## Design ability to keep operating without bypass
 
 Every critical business should have at least two genuine, authorized administrators protected by strong authentication, with permissions limited to actual responsibilities. Offboarding should remove access immediately. Partner assignments should be reviewed on schedule.
 
-Continuity controls allow the business to preserve lawful operations while a person-level decision is reviewed. They are not a mechanism for the restricted person to continue acting indirectly.
+Ability to keep operating controls allow the business to preserve lawful operations while a person-level decision is reviewed. They are not a mechanism for the restricted person to continue acting indirectly.
 
 ## Distinguish identity from employment evidence
 
@@ -71,14 +71,14 @@ Maintain both records: platform identity and security steps completed by the ind
 
 Create a list of businesses, Pages, and ad accounts the person currently or recently managed. Mark the legal relationship, invitation source, access level, start and end dates, and whether the asset is still active.
 
-High asset volume can be legitimate for agency staff, but it requires strong client records and offboarding. Unknown invitations, dormant client access, and one person acting as the only administrator across many businesses create unnecessary relationship and continuity risk.
+High asset volume can be legitimate for agency staff, but it requires strong client records and offboarding. Unknown invitations, dormant client access, and one person acting as the only administrator across many businesses create unnecessary relationship and risk of interrupted operations.
 
 ## Improve operator onboarding
 
 Before a person receives advertising access:
 
 1. Confirm their real business role and manager.
-2. Require unique credentials and strong authentication.
+2. Require unique login details and strong authentication.
 3. Train them on account sharing, suspicious invitations, review evasion, and incident reporting.
 4. Assign only the assets and tasks needed.
 5. Record an access review and end date for contractors.
@@ -96,5 +96,5 @@ Do not retain access because a former employee might help later. If temporary tr
 
 - [Meta ad review, policy, and support](https://www.facebook.com/business/ads/review-policy-guidelines)
 - [Assign people to a Meta ad account](https://www.facebook.com/help/messenger-app/195296697183682/)
-- [Protect accounts from credential-stealing malware](https://www.facebook.com/help/773912954219636)
+- [Protect accounts from login detail-stealing malware](https://www.facebook.com/help/773912954219636)
 - [Business Support Home](https://www.facebook.com/business-support-home/)

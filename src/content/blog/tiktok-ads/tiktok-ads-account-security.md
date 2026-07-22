@@ -12,17 +12,17 @@ A strong password on one Ads Manager login cannot protect a Business Center full
 
 Security must follow the complete control graph.
 
-## Map privileged paths
+## Map administrator access paths
 
 Inventory Business Centers, advertiser accounts, TikTok accounts, pixels, catalogs, audiences, shops, apps, payment portfolios, members, partners, and external tools. Record who owns each asset and which permissions can change identity, spend, data, users, or finance.
 
 TikTok’s [Business Center security guidance](https://ads.tiktok.com/help/article/best-practices-for-securing-your-business-center?lang=en) emphasizes valid client-controlled admins, review of members and partners, removal of inactive users, minimum access, monitoring for unauthorized changes, and built-in invitation warnings. Convert those principles into named controls.
 
-## Apply least privilege by function
+## Apply least access right by function
 
 Business Center base roles and advanced finance roles should match actual work. Standard members should receive only assigned assets. Finance access should be limited to people who reconcile or manage billing. Ad-account admin, operator, and analyst access should not be treated as interchangeable.
 
-For TikTok identities, distinguish permission to deliver ads from broader account management. Spark Ads access should not require sharing the creator or brand’s login credentials.
+For TikTok identities, distinguish permission to deliver ads from broader account management. Spark Ads access should not require sharing the creator or brand’s login login details.
 
 | Privileged path | Risk | Core control |
 | --- | --- | --- |
@@ -58,21 +58,21 @@ Identify how access occurred and every asset touched. Reconcile unauthorized cha
 
 Require access requests, approvals, review dates, immediate offboarding, two-step verification, partner inventories, and backup client-controlled administrators. The recovery is complete when the business can explain and control every critical path—not merely when delivery resumes.
 
-Use [TikTok Business Center asset governance](/tiktok-ads/tiktok-business-center-asset-governance/) for ownership and [TikTok Ads payment issues](/tiktok-ads/tiktok-ads-payment-issues/) when unauthorized activity affects finance.
+Use [TikTok Business Center asset management](/tiktok-ads/tiktok-business-center-asset-governance/) for ownership and [TikTok Ads payment issues](/tiktok-ads/tiktok-ads-payment-issues/) when unauthorized activity affects finance.
 
-## Establish privileged-access governance
+## Set privileged-access management
 
 Every admin, finance manager, partner, and high-impact advertiser permission should have a requester, approver, reason, scope, start date, and review or expiry date. Temporary projects should not create permanent access.
 
-Maintain at least two trusted client-controlled admins for critical continuity, but keep the group small. Validate recovery email, phone, linked accounts, and authenticators. Two-step verification is weakened if the recovery path is unmanaged.
+Maintain at least two trusted client-controlled admins for critical ability to keep operating, but keep the group small. Validate recovery email, phone, linked accounts, and authenticators. Two-step verification is weakened if the recovery path is unmanaged.
 
 ## Secure the agency boundary
 
 Record partner legal entity, Business Center ID, contract, assigned assets, allowed tasks, subcontractors, incident contact, and offboarding date. Require notification of personnel and security changes. The client should be able to remove a partner without relying on that partner to approve the removal.
 
-Review whether agencies use their own controlled members or circulate shared login credentials. Formal Business Center access exists to avoid identity sharing.
+Review whether agencies use their own controlled members or circulate shared login login details. Formal Business Center access exists to avoid identity sharing.
 
-## Preserve forensic boundaries
+## Keep forensic boundaries
 
 Store session, identity, financial, and personal-data evidence in a restricted incident location. Record collector and time. Share only what TikTok, the bank, a client, insurer, or authority needs. Do not paste full payment or identity records into broad campaign chats.
 

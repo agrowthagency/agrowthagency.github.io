@@ -34,13 +34,13 @@ The contract cannot transfer platform decision authority to the agency.
 
 ## Write measurable agency SLAs
 
-Measure agency-controlled actions: notification after detection, initial classification, containment start, evidence request, client update frequency, financial reconciliation, access removal, report delivery, and offboarding completion.
+Measure agency-controlled actions: notification after detection, initial classification, containment start, evidence request, client update frequency, checking and correcting the payment records, access removal, report delivery, and offboarding completion.
 
 Do not guarantee platform review timing, approval, reinstatement, limit, or support response. Distinguish “agency responds within four hours” from “platform resolves within four hours.”
 
 ## Address money explicitly
 
-Define media spend, service fee, taxes, exchange rate, prefunding, credit, threshold, invoice timing, unused balance, refunds, charge disputes, unauthorized spend, and insolvency. Identify the legal payer and client evidence.
+Define media spend, service fee, taxes, exchange rate, advance funding, credit, threshold, invoice timing, unused balance, refunds, charge disputes, unauthorized spend, and insolvency. Identify the legal payer and client evidence.
 
 ## Cover data and security
 
@@ -54,21 +54,21 @@ Set who preserves evidence, contacts the platform, approves appeals, speaks to t
 
 Include notice, overlap, administrators, billing transfer, assets, reports, creative, data, support cases, balances, user/partner removal, deletion, and unresolved dependency disclosure.
 
-This is operational information, not legal advice. Qualified counsel should adapt terms to jurisdiction and business model.
+This is practical information, not legal advice. Qualified counsel should adapt terms to jurisdiction and business model.
 
 The contract’s value is not its confidence. It is whether a new operator can execute it without guessing.
 
 ## Require evidence and audit rights
 
-Operational promises need observable artifacts: access rosters, approval records, billing reconciliations, incident timelines, subcontractor lists, and deletion confirmations. Define reasonable inspection rights, notice, confidentiality, sampling, remediation, and cost allocation. A broad audit clause without accessible evidence is mostly ceremonial.
+Practical promises need observable artifacts: access rosters, approval records, billing reconciliations, incident timelines, subcontractor lists, and deletion confirmations. Define reasonable inspection rights, notice, confidentiality, sampling, fixes, and cost allocation. A broad audit clause without accessible evidence is mostly ceremonial.
 
-## Govern subcontractors and upstream providers
+## Manage subcontractors and providers earlier in the supply chain
 
 Require disclosure of material providers, minimum control obligations, confidential treatment, incident notification, and responsibility for their actions. Where the supply chain includes a reseller, specify the evidence and pass-through duties expected from the [white-label account arrangement](/agency-ad-accounts/white-label-ad-account-resellers/). Define whether the agency may change providers without consent and what happens when an upstream relationship ends. The client should understand concentration without receiving another party’s confidential contract.
 
-## Establish a review calendar
+## Set a review calendar
 
-Review the platform schedule and controls when ownership, payer, provider, regulated status, markets, data flows, or platform terms materially change—and at a fixed interval even when nothing appears to change. Assign an owner for amendments so the contract does not drift behind the operating model.
+Review the platform schedule and controls when ownership, payer, provider, regulated status, markets, data flows, or platform terms materially change—and at a fixed interval even when nothing appears to change. Assign an owner for amendments so the contract does not drift behind the way the account is managed.
 
 ## Control material changes
 
@@ -80,7 +80,7 @@ Service credits or termination rights should attach to failures the agency contr
 
 ## Convert the agreement into a control register
 
-Extract every operational obligation into a register with the responsible party, due event, required evidence, dependency, escalation, and remedy. Examples include [permission reviews](/agency-ad-accounts/agency-ad-account-access-permissions/), [the monthly finance close](/agency-ad-accounts/agency-ad-account-billing-reconciliation/), policy approvals, incident notices, verification renewals, provider disclosures, and [offboarding deliverables](/agency-ad-accounts/agency-account-offboarding-migration/). Review overdue items with account leadership and the client, including evidence that the agreed [security controls remain effective](/agency-ad-accounts/agency-ad-account-security/). This prevents a carefully negotiated agreement from becoming a document consulted only after failure, when neither party can show how its promises were meant to operate.
+Extract every practical obligation into a register with the responsible party, due event, required evidence, dependency, escalation, and remedy. Examples include [permission reviews](/agency-ad-accounts/agency-ad-account-access-permissions/), [the monthly finance close](/agency-ad-accounts/agency-ad-account-billing-reconciliation/), policy approvals, incident notices, verification renewals, provider disclosures, and [offboarding deliverables](/agency-ad-accounts/agency-account-offboarding-migration/). Review overdue items with account leadership and the client, including evidence that the agreed [security controls remain effective](/agency-ad-accounts/agency-ad-account-security/). This prevents a carefully negotiated agreement from becoming a document consulted only after failure, when neither party can show how its promises were meant to operate.
 
 ## Official resources
 

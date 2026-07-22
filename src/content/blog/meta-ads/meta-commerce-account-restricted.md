@@ -39,11 +39,11 @@ For representative and affected products, compare:
 | Website | Functional purchase path and transparent total terms |
 | Checkout/fulfillment | Real inventory, delivery, refunds, and support |
 
-Automated feeds can reintroduce a corrected issue. Find the system of record, transformation rules, scheduled uploads, regional overrides, and supplemental feeds. Fixing one catalog row in the interface is temporary if the next sync overwrites it.
+Automated feeds can reintroduce a corrected issue. Find the main source of information, transformation rules, scheduled uploads, regional overrides, and supplemental feeds. Fixing one catalog row in the interface is temporary if the next sync overwrites it.
 
 ## Investigate business and customer integrity
 
-Confirm that the seller, domain, Page, payment descriptor, customer service, and return address form a coherent business. Review licensing and product eligibility by location, claim substantiation, counterfeit or brand-authorization risk, delivery performance, refund practices, and customer complaints.
+Confirm that the seller, domain, Page, payment descriptor, customer service, and return address form a consistent business. Review licensing and product eligibility by location, claim substantiation, counterfeit or brand-authorization risk, delivery performance, refund practices, and customer complaints.
 
 Do not treat fulfillment as separate from advertising truth. A product that is promoted but consistently unavailable, materially different, or not delivered creates an experience problem beyond feed formatting.
 
@@ -53,9 +53,9 @@ Pause affected promotion, preserve the feed and notices, and correct the authori
 
 If the decision appears incorrect, prepare evidence tied to the cited product and policy: supplier authorization, product records, website screenshots, shipping or return terms, business identity, and feed history as relevant. Avoid sending a company brochure that does not resolve the catalog-to-customer question.
 
-For category eligibility, use [Meta Ads restricted businesses](/meta-ads/meta-restricted-businesses/). For click-path inconsistencies, use [Meta Ads landing page requirements](/meta-ads/meta-landing-page-requirements/). If a Page or wider business is restricted, follow the corresponding asset-level framework rather than repeatedly resubmitting catalog items.
+For category eligibility, use [Meta Ads restricted businesses](/meta-ads/meta-restricted-businesses/). For click-path inconsistencies, use [Meta Ads landing page requirements](/meta-ads/meta-landing-page-requirements/). If a Page or wider business is restricted, follow the corresponding asset-level guide rather than repeatedly resubmitting catalog items.
 
-## Map catalog architecture
+## Map catalog setup
 
 Document the catalog owner, business, connected shop and Page, feed sources, upload schedule, supplemental feeds, rules, country sets, languages, currency, pixels/datasets, and ad accounts. Identify which system is authoritative for each field.
 
@@ -79,7 +79,7 @@ Compare catalog price, sale price, currency, shipping, tax presentation, stock s
 
 Do not advertise a low variant price as though it applies to all variants, or keep out-of-stock products active through stale feeds. Material conditions should be visible before the user commits.
 
-## Govern returns and fulfillment evidence
+## Manage returns and fulfillment evidence
 
 Maintain current shipping regions and estimates, return/refund terms, customer-service channels, order tracking, cancellation practices, and records of material fulfillment failures. Review whether the real operation matches public policy pages.
 
@@ -89,7 +89,7 @@ A well-formatted catalog cannot compensate for a seller that consistently fails 
 
 Treat feed transformations and bulk edits as production releases. Require testing in a limited set, peer review for high-risk rules, monitoring after sync, rollback, and an owner for rejection alerts. Store representative before-and-after items.
 
-When an item is corrected in Meta, update the source and verify the next scheduled sync. Manual interface edits without source remediation create false closure.
+When an item is corrected in Meta, update the source and verify the next scheduled sync. Manual interface edits without source fixes create false closure.
 
 ## Prepare a controlled commerce restart
 

@@ -23,7 +23,7 @@ These areas should not be collapsed into “misleading ad copy.” The relevant 
 - Advertiser identity or business name.
 - Brand, government, professional, or public-figure affiliation.
 - Product features and provider.
-- Price, fees, billing cadence, refund conditions, or financing.
+- Price, fees, billing schedule, refund conditions, or financing.
 - Availability, inventory, location, or delivery time.
 - Qualifications, license, approval, or certification.
 - Expected results and supporting evidence.
@@ -47,7 +47,7 @@ For the promoted offer, map the statements a user relies on:
 | Why should the user believe the claim? | License, methodology, data, qualification, authorization |
 | What happens after conversion? | Contract, billing, delivery, cancellation, refund, support |
 
-Review the map from impression to transaction. Material truth that appears only after the user has committed time, data, or money may still be operationally inadequate.
+Review the map from impression to transaction. Important facts that appear only after the user has committed time, data, or money may still be inadequate in practice.
 
 The goal is not to overload every ad with legal text. It is to ensure that qualification and omission do not change the offer’s meaning.
 
@@ -81,7 +81,7 @@ Audit:
 
 - Base price and mandatory charges.
 - Promotional period and post-promotion price.
-- Subscription or renewal cadence.
+- Subscription or renewal schedule.
 - Eligibility requirements.
 - Taxes, shipping, setup, service, or withdrawal fees.
 - Cancellation and refund conditions.
@@ -105,13 +105,13 @@ For every policy-sensitive claim, record:
 
 High-risk categories such as health, finance, employment, education, and business opportunity deserve stricter review because users may make consequential decisions from the claim.
 
-## A composite scenario: six accurate teams, one misleading offer
+## Example: several accurate teams producing one misleading offer
 
 Consider a composite subscription service. Marketing advertises “from $9.” Product confirms that a $9 plan exists. Finance confirms the amount is real. Legal places annual billing terms in the conditions. Engineering adds a mandatory setup fee at checkout. Sales targets countries where the entry plan is unavailable.
 
 Each team defends its own fact. The user sees an offer that is not available at the apparent price in the targeted market.
 
-The remediation is cross-functional: define the eligible locations, include material billing cadence, surface the mandatory fee, align checkout, update campaign targets, and assign one owner to the complete price proposition.
+The fix is cross-functional: define the eligible locations, include material billing schedule, surface the mandatory fee, align checkout, update campaign targets, and assign one owner to the complete price offer.
 
 Misrepresentation often lives between accurate systems.
 
@@ -123,7 +123,7 @@ Record the exact policy label and state. If the notice names unacceptable busine
 
 If the issue is a disapproved ad for pricing, relevance, availability, or claim language, correct the complete shared source and request review at the appropriate scope.
 
-## Make material truth a release requirement
+## Make important facts a release requirement
 
 Before launch or material change, require confirmation of:
 

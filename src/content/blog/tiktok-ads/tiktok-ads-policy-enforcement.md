@@ -10,17 +10,17 @@ updatedDate: 2026-07-21
 
 The phrase “TikTok banned the account” usually arrives before anyone has read the notice carefully.
 
-That shorthand is expensive. TikTok can disapprove or restrict an ad or ad group, issue Account Health warnings, suspend an advertiser, limit features, disapprove an ad account, or surface problems in a product catalog. The practical symptom may be stopped delivery, but the decision object determines the investigation.
+That shorthand is expensive. TikTok can disapprove or restrict an ad or ad group, issue Account Health warnings, suspend an advertiser, limit features, disapprove an ad account, or surface problems in a product catalog. The practical symptom may be stopped delivery, but the item affected by the decision determines the investigation.
 
-## Classify the enforcement object
+## Classify the item affected by enforcement
 
 Record the platform wording, object type and ID, time, cited policy, affected capabilities, Account Health state, and available action.
 
-| Decision object | Primary record | Initial investigation |
+| Item affected by the decision | Primary record | Initial investigation |
 | --- | --- | --- |
 | Ad or ad group | Campaign tab and Disapproved detail | Creative, targeting, destination, placement |
 | Advertiser account | Account Health and suspension notice | Account behavior, policy history, identity, access |
-| Business Center | Business status, members, partners, assets | Portfolio relationships and privileged paths |
+| Business Center | Business status, members, partners, assets | Portfolio relationships and administrator access paths |
 | Payment function | Billing and outstanding balance | Payment setting, payer, issuer, security |
 | Catalog product | Catalog Diagnostics | Feed fields, product eligibility, page consistency |
 
@@ -39,7 +39,7 @@ Audit six surfaces:
 5. Billing option, payer authority, balances, failures, and unfamiliar spend.
 6. Related advertiser accounts, Business Centers, catalogs, pixels, and agencies.
 
-## Preserve the decision record
+## Keep the decision record
 
 Save notices, screenshots, IDs, Account Health history, rejected objects, account changes, web releases, access changes, invoices, and support cases before broad cleanup. Separate what is observed, confirmed, and inferred.
 
@@ -51,11 +51,11 @@ A broken URL needs a web fix. A misleading shared template requires correction a
 
 For every correction, record owner, affected IDs, completion time, validation, and preventive control. Avoid replacing advertiser accounts, identities, domains, or Business Centers to continue unresolved activity. TikTok’s suspension troubleshooting guidance explicitly advises against creating new accounts while an appeal is being reviewed.
 
-## Build an enforcement taxonomy
+## Build an list of enforcement categories
 
-Normalize incidents internally by decision object, policy family, severity, root-cause domain, business impact, remediation, and outcome while retaining TikTok’s original wording. Review recurrence by template, market, partner, creator, destination, and catalog source.
+Normalize incidents internally by item affected by the decision, policy family, severity, area containing the underlying cause, business impact, fixes, and outcome while retaining TikTok’s original wording. Review repeat issue by template, market, partner, creator, destination, and catalog source.
 
-Metrics should expose weak operations, not promise approval. Useful measures include time to classify, repeated violation rate, time to containment, contradictory tickets, and recurrence after a correction.
+Metrics should expose weak operations, not promise approval. Useful measures include time to classify, repeated violation rate, time to containment, contradictory tickets, and repeat issue after a correction.
 
 For a single object, continue with [TikTok ad disapproval](/tiktok-ads/ad-disapproval/). For warnings and account trajectory, use [TikTok Ads Account Health](/tiktok-ads/tiktok-ads-account-health/). For a suspended advertiser, use [TikTok Ads account suspended](/tiktok-ads/tiktok-ads-account-suspended/).
 
@@ -72,7 +72,7 @@ Define when an object incident becomes a system investigation:
 - The same label appears across creators or accounts.
 - A shared destination, template, feed, or identity is involved.
 - Account Health changes or a suspension warning appears.
-- Any unknown privileged access or payment activity exists.
+- Any unknown administrator access or payment activity exists.
 - A sensitive-industry qualification is questioned.
 - The problem recurs after a validated correction.
 

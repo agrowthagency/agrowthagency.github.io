@@ -12,7 +12,7 @@ Correcting a product inside Catalog Manager can create the illusion of resolutio
 
 Catalog compliance begins at the authoritative data source.
 
-## Map catalog architecture
+## Map catalog setup
 
 Record catalog and Business Center owner, advertiser accounts, product sources, schedules, supplemental feeds, transformation rules, country/language sets, pixels or apps, shops, and destination templates. Identify which system owns ID, title, category, image, description, price, currency, availability, brand, and URL.
 
@@ -55,7 +55,7 @@ For a product believed to be disapproved incorrectly, preserve the diagnostic, p
 
 Use [TikTok Ads industry eligibility](/tiktok-ads/tiktok-ads-industry-eligibility/) for category entry and [TikTok Ads landing page requirements](/tiktok-ads/tiktok-ads-landing-page-requirements/) for feed-to-page consistency.
 
-## Govern suppliers and marketplaces
+## Manage suppliers and marketplaces
 
 Verify supplier identity, product authorization, authenticity, industry eligibility, inventory, fulfillment, returns, and complaint process. Contracts should require accurate data and prompt notification of recall, brand dispute, certificate expiry, or product change.
 
@@ -71,9 +71,9 @@ Do not promote the cheapest unavailable variant as the product’s normal price.
 
 Assign owners and response times for feed fetch failure, image failure, invalid links, stale schedules, price or inventory mismatch, disapproved products, and frozen status. Trend errors by source and rule.
 
-A dashboard nobody reviews is not a catalog control. Connect recurring defects to engineering or supplier remediation.
+A dashboard nobody reviews is not a catalog control. Connect recurring defects to engineering or supplier fixes.
 
-## Use a composite feed incident
+## A practical example
 
 A regional rule converts prices but not sale dates, while inventory sync lags. Ads display an expired discount and lead to an unavailable product. Manually correcting three rejected items cannot fix the next thousand.
 

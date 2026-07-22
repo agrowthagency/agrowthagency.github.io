@@ -30,7 +30,7 @@ Record account and Business Center IDs, exact wording, time, Account Health, aff
 
 TikTok’s June 2026 [account-suspension overview](https://ads.tiktok.com/help/article/account-suspensions?lang=en) distinguishes temporary and permanent suspension and describes limitations on ads, settings, pixels, agency capabilities, and refunds. Severe issues may trigger immediate suspension.
 
-Its separate troubleshooting page describes an appeal route and a longer outer eligibility statement. Because documentation and account scenarios can differ, the notice and in-product path should control the operational deadline. Act promptly instead of debating which generic number applies.
+Its separate troubleshooting page describes an appeal route and a longer outer eligibility statement. Because documentation and account scenarios can differ, the notice and in-product path should control the practical deadline. Act promptly instead of debating which generic number applies.
 
 ## Diagnose before declaring permanence
 
@@ -44,11 +44,11 @@ Logging in does not prove advertising is restored. One editable campaign does no
 
 Similarly, inability to create ads does not prove permanent suspension if the person lacks permission or the account has a balance problem.
 
-## Do not replace the decision object
+## Do not replace the item affected by the decision
 
 Creating or acquiring another advertiser, Business Center, identity, domain, or payment arrangement does not reactivate the original account. TikTok advises against new accounts while an appeal is reviewed. Replacement activity can complicate legitimate relationships and evidence.
 
-Business continuity should come from owned assets, named backup admins, non-advertising channels, and clear stakeholder communication—not bypass.
+Ability to keep the business running should come from owned assets, named backup admins, non-advertising channels, and clear stakeholder communication—not bypass.
 
 ## Communicate precisely
 
@@ -62,7 +62,7 @@ A user may log in to TikTok for Business while the advertiser is suspended. A Bu
 
 This is especially important for agencies whose staff see many accounts. One operator’s dashboard summary should not become a client-facing diagnosis without opening the actual account record.
 
-## Preserve financial and data decisions
+## Keep financial and data decisions
 
 Suspension can affect refunds and access to certain features or assets. Before closure or refund action, inventory balance, original payment method, invoices, pixels, catalogs, campaign records, and client obligations. Follow the process TikTok exposes for the suspended state.
 
@@ -74,19 +74,19 @@ When the exact decision is permanent and no review route remains, preserve the r
 
 The organization should still run a root-cause review. A final platform decision does not make the failed control irrelevant to other accounts.
 
-## Use a composite classification
+## A practical example
 
-A media buyer reports a ban because campaigns stopped. The account shows an outstanding automatic-payment balance, while Account Health is not poor and another admin retains full access. The correct response is financial reconciliation, not a policy appeal.
+A media buyer reports a ban because campaigns stopped. The account shows an outstanding automatic-payment balance, while Account Health is not poor and another admin retains full access. The correct response is checking and correcting the payment records, not a policy appeal.
 
 In a second case, payment is healthy but Account Health shows suspension after repeated deceptive claims. Adding a card cannot change the decision. Same symptom, different system.
 
 ## Update commercial language
 
-Agencies and account providers should stop using “ban-proof,” “permanent account,” or “guaranteed replacement.” These phrases erase the exact conditions the buyer must diligence and encourage bypass behavior.
+Agencies and account providers should stop using “ban-proof,” “permanent account,” or “guaranteed replacement.” These phrases erase the exact conditions the buyer must check and encourage bypass behavior.
 
 Precise state language is not pedantry. It is the first control that keeps operations aligned with reality.
 
-Once the actual state is identified, use the [policy-enforcement taxonomy](/tiktok-ads/tiktok-ads-policy-enforcement/) to locate the affected object and the [appeal workflow](/tiktok-ads/appeal-process/) to assemble the correction evidence. A provider relationship should be assessed separately through the controls for [verified Business Center account providers](/tiktok-ads/verified-business-center-account-providers/).
+Once the actual state is identified, use the [policy-list of enforcement categories](/tiktok-ads/tiktok-ads-policy-enforcement/) to locate the affected object and the [appeal workflow](/tiktok-ads/appeal-process/) to assemble the correction evidence. A provider relationship should be assessed separately through the controls for [verified Business Center account providers](/tiktok-ads/verified-business-center-account-providers/).
 
 ## Official resources
 

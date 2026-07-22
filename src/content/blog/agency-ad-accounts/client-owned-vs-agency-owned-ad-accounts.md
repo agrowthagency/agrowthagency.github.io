@@ -14,7 +14,7 @@ That answer sits in the ownership model.
 
 ## Define ownership platform by platform
 
-“Ownership” is not one universal field. On Google Ads, a manager can link to a client account without automatically becoming its owner; a manager that creates a client account becomes owner by default, and owner privileges can be transferred or removed under documented conditions. On TikTok, Business Center distinguishes accounts owned by that Business Center from partner-owned accounts, while transfer is available only for certain customers. Meta separates account and business-asset access through people and partner relationships.
+“Ownership” is not one universal field. On Google Ads, a manager can link to a client account without automatically becoming its owner; a manager that creates a client account becomes owner by default, and owner access rights can be transferred or removed under documented conditions. On TikTok, Business Center distinguishes accounts owned by that Business Center from partner-owned accounts, while transfer is available only for certain customers. Meta separates account and business-asset access through people and partner relationships.
 
 Create a platform-specific matrix:
 
@@ -24,12 +24,12 @@ Create a platform-specific matrix:
 | Daily operator | Agency or internal team | Agency |
 | Billing | Client or agreed payer | Often agency/provider |
 | Exit | Remove partner/manager access | Transfer, rebuild, or negotiate continued access |
-| Data continuity | Usually strongest for client | Depends on platform and contract |
+| Data ability to keep operating | Usually strongest for client | Depends on platform and contract |
 | Incident dependency | Client retains control path | Provider incident may affect client access |
 
-## Client ownership is not self-governance by default
+## Client ownership is not self-management by default
 
-A client-owned account can still be fragile when the client has one inactive administrator, weak authentication, no finance owner, and no understanding of manager or partner relationships. Ownership only creates the opportunity for continuity.
+A client-owned account can still be fragile when the client has one inactive administrator, weak authentication, no finance owner, and no understanding of manager or partner relationships. Ownership only creates the opportunity for ability to keep operating.
 
 The client needs named administrators, an asset register, access review, billing visibility, verification records, support ownership, and offboarding competence.
 
@@ -50,7 +50,7 @@ Document which assets can transfer, which remain provider-controlled, how data a
 
 One party may control the account while another owns the brand and pays. Write every relationship down.
 
-## Use a composite transition case
+## A practical example
 
 A brand ends a two-year agency relationship. Campaign performance is available as PDFs, but the agency created the advertiser account, pays through its credit line, owns the pixel and catalog, controls the Page relationship, and handles every support case. The contract says the client “owns all data” but provides no platform IDs or transfer steps.
 
@@ -66,19 +66,19 @@ Continue with [agency account ownership and data portability](/agency-ad-account
 
 ## Use a weighted decision matrix
 
-Score continuity, client competence, agency operating need, consolidated billing, data sensitivity, public identity, transferability, regulatory requirements, incident response, and vendor concentration. Weight criteria by business impact rather than treating client ownership as a slogan.
+Score ability to keep operating, client competence, agency operating need, consolidated billing, data sensitivity, public identity, transferability, regulatory requirements, incident response, and vendor concentration. Weight criteria by business impact rather than treating client ownership as a slogan.
 
 ## Consider hybrid models
 
 A client can own public identity, domain, data source, and core account while the agency receives partner access and pays through an agreed structure. Another model can use agency billing but client-owned measurement. Document each layer; “hybrid” is not permission to leave gaps.
 
-## Govern account creation
+## Manage account creation
 
 Before an agency creates an account, record intended owner, platform creation behavior, direct client admins, billing, currency/time zone, verification, data assets, and exit. Google, TikTok, and Meta can attach durable consequences to where an asset is created.
 
 ## Review acquisitions and reorganizations
 
-Corporate changes can shift legal advertiser, domains, payers, managers, and data responsibility. Preserve continuity evidence and update platform/contract records through controlled change. Do not let an inherited agency model become permanent by neglect.
+Corporate changes can shift legal advertiser, domains, payers, managers, and data responsibility. Preserve ability to keep operating evidence and update platform/contract records through controlled change. Do not let an inherited agency model become permanent by neglect.
 
 ## Measure ownership health
 
@@ -88,11 +88,11 @@ Track accounts with verified client admins, documented controller, known payer, 
 
 Organizations often benefit from a default favoring client-controlled critical assets with formal agency access. Exceptions can be legitimate for billing, market, or service reasons, but should have documented rationale, controls, expiry/review, and contingency.
 
-Ownership is valuable only when it produces continuity. An ungoverned client account and a transparent agency account can invert the expected risk; evidence should decide.
+Ownership is valuable only when it produces ability to keep operating. An ungoverned client account and a transparent agency account can invert the expected risk; evidence should decide.
 
 ## Review the model at renewal
 
-Ask whether the current arrangement still fits the client’s internal capability, spend, regulatory needs, acquisition plans, platform mix, and tolerance for concentration. Inspect administrator continuity through an [effective-access review](/agency-ad-accounts/agency-ad-account-access-permissions/), quantify [billing dependence and unsettled exposure](/agency-ad-accounts/agency-ad-account-billing-reconciliation/), and reassess the evidence behind the current [account provider](/agency-ad-accounts/agency-ad-account-provider/). Ownership should not persist merely because migration is uncomfortable. If switching costs are the only reason to remain, quantify them and establish a reduction plan before the next renewal.
+Ask whether the current arrangement still fits the client’s internal capability, spend, regulatory needs, acquisition plans, platform mix, and tolerance for concentration. Inspect administrator ability to keep operating through an [effective-access review](/agency-ad-accounts/agency-ad-account-access-permissions/), quantify [billing dependence and unsettled exposure](/agency-ad-accounts/agency-ad-account-billing-reconciliation/), and reassess the evidence behind the current [account provider](/agency-ad-accounts/agency-ad-account-provider/). Ownership should not persist merely because migration is uncomfortable. If switching costs are the only reason to remain, quantify them and establish a reduction plan before the next renewal.
 
 ## Official resources
 

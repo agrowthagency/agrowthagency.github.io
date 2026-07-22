@@ -18,7 +18,7 @@ Record advertiser account controller, affiliate legal entity, network, merchant,
 
 Disclose and document the real relationships. A provider account does not erase the affiliate’s role.
 
-## Establish offer eligibility
+## Set offer eligibility
 
 Check product, market, age, qualification, affiliate permission, brand usage, platform industry rules, and merchant history before creative production. Network acceptance or another affiliate’s approved ad is not platform eligibility evidence.
 
@@ -28,7 +28,7 @@ Maintain a claim library with merchant evidence, product/version, typicality, ma
 
 Do not copy competitor creative or rely on the merchant’s generic product page as substantiation.
 
-## Govern the full destination chain
+## Manage the full destination chain
 
 Map ad, tracker, redirect, pre-lander, quiz, review page, merchant page, checkout, upsell, subscription, and support. Test mobile, location, device, cookies, and error states.
 
@@ -42,7 +42,7 @@ State commercial relationships and material conditions where users can understan
 
 If using an agency or rented account, verify controller, advertiser identity, access, payer, data, verification, support, and exit. Never accept instructions to use unrelated entities, rotate accounts, or hide the offer.
 
-## Use a composite case
+## A practical example
 
 An affiliate runs a “review” pre-lander claiming a product is independently ranked first. The merchant supplied no comparison evidence, the page hides affiliate compensation, and a tracker redirects certain regions to a subscription offer. Changing one headline cannot repair the business model communicated by the funnel.
 
@@ -56,11 +56,11 @@ The affiliate owns its ad and pre-lander facts; the merchant owns product and fu
 
 The durable affiliate account is not the one with the best replacement guarantee. It is the one whose entire claim chain can survive scrutiny.
 
-## Diligence the merchant continuously
+## Check the merchant continuously carefully
 
-Review the legal seller, offer terms, licenses where relevant, fulfillment evidence, complaint patterns, refund behavior, and right to use brand assets. Record who can change price, checkout, inventory, or claims. Initial eligibility does not survive automatically when the merchant changes the proposition.
+Review the legal seller, offer terms, licenses where relevant, fulfillment evidence, complaint patterns, refund behavior, and right to use brand assets. Record who can change price, checkout, inventory, or claims. Initial eligibility does not survive automatically when the merchant changes the offer.
 
-## Govern data and tracking
+## Manage data and tracking
 
 Map lead and conversion data from ad click through affiliate redirect, merchant site, network, and agency reporting. Define consent, permitted use, retention, access, and reconciliation. Tracking parameters should support attribution without exposing personal data or creating claims the parties cannot independently verify.
 
@@ -70,11 +70,11 @@ Test the ad, tracking link, redirect, pre-landing page, merchant page, checkout,
 
 ## Monitor customer outcomes
 
-Cancellation, refund, complaint, chargeback, delivery, and support signals can reveal a proposition problem before ad-platform enforcement. Agree thresholds with the merchant and network, investigate anomalies, and pause promotion when evidence no longer supports the advertised outcome.
+Cancellation, refund, complaint, chargeback, delivery, and support signals can reveal a offer problem before ad-platform enforcement. Agree thresholds with the merchant and network, investigate anomalies, and pause promotion when evidence no longer supports the advertised outcome.
 
 ## Use an approval and incident matrix
 
-State who approves claims, creative, landing pages, tracking, budgets, and relaunch; who retains evidence; and who communicates with the platform. During an incident, preserve the live chain and factual timeline. Do not rotate domains or accounts to conceal the affected proposition.
+State who approves claims, creative, landing pages, tracking, budgets, and relaunch; who retains evidence; and who communicates with the platform. During an incident, preserve the live chain and factual timeline. Do not rotate domains or accounts to conceal the affected offer.
 
 ## Set stop conditions
 
@@ -82,7 +82,7 @@ Pause or terminate when the merchant withholds evidence, makes undisclosed desti
 
 ## Keep an offer control record
 
-For each active offer, retain the merchant and network contacts, eligible markets, [approved claims and supporting evidence](/agency-ad-accounts/agency-policy-compliance-governance/), creative versions, destination chain, disclosures, tracking owners, customer-outcome thresholds, and stop decision. Link changes to the person who approved them. Review the record when price, product, merchant, funnel, or network terms change—not merely at a calendar interval. When delivery depends on a third party, include the evidence used to [evaluate the agency account provider](/agency-ad-accounts/agency-ad-account-provider/); when enforcement occurs, preserve the same record for a [fact-based suspension response](/agency-ad-accounts/agency-account-suspension-response/). This gives the agency a defensible answer to the practical question: what proposition did we believe we were advertising, and why?
+For each active offer, retain the merchant and network contacts, eligible markets, [approved claims and supporting evidence](/agency-ad-accounts/agency-policy-compliance-governance/), creative versions, destination chain, disclosures, tracking owners, customer-outcome thresholds, and stop decision. Link changes to the person who approved them. Review the record when price, product, merchant, funnel, or network terms change—not merely at a calendar interval. When delivery depends on a third party, include the evidence used to [evaluate the agency account provider](/agency-ad-accounts/agency-ad-account-provider/); when enforcement occurs, preserve the same record for a [fact-based suspension response](/agency-ad-accounts/agency-account-suspension-response/). This gives the agency a defensible answer to the practical question: what offer did we believe we were advertising, and why?
 
 ## Official resources
 

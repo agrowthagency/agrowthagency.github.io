@@ -46,7 +46,7 @@ If the client’s brand, domain, payer, and legal operator differ from the verif
 
 Require the provider to use the exact interface term. Limits and thresholds may change. Spend history is not an asset that immunizes later behavior.
 
-## Assess ownership and continuity risk
+## Assess ownership and risk of interrupted operations
 
 The client should know whether it has direct access, whether the ad account and data survive agency termination, and whether the Page, pixel, domain, catalog, audiences, leads, and creative remain usable. An account with high current capacity can be a poor business asset if an unrelated provider can remove access at any time.
 
@@ -86,21 +86,21 @@ Examples:
 | “Priority support” | Which channel, owned by whom, with what availability? |
 | “Replacement guarantee” | Replacement of what, under which exclusions, and does it preserve data? |
 
-If the provider refuses exact nouns and IDs, the buyer cannot diligence the product.
+If the provider refuses exact nouns and IDs, the buyer cannot check the product.
 
 ## Do not confuse capacity with economics
 
-An account capable of higher spend may still be commercially poor. Model deposits, prefunding, service fees, currency conversion, taxes, minimum commitments, unused balances, refunds, credit notes, and exit costs. Confirm whether the stated capacity is actually needed for the campaign plan.
+An account capable of higher spend may still be commercially poor. Model deposits, advance funding, service fees, currency conversion, taxes, minimum commitments, unused balances, refunds, credit notes, and exit costs. Confirm whether the stated capacity is actually needed for the campaign plan.
 
-Large prefunded balances increase counterparty exposure. Understand where funds are held, when the provider pays Meta, what evidence the client receives, and what happens if the account or provider becomes unavailable.
+Large prefunded balances increase other party exposure. Understand where funds are held, when the provider pays Meta, what evidence the client receives, and what happens if the account or provider becomes unavailable.
 
-## Assess data and measurement continuity
+## Assess data and measurement ability to keep operating
 
 A provider-controlled account may use client Pages and datasets, or it may keep reporting and audience assets under its own portfolio. Determine whether the client can retain lawful access to pixels/datasets, conversion configurations, custom audiences, leads, catalog history, creative, and campaign reports after termination.
 
 Historical spend has limited value if the advertiser cannot preserve its own measurement and customer workflows.
 
-## Test identity coherence before launch
+## Test consistent identity information before launch
 
 Compare the verified entity with the ad Page, domain, checkout, customer support, privacy notice, product supplier, license holder, agency, and payer. Document each legitimate relationship. If the provider asks the client to conceal these differences, stop the engagement.
 
