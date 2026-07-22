@@ -20,11 +20,24 @@ interface Props {
   articles: CollectionEntry<'articles'>[];
 }
 const { section, articles } = Astro.props;
+
+const structuredData = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: new URL('/', Astro.site).href },
+    { '@type': 'ListItem', position: 2, name: section.eyebrow, item: new URL(`/${section.slug}/`, Astro.site).href }
+  ]
+};
 ---
 
-<BaseLayout title={section.eyebrow} description={section.description}>
+<BaseLayout title={section.eyebrow} description={section.description} structuredData={structuredData}>
   <section class="page-hero">
     <div class="container page-hero-inner">
+      <nav class="page-breadcrumbs" aria-label="Breadcrumb">
+        <a href="/">Home</a><span aria-hidden="true">/</span>
+        <span aria-current="page">{section.eyebrow}</span>
+      </nav>
       <p class="eyebrow">{section.eyebrow} desk</p>
       <h1>{section.title}</h1>
       <p class="lede">{section.description}</p>
