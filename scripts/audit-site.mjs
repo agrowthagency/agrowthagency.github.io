@@ -40,6 +40,15 @@ for (const output of articleOutputs) {
 const internalTargets = new Set();
 for (const file of htmlFiles) {
   const html = readFileSync(file, 'utf8');
+  const schemaBlocks = [...html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)];
+  if (schemaBlocks.length === 0) failures.push(`Missing JSON-LD: ${relative(root, file)}`);
+  for (const [, schema] of schemaBlocks) {
+    try {
+      JSON.parse(schema);
+    } catch {
+      failures.push(`Invalid JSON-LD: ${relative(root, file)}`);
+    }
+  }
   for (const match of html.matchAll(/href="([^"#]+)(?:#[^"]*)?"/g)) {
     const href = match[1];
     if (!href.startsWith('/') || href.startsWith('//')) continue;
@@ -68,4 +77,4 @@ if (failures.length) {
   process.exit(1);
 }
 
-console.log(`Site audit passed: ${articleOutputs.length} guides, ${htmlFiles.length} HTML pages, ${internalTargets.size} unique internal targets.`);
+console.log(`Site audit passed: ${articleOutputs.length} guides, ${htmlFiles.length} HTML pages, ${internalTargets.size} unique internal targets, and valid JSON-LD.`);

@@ -96,10 +96,13 @@ The local development server runs at `http://localhost:4321` by default.
 
 ```bash
 npm run build
+npm run audit
 npm run preview
 ```
 
 The generated static website is written to `dist/`. The production build also creates the Pagefind search index.
+
+`npm run audit` verifies that all generated guides include the mid-article AGrowth CTA, Article/FAQ/Breadcrumb schema, related guides, valid JSON-LD, and resolvable internal targets.
 
 ## Content Structure
 

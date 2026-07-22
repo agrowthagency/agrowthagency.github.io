@@ -46,7 +46,7 @@ const siteSchema = {
       '@id': new URL('/#organization', Astro.site).href,
       name: 'AGrowth',
       url: 'https://agrowth.io/',
-      logo: new URL('/brand/agrowth-mark.png', Astro.site).href
+      logo: new URL('/brand/agrowth-mark-640.webp', Astro.site).href
     }
   ]
 };
@@ -62,7 +62,7 @@ const siteSchema = {
     <meta name="description" content={description} />
     {noindex && <meta name="robots" content="noindex,follow" />}
     <link rel="canonical" href={canonical} />
-    <link rel="icon" type="image/png" href="/brand/agrowth-mark.png" />
+    <link rel="icon" type="image/png" sizes="48x48" href="/brand/favicon-48.png" />
     <meta name="theme-color" content="#fff2e6" />
     <meta property="og:type" content={ogType} />
     {publishedTime && <meta property="article:published_time" content={publishedTime} />}
