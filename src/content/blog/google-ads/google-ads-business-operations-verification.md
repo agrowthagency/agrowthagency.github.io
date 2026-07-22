@@ -12,9 +12,9 @@ Business Operations Verification often fails even when every submitted company i
 
 The parent is registered. The agency exists. The supplier has a contract. The website is live. The payer is solvent. But the submission never explains why the parent pays, the subsidiary advertises, the agency owns the account, the supplier fulfills the order, and a founder owns the domain.
 
-Google Ads Business Operations Verification is not a search for the strongest document. It is a test of whether those documents describe one comprehensible way the account is managed.
+Google Ads Business Operations Verification is not a search for the strongest document. It tests whether the documents tell one understandable story about how the business operates.
 
-## BOV is a task within Advertiser Verification
+## Understand what Business Operations Verification asks
 
 Google’s current [Advertiser Verification guidance](https://support.google.com/adspolicy/answer/9703665?hl=en) describes a broader program with tasks that vary by account, billing setup, advertiser type, and activity. Business Operations Verification is the task focused on how the business operates and how relevant organizations participate.
 
@@ -27,7 +27,9 @@ Keep the distinction clear:
 
 These processes can interact, but passing one does not answer all the others.
 
-## Build the way the account is managed before opening the form
+## Map the business and its working relationships
+
+### Build the business map before opening the form
 
 Create a one-page entity map covering:
 
@@ -46,7 +48,7 @@ Add legal names, trading names, countries, websites, customer IDs, payments prof
 
 If the internal team cannot agree on the map, the form is not ready.
 
-## Relationship evidence must explain the material role
+### Show what each important partner actually does
 
 Google’s current [BOV issue guidance](https://support.google.com/adspolicy/answer/11938893?hl=en) identifies insufficient information about business relationships, providers of goods or services, agencies, domain owners, and other parties accessing the account.
 
@@ -65,7 +67,9 @@ The document should support the claimed role. A generic invoice may show that tw
 
 Redact proprietary information only to the extent that the material relationship remains understandable.
 
-## Document quality is part of the answer
+## Make every answer easy to verify
+
+### Use clear and relevant documents
 
 Even the correct evidence can fail in practice when it is incomplete, illegible, expired, or detached from the answer it supports. Build a submission index that names each file, issuing entity, relevant fields, relationship proved, date, and any redaction.
 
@@ -73,7 +77,7 @@ Check that legal names include the correct suffixes, addresses match the intende
 
 The reviewer should not have to infer why a document was uploaded. Evidence setup is part of business-model clarity.
 
-## The website is evidence, not decoration
+### Make the website support the same business story
 
 Reviewers can compare form answers with the destination. The site should make the commercial model legible:
 
@@ -87,7 +91,7 @@ Reviewers can compare form answers with the destination. The site should make th
 
 Do not add an entity to the footer solely to match a document while checkout, terms, support, and payment describe someone else. Website changes should correct business truth, not stage a temporary verification version.
 
-## Common failure patterns are structural
+## Diagnose the business problem behind a failed task
 
 ### The provider is unclear
 
@@ -111,7 +115,7 @@ The team uploads more incorporation records when Google needs evidence of author
 
 The remedy is not document volume. It is correspondence between question, answer, and proof.
 
-## Example: when the agency appears to be the advertiser
+### Example: when the agency appears to be the advertiser
 
 Consider a composite agency that creates the client’s Google Ads account, pays media through a central arrangement, controls the landing page, and submits its own company documents for verification. The client supplies the regulated service and holds the license.
 
@@ -121,7 +125,7 @@ The stronger submission identifies the client as the regulated provider, documen
 
 The objective is not to remove the agency from view. It is to represent the agency accurately.
 
-## Treat failed verification as a incident with a clear change history
+## Use failed verification to improve the next submission
 
 Preserve:
 
@@ -137,7 +141,7 @@ Do not let different employees submit incompatible explanations. Assign one owne
 
 Where an account is paused, follow the task and current support route shown in the account. Avoid creating a replacement account or supplying false information to bypass verification; that can create Circumventing systems risk.
 
-## BOV readiness is business-model readiness
+### Keep the business ready for future verification
 
 Before submission, confirm that the organization can answer three sentences without qualification:
 

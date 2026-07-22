@@ -16,7 +16,9 @@ The word *ban* collapses those distinctions. Once that happens, operations becom
 
 Precision is not semantics here. It is incident control.
 
-## Start with state, not sentiment
+## Identify the actual account state
+
+### Start with state, not sentiment
 
 Google’s official documentation uses specific states and actions. An **account suspension** stops ads and is considered permanent unless an appeal succeeds. A **temporary account hold** can result from the strike process for repeat violations. An account can be **paused** while verification or a payment challenge is unresolved. Individual ads and assets can be **disapproved** while the account remains active.
 
@@ -30,7 +32,7 @@ The operating team should record five fields before using any label internally:
 
 This produces a status that can be investigated. “Banned” produces only urgency.
 
-## Suspension is not one enforcement path
+### Suspension is not one enforcement path
 
 Google’s [suspensions overview](https://support.google.com/adspolicy/answer/9841640?hl=en) separates immediate action for egregious policy violations from enforcement for repeat violations. It also recognizes billing, unauthorized account activity, age requirements, and other conditions.
 
@@ -45,7 +47,7 @@ The difference changes the investigation:
 
 Calling all four “bans” hides the only information that matters.
 
-## “Permanent” does not mean “there is no appeal”; it means the default state persists
+## Understand what “permanent” means for an appeal
 
 Google currently describes suspension as permanent unless the account is successfully reinstated. Advertisers generally have at least six months from the suspension date to submit an appeal. This does not mean every appeal has a credible basis. Google says reinstatement is reserved for compelling circumstances, such as a mistake.
 
@@ -55,7 +57,9 @@ Both reactions are poor. The correct interpretation is procedural: the suspensio
 
 An appeal is not a lottery ticket. Repeated, unchanged submissions can reduce the quality of the process, and Google warns that excessive appeals may not be processed.
 
-## Example: three teams using “banned” to mean different things
+## Avoid decisions based on a vague “banned” label
+
+### Example: three teams using “banned” to mean different things
 
 Imagine a group operating several brands through one manager account.
 
@@ -71,7 +75,7 @@ A precise status table produces three different actions:
 
 The same zero-spend dashboard concealed three different incidents.
 
-## The unofficial market around “banned accounts” creates a second risk
+### Why the unofficial “banned account” market adds risk
 
 The vagueness of the word also supports a market for simplistic recovery products: aged accounts, “clean” MCCs, verified identities, high-spend profiles, and guaranteed appeals. These offers treat enforcement as a container problem. If the container is damaged, replace it.
 
@@ -79,7 +83,9 @@ Google’s enforcement model makes that logic dangerous. Related accounts may be
 
 This does not mean every multi-account structure is prohibited. Legitimate organizations use multiple client accounts, brands, regions, and manager hierarchies. The question is whether those accounts represent real, explainable business structures or are being used to avoid a decision.
 
-## Build a status memo before a recovery plan
+## Build the recovery plan around confirmed facts
+
+### Build a status memo before choosing a response
 
 A useful one-page status memo contains:
 
@@ -94,7 +100,7 @@ A useful one-page status memo contains:
 
 This memo should distinguish platform facts from internal interpretation. “Google notification cites Billing and Payment” is a fact. “The new card caused the suspension” is a hypothesis until verified.
 
-## Use the right operating response for the right state
+### Match the response to the actual state
 
 ### When ads are disapproved
 
@@ -112,7 +118,7 @@ Complete the named task using authorized business or payment evidence. Do not co
 
 Treat it as a formal incident. Preserve evidence, map the advertiser and related entities, identify underlying cause, complete any prerequisite verification, and submit a single evidence-led appeal through the notification.
 
-## Language shapes management
+## Make precise account-state language a working standard
 
 Strong organizations develop a controlled vocabulary for account incidents. They do this for the same reason security teams distinguish phishing, login detail theft, malware, and access right escalation: different failures require different owners and controls.
 
@@ -122,7 +128,7 @@ The phrase “Google Ads account banned” is still useful as a search query bec
 
 The more consequential the enforcement decision, the more precise the operator must become. The first step toward recovery is not optimism or urgency. It is naming the state correctly enough that the organization can finally see what happened.
 
-Translate the informal “banned” label into the states described in the [Google Ads suspension guide](/google-ads/google-ads-account-suspended/) and check whether [repeat-violation strikes](/google-ads/google-ads-policy-strikes/) are part of the history. Once the item affected by the decision is clear, structure the evidence through the [appeal and reinstatement process](/google-ads/appeal-and-reinstatement/) rather than treating every restriction as the same event.
+Translate the informal “banned” label into the states described in the [Google Ads suspension guide](/google-ads/google-ads-account-suspended/) and check whether [repeat-violation strikes](/google-ads/google-ads-policy-strikes/) are part of the history. Once the affected account state is clear, structure the evidence through the [appeal and reinstatement process](/google-ads/appeal-and-reinstatement/) rather than treating every restriction as the same event.
 
 ## Official references
 

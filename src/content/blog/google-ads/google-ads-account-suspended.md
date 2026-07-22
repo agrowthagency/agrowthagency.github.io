@@ -14,7 +14,9 @@ That response feels productive because it produces visible activity. In practice
 
 The useful question is therefore not “Which ad caused this?” It is “Which combination of advertiser, business, destination, payment, access, and historical signals made the account look unsafe?”
 
-## A suspension can involve the advertiser, not only one ad account
+## Understand the scope of an account suspension
+
+### A suspension can involve the advertiser, not only one ad account
 
 Google’s current [account suspensions overview](https://support.google.com/adspolicy/answer/9841640?hl=en) describes several paths to suspension. Egregious violations can trigger immediate action without warning. Repeated violations can move through warnings and strikes. Billing, unauthorized access, age requirements, and other account conditions have separate practical paths.
 
@@ -31,7 +33,7 @@ The notification is the starting point, not the full diagnosis. Record its exact
 
 Classification prevents the team from solving the wrong problem.
 
-## Route the incident to the right working process
+### Route the incident to the right response process
 
 “Google Ads account suspended” is the incident state, not a complete underlying cause. Use the suspension notice to route the investigation into the appropriate working process:
 
@@ -43,7 +45,9 @@ Classification prevents the team from solving the wrong problem.
 
 These workstreams can intersect, but they should not be flattened. A compromised account may generate a billing dispute and malicious destination. A verification mismatch may expose an unclear agency or payer relationship. Keep one incident record while assigning each factual question to the team capable of answering it.
 
-## Google reviews a wider surface than the ad account
+## Investigate the advertiser, not only the latest ad
+
+### Review the wider business and account setup
 
 Many operators still think in campaign objects: keyword, ad, asset, landing page. Enforcement systems have to think in relationships. Google states that its reviews may use information from ads, accounts, websites, complaints, consumer reviews, regulatory sources, and other third-party signals. That means the account is not evaluated in isolation from the business behind it.
 
@@ -59,7 +63,7 @@ For an internal incident review, build an entity map with at least these layers:
 
 This map is not an attempt to guess a secret algorithm. It is an operating record. It shows whether the account tells one consistent story or several contradictory ones.
 
-## The last change is evidence, not automatically the cause
+### Treat the last change as evidence, not an automatic cause
 
 Suspensions often appear shortly after a visible event: a new card, a domain migration, a large budget increase, a new agency link, or a rejected campaign. Teams naturally assume the latest change caused the decision.
 
@@ -69,7 +73,7 @@ Create a 30-day timeline, then extend it when necessary. Include campaign launch
 
 The timeline should be factual enough that finance, marketing, web operations, and legal can all agree on it. If those teams tell different stories internally, the appeal will usually inherit the inconsistency.
 
-## Example: a compliant ad with inconsistent business information
+### Example: a compliant ad with inconsistent business information
 
 Consider a hypothetical example based on a common operating pattern. A software brand runs technically conservative Search ads. The ads are not the obvious problem. During a restructuring, the website displays the new brand, the payments profile remains under the former entity, an external agency owns the manager-created client account, and verification documents identify a parent company without explaining the relationship.
 
@@ -79,7 +83,7 @@ The stronger response is organizational. The company documents the parent-subsid
 
 The lesson is not that every mismatch causes suspension. It is that consistent identity information is a practical control, not clerical housekeeping.
 
-## Build an set of supporting evidence before writing the appeal
+## Build the evidence before writing the appeal
 
 An appeal should be the output of an investigation. It should not be the investigation itself.
 
@@ -97,7 +101,7 @@ Do not upload every file the company owns. Evidence should answer a question. Ir
 
 Google’s current process directs advertisers to the **Contact Us** action in the suspension notification. Some advertisers must finish advertiser verification before the appeal form becomes available. Google also advises submitting one appeal at a time; excessive or abusive appeal activity can delay or temporarily suspend processing.
 
-## Three appeal strategies—and only two are credible
+### Choose one credible appeal position
 
 There are three broad positions an advertiser can take:
 
@@ -115,7 +119,7 @@ This is the common weak appeal. It usually contains generic statements such as �
 
 Uncertainty is acceptable during investigation. It is not a strategy for submission.
 
-## What not to do while the account is suspended
+## Avoid actions that make the suspension harder to resolve
 
 Do not create replacement accounts to continue the same advertiser activity. Google explicitly warns that related accounts and newly created accounts may also be suspended. This is both a policy risk and an evidence problem: every attempted workaround adds another relationship that future reviews must interpret.
 
@@ -123,7 +127,7 @@ Do not unlink managers, rotate domains, delete campaigns, or replace payment ins
 
 Do not let several agencies or employees open separate appeals. One incident owner should control the record, while subject-matter owners validate their sections.
 
-## The way the account is managed after reinstatement matters
+## Return to advertising in a controlled way
 
 Reinstatement is not a reset. The business still needs to decide whether the conditions that produced the incident remain in place.
 

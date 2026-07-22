@@ -16,7 +16,7 @@ A Google Ads manager account—still widely called an MCC—makes relationships 
 
 When teams say “the MCC was suspended,” the first task is to identify the exact platform state. The manager may have lost capabilities, a set of client accounts may have related enforcement, a paying manager may have a billing problem, or a wider hierarchy may be implicated. The informal label cannot replace the notification.
 
-## An MCC connects responsibility even when it does not own every client
+## Understand how an MCC connects clients and responsibility
 
 Linking and ownership are different concepts in Google Ads.
 
@@ -31,7 +31,9 @@ This distinction matters in practice:
 
 These roles can belong to different parties, but they must be documented. An agency that says “the client owns everything” while its MCC created the account, controls administrative ownership, provides billing, and holds all user access has not described the operating reality.
 
-## Portfolio risk usually begins with onboarding, not suspension
+## Find shared risk before a suspension happens
+
+### Portfolio risk often begins during onboarding
 
 The manager hierarchy becomes dangerous long before enforcement if the agency cannot answer basic questions about each client:
 
@@ -48,7 +50,7 @@ If onboarding optimizes only for campaign launch speed, the MCC accumulates unre
 
 The mature agency treats client acceptance as a risk decision, not a sales handoff.
 
-## Similarity across accounts is not always suspicious—but unexplained similarity is fragile
+### Explain legitimate similarities across accounts
 
 Agencies naturally create patterns. They use shared tracking standards, templates, naming rules, scripts, billing processes, and landing-page technology. These patterns create efficiency and make management possible.
 
@@ -58,7 +60,9 @@ A broken tracking template can affect every client. One operator can publish the
 
 The answer is not to eliminate standardization. It is to pair standardization with traceability. Every shared component should have an owner, change record, affected-account list, and rollback path.
 
-## Example: an agency discovers it cannot separate its clients
+## Separate clients without hiding real relationships
+
+### Example: an agency discovers it cannot separate its clients
 
 Consider a composite performance agency with dozens of small-business clients. To accelerate onboarding, it creates accounts under its MCC, uses one set of landing-page templates, and centralizes billing. Client documentation lives in sales email. Campaign teams rarely see it.
 
@@ -78,7 +82,7 @@ The stronger response begins with segmentation:
 
 The incident reveals the actual failure: the agency built practical scale before it built explainability.
 
-## Do not use hierarchy changes as cosmetic fixes
+### Do not use hierarchy changes as cosmetic fixes
 
 Unlinking, moving accounts to another MCC, or creating a new manager can be legitimate for real organizational reasons. They are not credible remedies when their purpose is to make enforcement relationships less visible.
 
@@ -86,7 +90,9 @@ Google’s Circumventing systems policy prohibits creating or using accounts to 
 
 Hierarchy changes during an incident should therefore pass a simple test: would the agency make the same change if no suspension existed? If not, preserve the current structure until the risk and support implications are understood.
 
-## Build a manager-account incident matrix
+## Investigate the manager and prepare account-specific appeals
+
+### Build a manager-account incident matrix
 
 For every account in scope, record:
 
@@ -104,7 +110,7 @@ This matrix supports two different questions. First, which accounts share an und
 
 Treating every client as related is as inaccurate as pretending none are related.
 
-## Appeals must remain account-specific while relationships remain consistent
+### Keep each appeal specific and every relationship consistent
 
 Google’s current suspension guidance requires a separate appeal for each suspended account. That does not mean each appeal should invent a separate history.
 
@@ -114,11 +120,11 @@ The manager-level response should explain portfolio controls: onboarding standar
 
 No agency can guarantee reinstatement for itself or a client. Its responsibility is to make the relationships accurate and the fixes verifiable.
 
-## An MCC should amplify management
+## Use the MCC to strengthen account management
 
 Manager accounts offer powerful central controls: user access, hierarchy management, reporting, labels, billing setups, and cross-account visibility. The agency should use that power to detect risk, not only to distribute work.
 
-A mature MCC way the account is managed includes:
+A mature MCC management process includes:
 
 - Client acceptance criteria and documented advertiser identity.
 - Direct client administrative access and recovery ability to keep operating.

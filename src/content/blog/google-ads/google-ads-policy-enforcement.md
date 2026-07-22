@@ -14,7 +14,9 @@ One advertiser has a disapproved asset. Another has an account warning. A third 
 
 That is how a manageable issue becomes an account-level incident. Google Ads policy enforcement is a set of decision paths, not a single penalty scale. A credible response begins by identifying the object, state, policy, and required action before anyone edits or appeals.
 
-## Enforcement acts on different objects
+## Identify what Google acted on
+
+### Enforcement can affect different items
 
 Campaign teams naturally think in ads, keywords, and landing pages. Enforcement can act on a much wider surface:
 
@@ -29,7 +31,7 @@ The same visible symptom—zero delivery—does not establish which object Googl
 
 This is not administrative ceremony. It determines who should own the response. Creative teams can correct ad claims. Web operations can repair destination failures. Finance can reconcile payment identity. Compliance can validate licenses. Security can investigate unauthorized activity. No single team can responsibly infer all of those causes from a red banner.
 
-## Disapproval is not a small suspension
+### An ad disapproval is not a smaller account suspension
 
 A disapproved ad or asset cannot serve, but the account may remain active. The policy issue may sit in the creative, an associated asset, the destination, or the relationship among them. Google’s current [ad disapproval guidance](https://support.google.com/google-ads/answer/9338593?hl=en) allows advertisers to correct the issue or appeal a decision they believe is wrong.
 
@@ -37,7 +39,9 @@ The practical mistake is to resubmit before determining what the label describes
 
 Use Policy Manager and policy-detail columns to establish scope. Group affected objects by common cause. If one landing page supports fifty ads, the fix is the page, not fifty isolated appeals.
 
-## Warning, strike, and temporary hold form a separate path
+## Understand the available enforcement paths
+
+### Warning, strike, and temporary hold form one path
 
 Google’s [repeat-violation enforcement procedure](https://support.google.com/adspolicy/answer/10922738?hl=en) applies a warning and strike model to specified policies. The first violation does not itself create a strike. Continued violation of the same in-scope policy can lead to a first strike and a three-day temporary hold, a second strike and a seven-day hold, then a third strike and suspension. The relevant 90-day windows and current policy coverage should always be checked against Google’s live documentation.
 
@@ -47,7 +51,7 @@ An acknowledgement is therefore not a substitute for fixes. It confirms that vio
 
 Maintain a strike register containing the policy, affected assets, owner, warning date, correction, validation evidence, and expiration window. In an agency environment, that record should be visible above the campaign team so the same prohibited pattern is not recreated in another account.
 
-## Egregious violations do not wait for an escalation ladder
+### Serious violations may not follow an escalation ladder
 
 Some violations are treated as sufficiently serious to justify suspension upon detection and without a prior warning. Google’s suspension guide includes categories such as Circumventing systems, malicious software, unacceptable business practices, and other severe user-safety concerns.
 
@@ -57,7 +61,7 @@ For a Circumventing systems case, investigate accounts, redirects, verification 
 
 A one-line appeal stating that “the ads follow policy” operates at the wrong level when the decision concerns the advertiser’s system.
 
-## Example: one defect, four incorrect responses
+## Match the response to the actual decision
 
 Consider a composite lead-generation company using a shared landing-page template across several client accounts. A pricing disclosure disappears during a design release. Ads are disapproved under a representation-related policy.
 
@@ -83,7 +87,7 @@ Then separate two defensible review positions. Either the decision does not fit 
 
 Generic declarations of good intent prove neither.
 
-## Policy compliance is a change-control discipline
+## Make policy compliance part of change control
 
 Policy libraries matter, but most recurring enforcement is not caused by a total absence of policy knowledge. It comes from uncontrolled change: a new supplier, revised claim, expired license, migrated domain, added tracker, altered payment profile, new manager, or reused landing-page component.
 

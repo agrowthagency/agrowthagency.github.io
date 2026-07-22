@@ -14,7 +14,7 @@ Teams add a footer address, expand the About page, and rewrite several claims. T
 
 Google treats this area as egregious. The fixes must therefore establish trustworthy business reality, not merely produce a more compliant-looking landing page.
 
-## Understand why the policy is different
+## Understand why this policy receives serious enforcement
 
 Google’s current [Unacceptable Business Practices guidance](https://support.google.com/adspolicy/answer/15938071?hl=en) places the policy within Misrepresentation and identifies conduct such as scamming users, false affiliation, offering products or services the advertiser cannot deliver, lacking required qualifications, phishing, and public-figure impersonation.
 
@@ -33,7 +33,9 @@ This changes the investigation surface. The last ad is only one record. Review:
 
 The goal is not to speculate about hidden signals. It is to test whether the business can substantiate the commercial story visible to users.
 
-## Third-party evidence needs a disciplined response
+## Verify identity, authority, and outside evidence
+
+### Investigate credible third-party evidence
 
 Complaints, regulator notices, brand-owner reports, public warnings, and customer reviews vary in reliability, but they cannot be dismissed merely because they sit outside the Google Ads account.
 
@@ -41,7 +43,7 @@ Build an allegation ledger recording the source, date, claimed conduct, affected
 
 The purpose is not to manufacture a favorable reputation file. It is to determine whether external evidence reveals a real mismatch between the advertised promise and operating reality—and to correct that reality before an appeal asserts that the business is trustworthy.
 
-## Identity disclosure must match commercial responsibility
+### Match identity disclosure to commercial responsibility
 
 A website can display a registered company name without making the seller clear. A parent company, trading brand, agency, affiliate, marketplace, supplier, and payment recipient may all appear in the same operation.
 
@@ -57,7 +59,7 @@ Map who:
 
 Where roles differ, explain them accurately on the destination and support them with records. Do not select the easiest entity to verify and present it as if it performs every role.
 
-## Authority claims require primary evidence
+### Support authority claims with primary evidence
 
 Implied authority can come from more than words. Logos, seals, uniforms, official-looking domain names, public-figure media, and customer-support language can suggest a relationship that does not exist.
 
@@ -72,7 +74,7 @@ Evidence may include:
 
 An invoice showing that the advertiser bought a product does not necessarily authorize it to represent the manufacturer. A marketing agreement does not automatically permit every endorsement claim. Match the evidence to the exact authority implied.
 
-## Capability must exist before promotion
+## Prove the promised service can actually be delivered
 
 An advertiser can create policy risk by offering something it cannot actually provide, even if the intent was optimistic rather than fraudulent.
 
@@ -88,7 +90,7 @@ Test practical capability:
 
 If capability changed, pause promotion before the destination becomes a historical promise the business can no longer fulfill.
 
-## Phishing and impersonation require containment
+### Contain phishing or impersonation immediately
 
 Where the notice or evidence involves phishing, login detail collection, malicious impersonation, or unauthorized activity, treat the incident as both policy and security response.
 
@@ -96,7 +98,9 @@ Preserve pages, redirects, logs, account change history, users, manager links, d
 
 A genuine compromise does not make the harmful experience irrelevant, but it changes the factual appeal thesis. The advertiser must establish which activity was unauthorized, how access occurred, what was contained, and how repeat issue is controlled.
 
-## Example: the authorized service with an unauthorized identity
+## Build the appeal around one supported explanation
+
+### Example: the authorized service with an unauthorized identity
 
 Consider a composite support company allowed to resell a software vendor’s product. Its ads use the vendor’s logo and “official support” language. The landing page resembles the vendor’s login screen and collects customer login details to begin service.
 
@@ -108,7 +112,7 @@ Credible fixes removes the impersonating design and language, stops login detail
 
 Trust cannot be repaired with a footer when the transaction model remains misleading.
 
-## Build an appeal around one defensible thesis
+### Use one defensible appeal position
 
 There are two credible positions:
 
@@ -124,7 +128,7 @@ Avoid generic claims such as “we are a legitimate company” or “our website
 
 Google notes that reinstatement in egregious cases requires compelling circumstances and good reason. Submit a consistent evidence package rather than repeated narratives that change with each appeal.
 
-## Prevention requires ownership of business truth
+## Assign ownership for every important business claim
 
 Assign accountable owners for:
 

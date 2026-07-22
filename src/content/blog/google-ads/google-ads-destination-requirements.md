@@ -14,7 +14,9 @@ It proves that one person, from one device and location, at one moment, received
 
 A destination is therefore not a page owned only by marketing. It is a production system. Treating it as a field in the ad interface is why technical defects reappear after apparently successful fixes.
 
-## Start with the exact destination state
+## Identify the complete destination Google reviews
+
+### Start with the exact destination state
 
 Several policy labels can stop or limit an ad for very different reasons:
 
@@ -30,7 +32,7 @@ Do not use these labels interchangeably. A 404, cross-domain redirect, injected 
 
 Record the policy detail, final URL, mobile URL, tracking template, expanded URL, affected campaign type, target countries, device, and time detected before making changes.
 
-## The reviewable destination is the expanded click path
+### Follow the complete click path
 
 The final URL shown in Google Ads may not be the final network request. Account-, campaign-, ad-group-, ad-, keyword-, or asset-level tracking can add templates and parameters. A redirect service can introduce additional hosts. A consent platform, CDN, experimentation tool, or affiliate system can vary the rendered result.
 
@@ -47,7 +49,9 @@ Build a route inventory:
 
 The inventory should be generated for the actual affected ad, not from a clean homepage used as a substitute.
 
-## Working and accessible are different tests
+## Test access and consistency separately
+
+### A working page may still be inaccessible to review
 
 Google’s current [Destination not working guidance](https://support.google.com/adspolicy/answer/16428019?hl=en) lists conditions such as HTTP 4xx and 5xx responses, DNS problems, invalid redirects, private IPs, and pages requiring authentication. The separate [Destination not accessible guidance](https://support.google.com/adspolicy/answer/16428223?hl=en) focuses on access from targeted locations and crawlability by Google AdsBot.
 
@@ -65,7 +69,7 @@ A page can work for the development team while failing for AdsBot because of:
 
 Test globally where the campaign targets. Record status codes, redirect chains, DNS results, response time, and rendered outcome. A screenshot of a browser window is evidence of appearance, not evidence of network consistency.
 
-## Destination mismatch is a truth problem in the URL chain
+### Check whether every URL tells the same story
 
 The domain displayed to users should accurately represent where the click leads. Mismatch can arise from a display URL and final URL that use different domains, redirects to another domain, or tracking expansion that resolves to different content.
 
@@ -75,7 +79,7 @@ Validate the route after all parameters are applied. Check the same ad with and 
 
 Do not remove tracking temporarily to obtain approval and restore the same route later. The compliant object is the production click path.
 
-## Experience requirements continue after HTTP 200
+## Review the experience after the page loads
 
 A successful server response does not make a useful destination. Google’s destination experience policy considers whether the page is functional, navigable, and designed to help users interact with the promoted content.
 
@@ -91,7 +95,7 @@ Review:
 
 Performance matters in practice as well. A page that intermittently times out can move between apparently healthy and disapproved states without a content change.
 
-## Example: a URL with no clear owner
+### Example: a URL with no clear owner
 
 Consider a composite advertiser using a third-party tracker. The final URL points to the brand domain. The tracker applies a country rule, sends mobile users through a shortened URL, and redirects some visitors to a localized checkout on another domain. A new CDN rule blocks unfamiliar bots.
 
@@ -101,7 +105,7 @@ The correct investigation maps each route, removes the unsupported cross-domain 
 
 The policy issue was not “the website.” It was an ungoverned chain shared by marketing, analytics, ecommerce, and infrastructure.
 
-## Treat destination changes like releases
+## Control destination changes before and after launch
 
 Introduce a destination release record for material changes to:
 
@@ -116,7 +120,7 @@ Before deployment, test the affected ads and routes. After deployment, monitor p
 
 Destination compliance becomes reliable when no team can silently change what the click delivers.
 
-## The destination is part of advertiser identity
+## Treat the destination as part of advertiser identity
 
 Google Ads users do not contract with a customer ID. They encounter an ad, follow a route, and decide whether to trust the business at the end.
 

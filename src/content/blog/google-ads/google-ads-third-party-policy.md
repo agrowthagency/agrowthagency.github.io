@@ -14,7 +14,9 @@ The campaigns may be eligible, but sales guarantees top placement. Client invoic
 
 Google Ads Third-Party Policy exists because campaign compliance and customer protection are different control surfaces.
 
-## Identify when the organization is acting as a third party
+## Identify the third-party role and disclose it early
+
+### Know when the organization is acting as a third party
 
 The policy applies to organizations that purchase or manage Google advertising on behalf of customers, including agencies and other partners. The relevant question is functional: does the business represent, sell, manage, bill, report, or support Google Ads for another advertiser?
 
@@ -32,7 +34,7 @@ Map:
 
 Policy ownership cannot sit only with media buyers. Sales, finance, customer success, legal, and leadership shape the third-party experience.
 
-## Transparency starts before the contract
+### Start transparency before the contract
 
 Google’s current [third-party policy guidance](https://support.google.com/adspolicy/answer/6086450?hl=en) emphasizes honesty about the company, services, associated costs, and expected results.
 
@@ -51,7 +53,9 @@ Avoid language that implies endorsement, exclusive inventory, permanent placemen
 
 Google’s guidance on [false, misleading, or unrealistic claims](https://support.google.com/adspolicy/answer/6086777?hl=en) specifically addresses misrepresentation of Google relationships, Google products, advertising costs, and improbable guarantees.
 
-## Reporting must let the client understand the service
+## Give clients enough information to judge the service
+
+### Make reporting understandable and useful
 
 A client dashboard can contain many metrics while concealing the facts necessary to evaluate the relationship.
 
@@ -69,7 +73,7 @@ Do not present blended charges as if all funds were paid to Google. Do not selec
 
 The exact reporting model can vary, but it should support an informed commercial decision.
 
-## Complaints are management data
+### Treat complaints as evidence about service quality
 
 Agencies often classify complaints as isolated customer-service events. Repeated complaints about the same promise, fee, access restriction, cancellation barrier, or performance representation can reveal a policy pattern.
 
@@ -77,7 +81,7 @@ Maintain a complaint list of categories and connect it to sales source, contract
 
 Do not measure resolution only by whether the customer stopped contacting the agency. Determine whether the underlying practice remains in other customer files. A complaint process becomes a compliance control when it can change sales scripts, billing design, permissions, and offboarding—not merely close tickets.
 
-## Client access and ownership are management questions
+## Protect client access, ownership, and manager relationships
 
 Linking a manager account is not the same as owning a client account. A manager-created account can make the manager the initial owner, while a linked existing account does not automatically confer ownership. Google also provides different access levels.
 
@@ -93,7 +97,7 @@ A responsible agency model documents:
 
 Ownership should serve an operating need, not function as commercial lock-in. The client should not discover during termination that it cannot control the account used to advertise its own business.
 
-## Significant or sustained violations create manager risk
+### Understand how agency violations can affect manager accounts
 
 Google’s current [third-party enforcement guidance](https://support.google.com/adspolicy/answer/16489095?hl=en) allows compliance review and describes consequences such as loss of access rights, program restrictions, and advertising or manager-account suspension for significant, sustained, repeated, or especially serious violations.
 
@@ -108,7 +112,9 @@ Google may request information and may contact customers to validate compliance.
 
 Individual client accounts can also be affected when linked to a manager in violation of third-party policy. Google’s account-pausing guidance states that an affected client may be instructed to unlink from the violating manager. That makes agency compliance part of client planning to keep operations running.
 
-## Example: compliant campaigns, non-compliant service
+## Turn policy duties into daily agency controls
+
+### Example: compliant campaigns, non-compliant service
 
 Consider a composite provider selling “Google-approved high-limit accounts.” Sales guarantees stable placement and implies an exclusive relationship. Clients prepay a blended amount but cannot see Google invoices. Accounts are created under the provider’s MCC, and clients receive read-only access. Offboarding requires surrendering campaign history.
 
@@ -118,7 +124,7 @@ The fix requires changes to sales claims, contracting, fee disclosure, account a
 
 Third-party compliance is the product setup surrounding campaign delivery.
 
-## Build an agency control register
+### Keep one register of agency responsibilities
 
 Maintain controls for:
 
@@ -135,7 +141,7 @@ Maintain controls for:
 
 Track exceptions with an owner and expiry date. If a client cannot receive standard access or billing visibility for a legitimate reason, document the reason and the alternative control.
 
-## Subcontracting does not remove accountability
+## Keep accountability when work is subcontracted
 
 An agency may use freelance buyers, white-label teams, billing partners, software vendors, lead generators, or account providers. The client experience can still be affected by how those parties sell, access accounts, report spend, or handle data.
 

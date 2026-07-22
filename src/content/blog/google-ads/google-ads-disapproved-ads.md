@@ -14,7 +14,7 @@ The interface may highlight an ad while the problem sits in its landing page. Fi
 
 Editing the highlighted row before diagnosing the dependency graph is fast, visible, and frequently wrong.
 
-## Start with state, label, and scope
+## Identify the exact decision and affected scope
 
 Google Ads distinguishes several serving states. “Disapproved” means the affected object cannot serve. “Eligible (limited)” can mean it may serve only under particular policy, location, audience, network, or format conditions. An item under review is not yet the same as a rejected item. Account pauses, holds, and suspensions are separate states.
 
@@ -30,7 +30,9 @@ For each incident, capture:
 
 Google’s current [disapproval and appeal guidance](https://support.google.com/google-ads/answer/9338593?hl=en) directs advertisers to policy details and Policy Manager. Use the interface evidence before relying on the wording of an old email or a screenshot detached from the live object.
 
-## Find the shared cause
+## Find causes that affect more than one ad
+
+### Look for the shared source
 
 Group affected ads by dependency:
 
@@ -47,7 +49,7 @@ If many ads fail simultaneously, mass creative error is possible but shared infr
 
 Create a small incident table with object, label, shared dependency, owner, correction, and review status. This prevents multiple buyers from making conflicting changes.
 
-## Automation changes the meaning of “the ad”
+### Include automated assets and templates
 
 Modern campaign types can assemble serving combinations from advertiser-supplied assets, feeds, final URLs, and automatically created material. The text a reviewer sees may not correspond to one manually written static ad.
 
@@ -55,7 +57,9 @@ Inventory account-level automated assets, Performance Max asset groups, dynamic 
 
 Do not solve an automated-source problem by repeatedly editing one rendered combination. Correct the source, constrain the applicable automation where appropriate, and validate that new production combinations no longer recreate the issue.
 
-## Correcting and disputing are different workflows
+## Choose between correction and appeal
+
+### Correcting and disputing make different claims
 
 Google currently offers appeal reasons that distinguish a disputed decision from changes made to comply. The distinction should be factual.
 
@@ -65,7 +69,7 @@ Use **Dispute decision** when the object complies and the label does not fit. Pr
 
 Do not make a cosmetic edit solely to generate another review while leaving the underlying issue unchanged. Do not state that changes were made if the actual position is that the decision was wrong.
 
-## Appeal limits make diagnosis valuable
+### Diagnose before using a limited appeal opportunity
 
 Google’s current process limits each ad to three unsuccessful appeals before support is required for another attempt. It also warns that excessive or abusive appeal activity can suspend processing, and that large or repeated batches can delay or duplicate reviews.
 
@@ -83,7 +87,9 @@ Before submission:
 
 If a corrected destination has not been recrawled, allow the production change to stabilize before interpreting an immediate duplicate result as a new policy judgment.
 
-## Example: fifty ads affected by one redirect
+## Apply the diagnosis across every affected asset
+
+### Example: fifty ads affected by one redirect
 
 Consider a composite ecommerce advertiser that adds an account-level tracking template. A parameter is malformed and some expanded URLs redirect to a different regional domain. Fifty ads receive a destination mismatch label.
 
@@ -93,7 +99,7 @@ The correct fix is the account-level tracking configuration. The team preserves 
 
 The policy decision appeared at ad level. The defect was account-level infrastructure.
 
-## Do not let disapprovals become strike history
+### Prevent repeated disapprovals from becoming strike history
 
 A disapproval is often recoverable without an account incident. The risk grows when the advertiser repeatedly uploads substantially similar violating material, ignores a warning, or continues the pattern across accounts.
 
@@ -101,7 +107,7 @@ Monitor repeat issue by policy, not only by campaign. Where a policy belongs to 
 
 Create an escalation rule: a first-time isolated creative defect can remain with the campaign owner; repeated, cross-account, destination-wide, regulated, or egregious labels require compliance or incident ownership.
 
-## A clean review record is an operating asset
+## Make policy review part of the publishing process
 
 Policy Manager’s appeal history should be treated as part of the account record. Retain:
 

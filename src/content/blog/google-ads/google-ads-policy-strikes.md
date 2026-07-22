@@ -14,7 +14,9 @@ That distinction explains why a campaign-level response is often inadequate. Rem
 
 A strike is therefore not a bigger disapproval. It is evidence that the advertiser’s correction system failed.
 
-## Confirm that the account is actually in the strike path
+## Confirm the strike state and its deadlines
+
+### Confirm that the account is actually in the strike path
 
 Not every policy violation receives a strike, and not every interruption is a temporary account hold. Google’s current [repeat-violation procedure](https://support.google.com/adspolicy/answer/10922738?hl=en) lists the policies covered by the strike-based system and distinguishes a warning, first strike, second strike, and third strike.
 
@@ -30,7 +32,7 @@ Capture:
 
 Do not infer the strike count from the number of rejected ads. A strike is an account enforcement event tied to repeat violation of a policy, not one point per asset.
 
-## The escalation model creates two clocks
+### Track both the enforcement and correction clocks
 
 Under the current guide, the first violation produces a warning rather than a strike. Continued violation can lead to a first strike and a three-day temporary hold. A second strike for the same policy within the relevant window creates a seven-day hold. A third strike can result in account suspension. Google describes 90-day relationships between successive strikes and removes a successfully appealed strike.
 
@@ -43,7 +45,7 @@ Teams often focus only on when delivery can resume. That encourages them to ackn
 
 The right objective is not the earliest possible acknowledgement. It is a complete correction that is ready before the account becomes capable of serving again.
 
-## Policy coverage must be checked at the time of the incident
+## Check whether the policy is covered at the time
 
 The strike system does not automatically cover every Google Ads policy, and Google can expand or revise its scope. Preserve the current official list with the incident record rather than assuming that an older training slide remains accurate.
 
@@ -51,7 +53,7 @@ Teams sometimes interpret every repeated disapproval as a formal strike, or assu
 
 Train operators to distinguish three questions: Is the asset disapproved? Is the account formally in the strike system for this policy? Is the policy treated as egregious? Similar delivery symptoms can require very different action.
 
-## Acknowledgement and appeal make different claims
+## Choose the correct response before submitting
 
 Acknowledgement means the advertiser recognizes the relevant policy, has corrected or removed the violating material, and understands that further violations can lead to stronger action. It is not a request for leniency.
 
@@ -64,7 +66,9 @@ Choose one position based on evidence:
 
 Do not acknowledge a violation while simultaneously arguing that nothing was wrong. Do not appeal merely to avoid accepting a fact the account history clearly supports. Contradictory positions weaken the incident record.
 
-## Investigate the pattern, not the cited example
+## Fix the pattern that produced the strike
+
+### Investigate the pattern, not only the cited example
 
 For every warning or strike, search beyond the named asset:
 
@@ -80,7 +84,7 @@ Classify the underlying cause. Was the policy misunderstood? Did review cover on
 
 The correction must sit at the same level as the generator.
 
-## Example: the claim that kept returning
+### Example: the claim that kept returning
 
 Consider a composite advertiser promoting a regulated credit service. An ad receives a policy warning for a prohibited claim. The buyer edits the visible headline and records the task as complete.
 
@@ -90,7 +94,9 @@ The organization interprets each event as an isolated creative mistake. Google s
 
 The correct response disables the upload, inventories all variants, removes the claim across assets and destinations, updates the approved-message library, assigns compliance review for the vertical, and records the strike centrally. The asset edit is the smallest part of the fixes.
 
-## Keep a strike register above the campaign layer
+## Record the strike and control the relaunch
+
+### Keep a strike register above the campaign layer
 
 The register should contain:
 
@@ -107,7 +113,7 @@ The register should contain:
 
 For an MCC, keep client-specific records while monitoring repeated practical patterns across the portfolio. Similar violations can reveal a shared agency process even when enforcement remains account-specific.
 
-## Relaunch should be a controlled event
+### Relaunch only after the fix is verified
 
 Before resuming material spend:
 

@@ -14,7 +14,9 @@ The headline may describe a real discount, but the mandatory fee appears only at
 
 Google Ads Misrepresentation is best understood as a material-truth system. The question is not only whether each sentence can be defended in isolation. It is whether a reasonable user can understand who is advertising, what is offered, what it costs, whether it is available, and what conditions shape the decision.
 
-## The policy covers several distinct failure modes
+## Map the important facts across the customer journey
+
+### Separate the policy's different failure modes
 
 Google’s current [Misrepresentation policy](https://support.google.com/adspolicy/answer/6020955?hl=en) includes multiple areas, such as misleading representation, dishonest pricing, unreliable claims, unavailable offers, unclear relevance, clickbait, misleading ad design, manipulated media, coordinated deceptive practices, and unacceptable business practices.
 
@@ -33,7 +35,7 @@ These areas should not be collapsed into “misleading ad copy.” The relevant 
 
 Diagnose the exact policy branch before editing. A price disclosure cannot correct an identity problem, and an identity document cannot substantiate a performance claim.
 
-## Build a material-truth map
+### Build a map of the facts that affect customer decisions
 
 For the promoted offer, map the statements a user relies on:
 
@@ -51,7 +53,9 @@ Review the map from impression to transaction. Important facts that appear only 
 
 The goal is not to overload every ad with legal text. It is to ensure that qualification and omission do not change the offer’s meaning.
 
-## External evidence can contradict the advertiser’s own story
+## Verify identity and affiliation with outside evidence
+
+### Check what outside sources say about the business
 
 The account, ad, and website are not the only places where business truth appears. Regulator listings, professional registries, public pricing, app-store records, customer complaints, and brand-owner statements can support or contradict what the advertiser presents.
 
@@ -59,7 +63,7 @@ Monitor material external records for accuracy. If a license expires, a partners
 
 External monitoring should not become an exercise in suppressing criticism. Its purpose is to detect factual changes the business must reflect in advertising and customer experience.
 
-## Identity and affiliation require more than visual consistency
+### Prove identity and affiliation, not just visual similarity
 
 Brand assets, logos, uniforms, seals, domains, and professional terminology can imply authority even without an explicit claim. A reseller, affiliate, agency, franchisee, or comparison service must not make itself appear to be the original provider or an endorsed representative when that is untrue.
 
@@ -73,7 +77,9 @@ Maintain evidence for material relationships:
 
 The website should explain the relationship in language a customer can understand. A contract stored internally cannot correct a destination that presents a different identity.
 
-## Pricing truth is distributed across the funnel
+## Make pricing and claims consistent from ad to checkout
+
+### Check pricing across the full funnel
 
 Dishonest pricing problems often arise because different teams own different numbers. Media promotes the entry price, product owns plan details, finance adds mandatory fees, and checkout applies renewal terms.
 
@@ -89,7 +95,7 @@ Audit:
 
 Do not treat an asterisk as a universal remedy. The qualification must be visible enough and early enough to preserve the meaning of the headline claim.
 
-## Claims need an evidence owner
+### Assign an owner for important claims
 
 Unreliable claims are not limited to impossible promises. A technically possible result can mislead when it is presented as typical without evidence.
 
@@ -105,7 +111,9 @@ For every policy-sensitive claim, record:
 
 High-risk categories such as health, finance, employment, education, and business opportunity deserve stricter review because users may make consequential decisions from the claim.
 
-## Example: several accurate teams producing one misleading offer
+## Correct the complete offer, not one isolated message
+
+### Example: several accurate teams producing one misleading offer
 
 Consider a composite subscription service. Marketing advertises “from $9.” Product confirms that a $9 plan exists. Finance confirms the amount is real. Legal places annual billing terms in the conditions. Engineering adds a mandatory setup fee at checkout. Sales targets countries where the entry plan is unavailable.
 
@@ -115,7 +123,7 @@ The fix is cross-functional: define the eligible locations, include material bil
 
 Misrepresentation often lives between accurate systems.
 
-## Separate ordinary correction from egregious business conduct
+### Separate correctable mistakes from serious business misconduct
 
 Not every Misrepresentation branch follows the same enforcement severity. Unacceptable business practices and certain deceptive conduct are treated as egregious and can produce account suspension without prior warning. Other issues may appear first as ad or asset disapprovals.
 
@@ -123,7 +131,7 @@ Record the exact policy label and state. If the notice names unacceptable busine
 
 If the issue is a disapproved ad for pricing, relevance, availability, or claim language, correct the complete shared source and request review at the appropriate scope.
 
-## Make important facts a release requirement
+## Make important facts part of every release review
 
 Before launch or material change, require confirmation of:
 

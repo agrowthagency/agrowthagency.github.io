@@ -16,7 +16,9 @@ The real agency product is management. Access is only one component.
 
 This article owns the broad Google Ads agency account question: how a legitimate agency relationship should be structured. It does not treat every manager-account incident as the same problem. A suspended manager requires an account-graph investigation; a third-party policy issue concerns agency conduct; billing, verification, and security each have their own control systems.
 
-## Define the model before evaluating the account
+## Define the account model and ownership
+
+### Define the model before evaluating the account
 
 “Agency account” can refer to several different structures:
 
@@ -30,7 +32,7 @@ These models have different risk, ability to keep operating, and data implicatio
 
 Map the client account, administrative owner, direct users, manager hierarchy, payments profile, conversion data, Merchant Center, domains, customer lists, and invoices. Then document what happens to each asset when the relationship ends.
 
-## Linking is not the same as ownership
+### Linking an account is not the same as owning it
 
 Google’s [client-account ownership documentation](https://support.google.com/google-ads/answer/7456532?hl=en) makes an important distinction. A manager linking an existing client account does not automatically own it. A manager that creates a new client account becomes its owner by default. A client account can have one owner, and upstream managers can inherit ownership access rights through the hierarchy.
 
@@ -40,7 +42,7 @@ For agencies, the design principle should be minimum necessary control. If campa
 
 The client should never discover the ownership model during offboarding.
 
-## The advertiser must remain legible through the agency layer
+## Keep the advertiser clear through the agency relationship
 
 Advertiser verification increasingly makes agency relationships visible. Google may ask about organization type, who pays for ads, who supplies the product or service, and whether the organization is an agency. Verified advertiser information can appear in ad disclosures and the Ads Transparency Center.
 
@@ -57,7 +59,7 @@ Maintain evidence of:
 
 An agency should not use its own documents merely because the client’s verification is inconvenient. False or misleading verification information can create Circumventing systems risk.
 
-## Example: the high-performance account the client could not leave
+### Example: the high-performance account the client could not leave
 
 Consider a composite brand that hires an agency promising an established, high-spend Google Ads account. Performance is initially strong. The client funds the agency, the agency pays Google, and campaigns run in an account the agency created.
 
@@ -76,7 +78,9 @@ A stronger model would have defined at onboarding:
 
 The lesson is that account performance cannot compensate for structural dependency.
 
-## Billing can create service value and risk that the other party cannot meet its obligations at the same time
+## Evaluate billing, provider, and account claims together
+
+### Billing can add value and dependency at the same time
 
 Agencies may provide consolidated billing, credit terms, invoicing support, and cash-flow convenience. Google supports manager-level billing setups for eligible accounts. These capabilities can be valuable.
 
@@ -94,7 +98,7 @@ A commercial agreement should separate:
 
 Practical records should reconcile Google documents to client invoices. “Spend visible in the interface” is not a substitute for financial management.
 
-## Careful checks for an agency account provider
+### Check the agency account provider carefully
 
 Before moving meaningful spend, verify:
 
@@ -122,7 +126,7 @@ How are funds held, reconciled, refunded, and disputed? Is the payer authorized 
 
 What happens if the provider loses manager access, billing capability, staff, or platform eligibility? A client should have a recovery path independent of one agency identity.
 
-## “High limit” and “verified” are not substitutes for management
+### Treat “high limit” and “verified” as claims, not guarantees
 
 Historical spend can indicate practical experience. Verification can establish an advertiser identity. Monthly invoicing can provide approved credit terms. None of these properties guarantees future delivery or policy immunity.
 
@@ -130,7 +134,7 @@ Providers sometimes collapse them into one promise: a verified, high-limit accou
 
 The more valuable the claim, the more precise the evidence should be.
 
-## The agency’s operating standard should survive offboarding
+## Design the relationship so the client can leave safely
 
 A healthy agency relationship leaves the advertiser more governable than it found it. Access is named. Ownership is understood. Billing is reconciled. Verification tells the truth. Policy decisions have accountable owners. Data can move. Departed users can be removed.
 
@@ -140,7 +144,7 @@ The market will continue to sell agency accounts as scarce containers. The stron
 
 If the provider’s value disappears as soon as the client asks who owns the account, then access was never the product. Dependency was.
 
-## Connect agency management to the specialist controls
+## Connect the account model to specialist controls
 
 An agency model becomes auditable when its broad responsibilities connect to named operating systems:
 

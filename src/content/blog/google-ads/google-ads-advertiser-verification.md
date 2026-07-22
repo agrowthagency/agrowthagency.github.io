@@ -14,7 +14,7 @@ The registration certificate may be valid. The ID may be current. The address ma
 
 Uploading a clearer scan cannot reconcile a business that has never documented its own advertising structure. Verification is better understood as a test of practical identity: can Google connect the advertiser shown to users with the entity, people, payments, products, and relationships behind the account?
 
-## Verification is a program, not one universal task
+## Identify the verification task Google assigned
 
 Google’s current [Advertiser verification guidance](https://support.google.com/adspolicy/answer/9703665?hl=en) describes a program containing tasks that vary by advertiser, account type, billing setup, activity, and product or service. Google may request identity or organization information, business-operations answers, billing tasks, or requirements associated with particular industries.
 
@@ -33,7 +33,9 @@ Build a verification register before submitting anything:
 
 The register turns a browser form into an accountable business process.
 
-## Consistent identity information is more important than superficial sameness
+## Make business identity and responsibilities consistent
+
+### Consistent information matters more than identical names
 
 A legitimate operation does not require every field to contain the same name. A parent can fund a subsidiary. An agency can manage a client account. A reseller can promote another company’s products. A trading name can differ from a registered entity.
 
@@ -50,7 +52,7 @@ Compare six identity layers:
 
 Where the layers differ, document the relationship rather than forcing artificial sameness. Changing a website footer to match a convenient document while the customer contract and payment flow describe another entity creates a new contradiction; it does not create coherence.
 
-## Business Operations Verification asks who does what
+### Explain who performs each business role
 
 Business Operations Verification is a specific task within the broader program. Google’s current [guidance on business-operations issues](https://support.google.com/adspolicy/answer/11938893?hl=en) highlights inconsistent account information, insufficient explanation of business relationships, unclear providers of goods or services, missing licensing, and document problems.
 
@@ -66,7 +68,7 @@ For complex models, build a relationship matrix:
 
 The matrix is not submitted automatically. It is an internal test: can every material party be explained consistently in the form, website, account, and evidence?
 
-## Deadlines change verification from housekeeping into risk of interrupted operations
+## Manage deadlines before they interrupt advertising
 
 Some verification tasks have deadlines. Google states that an account may be paused if required verification is not completed by the deadline, while other advertisers may have a no-deadline flow. Verification may also be a prerequisite before an advertiser can access a suspension appeal form. The live task should control the response, not a timeline copied from an old support article.
 
@@ -74,7 +76,7 @@ Start early enough to resolve document or relationship questions. Do not wait un
 
 Track submissions as versions. Record the answers, documents, submitter, date, and outcome. Repeated attempts that tell different stories make internal diagnosis difficult and can undermine credibility.
 
-## Example: valid documents but an unclear business
+### Example: valid documents but an unclear business
 
 Consider a composite ecommerce brand operated by a subsidiary. The parent company owns the payment profile. A fulfillment partner ships the goods. The domain was registered by a founder. An agency created the Google Ads account and remains its manager owner. The website uses the brand name but does not identify the legal seller.
 
@@ -84,11 +86,11 @@ No single fact is necessarily improper. The failure is the missing relationship 
 
 The stronger fixes identifies the legal seller on the destination, records the parent-subsidiary funding arrangement, documents the agency authorization, confirms the fulfillment relationship, and ensures the disclosure name represents the correct advertiser. The next submission explains the differences rather than hiding them.
 
-## Reverification means identity is not permanently stored
+## Keep the verification record ready for future review
 
 Google may request advertiser verification again after significant changes such as updates to business information, billing address, or payments profile. This makes verification a maintained control, not a badge acquired once.
 
-Before changing ownership, legal name, country, payments profile, primary domain, or way the account is managed, perform a verification impact review:
+Before changing ownership, legal name, country, payments profile, primary domain, or the agency and account-management model, perform a verification impact review:
 
 - Will the advertiser disclosure still be accurate?
 - Does the new payer have documented authority?
@@ -99,7 +101,7 @@ Before changing ownership, legal name, country, payments profile, primary domain
 
 Preserve former records. A clear chronology is more credible than pretending the previous structure never existed.
 
-## Verification is not policy immunity
+## Treat verification as a baseline, not policy immunity
 
 Verification establishes information about an advertiser at a point in time. It does not approve every offer, guarantee delivery, transfer policy history, or make an account suitable for an unrelated business.
 

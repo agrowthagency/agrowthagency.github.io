@@ -16,7 +16,9 @@ The sequence should be reversed. In regulated or abuse-prone categories, the fir
 
 Until that combination is established, campaign design is speculative.
 
-## “Restricted business” is not one policy state
+## Identify the exact eligibility state
+
+### “Restricted business” is not one policy state
 
 Google Ads distinguishes prohibited content, restricted content, restricted formats and features, and other restricted businesses. Within those areas, an offer can be:
 
@@ -30,7 +32,7 @@ Google Ads distinguishes prohibited content, restricted content, restricted form
 
 Do not infer eligibility from a competitor’s visible ad. The competitor may have a different license, certification, entity type, account, target location, product classification, or legacy approval. An ad impression is evidence that an ad served, not that another advertiser qualifies under the same conditions.
 
-## Build an eligibility matrix before opening campaigns
+### Build an eligibility matrix before opening campaigns
 
 Create one row for every material offer and target market:
 
@@ -49,7 +51,7 @@ Create one row for every material offer and target market:
 
 The matrix forces the business to classify the real offer rather than the label sales uses. “Finance,” “health,” “gaming,” and “support” are not precise enough for policy eligibility.
 
-## License, verification, and certification answer different questions
+## Build evidence for each eligibility requirement
 
 A government license establishes authority under a legal regime. Advertiser verification establishes identity or business information. Google certification establishes eligibility to promote a covered product under Google’s process. An external compliance partner may validate additional requirements.
 
@@ -59,7 +61,9 @@ For example, financial services verification can be location-specific and may re
 
 Google’s current [certification application guidance](https://support.google.com/adspolicy/answer/16114090?hl=en) organizes applications by product and service. Use the live policy and application route for the exact category; do not reuse an old form or assume an approval applies to another account or country.
 
-## Geography is part of the product
+## Check geography, domains, and certification together
+
+### Geography is part of the product
 
 Restricted-business policy cannot be separated from targeting. The same service may be eligible in one country, require different evidence in another, and be prohibited elsewhere.
 
@@ -73,7 +77,7 @@ Then account for location settings, cross-border fulfillment, VPN or travel scen
 
 Google’s June 2026 financial-services update, for example, introduced verification requirements for additional EEA markets with enforcement beginning on specified dates. The practical lesson is larger than one update: country eligibility is versioned and must be monitored.
 
-## Domain control is part of certification integrity
+### Domain control supports certification integrity
 
 Restricted-business applications commonly bind eligibility to a website or app. The destination must represent the certified entity and covered activity.
 
@@ -91,7 +95,7 @@ Before applying, confirm:
 
 Certification for one account, domain, product, or geography should not be assumed to cover another.
 
-## Agencies need an authority chain, not borrowed approval
+## Make agency authority and advertiser responsibility clear
 
 An agency may prepare campaigns and support applications, but the regulated advertiser remains central. The account should be able to show who is licensed, who supplies the service, who owns the destination, who pays, and what authority the agency has.
 
@@ -110,7 +114,7 @@ Maintain:
 
 Never substitute the agency’s documents simply because the client’s approval is difficult. Borrowed identity can turn an eligibility problem into verification, misrepresentation, or Circumventing systems risk.
 
-## Example: certified category, uncertified operation
+### Example: certified category, uncertified operation
 
 Consider a composite financial platform licensed in one market. Its agency copies the successful campaign into several neighboring countries, localizes the landing page, and uses the same Google Ads account. The team assumes the original license and advertiser verification are sufficient.
 
@@ -120,7 +124,7 @@ The failure is not a missing disclaimer. The campaign combines an unverified geo
 
 The correct response pauses the affected markets, maps eligibility country by country, separates allowed and disallowed offers, obtains the required approvals through the correct entity, aligns destination disclosures, and introduces approval before geographic expansion.
 
-## Certification must be operated after approval
+## Keep the business eligible after approval
 
 Approval is the beginning of a controlled state. Monitor:
 

@@ -14,7 +14,9 @@ The usual explanation—“a login was hacked”—is too narrow. An attacker ma
 
 Google Ads account security is therefore the management of every path that can change advertising activity, not merely the strength of one password.
 
-## List every access point before securing the account
+## Map every route into the account
+
+### List every access point before securing the account
 
 Begin with an access graph:
 
@@ -32,7 +34,7 @@ The graph should identify a named human or controlled service behind every privi
 
 Google’s current [security best practices](https://support.google.com/google-ads/answer/12864492?hl=en) emphasize minimum necessary access, review of related managers, and stronger authentication controls. Apply those principles to the whole graph.
 
-## Manager access is a security boundary
+### Treat manager access as a security boundary
 
 MCC structures multiply reach. A privileged manager user may be able to modify many client accounts. Ownership can add further administrative capabilities, and access may flow down a hierarchy.
 
@@ -52,7 +54,9 @@ Do not grant manager ownership merely because it is convenient. Google distingui
 
 Review the Related managers view, not only the expected hierarchy. An unfamiliar manager link is a security event until explained.
 
-## Authentication must protect the person behind the access right
+## Protect the person behind every login
+
+### Use authentication that matches the level of access
 
 Two-Step Verification reduces risk, but it is not the entire identity control. A user can approve a malicious OAuth application, reuse a compromised password on email, accept a fraudulent support request, or leave an authenticated device unattended.
 
@@ -69,7 +73,7 @@ Privileged-user standards should include:
 
 Separate daily campaign work from the most sensitive administrative actions where the organization’s model supports it. Not every buyer needs permission to add users or change billing.
 
-## Detection begins with change visibility
+### Detect changes early
 
 Security controls fail silently when nobody monitors account change.
 
@@ -89,7 +93,7 @@ Maintain a baseline of expected accounts, domains, users, managers, countries, a
 
 Preserve change history and alerts. If activity is unauthorized, timestamps, customer IDs, manager IDs, altered budgets, and user changes are evidence for both containment and recovery.
 
-## A compromised account requires containment before optimization
+## Contain the incident before restoring campaigns
 
 Google’s current [compromised-account process](https://support.google.com/google-ads/answer/9355975?hl=en) may involve temporary suspension, campaign pausing, removal of compromised users, unlinking unauthorized managers, administrator reauthentication, an account activity change log, cleanup consent, and possible reimbursement after recovery requirements are met.
 
@@ -107,7 +111,7 @@ Do not focus first on deleting fraudulent campaigns. Removing visible objects wi
 
 This is practical guidance, not legal or banking advice. Payment disputes should be coordinated with the organization’s financial and legal owners.
 
-## Example: a legitimate login that affected several accounts
+### Example: a legitimate login that affected several accounts
 
 Consider a composite agency whose senior buyer has Administrative access to the MCC. The buyer uses Two-Step Verification, but authorizes an apparently legitimate reporting application through OAuth. The application is compromised.
 
@@ -117,7 +121,7 @@ The correct response revokes the application, secures the underlying identity, m
 
 The password was only one control path. Treating it as the entire incident extended the compromise.
 
-## Recovery is not complete when ads resume
+## Recover the account and verify what changed
 
 After access is restored, conduct a controlled validation:
 
@@ -132,13 +136,13 @@ After access is restored, conduct a controlled validation:
 
 Then write a short post-incident review: initial access vector, detection gap, affected scope, recovery actions, financial impact, policy impact, and controls added. Preserve it for future verification, billing, or appeal questions.
 
-## Security is a property of the way the account is managed
+## Make security part of everyday account management
 
 An account is not secure because no suspicious campaign is visible today. It is secure when every privileged path has an owner, access is proportionate, material changes are observable, and the organization can recover without guessing who controls what.
 
 As advertising stacks become more connected, account security and policy compliance converge. A compromised identity can produce malicious destinations, false representation, billing disputes, and account enforcement. The security program must therefore protect the advertiser’s ability to prove which activity was authorized.
 
-Use the [Google Ads billing suspension guide](/google-ads/billing-suspension/) when unauthorized activity creates a payment enforcement issue. For manager-level number of accounts that could be affected and client relationships, continue with the [Google Ads MCC suspension analysis](/google-ads/mcc-suspension/). If stakeholders describe the outcome only as a “ban,” first use the [banned-versus-suspended distinction](/google-ads/google-ads-account-banned/) to identify the actual security and enforcement state.
+Use the [Google Ads billing suspension guide](/google-ads/billing-suspension/) when unauthorized activity creates a payment enforcement issue. For exposure across client accounts connected through a manager, continue with the [Google Ads MCC suspension analysis](/google-ads/mcc-suspension/). If stakeholders describe the outcome only as a “ban,” first use the [banned-versus-suspended distinction](/google-ads/google-ads-account-banned/) to identify the actual security and enforcement state.
 
 ## Official references
 

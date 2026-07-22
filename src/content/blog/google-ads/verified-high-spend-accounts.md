@@ -14,7 +14,9 @@ Verification concerns advertiser identity and transparency. Spend concerns histo
 
 The account market treats them as a moat. Google treats them as current attributes that remain subject to policy, payment, verification, and risk review.
 
-## Verification is attached to an advertiser context
+## Understand what “verified” and “high spend” actually describe
+
+### Verification belongs to a specific advertiser context
 
 Google’s [advertiser verification program](https://support.google.com/adspolicy/answer/9703665?hl=en) requires organizations to complete tasks about identity and business operations. Verified information can appear in ad disclosures and the Ads Transparency Center. Google may require reverification after significant changes such as updates to a payments profile, billing address, or business information.
 
@@ -33,7 +35,7 @@ If a new buyer cannot answer those questions, the verified badge is not an asset
 
 Submitting false information during verification can lead to suspension and Circumventing systems concerns. Therefore, a buyer should never treat another company’s completed verification as a shortcut for its own advertiser identity.
 
-## “High spend” is not one Google Ads setting
+### “High spend” is not one transferable setting
 
 The phrase may refer to several different things:
 
@@ -51,7 +53,7 @@ A campaign can accept a large budget while payment risk still limits delivery. A
 
 Whenever a provider says “limit,” ask for the exact control, currency, reset period, owning entity, and in-product evidence.
 
-## Spend history does not purchase policy tolerance
+## Separate account history from current eligibility
 
 Experienced advertisers sometimes assume that years of spend create an informal buffer against enforcement. That belief confuses commercial value with system integrity.
 
@@ -61,7 +63,7 @@ High spend may increase the practical impact of a suspension. It does not logica
 
 The useful advantage of mature spend is not immunity. It is the operating evidence that should accompany it: stable payment ownership, documented approvals, controlled access, consistent identity, reliable destinations, and teams that know how to respond to warnings.
 
-## Example: buying the history without the business
+### Example: buying the history without the business
 
 Consider a composite advertiser entering a new market. A provider offers an account with substantial historical spend and completed verification. The account was originally used by another business, under another payments profile, promoting another website. The provider proposes changing the domain and campaigns while leaving the verified entity in place.
 
@@ -71,7 +73,7 @@ The account may run temporarily. That does not validate the structure. A future 
 
 A legitimate agency relationship can involve different payer, manager, and advertiser entities. The difference is documentation and truthful representation. The parties can explain who does what and why. An account transfer designed to preserve another entity’s verification cannot meet that standard merely by continuing to spend.
 
-## Monthly invoicing is credit infrastructure, not a transferable limit
+## Treat monthly invoicing as a credit relationship
 
 Google supports monthly invoicing for eligible advertisers and manager structures. A billing setup contains payment and document-delivery details, and multiple client accounts can sometimes use consolidated invoicing through a paying manager. Google also documents linking manager accounts to payments profiles for monthly invoicing.
 
@@ -89,7 +91,7 @@ Careful checks should establish:
 
 An account can have strong credit terms and still be suspended for policy or verification reasons. Conversely, a compliant account may operate successfully on automatic payments without monthly invoicing.
 
-## A due-checks test for verified or high-spend claims
+## Check every verified or high-spend claim
 
 ### 1. Define the advertiser
 
@@ -119,7 +121,7 @@ Review warnings, disapprovals, suspensions, verification tasks, related accounts
 
 Establish what data, conversion history, audiences, balances, and ownership remain with the advertiser when the provider relationship ends.
 
-## Build spend capacity instead of purchasing its appearance
+## Build legitimate spend capacity inside the business
 
 For a legitimate advertiser, durable capacity comes from aligning several systems:
 
