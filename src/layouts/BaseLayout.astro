@@ -97,11 +97,16 @@ const siteSchema = {
         const header = document.querySelector<HTMLElement>('.site-header');
         const articleHero = document.querySelector<HTMLElement>('.article-hero');
         const pageHero = document.querySelector<HTMLElement>('.page-hero, .search-shell');
+        const articleLayout = document.querySelector<HTMLElement>('.article-layout');
+        const articleSidebar = document.querySelector<HTMLElement>('.article-sidebar');
+        const articleContent = document.querySelector<HTMLElement>('.article-content');
+        const tocNav = articleSidebar?.querySelector<HTMLElement>('nav');
         const tocLinks = Array.from(document.querySelectorAll<HTMLAnchorElement>('.article-sidebar nav a[href^="#"]'));
         const tocTargets = tocLinks
           .map((link) => document.querySelector<HTMLElement>(link.hash))
           .filter((target): target is HTMLElement => Boolean(target));
         let ticking = false;
+        let activeTocIndex = -1;
 
         const updatePageMotion = () => {
           const maxScroll = document.documentElement.scrollHeight - window.innerHeight;
@@ -127,6 +132,31 @@ const siteSchema = {
               if (index === activeIndex) link.setAttribute('aria-current', 'location');
               else link.removeAttribute('aria-current');
             });
+
+            if (articleContent && articleSidebar && articleLayout) {
+              const contentRect = articleContent.getBoundingClientRect();
+              const contentStart = window.scrollY + contentRect.top;
+              const contentEnd = contentStart + articleContent.offsetHeight;
+              const readingPoint = window.scrollY + trigger;
+              const tocProgress = Math.min(Math.max((readingPoint - contentStart) / Math.max(1, contentEnd - contentStart), 0), 1);
+              articleSidebar.style.setProperty('--toc-progress', String(tocProgress));
+
+              const layoutRect = articleLayout.getBoundingClientRect();
+              const stickyTop = 110;
+              const isSticky = window.innerWidth > 980 && layoutRect.top <= stickyTop && layoutRect.bottom > stickyTop + articleSidebar.offsetHeight;
+              articleSidebar.classList.toggle('is-toc-stuck', isSticky);
+            }
+
+            if (activeIndex !== activeTocIndex) {
+              activeTocIndex = activeIndex;
+              const activeLink = tocLinks[activeIndex];
+              if (tocNav && activeLink && window.innerWidth > 980 && tocNav.scrollHeight > tocNav.clientHeight) {
+                tocNav.scrollTo({
+                  top: activeLink.offsetTop - tocNav.clientHeight * .5 + activeLink.offsetHeight * .5,
+                  behavior: reduceMotion ? 'auto' : 'smooth'
+                });
+              }
+            }
           }
           ticking = false;
         };
@@ -159,18 +189,15 @@ const siteSchema = {
           };
 
           const heroItems = Array.from(document.querySelectorAll<HTMLElement>(
-            '.page-hero-inner > *, .article-hero .breadcrumbs, .article-hero-grid > *, .search-shell > .container > *'
+            '.page-hero-inner > *, .article-hero .breadcrumbs, .article-meta-card, .search-shell > .container > *'
           ));
           heroItems.forEach((element, index) => prepare(element, index, true));
 
           const revealSelectors = [
             '.section-heading', '.directory-heading', '.platform-proof', '.info-aside', '.prose',
             '.topic-list-item', '.article-card', '.contact-card', '.trust-metric',
-            '.editorial-profile > *', '.desk-faq-layout > *', '.quick-answer',
-            '.markdown-content > h2', '.markdown-content > ul', '.markdown-content > ol',
-            '.markdown-content > table', '.markdown-content .article-cta',
-            '.article-content > section:not(.quick-answer)', '.editorial-note',
-            '.related-grid > a', '.source-links > a', '.footer-grid > *', '.footer-bottom'
+            '.editorial-profile > *', '.desk-faq-layout > *',
+            '.related-grid > a', '.footer-grid > *', '.footer-bottom'
           ];
           const revealItems = revealSelectors.flatMap((selector) =>
             Array.from(document.querySelectorAll<HTMLElement>(selector))
