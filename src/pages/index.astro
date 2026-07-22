@@ -15,65 +15,68 @@ const platformSignals: Record<string, string[]> = {
 
 <BaseLayout title="Ad Account Desk by AGrowth" description={description} bodyClass="home-page">
   <div class="scroll-progress" aria-hidden="true"></div>
-  <section class="home-hero">
-    <div class="hero-noise" aria-hidden="true"></div>
-    <div class="hero-glow" aria-hidden="true"></div>
-    <div class="container home-hero__inner">
-      <div class="hero-intro">
+  <section class="story-hero" data-story>
+    <div class="story-stage">
+      <div class="hero-noise" aria-hidden="true"></div>
+      <div class="story-aurora" aria-hidden="true"></div>
+
+      <div class="story-copy">
         <p class="home-kicker"><span></span> Independent advertising operations desk</p>
-        <p class="hero-edition">AG / DESK <sup>01</sup></p>
+        <h1>Turn account friction into<br /><em>a clear next move.</em></h1>
+        <p>Evidence-led guidance for restrictions, suspensions, appeals and advertising operations—across every platform that moves your business.</p>
       </div>
 
-      <div class="hero-title-wrap">
-        <h1>When ad accounts stop,<br /><em>your next move</em> shouldn’t.</h1>
-        <div class="hero-title-mark" aria-hidden="true">
-          <span>Diagnose</span><span>Resolve</span><span>Respond</span>
+      <div class="story-world" aria-hidden="true">
+        <svg class="story-orbits" viewBox="0 0 1000 620" fill="none">
+          <ellipse cx="500" cy="310" rx="355" ry="178" />
+          <ellipse cx="500" cy="310" rx="245" ry="286" transform="rotate(32 500 310)" />
+          <path class="story-drawn-path" d="M76 405C174 112 405 57 578 174C751 290 765 505 938 533" />
+        </svg>
+
+        <div class="story-core">
+          <span class="story-core__ring story-core__ring--one"></span>
+          <span class="story-core__ring story-core__ring--two"></span>
+          <img src="/brand/agrowth-mark-640.webp" alt="" width="640" height="640" fetchpriority="high" />
+          <small>AG / SIGNAL 01</small>
+        </div>
+
+        <div class="story-float-card story-float-card--meta" data-story-card data-x="-390" data-y="-168" data-r="-7">
+          <span><i></i> Meta Ads</span><strong>Restriction mapped</strong><small>Decision surface identified</small>
+        </div>
+        <div class="story-float-card story-float-card--google" data-story-card data-x="370" data-y="-154" data-r="6">
+          <span><i></i> Google Ads</span><strong>Evidence preserved</strong><small>Account history organized</small>
+        </div>
+        <div class="story-float-card story-float-card--tiktok" data-story-card data-x="-345" data-y="178" data-r="5">
+          <span><i></i> TikTok Ads</span><strong>Root cause reviewed</strong><small>Policy · Billing · Security</small>
+        </div>
+        <div class="story-float-card story-float-card--review" data-story-card data-x="365" data-y="188" data-r="-5">
+          <span><i></i> Review path</span><strong>Response ready</strong><small>Clear. Consistent. Verifiable.</small>
+        </div>
+
+        <svg class="story-sketch" viewBox="0 0 180 120" fill="none">
+          <path d="M8 103C39 96 74 77 91 48C100 33 104 18 109 7M109 7C114 25 126 39 145 46M109 7C94 13 79 15 66 13" />
+        </svg>
+      </div>
+
+      <div class="story-resolution">
+        <p>One disciplined system</p>
+        <h2>Diagnose. Resolve. <em>Respond.</em></h2>
+        <div class="story-actions">
+          <a class="home-button home-button--primary" href="#platforms"><span>Find your platform</span><b aria-hidden="true">↗</b></a>
+          <a class="home-button home-button--text" href="/contact/"><span>Talk to AGrowth</span><b aria-hidden="true">→</b></a>
         </div>
       </div>
 
-      <div class="hero-lower">
-        <div class="hero-copy">
-          <p>Clear, evidence-led guidance for account restrictions, suspensions, appeals and advertising operations across the platforms that move your business.</p>
-          <div class="hero-actions">
-            <a class="home-button home-button--primary" href="#platforms"><span>Find your platform</span><b aria-hidden="true">↗</b></a>
-            <a class="home-button home-button--text" href="/contact/"><span>Talk to AGrowth</span><b aria-hidden="true">→</b></a>
-          </div>
-        </div>
+      <div class="story-scroll-cue" aria-hidden="true"><span>Scroll to explore</span><i></i></div>
+    </div>
+  </section>
 
-        <div class="signal-console" aria-label="AGrowth response framework illustration">
-          <div class="console-head">
-            <span><i></i> Response system online</span>
-            <span>AG—01</span>
-          </div>
-          <div class="console-body">
-            <div class="console-radar" aria-hidden="true">
-              <div class="radar-ring radar-ring--one"></div>
-              <div class="radar-ring radar-ring--two"></div>
-              <div class="radar-axis"></div>
-              <div class="radar-logo"><img src="/brand/agrowth-mark-96.webp" alt="" width="96" height="96" fetchpriority="high" /></div>
-              <span class="radar-ping radar-ping--one"></span>
-              <span class="radar-ping radar-ping--two"></span>
-            </div>
-            <div class="console-readout">
-              <span>Current protocol</span>
-              <strong>Evidence<br />before action.</strong>
-              <div class="readout-bars" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div>
-            </div>
-          </div>
-          <div class="console-foot">
-            <div><span>01</span><p>Diagnose</p></div>
-            <div><span>02</span><p>Correct</p></div>
-            <div><span>03</span><p>Review</p></div>
-          </div>
-        </div>
-      </div>
-
-      <div class="hero-metrics" aria-label="AGrowth company figures">
-        {companyMetrics.map((metric) => (
-          <div class="hero-metric"><strong>{metric.value}</strong><span>{metric.label}</span></div>
-        ))}
-        <a href={companyProfileUrl} rel="external">Company-reported figures <span aria-hidden="true">↗</span></a>
-      </div>
+  <section class="story-proof" aria-label="AGrowth company figures">
+    <div class="container hero-metrics">
+      {companyMetrics.map((metric) => (
+        <div class="hero-metric"><strong>{metric.value}</strong><span>{metric.label}</span></div>
+      ))}
+      <a href={companyProfileUrl} rel="external">Company-reported figures <span aria-hidden="true">↗</span></a>
     </div>
   </section>
 
@@ -196,7 +199,14 @@ const platformSignals: Record<string, string[]> = {
     const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
     const progress = document.querySelector<HTMLElement>('.scroll-progress');
     const header = document.querySelector<HTMLElement>('.site-header');
+    const story = document.querySelector<HTMLElement>('[data-story]');
+    const storyStage = story?.querySelector<HTMLElement>('.story-stage');
+    const storyCards = Array.from(story?.querySelectorAll<HTMLElement>('[data-story-card]') ?? []);
     let ticking = false;
+
+    const clamp = (value: number, min = 0, max = 1) => Math.min(Math.max(value, min), max);
+    const range = (value: number, start: number, end: number) => clamp((value - start) / (end - start));
+    const ease = (value: number) => value * value * (3 - 2 * value);
 
     const updateScrollEffects = () => {
       const maxScroll = document.documentElement.scrollHeight - window.innerHeight;
@@ -205,7 +215,53 @@ const platformSignals: Record<string, string[]> = {
       header?.classList.toggle('is-scrolled', window.scrollY > 30);
 
       if (!reduceMotion) {
-        document.documentElement.style.setProperty('--hero-parallax', `${Math.min(window.scrollY * .07, 110)}px`);
+        if (story && storyStage) {
+          const rect = story.getBoundingClientRect();
+          const distance = Math.max(1, story.offsetHeight - storyStage.offsetHeight);
+          const storyProgress = clamp(-rect.top / distance);
+          const titleOut = ease(range(storyProgress, .06, .3));
+          const worldIn = ease(range(storyProgress, .08, .4));
+          const spread = ease(range(storyProgress, .18, .58));
+          const cardOpacity = ease(range(storyProgress, .13, .31));
+          const resolutionIn = ease(range(storyProgress, .66, .86));
+          const sketchIn = ease(range(storyProgress, .38, .67));
+
+          storyStage.style.setProperty('--story-progress', String(storyProgress));
+          storyStage.style.setProperty('--story-title-opacity', String(1 - titleOut));
+          storyStage.style.setProperty('--story-title-y', `${storyProgress * -110}px`);
+          storyStage.style.setProperty('--story-title-scale', String(1 - storyProgress * .035));
+          storyStage.style.setProperty('--story-world-opacity', String(.12 + worldIn * .88));
+          storyStage.style.setProperty('--story-world-scale', String(.62 + worldIn * .38));
+          storyStage.style.setProperty('--story-world-rotate', `${-4 + storyProgress * 7}deg`);
+          storyStage.style.setProperty('--story-core-scale', String(.86 + worldIn * .18));
+          storyStage.style.setProperty('--story-aurora-scale', String(.72 + worldIn * .4));
+          storyStage.style.setProperty('--story-resolution-opacity', String(resolutionIn));
+          storyStage.style.setProperty('--story-resolution-y', `${(1 - resolutionIn) * 45}px`);
+          storyStage.style.setProperty('--story-cue-opacity', String(1 - ease(range(storyProgress, .01, .16))));
+          storyStage.style.setProperty('--story-path-offset', String(1350 * (1 - spread)));
+          storyStage.style.setProperty('--story-sketch-opacity', String(sketchIn));
+          storyStage.style.setProperty('--story-sketch-offset', String(410 * (1 - sketchIn)));
+          storyStage.style.setProperty('--story-resolution-events', resolutionIn > .8 ? 'auto' : 'none');
+
+          const mobile = window.innerWidth < 700;
+          storyCards.forEach((card) => {
+            let x = Number(card.dataset.x ?? 0);
+            let y = Number(card.dataset.y ?? 0);
+            const rotation = Number(card.dataset.r ?? 0);
+            if (mobile) {
+              const isLeft = card.classList.contains('story-float-card--meta');
+              const isRight = card.classList.contains('story-float-card--review');
+              if (isLeft) { x = -112; y = -132; }
+              if (isRight) { x = 108; y = -126; }
+            } else if (window.innerWidth < 1100) {
+              x *= .7;
+              y *= .72;
+            }
+            card.style.opacity = String(cardOpacity);
+            card.style.transform = `translate3d(${x * spread}px, ${y * spread}px, 0) rotate(${rotation * spread}deg) scale(${.82 + spread * .18})`;
+          });
+        }
+
         const response = document.querySelector<HTMLElement>('.response-system');
         if (response) {
           const rect = response.getBoundingClientRect();
