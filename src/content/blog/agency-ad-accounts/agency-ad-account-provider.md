@@ -1,47 +1,112 @@
 ---
 silo: "agency-ad-accounts"
 topic: "Agency ad account provider"
-title: "How to Evaluate an Agency Ad Account Provider"
-description: "Evaluate agency ad account providers through entity, ownership, platform access, billing, support, policy history, data control, and contract terms."
-overview: "A provider should be evaluated as a combination of technology access, media operations, finance, compliance, and counterparty risk. The core question is whether the relationship is transparent and supported—not whether the provider promises that restrictions cannot happen."
+title: "How to Evaluate an Agency Ad Account Provider: Diligence the Control System"
+description: "A rigorous framework for evaluating agency ad account providers across entity, ownership, access, billing, verification, policy, data, support, and exit."
+overview: "An agency account provider is a combined platform-access, financial, operational, compliance, security, and counterparty system. The buyer must diligence every control layer."
 publishedDate: 2026-07-10
-updatedDate: 2026-07-10
+updatedDate: 2026-07-22
 ---
 
-## What agency ad account provider usually means
+The provider with the smoothest onboarding can have the least explainable account model.
 
-A provider should be evaluated as a combination of technology access, media operations, finance, compliance, and counterparty risk. The core question is whether the relationship is transparent and supported—not whether the provider promises that restrictions cannot happen.
+A login, Business Manager invitation, or advertiser ID proves access. It does not establish who controls the hierarchy, pays the platform, owns the data, completed verification, or can preserve service when the relationship fails.
 
-The exact in-product notice should lead the diagnosis. Account labels used by teams, communities, or providers can be imprecise, while the platform notice identifies the affected asset, available review path, and policy area. Preserve that evidence before changing campaigns, users, billing, or connected assets.
+## Identify the exact product
 
-## Signals to check first
+Require a plain-language architecture:
 
-Use these signals to establish scope. They are prompts for investigation, not proof that a particular policy was violated.
+- Platform and account type.
+- Manager, Business Portfolio, or Business Center controller.
+- Owned versus partner/linked advertiser status.
+- Client and provider access levels.
+- Public identity, domain, pixel/dataset, catalog, audience, and lead ownership.
+- Billing option, payer, currency, fees, credit, and prefunding.
+- Verified entity and industry qualifications.
+- Support path and upstream provider.
+- Transfer, offboarding, and data retention.
 
-- The provider can identify its entity, account ownership, and supported access method.
-- Pricing separates spend, fees, tax, deposits, and refunds.
-- Support, policy responsibility, data, and termination are documented.
+“Agency account” is not an answer to any of these.
 
-## A responsible response process
+## Verify the legal and platform chain
 
-1. Verify the company, contract, references, platform relationship claims, and account ownership.
-2. Request a permissions demonstration without asking for passwords.
-3. Review billing reconciliation, deposit protection, refund timing, and dispute terms.
-4. Test onboarding, reporting, support escalation, and offboarding before large spend.
+Match contracting entity, bank beneficiary, invoice issuer, platform business/manager ID, verified entity, payer, and support owner. Investigate unexplained differences. An upstream reseller can be legitimate, but it must be disclosed and bound by the same obligations.
 
-Keep one incident owner, one evidence folder, and one timeline. Consistency matters when support asks follow-up questions or several teams have access to the same business assets.
+Use a live, permission-appropriate walkthrough with current IDs, roles, ownership/status, billing terms, and dates. Screenshots detached from the interface are weak evidence.
 
-## Mistakes that can make the issue worse
+## Compare platform models
 
-- Do not send funds to an unrelated individual or unverifiable entity.
-- Do not accept “ban-proof” guarantees.
+Google manager linking does not automatically create owner status; a manager that creates a client account becomes owner by default. TikTok distinguishes owned and partner-owned accounts, and transfer eligibility varies. Meta uses people and partner/business-asset relationships. A provider should explain these differences instead of selling one universal ownership story.
 
-Never submit false documents, conceal account relationships, or use another account to evade an unresolved enforcement decision. Those actions can create additional integrity concerns across connected assets.
+## Diligence money
 
-## Controls to reduce recurrence
+Ask who owes the platform, when the client funds the provider, how spend is allocated, whether balances are segregated, what fees and currency conversion apply, and what happens to unused funds or refunds. Link platform evidence to client invoices.
 
-- Start with controlled spend.
-- Reconcile weekly.
-- Maintain an alternative continuity plan.
+High thresholds, credit lines, and historical spend are not permanent limits or policy protection.
 
-Preventive controls should be owned, scheduled, and auditable. A checklist has little value if no one is responsible for reviewing the result or escalating a problem.
+## Diligence compliance and identity
+
+Confirm real advertiser, product, markets, qualifications, brand, domain, payer, and agency relationship. Reject instructions to conceal the advertiser, use unrelated verification, rotate accounts after enforcement, or run prohibited activity through provider status.
+
+Ask how the provider reviews clients, claims, destinations, creators, catalogs, and repeated violations. Google’s third-party policy makes transparency and agency conduct explicit; Meta and TikTok also assess business/account behavior and relationships.
+
+## Diligence security and data
+
+Review authentication, named access, admin limits, subcontractors, monitoring, incident notification, evidence handling, data purposes, client separation, retention, deletion, and recovery. Never accept shared personal credentials as the default access model.
+
+## Test failure scenarios
+
+What happens if the provider business is restricted, credit disappears, an admin is compromised, support is lost, verification is requested, the account is suspended, or the provider becomes insolvent? Who controls notices, funds, data, and response?
+
+## Use a composite case
+
+A provider advertises verified, high-limit accounts with 24/7 support. After suspension it cannot share the notice because an upstream partner owns the Business Center. Client funds remain as an internal balance and the pixel is shared. Every sales claim was technically phrased and operationally incomplete.
+
+## Score evidence, not confidence
+
+Create a due-diligence register with claim, evidence, date, owner, change trigger, risk, contract term, and remedy. Review it regularly.
+
+The credible provider does not sell immunity. It makes control, money, identity, data, and failure legible.
+
+## Require an onboarding evidence pack
+
+Before transferring funds, collect executed contract, legal entity and bank verification, platform IDs, current ownership/status, access invitation, billing model, verified identity, approved products/markets, security contacts, data schedule, support route, and exit plan.
+
+Assign an internal owner to validate each item. “Provider confirmed” is not independent evidence.
+
+## Review the client acceptance process
+
+Ask how the provider rejects unsafe clients. A provider that accepts every vertical, destination, document, and payment arrangement is not removing friction; it is accumulating portfolio risk.
+
+Review eligibility questions, KYC/business evidence, product and claim review, domain checks, source-of-funds controls where appropriate, and repeated-violation handling.
+
+## Separate service availability from account replacement
+
+Define planned maintenance, access outage, billing interruption, support outage, account restriction, provider restriction, and termination. Each has a different remedy. A replacement account does not preserve data, identity, balance, verification, or enforcement history.
+
+## Establish recurring diligence
+
+Quarterly or after material change, reconfirm entity, platform control, account status, access, payer, credit/threshold, verification, upstream providers, support, security, and exit readiness. Monitor contract and evidence expiry.
+
+## Set termination triggers
+
+Triggers can include undisclosed upstream control, false platform claims, shared credentials, unexplained billing, refusal to provide spend evidence, instructions to bypass enforcement, security breach, missed client notifications, or inability to return funds/data.
+
+Define containment and migration before invoking termination. Sudden removal without client administrators or records can compound harm.
+
+## Score concentration
+
+Measure provider-dependent accounts, spend, balances, identities, pixels, catalogs, clients, and markets. Set exposure limits and alternatives. No due-diligence result makes one counterparty failure impossible.
+
+Continue with [white-label ad account resellers](/agency-ad-accounts/white-label-ad-account-resellers/) and [agency account contracts and SLAs](/agency-ad-accounts/agency-account-contracts-slas/).
+
+## Make the provider decision reviewable
+
+Summarize the service category, legal chain, platform relationship, account owner, payer, access method, client eligibility, data flow, support route, concentration, failure tests, exceptions, and exit cost in one decision memo. Attach the evidence register and scorecard, then name the risk acceptors. Review the memo after material platform, ownership, finance, or provider changes. The memo prevents a persuasive sales conversation from becoming the only surviving explanation for why the agency placed client operations in that dependency.
+
+## Official resources
+
+- [Google third-party policy](https://support.google.com/adspolicy/answer/6086450?hl=en)
+- [Google Ads ownership of client accounts](https://support.google.com/google-ads/answer/7456532?hl=en)
+- [TikTok Business Center access requests](https://ads.tiktok.com/help/article/request-access-to-ad-accounts-in-business-center)
+- [Meta ad account roles](https://www.facebook.com/help/messenger-app/195296697183682/)

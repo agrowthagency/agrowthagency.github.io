@@ -48,7 +48,7 @@ export const siloInfo: Record<SiloSlug, {
   },
   'agency-ad-accounts': {
     name: 'Agency Ad Accounts',
-    description: 'Due diligence for agency providers, account ownership models, billing, access, and vertical-specific risks.',
+    description: 'Ownership models, provider due diligence, permissions, billing, verification, compliance, security, data portability, incident response, and offboarding across agency ad accounts.',
     sources: [
       { label: 'TikTok Business Center account access', href: 'https://ads.tiktok.com/help/article/request-access-to-ad-accounts-in-business-center' },
       { label: 'Meta Ads Review Policy', href: 'https://www.facebook.com/business/ads/review-policy-guidelines' },
