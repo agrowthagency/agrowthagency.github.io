@@ -356,6 +356,33 @@ p { margin: 0; }
 .markdown-content { padding-bottom: 64px; }
 .markdown-content h2 { padding-top: 62px; margin: 0 0 24px; border-top: 1px solid var(--line); scroll-margin-top: 110px; }
 .markdown-content p { margin-bottom: 18px; color: #475467; font-size: 1.02rem; line-height: 1.85; }
+.markdown-content a {
+  color: var(--blue);
+  font-weight: 750;
+  text-decoration-line: underline;
+  text-decoration-color: rgba(26, 92, 255, .42);
+  text-decoration-thickness: .1em;
+  text-underline-offset: .18em;
+  border-radius: 3px;
+  transition: color 160ms ease, background-color 160ms ease, text-decoration-color 160ms ease, box-shadow 160ms ease;
+}
+.markdown-content a:visited {
+  color: #6545b5;
+  text-decoration-color: rgba(101, 69, 181, .42);
+}
+.markdown-content a:hover {
+  color: #0f46c9;
+  background: rgba(26, 92, 255, .08);
+  text-decoration-color: currentColor;
+  box-shadow: 0 0 0 3px rgba(26, 92, 255, .08);
+}
+.markdown-content a:focus-visible {
+  color: #0f46c9;
+  background: rgba(26, 92, 255, .08);
+  text-decoration-color: currentColor;
+  outline: 3px solid rgba(240, 90, 40, .34);
+  outline-offset: 3px;
+}
 .markdown-content ul { display: grid; gap: 11px; margin: 28px 0 34px; padding: 0; list-style: none; }
 .markdown-content ul li { position: relative; padding: 17px 18px 17px 50px; color: #344054; background: #f7f7f5; border-radius: 12px; }
 .markdown-content ul li::before { position: absolute; display: grid; width: 22px; height: 22px; left: 17px; top: 18px; color: white; background: var(--accent); border-radius: 50%; font-size: .7rem; font-weight: 900; content: "✓"; place-items: center; }
