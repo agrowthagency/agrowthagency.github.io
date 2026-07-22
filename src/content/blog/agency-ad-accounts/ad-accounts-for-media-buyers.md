@@ -95,7 +95,7 @@ Remove platform roles, direct grants, partner assignments, finance access, files
 
 ## Evaluate the operating system, not only the buyer
 
-Review performance alongside access exceptions, change quality, incident recurrence, documentation, policy findings, budget errors, automation ownership, and handover readiness. Separate coaching needs from control-design failures: repeated mistakes by different buyers usually indicate a weak system. The manager should be able to reconstruct who changed a material setting, under which approval, what validation occurred, and how it was reversed. That evidence protects the buyer as well as the client when outcomes are disputed.
+Review performance alongside access exceptions, change quality, incident recurrence, documentation, policy findings, budget errors, automation ownership, and [handover readiness](/agency-ad-accounts/agency-account-offboarding-migration/). Separate coaching needs from control-design failures: repeated mistakes by different buyers usually indicate a weak system. Where duties, evidence, and response times remain ambiguous, translate them into [measurable contractual controls](/agency-ad-accounts/agency-account-contracts-slas/). The manager should be able to reconstruct who changed a material setting, under which approval, what validation occurred, and how it was reversed. That evidence protects the buyer as well as the client when outcomes are disputed.
 
 ## Official resources
 

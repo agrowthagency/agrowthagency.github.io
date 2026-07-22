@@ -85,7 +85,7 @@ The governance system needs a stop rule. Repeated misrepresentation, refusal to 
 
 ## Keep a policy decision record
 
-For material or disputed launches, record the offer facts, relevant policy areas, evidence reviewed, destination version, creative version, decision, conditions, approvers, and next review trigger. Preserve uncertainty instead of rewriting it after the outcome. The record allows later teams to distinguish a reasoned approval from an accidental pass and helps the agency update the reusable control when the same pattern appears elsewhere.
+For material or disputed launches, record the offer facts, relevant policy areas, evidence reviewed, destination version, creative version, decision, conditions, approvers, and next review trigger. Apply the same control to [affiliate offer chains](/agency-ad-accounts/ad-accounts-for-affiliate-marketers/) and [dropshipping fulfillment claims](/agency-ad-accounts/ad-accounts-for-dropshipping/) without treating the verticals as identical. Preserve uncertainty instead of rewriting it after the outcome. If enforcement follows, pass the record into a [structured suspension investigation](/agency-ad-accounts/agency-account-suspension-response/) so later teams can distinguish a reasoned approval from an accidental pass.
 
 ## Official resources
 

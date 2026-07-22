@@ -92,7 +92,7 @@ Ownership is valuable only when it produces continuity. An ungoverned client acc
 
 ## Review the model at renewal
 
-Ask whether the current arrangement still fits the client’s internal capability, spend, regulatory needs, acquisition plans, platform mix, and tolerance for concentration. Inspect administrator continuity, billing dependence, asset portability, support performance, data access, and unresolved exceptions. Ownership should not persist merely because migration is uncomfortable. If switching costs are the only reason to remain, quantify them and establish a reduction plan before the next renewal.
+Ask whether the current arrangement still fits the client’s internal capability, spend, regulatory needs, acquisition plans, platform mix, and tolerance for concentration. Inspect administrator continuity through an [effective-access review](/agency-ad-accounts/agency-ad-account-access-permissions/), quantify [billing dependence and unsettled exposure](/agency-ad-accounts/agency-ad-account-billing-reconciliation/), and reassess the evidence behind the current [account provider](/agency-ad-accounts/agency-ad-account-provider/). Ownership should not persist merely because migration is uncomfortable. If switching costs are the only reason to remain, quantify them and establish a reduction plan before the next renewal.
 
 ## Official resources
 

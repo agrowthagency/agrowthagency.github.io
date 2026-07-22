@@ -86,7 +86,7 @@ Emergency access should have a named incident, narrow purpose, expiration time, 
 
 ## Measure access-control health
 
-Track privileged-user count, dormant access, direct grants outside approved containers, unowned service accounts, overdue reviews, leaver-removal time, emergency-access events, and exceptions by client. Interpret the figures with scale and risk: zero emergency events may mean resilience or an unused process. Sample real users and ask them to demonstrate the task their role supports. The useful outcome is not a perfect roster snapshot but confidence that privilege remains justified as teams and assignments change.
+Track privileged-user count, dormant access, direct grants outside approved containers, unowned service accounts, overdue reviews, leaver-removal time, emergency-access events, and exceptions by client. Interpret the figures with scale and risk: zero emergency events may mean resilience or an unused process. Sample real users and ask them to demonstrate the task their role supports. Put review frequency, evidence, and remediation into [the account’s operating SLA](/agency-ad-accounts/agency-account-contracts-slas/), then confirm revocation through the [offboarding and migration checklist](/agency-ad-accounts/agency-account-offboarding-migration/). The useful outcome is confidence that privilege remains justified as assignments change.
 
 ## Official resources
 

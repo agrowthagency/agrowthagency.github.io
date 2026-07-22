@@ -82,7 +82,7 @@ Pause or terminate when the merchant withholds evidence, makes undisclosed desti
 
 ## Keep an offer control record
 
-For each active offer, retain the merchant and network contacts, eligible markets, approved claims, evidence, creative versions, destination chain, disclosures, tracking owners, customer-outcome thresholds, and stop decision. Link changes to the person who approved them. Review the record when price, product, merchant, funnel, or network terms change—not merely at a calendar interval. This gives the agency a defensible answer to the practical question: what proposition did we believe we were advertising, and why?
+For each active offer, retain the merchant and network contacts, eligible markets, [approved claims and supporting evidence](/agency-ad-accounts/agency-policy-compliance-governance/), creative versions, destination chain, disclosures, tracking owners, customer-outcome thresholds, and stop decision. Link changes to the person who approved them. Review the record when price, product, merchant, funnel, or network terms change—not merely at a calendar interval. When delivery depends on a third party, include the evidence used to [evaluate the agency account provider](/agency-ad-accounts/agency-ad-account-provider/); when enforcement occurs, preserve the same record for a [fact-based suspension response](/agency-ad-accounts/agency-account-suspension-response/). This gives the agency a defensible answer to the practical question: what proposition did we believe we were advertising, and why?
 
 ## Official resources
 

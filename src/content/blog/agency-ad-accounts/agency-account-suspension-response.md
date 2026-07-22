@@ -83,7 +83,7 @@ Record the timeline, confirmed and rejected hypotheses, decision evidence, clien
 
 ## Maintain an incident decision log
 
-Log each material action with time, owner, affected scope, evidence, authorization, and expected validation. Include decisions not to act and why. The log should distinguish platform facts, client statements, agency observations, and hypotheses. It reduces contradictory work across support, media, legal, and client teams and provides the foundation for the postmortem. Restrict sensitive evidence, but keep a common status view so commercial urgency does not generate parallel appeals or unauthorized changes.
+Log each material action with time, owner, affected scope, evidence, authorization, and expected validation. Include decisions not to act and why. The log should distinguish platform facts, client statements, agency observations, and hypotheses. It connects the underlying [policy decision record](/agency-ad-accounts/agency-policy-compliance-governance/) with the agency’s [real support and escalation capabilities](/agency-ad-accounts/agency-support-reinstatement-claims/). Where access or identity integrity is uncertain, run the [security incident process](/agency-ad-accounts/agency-ad-account-security/) and [verification comparison](/agency-ad-accounts/agency-advertiser-verification/) as separate workstreams. Restrict sensitive evidence, but keep a common status view so urgency does not generate parallel appeals or unauthorized changes.
 
 ## Official resources
 

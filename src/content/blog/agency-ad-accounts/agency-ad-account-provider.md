@@ -78,7 +78,7 @@ Assign an internal owner to validate each item. “Provider confirmed” is not 
 
 Ask how the provider rejects unsafe clients. A provider that accepts every vertical, destination, document, and payment arrangement is not removing friction; it is accumulating portfolio risk.
 
-Review eligibility questions, KYC/business evidence, product and claim review, domain checks, source-of-funds controls where appropriate, and repeated-violation handling.
+Review eligibility questions, KYC/business evidence, product and claim review, domain checks, source-of-funds controls where appropriate, and repeated-violation handling. The intake should adapt when the client relies on an [affiliate offer and merchant chain](/agency-ad-accounts/ad-accounts-for-affiliate-marketers/) or a [dropshipping supplier and fulfillment model](/agency-ad-accounts/ad-accounts-for-dropshipping/); neither use case becomes safe merely because the provider accepts it.
 
 ## Separate service availability from account replacement
 
@@ -102,7 +102,7 @@ Continue with [white-label ad account resellers](/agency-ad-accounts/white-label
 
 ## Make the provider decision reviewable
 
-Summarize the service category, legal chain, platform relationship, account owner, payer, access method, client eligibility, data flow, support route, concentration, failure tests, exceptions, and exit cost in one decision memo. Attach the evidence register and scorecard, then name the risk acceptors. Review the memo after material platform, ownership, finance, or provider changes. The memo prevents a persuasive sales conversation from becoming the only surviving explanation for why the agency placed client operations in that dependency.
+Summarize the service category, legal chain, platform relationship, account owner, payer, access method, client eligibility, data flow, support route, concentration, failure tests, exceptions, and exit cost in one decision memo. Compare the proposed structure with the trade-offs between [client and agency ownership](/agency-ad-accounts/client-owned-vs-agency-owned-ad-accounts/), test any [high-limit capacity claim](/agency-ad-accounts/high-limit-ad-accounts/), and document what the provider’s [support promise actually covers](/agency-ad-accounts/agency-support-reinstatement-claims/). Attach the evidence register and name the risk acceptors. The memo prevents a sales conversation from becoming the only surviving explanation for placing client operations in that dependency.
 
 ## Official resources
 

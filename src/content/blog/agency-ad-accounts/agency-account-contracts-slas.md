@@ -64,7 +64,7 @@ Operational promises need observable artifacts: access rosters, approval records
 
 ## Govern subcontractors and upstream providers
 
-Require disclosure of material providers, minimum control obligations, confidential treatment, incident notification, and responsibility for their actions. Define whether the agency may change providers without consent and what happens when an upstream relationship ends. The client should understand concentration without receiving another party’s confidential contract.
+Require disclosure of material providers, minimum control obligations, confidential treatment, incident notification, and responsibility for their actions. Where the supply chain includes a reseller, specify the evidence and pass-through duties expected from the [white-label account arrangement](/agency-ad-accounts/white-label-ad-account-resellers/). Define whether the agency may change providers without consent and what happens when an upstream relationship ends. The client should understand concentration without receiving another party’s confidential contract.
 
 ## Establish a review calendar
 
@@ -80,7 +80,7 @@ Service credits or termination rights should attach to failures the agency contr
 
 ## Convert the agreement into a control register
 
-Extract every operational obligation into a register with the responsible party, due event, required evidence, dependency, escalation, and remedy. Examples include access reviews, billing statements, policy approvals, incident notices, verification renewals, provider disclosures, and exit delivery. Review overdue items with account leadership and the client. This prevents a carefully negotiated agreement from becoming a document consulted only after failure, when neither party can show how its promises were meant to operate.
+Extract every operational obligation into a register with the responsible party, due event, required evidence, dependency, escalation, and remedy. Examples include [permission reviews](/agency-ad-accounts/agency-ad-account-access-permissions/), [the monthly finance close](/agency-ad-accounts/agency-ad-account-billing-reconciliation/), policy approvals, incident notices, verification renewals, provider disclosures, and [offboarding deliverables](/agency-ad-accounts/agency-account-offboarding-migration/). Review overdue items with account leadership and the client, including evidence that the agreed [security controls remain effective](/agency-ad-accounts/agency-ad-account-security/). This prevents a carefully negotiated agreement from becoming a document consulted only after failure, when neither party can show how its promises were meant to operate.
 
 ## Official resources
 

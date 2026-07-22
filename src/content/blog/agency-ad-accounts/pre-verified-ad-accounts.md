@@ -95,7 +95,7 @@ The safer account is not the one verified earliest. It is the one whose current 
 
 ## Keep a verification dependency record
 
-Record the verified entity, evidence scope, account and business owner, advertiser presented to users, payer, authorized operator, support route, expiry or change triggers, and transition plan. Note every place where the operating business differs from the verified record and whether that difference has a legitimate explanation. Review the record before new markets, domains, products, or payers are introduced. A coherent dependency record is more valuable than a one-time status badge.
+Record the verified entity, evidence scope, account and business owner, advertiser presented to users, payer, authorized operator, support route, expiry or change triggers, and transition plan. Note every place where the operating business differs from the verified record and whether that difference has a legitimate explanation. Compare the arrangement with the risks of [rented account access](/agency-ad-accounts/ad-account-rental/) and the evidence expected in a broader [provider review](/agency-ad-accounts/agency-ad-account-provider/). Revisit the record when markets, domains, products, or payers change. A coherent dependency record is more valuable than a one-time status badge.
 
 ## Official resources
 

@@ -87,7 +87,7 @@ Finish with a signed or otherwise evidenced acceptance covering received assets,
 
 ## Measure migration completeness
 
-Use a closure scorecard covering administrator continuity, campaign and creative inventory, audiences and measurement, public identities, verification records, billing settlement, support cases, data delivery, integration revocation, retained-data exceptions, and client acceptance. Mark each item complete, constrained, rebuilt, retired, or disputed. A high percentage alone is not enough: one unresolved payer or administrator can outweigh dozens of transferred files. Keep the scorecard until late charges and access reviews confirm that the old operating path is truly closed.
+Use a closure scorecard covering administrator continuity, campaign and creative inventory, audiences and measurement, public identities, verification records, [final billing settlement](/agency-ad-accounts/agency-ad-account-billing-reconciliation/), support cases, data delivery, integration revocation, retained-data exceptions, and client acceptance. Mark each item complete, constrained, rebuilt, retired, or disputed. A high percentage alone is not enough: one unresolved payer or administrator can outweigh dozens of transferred files. Keep the scorecard until late charges, a [full permission review](/agency-ad-accounts/agency-ad-account-access-permissions/), and [post-transition security validation](/agency-ad-accounts/agency-ad-account-security/) confirm that the old operating path is truly closed.
 
 ## Official resources
 

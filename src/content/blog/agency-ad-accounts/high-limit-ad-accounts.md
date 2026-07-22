@@ -94,7 +94,7 @@ Capacity is useful only when the advertiser can fund, govern, and lawfully use i
 
 ## Review capacity as a risk position
 
-Report authorized budget, platform delivery, billed exposure, prefunding, credit headroom, payment timing, shared-facility concentration, dispute amounts, and stress-test results. Link every planned increase to verified demand and client approval. Capacity that is technically available but not funded, governed, or economically justified should not be marketed as usable scale. The review owner should be able to reduce limits or pause growth when exposure rises faster than evidence.
+Report authorized budget, platform delivery, billed exposure, prefunding, credit headroom, payment timing, shared-facility concentration, dispute amounts, and stress-test results. If capacity is bundled with an identity label, first establish [what the pre-verified claim actually covers](/agency-ad-accounts/pre-verified-ad-accounts/). Validate upstream evidence through the [provider assessment](/agency-ad-accounts/agency-ad-account-provider/) and assign financial responsibilities in the [account contract and SLA](/agency-ad-accounts/agency-account-contracts-slas/). Link every increase to verified demand and client approval; reduce limits or pause growth when exposure rises faster than evidence.
 
 ## Official resources
 

@@ -64,7 +64,7 @@ A client’s ads stop. Its agency says “the supplier is updating accounts,” 
 
 The suspension may be legitimate or mistaken. The immediate business failure is that nobody accountable to the client controls the evidence.
 
-Use [agency ad account provider evaluation](/agency-ad-accounts/agency-ad-account-provider/) and [ad account rental](/agency-ad-accounts/ad-account-rental/) for adjacent models.
+The same evidence should support a broader [assessment of the upstream account provider](/agency-ad-accounts/agency-ad-account-provider/) and show whether the arrangement has drifted toward [rented access with unclear control](/agency-ad-accounts/ad-account-rental/).
 
 ## Verify the upstream proposition
 
@@ -88,7 +88,7 @@ Measure revenue, active clients, prefunded cash, platform spend, and critical as
 
 ## Keep a chain-of-accountability register
 
-For each client, record the reseller, upstream provider, legal contracts, business containers, account owner, payer, verification dependencies, support paths, data processors, incident contacts, balances, and exit rights. Link each obligation to the party that performs it and the reseller that remains answerable to the client. Review material changes across the chain. If one missing provider contact prevents the register from being completed, that is itself a concentration finding.
+For each client, record the reseller, upstream provider, legal contracts, business containers, account owner, payer, verification dependencies, support paths, data processors, incident contacts, balances, and exit rights. Translate upstream obligations into [enforceable agency account terms](/agency-ad-accounts/agency-account-contracts-slas/), reconcile shared money through the [client billing ledger](/agency-ad-accounts/agency-ad-account-billing-reconciliation/), and include downstream information in the [data-ownership map](/agency-ad-accounts/agency-ad-account-data-ownership/). Link each obligation to the party that performs it and the reseller that remains answerable to the client. If one missing provider contact blocks the register, that is itself a concentration finding.
 
 ## Official resources
 

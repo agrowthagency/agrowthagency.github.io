@@ -84,7 +84,7 @@ The governance output should be a current identity record, evidence register, ex
 
 ## Review verification readiness
 
-Use a readiness view containing identity discrepancies, evidence owners, document expiry, domain and payment alignment, regulated permissions, pending platform requests, corporate changes, and transition dependencies. Test whether an authorized client representative—not only the agency—can explain and reproduce the record. Verification status is a lagging signal; readiness shows whether the underlying facts remain coherent when the platform asks again.
+Use a readiness view containing identity discrepancies, evidence owners, document expiry, domain and payment alignment, regulated permissions, pending platform requests, corporate changes, and transition dependencies. Platform owners should connect it to the procedures for [Google advertiser verification](/google-ads/google-ads-advertiser-verification/), [Meta business verification](/meta-ads/meta-business-verification/), or [TikTok business verification](/tiktok-ads/tiktok-business-verification/) rather than assuming one status translates across systems. Test whether an authorized client representative—not only the agency—can reproduce the record. Verification status is lagging; readiness shows whether the underlying facts remain coherent when the platform asks again.
 
 ## Official resources
 

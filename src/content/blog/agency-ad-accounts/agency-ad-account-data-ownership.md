@@ -81,7 +81,7 @@ After delivery, remove unauthorized local copies, revoke integrations, expire li
 
 ## Use a portability scorecard
 
-Score critical assets on client administration, exportability, documentation, successor usability, external dependency, retention, and deletion evidence. Weight the score by business impact rather than file count. A client-owned creative folder cannot offset an agency-controlled pixel or domain that blocks continuity. Review low-scoring assets when architecture changes and before renewal. The aim is not to make every platform signal transferable; it is to expose constraints early enough for the client to choose and price them knowingly.
+Score critical assets on client administration, exportability, documentation, successor usability, external dependency, retention, and deletion evidence. Weight the score by business impact rather than file count. A client-owned creative folder cannot offset an agency-controlled pixel or domain that blocks continuity. Compare the score with the chosen [client-owned or agency-owned structure](/agency-ad-accounts/client-owned-vs-agency-owned-ad-accounts/), test it through a real [account migration exercise](/agency-ad-accounts/agency-account-offboarding-migration/), and include cross-platform dependencies in the [portfolio operating model](/agency-ad-accounts/multi-platform-agency-accounts/). The aim is to expose constraints early enough for the client to choose and price them knowingly.
 
 ## Official resources
 

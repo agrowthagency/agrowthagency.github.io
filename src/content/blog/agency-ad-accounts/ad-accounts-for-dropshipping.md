@@ -86,7 +86,7 @@ After a supplier or policy incident, confirm corrected product records, customer
 
 ## Run a weekly proposition review
 
-Bring media, merchandising, customer support, fulfillment, and compliance signals into one review. Examine the highest-spend and highest-complaint SKUs, feed discrepancies, delivery changes, new creative claims, stock risk, refunds, and open corrective actions. Record decisions to continue, limit, pause, or retire each material proposition. This closes the common gap in which the media team sees conversion improvement while operations sees a product or delivery failure that has not yet reached the platform dashboard.
+Bring media, merchandising, customer support, fulfillment, and compliance signals into one review. Examine the highest-spend and highest-complaint SKUs, feed discrepancies, delivery changes, new creative claims, stock risk, refunds, and open corrective actions. Record decisions to continue, limit, pause, or retire each material proposition through the agency’s [policy and evidence controls](/agency-ad-accounts/agency-policy-compliance-governance/). If a third party supplies the advertising environment, review its role through a documented [provider due-diligence process](/agency-ad-accounts/agency-ad-account-provider/). If platform enforcement has already occurred, move the evidence into the [account-suspension workflow](/agency-ad-accounts/agency-account-suspension-response/) instead of changing accounts. This closes the gap between improving conversion and deteriorating fulfillment.
 
 ## Official resources
 

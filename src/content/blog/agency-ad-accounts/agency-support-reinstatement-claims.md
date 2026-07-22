@@ -82,7 +82,7 @@ Define eligible causes, excluded causes, asset and data continuity, balance hand
 
 ## Score support quality with controllable measures
 
-Measure acknowledgment, complete-evidence time, internal review time, update reliability, submission rework, escalation attempts, case continuity, and post-recovery validation. Segment cases by type and complexity; a median across routine and suspended accounts is misleading. Report platform response separately and never turn correlation into a guaranteed outcome. A mature support operation becomes more credible when it can explain failures and variance, not when every case is presented as a success.
+Measure acknowledgment, complete-evidence time, internal review time, update reliability, submission rework, escalation attempts, case continuity, and post-recovery validation. Connect these measures to the [suspension-response workflow](/agency-ad-accounts/agency-account-suspension-response/) and the service boundaries written into [agency account SLAs](/agency-ad-accounts/agency-account-contracts-slas/). Segment cases by type and complexity; a median across routine and suspended accounts is misleading. Report platform response separately, especially when evaluating a [provider’s support proposition](/agency-ad-accounts/agency-ad-account-provider/), and never turn correlation into a guaranteed outcome.
 
 ## Official resources
 

@@ -23,7 +23,7 @@ Multi-platform governance succeeds when the agency standardizes accountability w
 | Finance | Payment profile/paying manager | Ad-account payment settings | Business Center/payment portfolio |
 | Data | Conversions, audiences, tags | Dataset/pixel, catalog | Pixel, catalog, audience, leads |
 
-Do not call all of them “agency accounts” in the asset register.
+Do not call all of them “agency accounts” in the asset register. Start with the platform-specific structures behind a [Google agency account](/google-ads/google-agency-ad-account/), [Meta agency ad account](/meta-ads/meta-agency-ad-account/), and [TikTok agency account](/tiktok-ads/tiktok-agency-ads-account/) before designing the shared control layer.
 
 ## Standardize the questions
 
@@ -89,7 +89,7 @@ Select one representative client and rehearse export, role transfer, billing clo
 
 ## Run a portfolio control review
 
-Review common dependencies and platform exceptions together: administrators, identity provider, cards and credit, domains, measurement stack, providers, support routes, open incidents, overdue reconciliations, and exit-test findings. Name which controls are genuinely shared and which require platform owners. The meeting should produce decisions and assigned corrections, not merely combine dashboards. This is how multi-platform scale becomes a governed portfolio rather than several silos connected by the same agency logo.
+Review common dependencies and platform exceptions together: administrators, identity provider, cards and credit, domains, measurement stack, providers, support routes, open incidents, overdue reconciliations, and exit-test findings. Name which controls are genuinely shared and which require platform owners. Use the portfolio view to revisit [ownership choices](/agency-ad-accounts/client-owned-vs-agency-owned-ad-accounts/), shared [security exposure](/agency-ad-accounts/agency-ad-account-security/), and [cross-platform spend reconciliation](/agency-ad-accounts/agency-ad-account-billing-reconciliation/). Confirm that the operating design still supports [media buyers working across client accounts](/agency-ad-accounts/ad-accounts-for-media-buyers/) without granting universal privilege. The meeting should produce assigned corrections, not merely combine dashboards.
 
 ## Official resources
 

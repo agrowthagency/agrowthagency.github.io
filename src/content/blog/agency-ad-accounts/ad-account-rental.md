@@ -66,7 +66,7 @@ If the provider cannot meet them, the account is not a business asset; it is rev
 
 Age, spend history, verification, agency status, and support do not make an account immune. Any claim of “ban-proof,” permanent replacement, or permission for prohibited products should lower confidence.
 
-Use [agency ad account provider evaluation](/agency-ad-accounts/agency-ad-account-provider/) for full diligence and [client-owned vs agency-owned accounts](/agency-ad-accounts/client-owned-vs-agency-owned-ad-accounts/) for structural alternatives.
+A credible comparison starts with [evidence about the provider’s operating model](/agency-ad-accounts/agency-ad-account-provider/) and then tests whether [client or agency ownership](/agency-ad-accounts/client-owned-vs-agency-owned-ad-accounts/) offers the safer structural alternative.
 
 ## Test account provenance
 
@@ -98,7 +98,7 @@ The decisive question is not whether an account can serve today. It is whether t
 
 ## Record the go/no-go decision
 
-The final decision record should name the contracting entity, platform owner, access route, payer, verified advertiser, permitted offer, data controller, support path, balance treatment, exit steps, and unresolved exceptions. Require legal, finance, security, and media owners to approve the parts they control. Revisit the decision when the provider, hierarchy, payer, identity, or client use case changes. If the operating team cannot reproduce this record, it cannot reliably distinguish a governed service from temporary borrowed access.
+The final decision record should name the contracting entity, platform owner, [access route and effective permissions](/agency-ad-accounts/agency-ad-account-access-permissions/), payer, [verified-advertiser record](/agency-ad-accounts/agency-advertiser-verification/), permitted offer, data controller, support path, balance treatment, and [practical exit steps](/agency-ad-accounts/agency-account-offboarding-migration/). Require legal, finance, security, and media owners to approve the parts they control. Revisit the decision when the provider, hierarchy, payer, identity, or client use case changes. If the operating team cannot reproduce this record, it cannot reliably distinguish a governed service from temporary borrowed access.
 
 ## Official resources
 

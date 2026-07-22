@@ -82,7 +82,7 @@ In a composite case, an agency saw platform spend rise while its client invoice 
 
 ## Publish a reconciliation certificate
 
-For each close, record the delivery period, platform account and payer, source reports, platform charges, taxes, credits, agency fees, client invoices, prefunding movement, unresolved differences, and approvers. Attach evidence or stable references rather than pasting unauditable totals. The certificate need not be elaborate; its purpose is to show that every material amount has a defined source and owner. Keep later adjustments linked to the original period instead of silently altering a closed statement.
+For each close, record the delivery period, platform account and payer, source reports, platform charges, taxes, credits, agency fees, client invoices, prefunding movement, unresolved differences, and approvers. Compare available capacity with the risk controls behind any [high-limit account claim](/agency-ad-accounts/high-limit-ad-accounts/), and require the [provider’s commercial model](/agency-ad-accounts/agency-ad-account-provider/) to explain every upstream fee or balance. Attach stable evidence rather than unauditable totals. Keep later adjustments linked to the original period and carry unsettled amounts into the [financial offboarding checklist](/agency-ad-accounts/agency-account-offboarding-migration/) instead of silently altering a closed statement.
 
 ## Official resources
 

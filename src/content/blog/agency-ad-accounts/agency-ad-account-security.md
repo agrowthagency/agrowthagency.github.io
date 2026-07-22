@@ -84,7 +84,7 @@ Password resets alone do not close an incident. Recheck users, partners, billing
 
 ## Maintain a security assurance view
 
-Report strong-authentication coverage, privileged users, unresolved access exceptions, critical integrations, anomalous changes, leaver-removal time, incident age, recovery-test results, and corrective-action closure. Show the client only its relevant detail while agency leadership sees portfolio dependencies. Trends matter more than a single green status. A rising number of orphaned tokens or late access reviews should trigger intervention before it becomes an account compromise.
+Report strong-authentication coverage, privileged users, unresolved access exceptions, critical integrations, anomalous changes, leaver-removal time, incident age, recovery-test results, and corrective-action closure. Reconcile privileged paths with the [approved permissions model](/agency-ad-accounts/agency-ad-account-access-permissions/) and test whether the [suspension-response team](/agency-ad-accounts/agency-account-suspension-response/) can separate security facts from policy facts. Show the client only its relevant detail while agency leadership sees the dependencies created by a [multi-platform account portfolio](/agency-ad-accounts/multi-platform-agency-accounts/). Trends matter more than a single green status; rising orphaned tokens or late reviews should trigger intervention before compromise.
 
 ## Official resources
 
