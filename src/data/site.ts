@@ -174,11 +174,9 @@ export const allSections = [...platformSections, ...guideSections];
 
 export const navItems = [
   { href: '/', label: 'Home' },
-  { href: '/blog/', label: 'Blog' },
+  { href: '/blog/', label: 'Guides' },
   ...platformSections.map(({ slug, shortLabel }) => ({ href: `/${slug}/`, label: shortLabel })),
-  { href: '/appeals-compliance/', label: 'Appeals' },
   { href: '/agency-ad-accounts/', label: 'Agency Accounts' },
-  { href: '/account-operations/', label: 'Operations' },
   { href: '/about/', label: 'About' },
   { href: '/contact/', label: 'Contact' }
 ];

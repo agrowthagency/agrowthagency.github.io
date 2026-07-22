@@ -8,46 +8,41 @@ const description = 'Practical guides on Meta, Google Ads and TikTok Ads account
 <BaseLayout title="Ad Account Desk by AGrowth" description={description}>
   <section class="hero">
     <div class="container hero-grid">
-      <div>
+      <div class="hero-main">
         <p class="eyebrow">Independent advertising operations desk</p>
-        <h1>When ad accounts stop, <span>clarity starts here.</span></h1>
+        <h1>Turn account complexity into <span>clear action.</span></h1>
+        <p class="hero-lede">Practical, policy-led guidance for teams navigating advertising restrictions, compliance and account operations across the world’s leading platforms.</p>
+        <div class="hero-actions">
+          <a class="button button--gradient" href="#platforms">Explore the desk <span aria-hidden="true">→</span></a>
+          <a class="button button--ghost" href="/contact/">Talk to AGrowth</a>
+        </div>
         <div class="hero-meta" aria-label="Website focus">
-          <div>
-            <svg viewBox="0 0 24 24" fill="none"><path d="m5 12 4 4L19 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            Policy-led guidance
-          </div>
-          <div>
-            <svg viewBox="0 0 24 24" fill="none"><path d="m5 12 4 4L19 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            Multi-platform coverage
-          </div>
-          <div>
-            <svg viewBox="0 0 24 24" fill="none"><path d="m5 12 4 4L19 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            Practical account operations
-          </div>
+          <div><svg viewBox="0 0 24 24" fill="none"><path d="m5 12 4 4L19 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Policy-led guidance</div>
+          <div><svg viewBox="0 0 24 24" fill="none"><path d="m5 12 4 4L19 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Multi-platform coverage</div>
+          <div><svg viewBox="0 0 24 24" fill="none"><path d="m5 12 4 4L19 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Practical operations</div>
         </div>
       </div>
 
-      <div class="hero-copy">
-        <p>Practical guidance for advertising account restrictions, suspensions, appeals, compliance, and agency account solutions across Meta, Google Ads, and TikTok Ads.</p>
-        <div class="hero-actions">
-          <a class="button button--dark" href="#platforms">Explore guides <span aria-hidden="true">→</span></a>
-          <a class="button button--ghost" href="/contact/">Contact AGrowth</a>
-        </div>
+      <div class="hero-visual" aria-hidden="true">
+        <div class="hero-orbit hero-orbit--one"></div>
+        <div class="hero-orbit hero-orbit--two"></div>
+        <div class="hero-logo-wrap"><img src="/brand/agrowth-mark.png" alt="" /></div>
+        <div class="hero-float hero-float--top"><span>01</span><p>Policy first</p></div>
+        <div class="hero-float hero-float--bottom"><span>Always on</span><p>Account clarity</p></div>
       </div>
     </div>
   </section>
 
-  <section class="container" aria-label="Account response framework">
+  <section class="container signal-wrap" aria-label="Account response framework">
     <div class="signal-panel">
-      <p class="signal-label">Account response framework</p>
-      <div class="signal-orbit" aria-hidden="true"></div>
+      <div class="signal-brand" aria-hidden="true"><img src="/brand/agrowth-mark.png" alt="" /></div>
+      <p class="signal-label">The AGrowth response framework</p>
       <div class="signal-content">
-        <div class="signal-number">03</div>
-        <p>Three steps to move from an account alert toward an evidence-based response.</p>
+        <div class="signal-heading"><div class="signal-number">03</div><p>Move from an account alert toward an evidence-based response.</p></div>
         <div class="signal-steps">
-          <div class="signal-step"><span>01 · Diagnose the scope</span><span>Observe</span></div>
-          <div class="signal-step"><span>02 · Correct root causes</span><span>Resolve</span></div>
-          <div class="signal-step"><span>03 · Prepare the review</span><span>Respond</span></div>
+          <div class="signal-step"><span>01</span><strong>Diagnose the scope</strong><em>Observe</em></div>
+          <div class="signal-step"><span>02</span><strong>Correct root causes</strong><em>Resolve</em></div>
+          <div class="signal-step"><span>03</span><strong>Prepare the review</strong><em>Respond</em></div>
         </div>
       </div>
     </div>
@@ -56,10 +51,7 @@ const description = 'Practical guides on Meta, Google Ads and TikTok Ads account
   <section class="section section--white" id="platforms">
     <div class="container">
       <div class="section-heading">
-        <div>
-          <p class="eyebrow">Platform desks</p>
-          <h2>Start with the platform.</h2>
-        </div>
+        <div><p class="eyebrow">Platform desks</p><h2>Choose your platform. Find your next move.</h2></div>
         <p>Each platform uses different enforcement surfaces, review paths, and account structures. Choose yours to find the right starting point.</p>
       </div>
       <div class="platform-grid">
@@ -77,21 +69,16 @@ const description = 'Practical guides on Meta, Google Ads and TikTok Ads account
     </div>
   </section>
 
-  <section class="section section--ink">
+  <section class="section section--gradient">
     <div class="container">
       <div class="section-heading">
-        <div>
-          <p class="eyebrow">Beyond one platform</p>
-          <h2>Build durable account operations.</h2>
-        </div>
+        <div><p class="eyebrow">Beyond one platform</p><h2>Build durable account operations.</h2></div>
         <p>Restrictions rarely happen in isolation. Strong documentation, access control, billing hygiene, and provider due diligence matter everywhere.</p>
       </div>
       <div class="topic-strip">
         {guideSections.map((section) => (
           <article class="topic-card">
-            <div class="topic-icon" aria-hidden="true">
-              <svg viewBox="0 0 24 24" fill="none"><path d="M12 3 4.5 6v5.2c0 4.6 3.2 8.8 7.5 9.8 4.3-1 7.5-5.2 7.5-9.8V6L12 3Z" stroke="currentColor" stroke-width="1.7"/><path d="m9 12 2 2 4-5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            </div>
+            <div class="topic-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><path d="M12 3 4.5 6v5.2c0 4.6 3.2 8.8 7.5 9.8 4.3-1 7.5-5.2 7.5-9.8V6L12 3Z" stroke="currentColor" stroke-width="1.7"/><path d="m9 12 2 2 4-5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
             <h3>{section.eyebrow}</h3>
             <p>{section.description}</p>
             <a href={`/${section.slug}/`}>Explore {section.shortLabel} <span aria-hidden="true">→</span></a>
@@ -107,35 +94,20 @@ const description = 'Practical guides on Meta, Google Ads and TikTok Ads account
         <p class="eyebrow">A disciplined response</p>
         <h2>Before you appeal, build the full picture.</h2>
         <p>Fast reactions can create inconsistent records. A structured review helps you separate the visible alert from the underlying business, billing, policy, or security issue.</p>
-        <a class="button button--dark" href="/appeals-compliance/">Appeals & compliance</a>
+        <a class="button button--gradient" href="/appeals-compliance/">Appeals & compliance</a>
       </div>
       <div class="process-list">
-        <article class="process-item">
-          <span class="process-number">01</span>
-          <div><h3>Map the restriction</h3><p>Identify whether enforcement affects an ad, advertiser account, manager, payment profile, business entity, or connected asset.</p></div>
-        </article>
-        <article class="process-item">
-          <span class="process-number">02</span>
-          <div><h3>Preserve the evidence</h3><p>Record notices, timestamps, account IDs, recent changes, billing events, access history, and previous support interactions.</p></div>
-        </article>
-        <article class="process-item">
-          <span class="process-number">03</span>
-          <div><h3>Correct the cause</h3><p>Resolve verifiable policy, security, business information, or payment issues before asking the platform to review again.</p></div>
-        </article>
-        <article class="process-item">
-          <span class="process-number">04</span>
-          <div><h3>Submit a consistent review</h3><p>Explain the issue, remediation, supporting evidence, and preventive controls clearly—without speculation or conflicting claims.</p></div>
-        </article>
+        <article class="process-item"><span class="process-number">01</span><div><h3>Map the restriction</h3><p>Identify whether enforcement affects an ad, advertiser account, manager, payment profile, business entity, or connected asset.</p></div></article>
+        <article class="process-item"><span class="process-number">02</span><div><h3>Preserve the evidence</h3><p>Record notices, timestamps, account IDs, recent changes, billing events, access history, and previous support interactions.</p></div></article>
+        <article class="process-item"><span class="process-number">03</span><div><h3>Correct the cause</h3><p>Resolve verifiable policy, security, business information, or payment issues before asking the platform to review again.</p></div></article>
+        <article class="process-item"><span class="process-number">04</span><div><h3>Submit a consistent review</h3><p>Explain the issue, remediation, supporting evidence, and preventive controls clearly—without speculation or conflicting claims.</p></div></article>
       </div>
     </div>
   </section>
 
   <section class="cta-band">
     <div class="container cta-inner">
-      <div>
-        <h2>Need a clearer path through an account issue?</h2>
-        <p>Connect with AGrowth about advertising account operations and agency account solutions.</p>
-      </div>
+      <div><p class="cta-kicker">Let’s build clarity</p><h2>Need a clearer path through an account issue?</h2><p>Connect with AGrowth about advertising account operations and agency account solutions.</p></div>
       <a class="button button--light" href="/contact/">Start a conversation <span aria-hidden="true">→</span></a>
     </div>
   </section>

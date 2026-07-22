@@ -7,11 +7,9 @@ const isActive = (href: string) => href === '/' ? currentPath === '/' : currentP
 
 <header class="site-header">
   <div class="container header-inner">
-    <a class="brand" href="/" aria-label="Ad Account Desk home">
-      <span class="brand-mark" aria-hidden="true">
-        <svg viewBox="0 0 24 24" fill="none"><path d="M4 19 10.5 5h3L20 19h-4.2l-1-2.7H9.2L8.1 19H4Zm6.3-6h3.4L12 8.5 10.3 13Z" fill="currentColor"/></svg>
-      </span>
-      <span>Ad Account Desk <small>by AGrowth</small></span>
+    <a class="brand" href="/" aria-label="AGrowth home">
+      <span class="brand-mark" aria-hidden="true"><img src="/brand/agrowth-mark.png" alt="" /></span>
+      <span class="brand-name">AGrowth <small>Ad Account Desk</small></span>
     </a>
 
     <nav class="nav" id="primary-navigation" aria-label="Primary navigation" data-open="false">
@@ -21,6 +19,7 @@ const isActive = (href: string) => href === '/' ? currentPath === '/' : currentP
       <a class="nav-search" href="/search/" aria-label="Search guides">
         <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="11" cy="11" r="6.5" stroke="currentColor" stroke-width="1.8"/><path d="m16 16 4 4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
       </a>
+      <a class="nav-cta" href="/contact/">Let’s talk <span aria-hidden="true">↗</span></a>
     </nav>
 
     <button class="menu-toggle" type="button" aria-controls="primary-navigation" aria-expanded="false" aria-label="Open menu">
