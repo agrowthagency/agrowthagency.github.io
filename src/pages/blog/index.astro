@@ -7,12 +7,12 @@ const siloOrder: SiloSlug[] = ['meta-ads', 'google-ads', 'tiktok-ads', 'appeals-
 const allArticles = await getCollection('articles');
 ---
 
-<BaseLayout title="Advertising Account Guides" description="Browse practical guides about Meta, Google Ads, TikTok Ads, appeals, compliance, account operations, and agency ad accounts.">
+<BaseLayout title="Ad Account Restriction & Operations Guides" description="Find policy-led guides for Meta, Google Ads, and TikTok Ads restrictions, suspensions, reviews, appeals, and preventive account operations.">
   <section class="page-hero blog-hero">
     <div class="container page-hero-inner">
       <p class="eyebrow">Knowledge center · {allArticles.length} guides</p>
-      <h1>Advertising account operations, organized.</h1>
-      <p class="lede">Browse practical, policy-led articles by platform and operating concern. Each guide is part of a focused content silo so the next relevant step is always close.</p>
+      <h1>Find the guide that matches the account issue.</h1>
+      <p class="lede">Start with the platform, notice, or affected asset behind a restriction, suspension, or review. Then use the appeals and operations guides to prepare evidence and reduce repeat issues.</p>
       <div class="silo-jump" aria-label="Jump to guide category">
         {siloOrder.map((silo) => <a href={`#${silo}`}>{siloInfo[silo].name}</a>)}
       </div>

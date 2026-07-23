@@ -54,7 +54,7 @@ const structuredData = {
         <a href="/">Home</a><span aria-hidden="true">/</span>
         <span aria-current="page">{section.eyebrow}</span>
       </nav>
-      <p class="eyebrow">{section.eyebrow} desk</p>
+      <p class="eyebrow">{section.eyebrow} · Decision paths &amp; preventive controls</p>
       <h1>{section.title}</h1>
       <p class="lede">{section.description}</p>
       <div class="page-hero-note">
@@ -87,10 +87,10 @@ const structuredData = {
     <div class="container">
       <div class="section-heading">
         <div>
-          <p class="eyebrow">Core topics</p>
-          <h2>What this desk covers.</h2>
+          <p class="eyebrow">Choose the affected area</p>
+          <h2>Start with the issue you can verify.</h2>
         </div>
-        <p>Use these focus areas to organize your research and identify which part of the account lifecycle requires attention.</p>
+        <p>Match the guide to the exact notice, affected asset, account change, or operating control that needs attention.</p>
       </div>
       <div class="topic-list">
         {articles.map((article) => (
@@ -109,17 +109,17 @@ const structuredData = {
   <section class="section">
     <div class="container info-layout">
       <div class="info-aside">
-        <p class="eyebrow">Working principle</p>
+        <p class="eyebrow">Platform authority</p>
         <p>Account enforcement decisions belong to each advertising platform. No independent provider can guarantee reinstatement or immunity from policy enforcement.</p>
       </div>
       <div class="prose">
-        <h2>Use evidence, not assumptions.</h2>
+        <h2>Diagnose first. Change the account second.</h2>
         <p>Begin with the exact platform notice and the assets it names. Compare that notice against recent account changes, access events, billing activity, business verification, landing pages, and campaign history.</p>
-        <h3>Keep the account record consistent</h3>
+        <h3>Keep the operating record consistent</h3>
         <p>Business details, payment ownership, domain information, identity documents, and support explanations should describe the same legitimate operation. Inconsistency can make review more difficult.</p>
-        <h3>Prioritize prevention</h3>
+        <h3>Prevent the next issue</h3>
         <p>Document account ownership, use role-based access, protect administrator identities, review payment methods, and track material changes. These controls support both daily operations and future reviews.</p>
-        <a class="button button--dark" href="/contact/">Discuss account operations</a>
+        <a class="button button--dark" href="/contact/">Discuss a restriction or account operation</a>
       </div>
     </div>
   </section>
@@ -130,7 +130,7 @@ const structuredData = {
         <div>
           <p class="eyebrow">Common questions</p>
           <h2>{section.shortLabel} FAQ.</h2>
-          <p>Short answers for choosing the correct diagnosis and review path.</p>
+          <p>Short answers for identifying the affected asset, diagnosis, and appropriate review path.</p>
         </div>
         <div class="faq-list">
           {faq.map((item) => (
