@@ -4,16 +4,35 @@ import { platformSections, guideSections } from '../data/site';
 import { companyMetrics, companyProfileUrl } from '../data/authority';
 import '../styles/home.css';
 
-const description = 'Practical guides on Meta, Google Ads and TikTok Ads account restrictions, suspensions, appeals, compliance and agency account operations.';
+const description = 'Policy-led guidance for Meta, Google Ads and TikTok Ads account restrictions, suspensions, reviews and appeals, with operational controls to prevent repeat issues.';
 const platformCodes: Record<string, string> = { meta: 'M', google: 'G', tiktok: 'T' };
 const platformSignals: Record<string, string[]> = {
   meta: ['Restrictions', 'Business assets', 'Account review'],
   google: ['Suspensions', 'Verification', 'Reinstatement'],
   tiktok: ['Account health', 'Business Center', 'Appeals']
 };
+const homepagePlatformTitles: Record<string, string> = {
+  'meta-ads': 'Diagnose Meta Ads restrictions and account reviews',
+  'google-ads': 'Diagnose Google Ads suspensions and reinstatement paths',
+  'tiktok-ads': 'Diagnose TikTok Ads and Business Center restrictions'
+};
+const homepageGuideCopy: Record<string, { title: string; description: string }> = {
+  'appeals-compliance': {
+    title: 'Prepare appeals that explain the issue, correction and evidence',
+    description: 'Turn policy findings, remediation and supporting records into a clear, consistent review submission.'
+  },
+  'agency-ad-accounts': {
+    title: 'Set clear ownership and controls for agency ad accounts',
+    description: 'Evaluate providers, permissions, billing, verification, incident response and account portability before client spend is at risk.'
+  },
+  'account-operations': {
+    title: 'Prevent avoidable restrictions with reliable account operations',
+    description: 'Standardize security, billing, access, verification and monitoring across every advertising account.'
+  }
+};
 ---
 
-<BaseLayout title="Ad Account Desk by AGrowth" description={description} bodyClass="home-page">
+<BaseLayout title="Ad Account Restrictions & Appeals | AGrowth" description={description} bodyClass="home-page">
   <div class="scroll-progress" aria-hidden="true"></div>
   <section class="story-hero" data-story>
     <div class="story-stage">
@@ -46,7 +65,7 @@ const platformSignals: Record<string, string[]> = {
         </div>
 
         <div class="story-float-card story-float-card--meta" data-story-card data-x="-390" data-y="-168" data-r="-7">
-          <span><i></i> Meta Ads</span><strong>Restriction mapped</strong><small>Decision surface identified</small>
+          <span><i></i> Meta Ads</span><strong>Restriction mapped</strong><small>Affected asset identified</small>
         </div>
         <div class="story-float-card story-float-card--google" data-story-card data-x="370" data-y="-154" data-r="6">
           <span><i></i> Google Ads</span><strong>Evidence preserved</strong><small>Account history organized</small>
@@ -55,7 +74,7 @@ const platformSignals: Record<string, string[]> = {
           <span><i></i> TikTok Ads</span><strong>Root cause reviewed</strong><small>Policy · Billing · Security</small>
         </div>
         <div class="story-float-card story-float-card--review" data-story-card data-x="365" data-y="188" data-r="-5">
-          <span><i></i> Review path</span><strong>Response ready</strong><small>Clear. Consistent. Verifiable.</small>
+          <span><i></i> Review path</span><strong>Review package ready</strong><small>Clear. Consistent. Verifiable.</small>
         </div>
 
         <svg class="story-sketch" viewBox="0 0 180 120" fill="none">
@@ -64,10 +83,10 @@ const platformSignals: Record<string, string[]> = {
       </div>
 
       <div class="story-resolution">
-        <p>One disciplined system</p>
+        <p>A disciplined response process</p>
         <h2>Diagnose. Resolve. <em>Respond.</em></h2>
         <div class="story-actions">
-          <a class="home-button home-button--primary" href="#platforms"><span>Find your platform</span><b aria-hidden="true">↗</b></a>
+          <a class="home-button home-button--primary" href="#platforms"><span>Choose your platform</span><b aria-hidden="true">↗</b></a>
           <a class="home-button home-button--text" href="/contact/"><span>Talk to AGrowth</span><b aria-hidden="true">→</b></a>
         </div>
       </div>
@@ -87,8 +106,8 @@ const platformSignals: Record<string, string[]> = {
 
   <div class="signal-ticker" aria-hidden="true">
     <div class="signal-ticker__track">
-      <span>Meta Ads</span><i></i><span>Google Ads</span><i></i><span>TikTok Ads</span><i></i><span>Policy</span><i></i><span>Appeals</span><i></i><span>Account Operations</span><i></i>
-      <span>Meta Ads</span><i></i><span>Google Ads</span><i></i><span>TikTok Ads</span><i></i><span>Policy</span><i></i><span>Appeals</span><i></i><span>Account Operations</span><i></i>
+      <span>Meta Ads</span><i></i><span>Google Ads</span><i></i><span>TikTok Ads</span><i></i><span>Restrictions</span><i></i><span>Suspensions</span><i></i><span>Appeals</span><i></i><span>Preventive Operations</span><i></i>
+      <span>Meta Ads</span><i></i><span>Google Ads</span><i></i><span>TikTok Ads</span><i></i><span>Restrictions</span><i></i><span>Suspensions</span><i></i><span>Appeals</span><i></i><span>Preventive Operations</span><i></i>
     </div>
   </div>
 
@@ -97,12 +116,12 @@ const platformSignals: Record<string, string[]> = {
     <div class="container">
       <header class="home-section-head">
         <div>
-          <p class="home-kicker home-kicker--dark"><span></span> Choose your entry point</p>
-          <h2>Every platform speaks a<br />different <em>language.</em></h2>
+          <p class="home-kicker home-kicker--dark"><span></span> Meta, Google &amp; TikTok decision paths</p>
+          <h2>Identify the decision.<br />Follow the right <em>review path.</em></h2>
         </div>
         <div class="section-sidecopy">
           <span>01—03</span>
-          <p>Start with the platform that issued the decision. We’ll help you identify the surface, preserve the evidence and follow the right review path.</p>
+          <p>Start with the platform that restricted, suspended or placed the account under review. Identify the affected asset, preserve the evidence and follow that platform’s review path.</p>
         </div>
       </header>
 
@@ -113,7 +132,7 @@ const platformSignals: Record<string, string[]> = {
           ))}
         </div>
         <div class="platform-progress__rail"><i data-platform-meter></i></div>
-        <small>Scroll to compare</small>
+        <small>Compare review paths</small>
       </div>
 
       <div class="platform-viewport">
@@ -126,7 +145,7 @@ const platformSignals: Record<string, string[]> = {
             </div>
             <div class="platform-panel__body">
               <p>{section.eyebrow}</p>
-              <h3>{section.title}</h3>
+              <h3>{homepagePlatformTitles[section.slug] ?? section.title}</h3>
               <ul aria-label="Coverage areas">
                 {platformSignals[section.accent].map((signal) => <li>{signal}</li>)}
               </ul>
@@ -146,9 +165,9 @@ const platformSignals: Record<string, string[]> = {
   <section class="response-system" data-response-system>
     <div class="container response-system__grid">
       <div class="response-intro">
-        <p class="home-kicker"><span></span> The AGrowth response system</p>
-        <h2>Clarity is a<br /><em>competitive edge.</em></h2>
-        <p>A restriction is an operating problem before it is an appeal problem. Build the full picture, correct what can be verified, then respond with consistency.</p>
+        <p class="home-kicker"><span></span> The AGrowth response process</p>
+        <h2>Handle the restriction<br /><em>in the right order.</em></h2>
+        <p>Treat a restriction as an operating problem before an appeal task. Establish what changed and where, correct only verified causes, then submit a consistent evidence record.</p>
         <a href="/appeals-compliance/">Explore appeals & compliance <span aria-hidden="true">↗</span></a>
       </div>
 
@@ -159,11 +178,11 @@ const platformSignals: Record<string, string[]> = {
         </article>
         <article data-response-step>
           <div class="step-orbit"><span>02</span><i></i></div>
-          <div><p>Resolve</p><h3>Correct the cause</h3><span>Review policy, security, identity and billing signals before making account changes.</span></div>
+          <div><p>Resolve</p><h3>Correct the root cause</h3><span>Check policy, security, identity, billing and destination signals before changing the account.</span></div>
         </article>
         <article data-response-step>
           <div class="step-orbit"><span>03</span><i></i></div>
-          <div><p>Respond</p><h3>Prepare the review</h3><span>Submit a clear record of the issue, remediation, evidence and preventive controls.</span></div>
+          <div><p>Respond</p><h3>Prepare the review</h3><span>Present the issue, corrective action, supporting evidence and controls to prevent recurrence.</span></div>
         </article>
       </div>
     </div>
@@ -173,8 +192,8 @@ const platformSignals: Record<string, string[]> = {
     <div class="container">
       <header class="home-section-head home-section-head--compact">
         <div>
-          <p class="home-kicker home-kicker--dark"><span></span> Beyond a single incident</p>
-          <h2>Build operations that<br /><em>hold up under pressure.</em></h2>
+          <p class="home-kicker home-kicker--dark"><span></span> Prevent repeat issues</p>
+          <h2>Build controls that reduce<br /><em>repeat restrictions.</em></h2>
         </div>
         <a class="view-all" href="/blog/">View all guides <span aria-hidden="true">↗</span></a>
       </header>
@@ -190,8 +209,8 @@ const platformSignals: Record<string, string[]> = {
             </div>
             <div>
               <p>{section.eyebrow}</p>
-              <h3>{section.title}</h3>
-              <span>{section.description}</span>
+              <h3>{homepageGuideCopy[section.slug]?.title ?? section.title}</h3>
+              <span>{homepageGuideCopy[section.slug]?.description ?? section.description}</span>
             </div>
             <b aria-hidden="true">↗</b>
           </a>
@@ -204,12 +223,12 @@ const platformSignals: Record<string, string[]> = {
     <div class="container home-cta__inner">
       <div class="cta-seal" aria-hidden="true"><span>AG</span><i></i><b>GROWTH WITHOUT GUESSWORK</b></div>
       <div class="home-cta__copy">
-        <p class="home-kicker"><span></span> Let’s move forward</p>
-        <h2>Turn account friction<br />into a <em>clear next move.</em></h2>
+        <p class="home-kicker"><span></span> Before you change the account</p>
+        <h2>Make the next move<br /><em>with a clear record.</em></h2>
       </div>
       <div class="home-cta__action">
-        <p>Connect with AGrowth about advertising account operations and agency account solutions.</p>
-        <a class="home-button home-button--light" href="/contact/"><span>Start a conversation</span><b aria-hidden="true">↗</b></a>
+        <p>Talk to AGrowth about a current restriction, an upcoming review or the controls needed to prevent repeat issues.</p>
+        <a class="home-button home-button--light" href="/contact/"><span>Discuss your account</span><b aria-hidden="true">↗</b></a>
       </div>
     </div>
   </section>
