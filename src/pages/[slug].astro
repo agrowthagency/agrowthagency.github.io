@@ -47,19 +47,30 @@ const structuredData = {
 };
 ---
 
-<BaseLayout title={section.eyebrow} description={section.description} structuredData={structuredData}>
-  <section class="page-hero">
-    <div class="container page-hero-inner">
+<BaseLayout title={section.eyebrow} description={section.description} structuredData={structuredData} bodyClass="silo-page">
+  <section class="page-hero silo-hero">
+    <div class="container">
       <nav class="page-breadcrumbs" aria-label="Breadcrumb">
         <a href="/">Home</a><span aria-hidden="true">/</span>
         <span aria-current="page">{section.eyebrow}</span>
       </nav>
-      <p class="eyebrow">{section.eyebrow} · Decision paths &amp; preventive controls</p>
-      <h1>{section.title}</h1>
-      <p class="lede">{section.description}</p>
-      <div class="page-hero-note">
-        <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.8"/><path d="M12 11v5m0-8v.1" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
-        <p>{section.intro}</p>
+      <div class="silo-hero__grid">
+        <div class="silo-hero__copy">
+          <p class="eyebrow">{section.eyebrow} · Decision paths &amp; preventive controls</p>
+          <h1>{section.title}</h1>
+          <p class="lede">{section.description}</p>
+        </div>
+        <aside class="silo-hero__index" aria-label={`${section.eyebrow} guide index`}>
+          <div class="silo-index__head">
+            <span>Guide index</span>
+            <strong>{String(articles.length).padStart(2, '0')}</strong>
+          </div>
+          <p>{section.intro}</p>
+          <div class="silo-index__topics">
+            {articles.slice(0, 3).map((article) => <span>{article.data.topic}</span>)}
+          </div>
+          <a href="#guides">Explore all guides <span aria-hidden="true">↓</span></a>
+        </aside>
       </div>
     </div>
   </section>
@@ -83,7 +94,7 @@ const structuredData = {
     </section>
   )}
 
-  <section class="section section--white">
+  <section class="section section--white silo-guides" id="guides">
     <div class="container">
       <div class="section-heading">
         <div>

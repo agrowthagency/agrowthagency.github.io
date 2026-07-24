@@ -7,12 +7,22 @@ const siloOrder: SiloSlug[] = ['meta-ads', 'google-ads', 'tiktok-ads', 'appeals-
 const allArticles = await getCollection('articles');
 ---
 
-<BaseLayout title="Ad Account Restriction & Operations Guides" description="Find policy-led guides for Meta, Google Ads, and TikTok Ads restrictions, suspensions, reviews, appeals, and preventive account operations.">
+<BaseLayout title="Ad Account Restriction & Operations Guides" description="Find policy-led guides for Meta, Google Ads, and TikTok Ads restrictions, suspensions, reviews, appeals, and preventive account operations." bodyClass="directory-page">
   <section class="page-hero blog-hero">
-    <div class="container page-hero-inner">
-      <p class="eyebrow">Knowledge center · {allArticles.length} guides</p>
-      <h1>Find the guide that matches the account issue.</h1>
-      <p class="lede">Start with the platform, notice, or affected asset behind a restriction, suspension, or review. Then use the appeals and operations guides to prepare evidence and reduce repeat issues.</p>
+    <div class="container">
+      <div class="blog-hero__grid">
+        <div class="blog-hero__copy">
+          <p class="eyebrow">Knowledge center · {allArticles.length} guides</p>
+          <h1>Find the guide that matches the account issue.</h1>
+          <p class="lede">Start with the platform, notice, or affected asset behind a restriction, suspension, or review. Then use the appeals and operations guides to prepare evidence and reduce repeat issues.</p>
+        </div>
+        <aside class="blog-hero__index" aria-label="Knowledge center summary">
+          <span>AG / Knowledge system</span>
+          <strong>{String(allArticles.length).padStart(2, '0')}</strong>
+          <p>Field guides across <b>{siloOrder.length} coverage areas</b>, organized around the decision or operating issue you can verify.</p>
+          <i aria-hidden="true"></i>
+        </aside>
+      </div>
       <div class="silo-jump" aria-label="Jump to guide category">
         {siloOrder.map((silo) => <a href={`#${silo}`}>{siloInfo[silo].name}</a>)}
       </div>
@@ -23,19 +33,22 @@ const allArticles = await getCollection('articles');
     {siloOrder.map((silo, siloIndex) => {
       const articles = allArticles.filter((article) => article.data.silo === silo);
       return (
-        <section class={`section ${siloIndex % 2 ? 'section--white' : ''}`} id={silo}>
+        <section class={`section directory-section ${siloIndex % 2 ? 'section--white' : ''}`} id={silo}>
           <div class="container">
             <div class="directory-heading">
-              <div><span>0{siloIndex + 1}</span><h2>{siloInfo[silo].name}</h2></div>
+              <div><span>0{siloIndex + 1} / {String(articles.length).padStart(2, '0')} guides</span><h2>{siloInfo[silo].name}</h2></div>
               <p>{siloInfo[silo].description}</p>
             </div>
             <div class="article-card-grid">
-              {articles.map((article) => (
+              {articles.map((article, articleIndex) => (
                 <a class="article-card" href={articleUrl(article.id)}>
-                  <span class="article-card-tag">{article.data.topic}</span>
+                  <div class="article-card-top">
+                    <span class="article-card-tag">{article.data.topic}</span>
+                    <span class="article-card-index">{String(articleIndex + 1).padStart(2, '0')}</span>
+                  </div>
                   <h3>{article.data.title}</h3>
                   <p>{article.data.description}</p>
-                  <span class="article-card-link">Read guide <span aria-hidden="true">→</span></span>
+                  <span class="article-card-link">Read guide <span aria-hidden="true">↗</span></span>
                 </a>
               ))}
             </div>

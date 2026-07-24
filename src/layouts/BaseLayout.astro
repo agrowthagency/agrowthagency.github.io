@@ -310,7 +310,7 @@ const siteSchema = {
           };
 
           const heroItems = Array.from(document.querySelectorAll<HTMLElement>(
-            '.page-hero-inner > *, .article-hero .breadcrumbs, .article-meta-card, .search-shell > .container > *'
+            '.page-hero-inner > *, .silo-hero .page-breadcrumbs, .silo-hero__grid > *, .blog-hero__grid > *, .blog-hero .silo-jump, .article-hero .breadcrumbs, .article-hero-copy, .article-meta-card, .search-shell > .container > *'
           ));
           heroItems.forEach((element, index) => prepare(element, index, true));
 
