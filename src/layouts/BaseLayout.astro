@@ -91,6 +91,127 @@ const siteSchema = {
     <Footer />
     <script>
       const page = document.body;
+      const motionPreference = window.matchMedia('(prefers-reduced-motion: reduce)');
+      const finePointer = window.matchMedia('(pointer: fine)');
+
+      /*
+       * Add a restrained inertial layer to desktop wheel input. Touch, keyboard,
+       * nested scroll areas and reduced-motion users retain native scrolling.
+       */
+      if (!motionPreference.matches && finePointer.matches) {
+        const root = document.documentElement;
+        const isHomepage = page.classList.contains('home-page');
+        const responseTime = isHomepage ? 140 : 105;
+        const wheelGain = isHomepage ? .88 : .96;
+        const lineSize = Number.parseFloat(window.getComputedStyle(root).fontSize) * 1.5;
+        let currentPosition = window.scrollY;
+        let targetPosition = window.scrollY;
+        let animationFrame = 0;
+        let previousTime = 0;
+
+        const getMaxScroll = () => Math.max(0, root.scrollHeight - window.innerHeight);
+        const clampScroll = (value: number) => Math.min(Math.max(value, 0), getMaxScroll());
+
+        const hasNestedScrollRoom = (origin: EventTarget | null, delta: number) => {
+          let element = origin instanceof Element ? origin : null;
+          while (element && element !== page && element !== root) {
+            if (element.scrollHeight > element.clientHeight + 1) {
+              const scrollable = /(auto|scroll|overlay)/.test(window.getComputedStyle(element).overflowY);
+              const canMoveUp = delta < 0 && element.scrollTop > 0;
+              const canMoveDown = delta > 0 && element.scrollTop + element.clientHeight < element.scrollHeight - 1;
+              if (scrollable && (canMoveUp || canMoveDown)) return true;
+            }
+            element = element.parentElement;
+          }
+          return false;
+        };
+
+        const stopInertia = () => {
+          if (animationFrame) window.cancelAnimationFrame(animationFrame);
+          animationFrame = 0;
+          previousTime = 0;
+          currentPosition = window.scrollY;
+          targetPosition = window.scrollY;
+          root.classList.remove('is-inertia-scrolling');
+        };
+
+        const renderInertia = (time: number) => {
+          const elapsed = previousTime ? Math.min(time - previousTime, 34) : 16.67;
+          previousTime = time;
+          targetPosition = clampScroll(targetPosition);
+          const blend = 1 - Math.exp(-elapsed / responseTime);
+          currentPosition += (targetPosition - currentPosition) * blend;
+
+          if (Math.abs(targetPosition - currentPosition) < .45) {
+            currentPosition = targetPosition;
+            window.scrollTo(0, currentPosition);
+            stopInertia();
+            return;
+          }
+
+          window.scrollTo(0, currentPosition);
+          animationFrame = window.requestAnimationFrame(renderInertia);
+        };
+
+        const onWheel = (event: WheelEvent) => {
+          if (
+            motionPreference.matches ||
+            !finePointer.matches ||
+            window.innerWidth <= 768 ||
+            event.defaultPrevented ||
+            event.ctrlKey ||
+            event.metaKey ||
+            event.shiftKey ||
+            event.deltaY === 0 ||
+            Math.abs(event.deltaX) > Math.abs(event.deltaY) ||
+            hasNestedScrollRoom(event.target, event.deltaY)
+          ) return;
+
+          const interactiveTarget = event.target instanceof Element
+            ? event.target.closest('select, textarea, [contenteditable="true"]')
+            : null;
+          if (interactiveTarget) return;
+
+          event.preventDefault();
+
+          if (!animationFrame) {
+            currentPosition = window.scrollY;
+            targetPosition = window.scrollY;
+          }
+
+          const modeScale = event.deltaMode === WheelEvent.DOM_DELTA_LINE
+            ? lineSize
+            : event.deltaMode === WheelEvent.DOM_DELTA_PAGE
+              ? window.innerHeight
+              : 1;
+          const normalizedDelta = Math.min(Math.max(event.deltaY * modeScale, -260), 260);
+          targetPosition = clampScroll(targetPosition + normalizedDelta * wheelGain);
+          root.classList.add('is-inertia-scrolling');
+
+          if (!animationFrame) animationFrame = window.requestAnimationFrame(renderInertia);
+        };
+
+        window.addEventListener('wheel', onWheel, { passive: false });
+        window.addEventListener('resize', () => {
+          targetPosition = clampScroll(targetPosition);
+        }, { passive: true });
+        window.addEventListener('scroll', () => {
+          if (!animationFrame) {
+            currentPosition = window.scrollY;
+            targetPosition = window.scrollY;
+            return;
+          }
+
+          if (Math.abs(window.scrollY - currentPosition) > 3) stopInertia();
+        }, { passive: true });
+        window.addEventListener('keydown', stopInertia, { capture: true });
+        window.addEventListener('pointerdown', stopInertia, { capture: true });
+        window.addEventListener('blur', stopInertia);
+        document.addEventListener('visibilitychange', () => {
+          if (document.hidden) stopInertia();
+        });
+      }
+
       if (page.classList.contains('inner-page')) {
         const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
         const progress = document.querySelector<HTMLElement>('.inner-scroll-progress');
