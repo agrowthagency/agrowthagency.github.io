@@ -5,36 +5,87 @@ const currentPath = Astro.url.pathname;
 const isActive = (href: string) => href === '/' ? currentPath === '/' : currentPath.startsWith(href);
 ---
 
-<header class="site-header">
+<header class="site-header" data-site-header>
+  <div class="header-backdrop" aria-hidden="true"><i></i><span></span></div>
   <div class="container header-inner">
     <a class="brand" href="/" aria-label="AGrowth home">
-      <span class="brand-mark" aria-hidden="true"><img src="/brand/agrowth-mark-96.webp" alt="" width="96" height="96" /></span>
+      <span class="brand-mark" aria-hidden="true">
+        <i class="brand-orbit"></i>
+        <img src="/brand/agrowth-mark-96.webp" alt="" width="96" height="96" />
+      </span>
       <span class="brand-name">AGrowth <small>Ad Account Desk</small></span>
     </a>
 
     <nav class="nav" id="primary-navigation" aria-label="Primary navigation" data-open="false">
+      <span class="nav-indicator" aria-hidden="true"></span>
       {navItems.map((item) => (
-        <a href={item.href} aria-current={isActive(item.href) ? 'page' : undefined}>{item.label}</a>
+        <a data-nav-item href={item.href} aria-current={isActive(item.href) ? 'page' : undefined}>{item.label}</a>
       ))}
       <a class="nav-search" href="/search/" aria-label="Search guides">
         <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="11" cy="11" r="6.5" stroke="currentColor" stroke-width="1.8"/><path d="m16 16 4 4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
       </a>
-      <a class="nav-cta" href="/contact/">Talk to AGrowth <span aria-hidden="true">↗</span></a>
+      <a class="nav-cta" href="/contact/"><span>Talk to AGrowth</span><i aria-hidden="true">↗</i></a>
     </nav>
 
     <button class="menu-toggle" type="button" aria-controls="primary-navigation" aria-expanded="false" aria-label="Open menu">
-      <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      <span aria-hidden="true"></span><span aria-hidden="true"></span>
     </button>
   </div>
+  <div class="header-signal" aria-hidden="true"><i></i></div>
 </header>
 
 <script>
-  const toggle = document.querySelector<HTMLButtonElement>('.menu-toggle');
-  const nav = document.querySelector<HTMLElement>('#primary-navigation');
+  const siteHeader = document.querySelector<HTMLElement>('[data-site-header]');
+  const toggle = siteHeader?.querySelector<HTMLButtonElement>('.menu-toggle');
+  const nav = siteHeader?.querySelector<HTMLElement>('#primary-navigation');
+  const navItems = Array.from(nav?.querySelectorAll<HTMLElement>('[data-nav-item]') ?? []);
+  const activeItem = navItems.find((item) => item.getAttribute('aria-current') === 'page');
+
+  const moveIndicator = (item?: HTMLElement) => {
+    if (!nav || !item || window.innerWidth <= 1120) {
+      nav?.style.setProperty('--nav-indicator-opacity', '0');
+      return;
+    }
+    const navRect = nav.getBoundingClientRect();
+    const itemRect = item.getBoundingClientRect();
+    nav.style.setProperty('--nav-indicator-x', `${itemRect.left - navRect.left}px`);
+    nav.style.setProperty('--nav-indicator-width', `${itemRect.width}px`);
+    nav.style.setProperty('--nav-indicator-opacity', '1');
+  };
+
+  navItems.forEach((item) => item.addEventListener('pointerenter', () => moveIndicator(item)));
+  nav?.addEventListener('pointerleave', () => moveIndicator(activeItem));
+  window.addEventListener('resize', () => moveIndicator(activeItem), { passive: true });
+  window.requestAnimationFrame(() => moveIndicator(activeItem));
+
+  let headerPointerFrame = 0;
+  let headerPointerX = 0;
+  siteHeader?.addEventListener('pointermove', (event) => {
+    headerPointerX = event.clientX;
+    if (headerPointerFrame) return;
+    headerPointerFrame = window.requestAnimationFrame(() => {
+      const rect = siteHeader.getBoundingClientRect();
+      siteHeader.style.setProperty('--header-pointer-x', `${headerPointerX - rect.left}px`);
+      headerPointerFrame = 0;
+    });
+  });
+
+  const closeMenu = () => {
+    toggle?.setAttribute('aria-expanded', 'false');
+    toggle?.setAttribute('aria-label', 'Open menu');
+    if (nav) nav.dataset.open = 'false';
+    document.body.classList.remove('menu-open');
+  };
+
   toggle?.addEventListener('click', () => {
     const open = toggle.getAttribute('aria-expanded') === 'true';
     toggle.setAttribute('aria-expanded', String(!open));
     toggle.setAttribute('aria-label', open ? 'Open menu' : 'Close menu');
     if (nav) nav.dataset.open = String(!open);
+    document.body.classList.toggle('menu-open', !open);
+  });
+  nav?.querySelectorAll('a').forEach((link) => link.addEventListener('click', closeMenu));
+  document.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape') closeMenu();
   });
 </script>

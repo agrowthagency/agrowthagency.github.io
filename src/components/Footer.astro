@@ -3,25 +3,56 @@ import { platformSections } from '../data/site';
 const year = new Date().getFullYear();
 ---
 
-<footer class="site-footer">
+<footer class="site-footer" id="site-footer" data-site-footer>
+  <div class="footer-ambient" aria-hidden="true"><i></i><i></i><span></span></div>
+  <div class="footer-marquee" aria-hidden="true">
+    <div>
+      <span>Policy-led diagnosis</span><i></i><span>Evidence-based appeals</span><i></i><span>Clear ownership</span><i></i><span>Reliable operations</span><i></i>
+      <span>Policy-led diagnosis</span><i></i><span>Evidence-based appeals</span><i></i><span>Clear ownership</span><i></i><span>Reliable operations</span><i></i>
+    </div>
+  </div>
   <div class="container">
+    <section class="footer-lead" aria-labelledby="footer-heading">
+      <div class="footer-emblem" aria-hidden="true">
+        <div class="footer-emblem__orbit">
+          <i></i><i></i>
+          <img src="/brand/agrowth-mark-96.webp" alt="" width="96" height="96" loading="lazy" decoding="async" />
+        </div>
+        <span><i></i> AG / Desk online</span>
+      </div>
+      <div class="footer-lead__copy">
+        <p>Growth without guesswork</p>
+        <h2 id="footer-heading">Operate with clarity.<br /><em>Scale with confidence.</em></h2>
+      </div>
+      <a class="footer-contact" href="/contact/">
+        <span>Talk to AGrowth<small>Discuss your account</small></span>
+        <i aria-hidden="true">↗</i>
+      </a>
+    </section>
+
     <div class="footer-grid">
-      <div>
+      <div class="footer-brand-panel">
         <a class="brand" href="/">
-          <span class="brand-mark" aria-hidden="true"><img src="/brand/agrowth-mark-96.webp" alt="" width="96" height="96" loading="lazy" decoding="async" /></span>
+          <span class="brand-mark" aria-hidden="true">
+            <i class="brand-orbit"></i>
+            <img src="/brand/agrowth-mark-96.webp" alt="" width="96" height="96" loading="lazy" decoding="async" />
+          </span>
           <span class="brand-name">AGrowth <small>Ad Account Desk</small></span>
         </a>
         <p class="footer-intro">Policy-led guidance for account restrictions, suspensions, reviews, appeals, and controls that reduce repeat issues.</p>
+        <div class="footer-tags" aria-label="Coverage">
+          <span>Meta</span><span>Google</span><span>TikTok</span>
+        </div>
       </div>
-      <div>
-        <p class="footer-title">Platforms</p>
+      <div class="footer-column">
+        <p class="footer-title"><span>01</span> Platforms</p>
         <div class="footer-links">
           {platformSections.map((item) => <a href={`/${item.slug}/`}>{item.eyebrow}</a>)}
           <a href="/appeals-compliance/">Appeals & Compliance</a>
         </div>
       </div>
-      <div>
-        <p class="footer-title">AGrowth</p>
+      <div class="footer-column">
+        <p class="footer-title"><span>02</span> AGrowth</p>
         <div class="footer-links">
           <a href="/blog/">All guides</a>
           <a href="/about/">About</a>
@@ -33,7 +64,44 @@ const year = new Date().getFullYear();
     </div>
     <div class="footer-bottom">
       <span>© {year} AGrowth. All rights reserved.</span>
-      <span>Independent guidance. Not affiliated with Meta, Google, or TikTok.</span>
+      <span class="footer-bottom__signal"><i></i> Independent guidance</span>
+      <span>Not affiliated with Meta, Google, or TikTok.</span>
     </div>
   </div>
 </footer>
+
+<script>
+  const siteFooter = document.querySelector<HTMLElement>('[data-site-footer]');
+  if (siteFooter) {
+    siteFooter.classList.add('footer-motion-ready');
+    const revealFooter = () => siteFooter.classList.add('is-footer-visible');
+
+    if ('IntersectionObserver' in window) {
+      const observer = new IntersectionObserver((entries) => {
+        if (!entries.some((entry) => entry.isIntersecting)) return;
+        revealFooter();
+        observer.disconnect();
+      }, { threshold: .08 });
+      observer.observe(siteFooter);
+    } else {
+      revealFooter();
+    }
+
+    if (window.matchMedia('(pointer: fine)').matches) {
+      let footerPointerFrame = 0;
+      let footerPointerX = 0;
+      let footerPointerY = 0;
+      siteFooter.addEventListener('pointermove', (event) => {
+        footerPointerX = event.clientX;
+        footerPointerY = event.clientY;
+        if (footerPointerFrame) return;
+        footerPointerFrame = window.requestAnimationFrame(() => {
+          const rect = siteFooter.getBoundingClientRect();
+          siteFooter.style.setProperty('--footer-pointer-x', `${footerPointerX - rect.left}px`);
+          siteFooter.style.setProperty('--footer-pointer-y', `${footerPointerY - rect.top}px`);
+          footerPointerFrame = 0;
+        });
+      });
+    }
+  }
+</script>

@@ -27,20 +27,26 @@
 }
 
 .home-page .site-header {
+  --header-surface: rgba(21, 19, 17, .84);
+  --header-surface-strong: rgba(21, 19, 17, .96);
+  --header-border: rgba(255, 255, 255, .1);
+  --header-ink: #fff;
+  --header-muted: #9a958e;
+  --header-pill: rgba(255,255,255,.075);
+  --header-pill-border: rgba(255,255,255,.1);
   color: #fff;
-  border-bottom-color: rgba(255, 255, 255, .1);
-  background: rgba(21, 19, 17, .88);
-  backdrop-filter: blur(22px) saturate(125%);
-  transition: background 220ms ease, box-shadow 220ms ease, border-color 220ms ease;
+  border: 0;
+  background: transparent;
+  backdrop-filter: none;
 }
 
-.home-page .site-header.is-scrolled { background: rgba(21, 19, 17, .96); border-bottom-color: rgba(238, 138, 51, .22); box-shadow: 0 14px 40px rgba(0,0,0,.18); }
+.home-page .site-header.is-scrolled { background: transparent; box-shadow: none; }
 
 .home-page .site-header .brand { color: #fff; }
 .home-page .site-header .brand small { color: #86817a; }
-.home-page .site-header .nav a { color: #aaa69f; }
-.home-page .site-header .nav a:hover,
-.home-page .site-header .nav a[aria-current="page"] { color: #fff; background: rgba(255, 255, 255, .08); }
+.home-page .site-header .nav > a { color: #aaa69f; }
+.home-page .site-header .nav > a:hover,
+.home-page .site-header .nav > a[aria-current="page"] { color: #fff; background: transparent; }
 .home-page .site-header .nav .nav-cta { color: #fff; background: var(--home-gradient); }
 .home-page .site-header .menu-toggle { color: #fff; }
 .home-page main { overflow: clip; }
@@ -999,11 +1005,13 @@
 .home-button--light b { color: var(--home-orange); background: #312d28; }
 .home-button--light:hover { background: #2a2621; }
 
-.home-page .site-footer { color: #c8c3bb; background: #12100f; }
-.home-page .site-footer::after { background: var(--home-orange); opacity: .18; }
-.home-page .footer-intro,
-.home-page .footer-links a { color: #77736d; }
-.home-page .footer-links a:hover { color: var(--home-orange); }
+.home-page .site-footer {
+  --footer-bg: #12100f;
+  --footer-panel: rgba(255,255,255,.035);
+  --footer-line: rgba(255,255,255,.1);
+  --footer-text: #eeeae3;
+  --footer-muted: #817c75;
+}
 
 .home-page a:focus-visible,
 .home-page button:focus-visible { outline: 3px solid var(--home-lime); outline-offset: 4px; }
