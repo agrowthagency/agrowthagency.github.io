@@ -107,6 +107,7 @@ The generated static website is written to `dist/`. The production build also cr
 ## Content Structure
 
 - `src/data/site.ts` — navigation and silo landing-page data
+- `src/data/seo.ts` — site identity, Organization details, default social image, and Search Console verification
 - `src/content/blog/` — one Markdown file for each article, grouped by silo
 - `src/content.config.ts` — article frontmatter validation schema
 - `src/data/silos.ts` — silo labels, descriptions, and official source groups
@@ -117,6 +118,13 @@ The generated static website is written to `dist/`. The production build also cr
 - `src/pages/about.astro` — About AGrowth
 - `src/pages/contact.astro` — contact page
 - `src/styles/global.css` — design system and responsive styles
+
+## Search Engine Setup
+
+- Google Search Console verification is emitted as a `google-site-verification` meta tag by `BaseLayout.astro`.
+- `@astrojs/sitemap` generates `sitemap-index.xml`, excludes search/error routes, and uses each article's `updatedDate` as its accurate `lastmod`.
+- `public/robots.txt` allows crawling and advertises the production sitemap index.
+- JSON-LD uses `WebSite` and `Organization` on the homepage, a page-specific `WebPage` subtype on every route, `CollectionPage` and `ItemList` on guide directories, and `Article`, `BreadcrumbList`, and visible `FAQPage` data on guide pages.
 
 ## Adding or Editing an Article
 

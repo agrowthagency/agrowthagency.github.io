@@ -54,14 +54,23 @@ const structuredData = {
   '@graph': [
     {
       '@type': 'Article',
+      '@id': `${new URL(url, Astro.site).href}#article`,
       headline: data.title,
       description: data.description,
+      image: [new URL('/brand/agrowth-logo-original.jpg', Astro.site).href],
       datePublished: published,
       dateModified: modified,
-      mainEntityOfPage: new URL(url, Astro.site).href,
-      author: { '@type': 'Organization', name: 'AGrowth', url: new URL('/about/', Astro.site).href },
+      inLanguage: 'en',
+      mainEntityOfPage: { '@id': `${new URL(url, Astro.site).href}#webpage` },
+      author: {
+        '@type': 'Organization',
+        '@id': new URL('/#organization', Astro.site).href,
+        name: 'AGrowth',
+        url: new URL('/about/', Astro.site).href
+      },
       publisher: {
         '@type': 'Organization',
+        '@id': new URL('/#organization', Astro.site).href,
         name: 'AGrowth',
         url: 'https://agrowth.io/',
         logo: { '@type': 'ImageObject', url: new URL('/brand/agrowth-mark-640.webp', Astro.site).href }

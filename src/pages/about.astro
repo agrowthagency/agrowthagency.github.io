@@ -7,6 +7,7 @@ const structuredData = {
   '@graph': [
     {
       '@type': 'Organization',
+      '@id': new URL('/#organization', Astro.site).href,
       name: 'AGrowth',
       url: 'https://agrowth.io/',
       employee: {
@@ -20,14 +21,14 @@ const structuredData = {
       '@type': 'Person',
       name: editorialLead.name,
       jobTitle: editorialLead.role,
-      worksFor: { '@type': 'Organization', name: 'AGrowth', url: 'https://agrowth.io/' },
+      worksFor: { '@id': new URL('/#organization', Astro.site).href },
       url: editorialLead.profileUrl
     }
   ]
 };
 ---
 
-<BaseLayout title="About AGrowth" description="Learn about the AGrowth team and editorial approach behind its advertising account restriction, appeal, compliance, and preventive operations guidance." structuredData={structuredData}>
+<BaseLayout title="About AGrowth" description="Learn about the AGrowth team and editorial approach behind its advertising account restriction, appeal, compliance, and preventive operations guidance." structuredData={structuredData} pageType="AboutPage">
   <section class="page-hero">
     <div class="container page-hero-inner">
       <p class="eyebrow">About AGrowth</p>

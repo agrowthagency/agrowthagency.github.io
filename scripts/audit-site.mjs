@@ -18,6 +18,37 @@ const articleOutputs = articles.map((file) => {
   const route = relative(content, file).replaceAll('\\', '/').replace(/\.md$/, '');
   return join(dist, ...route.split('/'), 'index.html');
 });
+const homepagePath = join(dist, 'index.html');
+const homepage = readFileSync(homepagePath, 'utf8');
+const sitemapIndexPath = join(dist, 'sitemap-index.xml');
+const sitemapPath = join(dist, 'sitemap-0.xml');
+const robotsPath = join(dist, 'robots.txt');
+
+if (!homepage.includes('<meta name="google-site-verification" content="04XDXQcLkTzTa5RO50TCZHQTbMoeG-XNgK1j15-2xhI">')) {
+  failures.push('Missing or incorrect Google Search Console verification meta tag');
+}
+if (!homepage.includes('"@type":"WebSite"') || !homepage.includes('"@type":"Organization"') || !homepage.includes('"@type":"WebPage"')) {
+  failures.push('Incomplete homepage WebSite, Organization, or WebPage schema');
+}
+
+if (!existsSync(sitemapIndexPath) || !existsSync(sitemapPath)) {
+  failures.push('Missing generated XML sitemap files');
+} else {
+  const sitemap = readFileSync(sitemapPath, 'utf8');
+  if (sitemap.includes('/search/') || sitemap.includes('/404.html') || sitemap.includes('/404/')) {
+    failures.push('Noindex or error routes are present in the XML sitemap');
+  }
+  for (const file of articles) {
+    const route = relative(content, file).replaceAll('\\', '/').replace(/\.md$/, '/');
+    if (!sitemap.includes(`<loc>https://agrowthagency.github.io/${route}</loc><lastmod>`)) {
+      failures.push(`Missing sitemap lastmod for article: /${route}`);
+    }
+  }
+}
+
+if (!existsSync(robotsPath) || !readFileSync(robotsPath, 'utf8').includes('Sitemap: https://agrowthagency.github.io/sitemap-index.xml')) {
+  failures.push('robots.txt does not advertise the production sitemap index');
+}
 
 for (const output of articleOutputs) {
   if (!existsSync(output)) {
@@ -40,6 +71,9 @@ for (const output of articleOutputs) {
 const internalTargets = new Set();
 for (const file of htmlFiles) {
   const html = readFileSync(file, 'utf8');
+  if (file !== homepagePath && html.includes('"@type":"WebSite"')) {
+    failures.push(`WebSite schema must only appear on the homepage: ${relative(root, file)}`);
+  }
   const schemaBlocks = [...html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)];
   if (schemaBlocks.length === 0) failures.push(`Missing JSON-LD: ${relative(root, file)}`);
   for (const [, schema] of schemaBlocks) {
