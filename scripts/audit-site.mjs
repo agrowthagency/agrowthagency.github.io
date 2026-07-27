@@ -70,6 +70,8 @@ for (const output of articleOutputs) {
 
 const internalTargets = new Set();
 for (const file of htmlFiles) {
+  const outputPath = relative(dist, file).replaceAll('\\', '/');
+  if (/^google[a-z0-9]+\.html$/i.test(outputPath)) continue;
   const html = readFileSync(file, 'utf8');
   if (file !== homepagePath && html.includes('"@type":"WebSite"')) {
     failures.push(`WebSite schema must only appear on the homepage: ${relative(root, file)}`);
