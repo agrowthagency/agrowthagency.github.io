@@ -2,35 +2,58 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { companyMetrics, companyProfileUrl, editorialLead } from '../data/authority';
 
+const pageUrl = new URL('/about/', Astro.site).href;
+const organizationId = new URL('/#organization', Astro.site).href;
+const personId = `${editorialLead.profileUrl}#person`;
 const structuredData = {
   '@context': 'https://schema.org',
   '@graph': [
     {
       '@type': 'Organization',
-      '@id': new URL('/#organization', Astro.site).href,
+      '@id': organizationId,
       name: 'AGrowth',
       url: 'https://agrowth.io/',
+      logo: {
+        '@type': 'ImageObject',
+        url: new URL('/brand/agrowth-mark-640.webp', Astro.site).href,
+        width: 640,
+        height: 640
+      },
+      sameAs: [
+        'https://agrowth.io/',
+        'https://github.com/agrowthagency'
+      ],
       employee: {
-        '@type': 'Person',
-        name: editorialLead.name,
-        jobTitle: editorialLead.role,
-        url: editorialLead.profileUrl
+        '@id': personId
       }
     },
     {
       '@type': 'Person',
+      '@id': personId,
       name: editorialLead.name,
       jobTitle: editorialLead.role,
-      worksFor: { '@id': new URL('/#organization', Astro.site).href },
+      worksFor: { '@id': organizationId },
       url: editorialLead.profileUrl
+    },
+    {
+      '@type': 'BreadcrumbList',
+      '@id': `${pageUrl}#breadcrumb`,
+      itemListElement: [
+        { '@type': 'ListItem', position: 1, name: 'Home', item: new URL('/', Astro.site).href },
+        { '@type': 'ListItem', position: 2, name: 'About AGrowth', item: pageUrl }
+      ]
     }
   ]
 };
 ---
 
-<BaseLayout title="About AGrowth" description="Learn about the AGrowth team and editorial approach behind its advertising account restriction, appeal, compliance, and preventive operations guidance." structuredData={structuredData} pageType="AboutPage">
+<BaseLayout title="About AGrowth" description="Learn about the AGrowth team and editorial approach behind its advertising account restriction, appeal, compliance, and preventive operations guidance." structuredData={structuredData} pageType="AboutPage" mainEntityId={organizationId}>
   <section class="page-hero">
     <div class="container page-hero-inner">
+      <nav class="page-breadcrumbs" aria-label="Breadcrumb">
+        <a href="/">Home</a><span aria-hidden="true">/</span>
+        <span aria-current="page">About AGrowth</span>
+      </nav>
       <p class="eyebrow">About AGrowth</p>
       <h1>How AGrowth approaches restrictions, appeals, and account operations.</h1>
       <p class="lede">The AGrowth team organizes platform notices, affected assets, corrective actions, appeal evidence, and preventive controls into practical paths for Meta, Google, and TikTok advertisers.</p>

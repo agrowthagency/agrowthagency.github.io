@@ -46,8 +46,8 @@ if (!existsSync(sitemapIndexPath) || !existsSync(sitemapPath)) {
   }
 }
 
-if (!existsSync(robotsPath) || !readFileSync(robotsPath, 'utf8').includes('Sitemap: https://agrowthagency.github.io/sitemap-index.xml')) {
-  failures.push('robots.txt does not advertise the production sitemap index');
+if (!existsSync(robotsPath) || !readFileSync(robotsPath, 'utf8').includes('Sitemap: https://agrowthagency.github.io/sitemap.xml')) {
+  failures.push('robots.txt does not advertise the production sitemap');
 }
 
 for (const output of articleOutputs) {
@@ -105,6 +105,23 @@ for (const slug of ['meta-ads', 'google-ads', 'tiktok-ads']) {
   if (!html.includes('desk-faq-section') || !html.includes('"@type":"FAQPage"')) {
     failures.push(`Missing visible FAQ or FAQ schema: /${slug}/`);
   }
+}
+
+for (const slug of ['about', 'contact']) {
+  const html = readFileSync(join(dist, slug, 'index.html'), 'utf8');
+  if (!html.includes('class="page-breadcrumbs"') || !html.includes('"@type":"BreadcrumbList"')) {
+    failures.push(`Missing visible breadcrumb or BreadcrumbList schema: /${slug}/`);
+  }
+}
+
+const about = readFileSync(join(dist, 'about', 'index.html'), 'utf8');
+if (!about.includes('"@type":"AboutPage"') || !about.includes('"@type":"Organization"') || !about.includes('"@type":"Person"')) {
+  failures.push('Incomplete AboutPage, Organization, or Person schema: /about/');
+}
+
+const contact = readFileSync(join(dist, 'contact', 'index.html'), 'utf8');
+if (!contact.includes('"@type":"ContactPage"') || !contact.includes('"@type":"Organization"')) {
+  failures.push('Incomplete ContactPage or Organization schema: /contact/');
 }
 
 if (failures.length) {

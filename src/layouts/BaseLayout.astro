@@ -19,6 +19,7 @@ interface Props {
   modifiedTime?: string;
   bodyClass?: string;
   pageType?: PageType;
+  mainEntityId?: string;
 }
 
 const {
@@ -32,10 +33,11 @@ const {
   publishedTime,
   modifiedTime,
   bodyClass,
-  pageType = 'WebPage'
+  pageType = 'WebPage',
+  mainEntityId
 } = Astro.props;
 const canonical = new URL(Astro.url.pathname, Astro.site);
-const fullTitle = seoTitle ?? (title.includes('Ad Account Desk') ? title : `${title} | ${seoConfig.siteName}`);
+const fullTitle = seoTitle ?? (title.includes(seoConfig.siteName) ? title : `${title} | ${seoConfig.siteName}`);
 const socialImage = new URL(image, Astro.site);
 const resolvedBodyClass = [bodyClass, bodyClass === 'home-page' ? '' : 'inner-page'].filter(Boolean).join(' ');
 const siteUrl = new URL('/', Astro.site).href;
@@ -79,7 +81,8 @@ const siteSchema = {
       description,
       inLanguage: seoConfig.language,
       isPartOf: { '@id': websiteId },
-      publisher: { '@id': organizationId }
+      publisher: { '@id': organizationId },
+      ...(mainEntityId ? { mainEntity: { '@id': mainEntityId } } : {})
     }
   ]
 };

@@ -1,10 +1,46 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+
+const pageUrl = new URL('/contact/', Astro.site).href;
+const organizationId = new URL('/#organization', Astro.site).href;
+const structuredData = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': 'BreadcrumbList',
+      '@id': `${pageUrl}#breadcrumb`,
+      itemListElement: [
+        { '@type': 'ListItem', position: 1, name: 'Home', item: new URL('/', Astro.site).href },
+        { '@type': 'ListItem', position: 2, name: 'Contact AGrowth', item: pageUrl }
+      ]
+    },
+    {
+      '@type': 'Organization',
+      '@id': organizationId,
+      name: 'AGrowth',
+      url: 'https://agrowth.io/',
+      logo: {
+        '@type': 'ImageObject',
+        url: new URL('/brand/agrowth-mark-640.webp', Astro.site).href,
+        width: 640,
+        height: 640
+      },
+      sameAs: [
+        'https://agrowth.io/',
+        'https://github.com/agrowthagency'
+      ]
+    }
+  ]
+};
 ---
 
-<BaseLayout title="Contact AGrowth" description="Contact AGrowth about a Meta, Google Ads, or TikTok Ads restriction, suspension, review, appeal, or preventive account operation." pageType="ContactPage">
+<BaseLayout title="Contact AGrowth" description="Contact AGrowth about a Meta, Google Ads, or TikTok Ads restriction, suspension, review, appeal, or preventive account operation." pageType="ContactPage" structuredData={structuredData} mainEntityId={organizationId}>
   <section class="page-hero">
     <div class="container page-hero-inner">
+      <nav class="page-breadcrumbs" aria-label="Breadcrumb">
+        <a href="/">Home</a><span aria-hidden="true">/</span>
+        <span aria-current="page">Contact AGrowth</span>
+      </nav>
       <p class="eyebrow">Contact AGrowth</p>
       <h1>Share the notice, affected asset, and recent changes.</h1>
       <p class="lede">For a current restriction or suspension, include the platform, affected account or asset, notice date, and steps already taken. For preventive work, describe the ownership, access, billing, or verification control you need to review. Never send passwords, full payment details, or recovery codes.</p>
