@@ -1,6 +1,6 @@
 export const seoConfig = {
-  siteName: 'Ad Account Desk by AGrowth',
-  alternateSiteName: 'AGrowth Ad Account Desk',
+  siteName: 'AGrowth',
+  alternateSiteName: 'Ad Account Desk by AGrowth',
   language: 'en',
   organizationName: 'AGrowth',
   organizationUrl: 'https://agrowth.io/',
