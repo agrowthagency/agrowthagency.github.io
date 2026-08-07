@@ -46,7 +46,7 @@ if (!existsSync(sitemapIndexPath) || !existsSync(sitemapPath)) {
   }
 }
 
-if (!existsSync(robotsPath) || !readFileSync(robotsPath, 'utf8').includes('Sitemap: https://agrowthagency.github.io/sitemap.xml')) {
+if (!existsSync(robotsPath) || !readFileSync(robotsPath, 'utf8').includes('Sitemap: https://agrowthagency.github.io/sitemap-index.xml')) {
   failures.push('robots.txt does not advertise the production sitemap');
 }
 
